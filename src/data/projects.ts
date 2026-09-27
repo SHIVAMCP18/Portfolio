@@ -36,7 +36,6 @@ export const allProjects: Project[] = [
     dataFlow: "DAG Definition → Dependency Resolver → Kafka Topic → Worker Pool → Redis Lock / PostgreSQL State",
     stack: ["Java", "Go", "Spring Boot", "Kafka", "PostgreSQL", "Redis", "Docker", "Kubernetes"],
     github: "https://github.com/SHIVAMCP18/flowforge",
-    liveUrl: "https://github.com/SHIVAMCP18/flowforge",
     overview:
       "FlowForge is a resilient distributed task orchestration platform designed to handle complex dependency graphs (DAGs), automatic task retries, timeout management, and seamless recovery from worker failures.",
     problem:

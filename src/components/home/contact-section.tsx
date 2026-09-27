@@ -1,213 +1,229 @@
 "use client";
 
 import { useState } from "react";
-import { Github, Linkedin, Mail, User } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Check, Copy, Github, Linkedin, Loader2, Mail, MapPin, Send } from "lucide-react";
+import { Reveal } from "@/components/ui/reveal";
 import { profile } from "@/data/profile";
 
+const MESSAGE_LIMIT = 2000;
+const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+type FormState = { name: string; email: string; message: string };
+type Status = { type: "success" | "error" | null; text: string };
+
+const inputClass =
+  "w-full rounded-xl border border-border bg-background/60 px-4 py-3 text-sm text-foreground outline-none transition placeholder:text-muted-foreground focus:border-primary focus:ring-4 focus:ring-primary/10";
+
 export function ContactSection() {
-  const [form, setForm] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-
+  const [form, setForm] = useState<FormState>({ name: "", email: "", message: "" });
   const [loading, setLoading] = useState(false);
-  const [status, setStatus] = useState<{
-    type: "success" | "error" | null;
-    text: string;
-  }>({
-    type: null,
-    text: "",
-  });
+  const [copied, setCopied] = useState(false);
+  const [status, setStatus] = useState<Status>({ type: null, text: "" });
 
-  async function handleSubmit(e: React.FormEvent) {
-    e.preventDefault();
+  function update(field: keyof FormState, value: string) {
+    setForm((prev) => ({ ...prev, [field]: value }));
+    if (status.type === "error") setStatus({ type: null, text: "" });
+  }
+
+  async function copyEmail() {
+    try {
+      await navigator.clipboard.writeText(profile.email);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch {
+      window.location.href = `mailto:${profile.email}`;
+    }
+  }
+
+  async function handleSubmit(event: React.FormEvent) {
+    event.preventDefault();
+
+    if (!form.name.trim() || !form.email.trim() || !form.message.trim()) {
+      setStatus({ type: "error", text: "Please fill in all fields." });
+      return;
+    }
+    if (!EMAIL_PATTERN.test(form.email.trim())) {
+      setStatus({ type: "error", text: "Please enter a valid email address." });
+      return;
+    }
+
     setLoading(true);
     setStatus({ type: null, text: "" });
 
     try {
       const res = await fetch("/api/contact", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
       });
-
       const data = await res.json();
 
       if (!res.ok) {
-        setStatus({
-          type: "error",
-          text: data.error || "Something went wrong.",
-        });
+        setStatus({ type: "error", text: data.error || "Something went wrong." });
       } else {
-        setStatus({
-          type: "success",
-          text: data.message || "Message sent successfully.",
-        });
-        setForm({
-          name: "",
-          email: "",
-          message: "",
-        });
+        setStatus({ type: "success", text: "Thanks! Your message is on its way — I'll get back to you soon." });
+        setForm({ name: "", email: "", message: "" });
       }
     } catch {
       setStatus({
         type: "error",
-        text: "Unable to send message right now.",
+        text: `Unable to send right now. Please email me directly at ${profile.email}.`,
       });
     } finally {
       setLoading(false);
     }
   }
 
+  const channels = [
+    { label: "LinkedIn", value: profile.linkedinHandle, href: profile.linkedin, icon: Linkedin },
+    { label: "GitHub", value: `github.com/${profile.githubHandle}`, href: profile.github, icon: Github },
+    { label: "Location", value: profile.location, icon: MapPin },
+  ];
+
   return (
-    <section id="contact" className="mx-auto max-w-7xl px-6 py-20">
-      <div className="overflow-hidden rounded-[2rem] border border-border bg-card p-8 md:p-10">
-        <div className="grid gap-10 md:grid-cols-[1.05fr_0.95fr] md:items-stretch">
-          <div className="flex h-full flex-col">
-            <p className="text-xs uppercase tracking-[0.4em] text-muted-foreground">
-              Contact
-            </p>
+    <section id="contact" className="mx-auto max-w-7xl px-6 py-24">
+      <Reveal y={24}>
+        <div className="relative overflow-hidden rounded-[2rem] border border-border bg-card p-8 md:p-12">
+          <div aria-hidden className="absolute -left-20 -top-20 h-72 w-72 rounded-full bg-primary/15 blur-3xl animate-blob" />
+          <div
+            aria-hidden
+            className="absolute -bottom-24 right-0 h-72 w-72 rounded-full bg-fuchsia-500/10 blur-3xl animate-blob"
+            style={{ animationDelay: "-6s" }}
+          />
 
-            <h2 className="mt-4 text-3xl font-semibold tracking-tight text-foreground md:text-5xl">
-              Interested in backend, distributed systems, or AI engineering
-              opportunities?
-            </h2>
+          <div className="relative grid gap-10 md:grid-cols-[1fr_1fr]">
+            <div className="flex flex-col">
+              <p className="text-xs font-semibold uppercase tracking-[0.3em] text-primary">Contact</p>
+              <h2 className="mt-4 text-3xl font-semibold tracking-tight text-foreground text-balance md:text-5xl">
+                Let&apos;s build something great together.
+              </h2>
+              <p className="mt-5 max-w-lg text-base leading-8 text-muted-foreground">
+                I&apos;m currently looking for software engineering opportunities — backend, full-stack, data, or
+                platform roles. Whether you have a role, a question, or just want to say hi, my inbox is open.
+              </p>
 
-            <p className="mt-5 max-w-2xl text-base leading-8 text-muted-foreground">
-              Let’s build something scalable. Reach out directly through the
-              form or connect through LinkedIn, GitHub, or email.
-            </p>
-
-            <div className="mt-8 flex flex-wrap gap-4">
-              <a href={`mailto:${profile.email}`}>
-                <Button className="rounded-full bg-primary px-6 text-primary-foreground hover:bg-primary/80">
-                  <Mail className="mr-2 h-4 w-4" />
-                  Email Me
-                </Button>
-              </a>
-
-              <a href={profile.linkedin} target="_blank" rel="noreferrer">
-                <Button
-                  variant="outline"
-                  className="rounded-full border-border bg-card px-6 text-foreground hover:bg-muted"
+              <div className="mt-8 flex flex-wrap items-center gap-2 rounded-2xl border border-border bg-background/60 p-2 pl-4">
+                <Mail className="h-4 w-4 text-primary" />
+                <a href={`mailto:${profile.email}`} className="min-w-0 flex-1 truncate text-sm font-medium text-foreground hover:text-primary">
+                  {profile.email}
+                </a>
+                <button
+                  type="button"
+                  onClick={copyEmail}
+                  className="inline-flex items-center gap-1.5 rounded-xl bg-primary px-3 py-2 text-xs font-medium text-primary-foreground transition hover:bg-primary/85"
                 >
-                  <Linkedin className="mr-2 h-4 w-4" />
-                  LinkedIn
-                </Button>
-              </a>
-
-              <a href={profile.github} target="_blank" rel="noreferrer">
-                <Button
-                  variant="outline"
-                  className="rounded-full border-border bg-card px-6 text-foreground hover:bg-muted"
-                >
-                  <Github className="mr-2 h-4 w-4" />
-                  GitHub
-                </Button>
-              </a>
-            </div>
-
-            <div className="mt-8 flex-1 rounded-[1.75rem] border border-border bg-muted p-6">
-              <div className="mb-5 flex items-center gap-3">
-                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-primary/20 bg-primary/10">
-                  <User className="h-5 w-5 text-primary" />
-                </div>
-                <h3 className="text-lg font-semibold text-foreground">
-                  Quick Contact Card
-                </h3>
+                  {copied ? <Check className="h-3.5 w-3.5" /> : <Copy className="h-3.5 w-3.5" />}
+                  {copied ? "Copied!" : "Copy"}
+                </button>
               </div>
 
-              <div className="space-y-4 text-sm text-muted-foreground">
-                <div className="rounded-2xl border border-border bg-muted p-4">
-                  Email: {profile.email}
-                </div>
-                <div className="rounded-2xl border border-border bg-muted p-4">
-                  LinkedIn:{" "}
-                  <a href={profile.linkedin} target="_blank" rel="noreferrer" className="text-primary hover:underline">
-                    linkedin.com/in/shivamcp
-                  </a>
-                </div>
-                <div className="rounded-2xl border border-border bg-muted p-4">
-                  GitHub:{" "}
-                  <a href={profile.github} target="_blank" rel="noreferrer" className="text-primary hover:underline">
-                    github.com/SHIVAMCP18
-                  </a>
-                </div>
-                <div className="rounded-2xl border border-border bg-muted p-4">
-                  Location: {profile.location}
-                </div>
+              <div className="mt-4 grid gap-2">
+                {channels.map(({ label, value, href, icon: Icon }) => {
+                  const content = (
+                    <>
+                      <Icon className="h-4 w-4 text-primary" />
+                      <span className="w-20 text-xs uppercase tracking-wider text-muted-foreground">{label}</span>
+                      <span className="truncate text-sm text-foreground">{value}</span>
+                    </>
+                  );
+                  return href ? (
+                    <a
+                      key={label}
+                      href={href}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="flex items-center gap-3 rounded-xl px-4 py-2.5 transition hover:bg-muted"
+                    >
+                      {content}
+                    </a>
+                  ) : (
+                    <div key={label} className="flex items-center gap-3 px-4 py-2.5">
+                      {content}
+                    </div>
+                  );
+                })}
               </div>
             </div>
-          </div>
 
-          <form
-            onSubmit={handleSubmit}
-            className="flex h-full flex-col rounded-[1.75rem] border border-border bg-muted p-6"
-          >
-            <h3 className="text-xl font-semibold text-foreground">Send a message</h3>
+            <form onSubmit={handleSubmit} noValidate className="flex flex-col gap-4 rounded-[1.5rem] border border-border bg-background/40 p-6 backdrop-blur">
+              <h3 className="text-xl font-semibold text-foreground">Send a message</h3>
 
-            <p className="mt-2 text-sm text-muted-foreground">
-              Fill this out and submit directly from the portfolio.
-            </p>
+              <div className="grid gap-4 sm:grid-cols-2">
+                <label className="grid gap-1.5 text-xs font-medium text-muted-foreground">
+                  Name
+                  <input
+                    type="text"
+                    autoComplete="name"
+                    placeholder="Jane Doe"
+                    value={form.name}
+                    onChange={(event) => update("name", event.target.value)}
+                    className={inputClass}
+                  />
+                </label>
+                <label className="grid gap-1.5 text-xs font-medium text-muted-foreground">
+                  Email
+                  <input
+                    type="email"
+                    autoComplete="email"
+                    placeholder="jane@company.com"
+                    value={form.email}
+                    onChange={(event) => update("email", event.target.value)}
+                    className={inputClass}
+                  />
+                </label>
+              </div>
 
-            <div className="mt-6 flex flex-1 flex-col gap-4">
-              <input
-                type="text"
-                placeholder="Your name"
-                value={form.name}
-                onChange={(e) =>
-                  setForm((prev) => ({ ...prev, name: e.target.value }))
-                }
-                className="w-full rounded-2xl border border-border bg-card px-4 py-3 text-sm text-foreground outline-none placeholder:text-muted-foreground"
-              />
+              <label className="grid flex-1 gap-1.5 text-xs font-medium text-muted-foreground">
+                <span className="flex justify-between">
+                  Message
+                  <span className={form.message.length > MESSAGE_LIMIT * 0.9 ? "text-destructive" : ""}>
+                    {form.message.length}/{MESSAGE_LIMIT}
+                  </span>
+                </span>
+                <textarea
+                  rows={7}
+                  maxLength={MESSAGE_LIMIT}
+                  placeholder="Tell me about the role or project…"
+                  value={form.message}
+                  onChange={(event) => update("message", event.target.value)}
+                  className={`${inputClass} min-h-[180px] flex-1 resize-y`}
+                />
+              </label>
 
-              <input
-                type="email"
-                placeholder="Your email"
-                value={form.email}
-                onChange={(e) =>
-                  setForm((prev) => ({ ...prev, email: e.target.value }))
-                }
-                className="w-full rounded-2xl border border-border bg-card px-4 py-3 text-sm text-foreground outline-none placeholder:text-muted-foreground"
-              />
-
-              <textarea
-                placeholder="Your message"
-                rows={10}
-                value={form.message}
-                onChange={(e) =>
-                  setForm((prev) => ({ ...prev, message: e.target.value }))
-                }
-                className="min-h-[260px] w-full flex-1 rounded-2xl border border-border bg-card px-4 py-3 text-sm text-foreground outline-none placeholder:text-muted-foreground"
-              />
-
-              <Button
+              <button
                 type="submit"
                 disabled={loading}
-                className="mt-auto w-full rounded-full bg-primary text-primary-foreground hover:bg-primary/80"
+                className="group inline-flex h-11 items-center justify-center gap-2 rounded-full bg-primary text-sm font-medium text-primary-foreground shadow-lg shadow-primary/25 transition hover:bg-primary/90 disabled:opacity-60"
               >
-                {loading ? "Sending..." : "Send Message"}
-              </Button>
+                {loading ? (
+                  <>
+                    <Loader2 className="h-4 w-4 animate-spin" /> Sending…
+                  </>
+                ) : (
+                  <>
+                    Send message
+                    <Send className="h-4 w-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+                  </>
+                )}
+              </button>
 
-              {status.type && (
-                <div
-                  className={`rounded-2xl px-4 py-3 text-sm ${
-                    status.type === "success"
-                      ? "border border-success/20 bg-success/10 text-success"
-                      : "border border-destructive/20 bg-destructive/10 text-destructive"
-                  }`}
-                >
-                  {status.text}
-                </div>
-              )}
-            </div>
-          </form>
+              <div aria-live="polite">
+                {status.type && (
+                  <div
+                    className={`rounded-xl px-4 py-3 text-sm animate-in fade-in slide-in-from-bottom-1 ${
+                      status.type === "success"
+                        ? "border border-success/20 bg-success/10 text-success"
+                        : "border border-destructive/20 bg-destructive/10 text-destructive"
+                    }`}
+                  >
+                    {status.text}
+                  </div>
+                )}
+              </div>
+            </form>
+          </div>
         </div>
-      </div>
+      </Reveal>
     </section>
   );
 }

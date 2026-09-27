@@ -1,247 +1,244 @@
 "use client";
 
-import { useState } from "react";
-import { Badge } from "@/components/ui/badge";
-import { Card, CardContent } from "@/components/ui/card";
+import { useEffect, useState } from "react";
+import Link from "next/link";
+import { ArrowRight, Pause, Play } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { SectionTitle } from "@/components/layout/section-title";
 
-interface NodeData {
-  id: string;
+type SystemNode = {
   title: string;
-  subtitle: string;
-  x: string;
-  y: string;
   tech: string;
-}
+  detail: string;
+};
 
-const flowforgeNodes: NodeData[] = [
+type SystemBlueprint = {
+  id: string;
+  label: string;
+  heading: string;
+  projectSlug: string;
+  nodes: SystemNode[];
+  rationale: { title: string; text: string }[];
+};
+
+const systems: SystemBlueprint[] = [
   {
-    id: "api",
-    title: "DAG Ingestion",
-    subtitle: "Job payload & dependency validation.",
-    x: "10%",
-    y: "62%",
-    tech: "REST / gRPC",
+    id: "flowforge",
+    label: "DAG Orchestration",
+    heading: "FlowForge — distributed workflow engine",
+    projectSlug: "flowforge",
+    nodes: [
+      { title: "DAG Ingestion", tech: "REST API", detail: "Validates the job graph, rejects cycles, and resolves dependency stages before anything is scheduled." },
+      { title: "Kafka Bus", tech: "Apache Kafka", detail: "Ready tasks are published as envelopes to partitioned topics, buffering bursts so workers are never overwhelmed." },
+      { title: "Worker Pool", tech: "Go · Kubernetes", detail: "Stateless Go/Java workers consume tasks, report heartbeats, and scale horizontally as pods." },
+      { title: "Redis Leases", tech: "Redis", detail: "Distributed locks with TTL leases guarantee a task is owned by exactly one worker at a time." },
+      { title: "Checkpoints", tech: "PostgreSQL", detail: "Every node transition is persisted, so a crashed workflow resumes from the last completed stage." },
+    ],
+    rationale: [
+      { title: "Decoupled scheduling", text: "Kafka separates job submission from execution, absorbing spikes without dropping tasks." },
+      { title: "Resume, don't restart", text: "Checkpoints at every DAG boundary make recovery cheap and deterministic." },
+      { title: "Exactly-one ownership", text: "Redis leases plus heartbeats prevent duplicate execution across pods." },
+    ],
   },
   {
-    id: "kafka",
-    title: "Kafka Bus",
-    subtitle: "Partitioned event queues.",
-    x: "30%",
-    y: "28%",
-    tech: "Apache Kafka",
+    id: "streaming",
+    label: "Real-Time Streaming",
+    heading: "Clickstream analytics on GCP",
+    projectSlug: "streaming-analytics-pipeline",
+    nodes: [
+      { title: "Event Ingress", tech: "Pub/Sub", detail: "Absorbs bursty clickstream traffic from web and mobile clients with durable, at-least-once delivery." },
+      { title: "Windowing", tech: "Apache Beam", detail: "Dataflow applies tumbling and sliding windows with watermarks to handle late mobile events." },
+      { title: "Dead-Letter", tech: "Pub/Sub DLQ", detail: "Malformed or schema-drifted events are routed aside so the main stream never stalls." },
+      { title: "Serving Store", tech: "Bigtable", detail: "Low-latency key/value lookups for live session and profile aggregates." },
+      { title: "Analytics", tech: "BigQuery", detail: "Partitioned warehouse tables for SQL analytics and dashboards." },
+    ],
+    rationale: [
+      { title: "Dual sinks", text: "Bigtable serves real-time reads; BigQuery handles historical analytics — each optimized for its access pattern." },
+      { title: "Event-time correctness", text: "Watermarks and triggers keep aggregates accurate even when events arrive late." },
+      { title: "Failure isolation", text: "Bad records go to a DLQ for replay instead of blocking healthy traffic." },
+    ],
   },
   {
-    id: "workers",
-    title: "Worker Cluster",
-    subtitle: "Concurrent Go & Java daemons.",
-    x: "50%",
-    y: "62%",
-    tech: "Go / Kubernetes",
-  },
-  {
-    id: "redis",
-    title: "Redis Lease",
-    subtitle: "Distributed locks & idempotency.",
-    x: "70%",
-    y: "28%",
-    tech: "Redis Cluster",
-  },
-  {
-    id: "db",
-    title: "State Checkpoint",
-    subtitle: "Durable DAG atomic history.",
-    x: "90%",
-    y: "62%",
-    tech: "PostgreSQL",
+    id: "webhooks",
+    label: "Webhook Delivery",
+    heading: "Reliable webhook dispatch at scale",
+    projectSlug: "distributed-webhook-delivery",
+    nodes: [
+      { title: "Event API", tech: "Go", detail: "Accepts events from producers, validates payloads, and assigns an idempotency key." },
+      { title: "HMAC Signer", tech: "SHA-256", detail: "Signs each payload so receivers can verify authenticity and integrity." },
+      { title: "Delivery Queue", tech: "Kafka", detail: "Partitioned by endpoint to preserve per-customer ordering while scaling out." },
+      { title: "Dispatchers", tech: "Go workers", detail: "Deliver over HTTP with timeouts; Redis idempotency keys stop duplicate sends." },
+      { title: "Retry + DLQ", tech: "Backoff", detail: "Failures retry with exponential backoff and jitter, then land in a DLQ for replay." },
+    ],
+    rationale: [
+      { title: "Slow receivers stay isolated", text: "Per-endpoint partitions mean one failing customer never delays others." },
+      { title: "Safe retries", text: "Idempotency keys make at-least-once delivery behave like exactly-once for receivers." },
+      { title: "Verifiable payloads", text: "HMAC signatures let consumers reject forged or tampered requests." },
+    ],
   },
 ];
 
-const streamingNodes: NodeData[] = [
-  {
-    id: "pubsub",
-    title: "Clickstream",
-    subtitle: "High-throughput ingress buffer.",
-    x: "10%",
-    y: "62%",
-    tech: "GCP Pub/Sub",
-  },
-  {
-    id: "beam",
-    title: "Dataflow (Beam)",
-    subtitle: "Tumbling & sliding windows.",
-    x: "32%",
-    y: "28%",
-    tech: "Apache Beam",
-  },
-  {
-    id: "dlq",
-    title: "Dead-Letter Queue",
-    subtitle: "Schema drift & error isolation.",
-    x: "52%",
-    y: "62%",
-    tech: "Pub/Sub DLQ",
-  },
-  {
-    id: "bigtable",
-    title: "Bigtable KV",
-    subtitle: "Sub-10ms profile serving.",
-    x: "72%",
-    y: "28%",
-    tech: "Cloud Bigtable",
-  },
-  {
-    id: "bigquery",
-    title: "BigQuery",
-    subtitle: "Real-time SQL OLAP analytics.",
-    x: "90%",
-    y: "62%",
-    tech: "Google BigQuery",
-  },
-];
+const STEP_MS = 2200;
 
 export function ArchitectureSection() {
-  const [activeSystem, setActiveSystem] = useState<"flowforge" | "streaming">("flowforge");
+  const [systemIndex, setSystemIndex] = useState(0);
+  const [activeNode, setActiveNode] = useState(0);
+  const [playing, setPlaying] = useState(true);
 
-  const nodes = activeSystem === "flowforge" ? flowforgeNodes : streamingNodes;
+  const system = systems[systemIndex];
+
+  useEffect(() => {
+    if (!playing) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const id = setInterval(() => {
+      setActiveNode((prev) => (prev + 1) % system.nodes.length);
+    }, STEP_MS);
+    return () => clearInterval(id);
+  }, [playing, system.nodes.length]);
+
+  function selectSystem(index: number) {
+    setSystemIndex(index);
+    setActiveNode(0);
+  }
+
+  const node = system.nodes[activeNode];
 
   return (
-    <section id="systems" className="mx-auto max-w-7xl px-6 py-20">
-      <SectionTitle
-        eyebrow="System Architecture"
-        title="Interactive distributed architecture blueprints"
-        description="Visualizing high-concurrency event pipelines, asynchronous decoupling, and fault-tolerant state orchestration."
-      />
+    <section id="systems" className="relative py-24">
+      <div aria-hidden className="absolute inset-0 -z-10 bg-grid opacity-40 mask-radial" />
+      <div className="mx-auto max-w-7xl px-6">
+        <SectionTitle
+          eyebrow="System Design"
+          title="How I think about architecture"
+          description="Interactive blueprints of systems I've built. Watch a request flow through each component, or click any node to see why it's there."
+        />
 
-      {/* Mode Switcher */}
-      <div className="mt-8 mb-10 flex justify-center gap-3">
-        <button
-          type="button"
-          onClick={() => setActiveSystem("flowforge")}
-          className={`cursor-pointer rounded-full px-5 py-2 text-xs font-semibold tracking-wide transition-all ${
-            activeSystem === "flowforge"
-              ? "bg-primary text-primary-foreground shadow-md shadow-primary/25"
-              : "border border-border bg-card text-muted-foreground hover:bg-muted hover:text-foreground"
-          }`}
-        >
-          FlowForge: DAG Orchestration Engine
-        </button>
-        <button
-          type="button"
-          onClick={() => setActiveSystem("streaming")}
-          className={`cursor-pointer rounded-full px-5 py-2 text-xs font-semibold tracking-wide transition-all ${
-            activeSystem === "streaming"
-              ? "bg-primary text-primary-foreground shadow-md shadow-primary/25"
-              : "border border-border bg-card text-muted-foreground hover:bg-muted hover:text-foreground"
-          }`}
-        >
-          Real-Time Streaming Analytics Pipeline
-        </button>
-      </div>
-
-      <div className="grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
-        <Card className="overflow-hidden rounded-[2rem] border-border bg-card shadow-sm backdrop-blur-xl">
-          <CardContent className="p-8">
-            <div className="mb-6 flex flex-wrap items-center justify-between gap-4">
-              <div>
-                <p className="text-xs font-semibold uppercase tracking-wider text-primary">
-                  {activeSystem === "flowforge" ? "DAG Workflow Orchestration" : "GCP Stream Processing"}
-                </p>
-                <h3 className="mt-1 text-2xl font-bold tracking-tight text-foreground">
-                  {activeSystem === "flowforge"
-                    ? "Distributed Execution Pipeline"
-                    : "Low-Latency Event Streaming Flow"}
-                </h3>
-              </div>
-
-              <Badge className="rounded-full border border-border bg-muted/60 text-[10px] uppercase tracking-wider text-muted-foreground">
-                Live Dataflow Visualizer
-              </Badge>
-            </div>
-
-            {/* Interactive Graph */}
-            <div className="relative h-[26rem] overflow-hidden rounded-[1.75rem] border border-border bg-muted/30">
-              <svg
-                className="absolute inset-0 h-full w-full text-primary"
-                viewBox="0 0 100 100"
-                preserveAspectRatio="none"
+        <Reveal y={16}>
+          <div role="tablist" aria-label="Choose a system" className="mb-8 flex flex-wrap justify-center gap-2">
+            {systems.map((item, index) => (
+              <button
+                key={item.id}
+                role="tab"
+                type="button"
+                aria-selected={index === systemIndex}
+                onClick={() => selectSystem(index)}
+                className={`rounded-full px-5 py-2 text-xs font-semibold tracking-wide transition-all ${
+                  index === systemIndex
+                    ? "bg-primary text-primary-foreground shadow-lg shadow-primary/25"
+                    : "border border-border bg-card text-muted-foreground hover:bg-muted hover:text-foreground"
+                }`}
               >
-                <path
-                  d="M10 62 C20 50, 24 32, 31 28 S43 48, 51 62 S61 42, 71 28 S81 48, 90 62"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="0.4"
-                  strokeDasharray="2 2"
-                  className="opacity-40 animate-pulse"
-                />
-              </svg>
+                {item.label}
+              </button>
+            ))}
+          </div>
+        </Reveal>
 
-              {nodes.map((node, index) => (
-                <div
-                  key={`${activeSystem}-${node.id}`}
-                  className="absolute -translate-x-1/2 -translate-y-1/2 transition-all duration-300"
-                  style={{ left: node.x, top: node.y }}
-                >
-                  <div className="h-32 w-28 overflow-hidden rounded-[1.2rem] border border-border bg-card/95 p-3 shadow-md backdrop-blur hover:border-primary/50 hover:shadow-lg transition">
-                    <div className="mb-1.5 flex h-7 w-7 items-center justify-center rounded-lg border border-primary/20 bg-primary/10 text-[10px] font-bold text-primary">
-                      0{index + 1}
-                    </div>
-                    <h4 className="text-[12px] font-bold leading-tight text-foreground">
-                      {node.title}
-                    </h4>
-                    <p className="mt-1 text-[10px] leading-3.5 text-muted-foreground line-clamp-2">
-                      {node.subtitle}
-                    </p>
-                    <span className="mt-2 block text-[9px] font-mono font-medium text-primary/80">
-                      {node.tech}
-                    </span>
-                  </div>
+        <Reveal y={24} delay={80}>
+          <div className="overflow-hidden rounded-[2rem] border border-border bg-card/80 shadow-sm backdrop-blur">
+            <div className="flex flex-wrap items-center justify-between gap-3 border-b border-border px-6 py-4">
+              <div className="flex items-center gap-3">
+                <div className="flex gap-1.5">
+                  <span className="h-3 w-3 rounded-full bg-red-400/80" />
+                  <span className="h-3 w-3 rounded-full bg-amber-400/80" />
+                  <span className="h-3 w-3 rounded-full bg-emerald-400/80" />
                 </div>
-              ))}
+                <p className="font-mono text-xs text-muted-foreground">{system.heading}</p>
+              </div>
+              <button
+                type="button"
+                onClick={() => setPlaying((prev) => !prev)}
+                className="inline-flex items-center gap-1.5 rounded-full border border-border px-3 py-1 text-xs text-muted-foreground transition hover:text-foreground"
+                aria-label={playing ? "Pause flow animation" : "Play flow animation"}
+              >
+                {playing ? <Pause className="h-3 w-3" /> : <Play className="h-3 w-3" />}
+                {playing ? "Pause" : "Play"}
+              </button>
             </div>
-          </CardContent>
-        </Card>
 
-        {/* System Rationale Card */}
-        <Card className="rounded-[2rem] border-border bg-card shadow-sm backdrop-blur-xl">
-          <CardContent className="p-8">
-            <p className="text-xs font-semibold uppercase tracking-wider text-primary">
-              Engineering Rationale
-            </p>
-            <h3 className="mt-1 text-2xl font-bold tracking-tight text-foreground">
-              Production-Grade System Thinking
-            </h3>
+            {/* Flow diagram */}
+            <div key={system.id} className="flex flex-col items-stretch gap-0 p-6 md:flex-row md:items-center md:p-10">
+              {system.nodes.map((item, index) => {
+                const isActive = index === activeNode;
+                const isDone = index < activeNode;
+                return (
+                  <div key={item.title} className="flex flex-col items-center md:flex-1 md:flex-row">
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setActiveNode(index);
+                        setPlaying(false);
+                      }}
+                      className={`relative w-full rounded-2xl border p-4 text-left transition-all duration-500 animate-in fade-in zoom-in-95 md:w-auto md:min-w-[9.5rem] ${
+                        isActive
+                          ? "scale-[1.04] border-primary bg-primary/10 shadow-lg shadow-primary/20"
+                          : isDone
+                            ? "border-primary/30 bg-card"
+                            : "border-border bg-card hover:border-primary/40"
+                      }`}
+                      style={{ animationDelay: `${index * 80}ms`, animationFillMode: "both" }}
+                    >
+                      {isActive && (
+                        <span className="absolute -right-1 -top-1 flex h-3 w-3">
+                          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-60" />
+                          <span className="relative inline-flex h-3 w-3 rounded-full bg-primary" />
+                        </span>
+                      )}
+                      <span className="font-mono text-[10px] text-primary">0{index + 1}</span>
+                      <p className="mt-1 text-sm font-bold text-foreground">{item.title}</p>
+                      <p className="mt-0.5 font-mono text-[10px] text-muted-foreground">{item.tech}</p>
+                    </button>
 
-            <div className="mt-6 space-y-3.5 text-sm leading-relaxed text-muted-foreground">
-              {activeSystem === "flowforge" ? (
-                <>
-                  <div className="rounded-xl border border-border/70 bg-muted/40 p-4">
-                    <strong className="text-foreground font-semibold">Decoupled Ingestion &amp; Execution:</strong> Kafka buffers task messages so burst submissions never overload execution workers.
+                    {index < system.nodes.length - 1 && (
+                      <div className="relative flex h-10 w-px items-center justify-center md:h-px md:w-auto md:flex-1 md:min-w-6">
+                        <svg className="absolute inset-0 h-full w-full overflow-visible" preserveAspectRatio="none" aria-hidden>
+                          <line
+                            x1="0"
+                            y1="0"
+                            x2="100%"
+                            y2="100%"
+                            className={`${isDone || isActive ? "stroke-primary" : "stroke-border"} animate-dash`}
+                            strokeWidth="2"
+                            strokeDasharray="4 6"
+                          />
+                        </svg>
+                        {isActive && playing && (
+                          <span className="packet absolute h-2.5 w-2.5 rounded-full bg-primary shadow-[0_0_12px_var(--primary)]" />
+                        )}
+                      </div>
+                    )}
                   </div>
-                  <div className="rounded-xl border border-border/70 bg-muted/40 p-4">
-                    <strong className="text-foreground font-semibold">Atomic Checkpoints:</strong> PostgreSQL stores persistent node states after every dependency resolution, allowing crash recovery without re-executing completed DAG stages.
-                  </div>
-                  <div className="rounded-xl border border-border/70 bg-muted/40 p-4">
-                    <strong className="text-foreground font-semibold">Distributed Locking:</strong> Redis manages worker lease heartbeats and avoids duplicate task execution across multiple Kubernetes pods.
-                  </div>
-                </>
-              ) : (
-                <>
-                  <div className="rounded-xl border border-border/70 bg-muted/40 p-4">
-                    <strong className="text-foreground font-semibold">Dual-Sink Separation:</strong> Bigtable serves real-time low-latency customer lookups, while BigQuery captures long-term data for analytics.
-                  </div>
-                  <div className="rounded-xl border border-border/70 bg-muted/40 p-4">
-                    <strong className="text-foreground font-semibold">Windowing &amp; Late Data:</strong> Apache Beam on Dataflow applies tumbling windows with watermark tracking to handle delayed mobile events reliably.
-                  </div>
-                  <div className="rounded-xl border border-border/70 bg-muted/40 p-4">
-                    <strong className="text-foreground font-semibold">Schema Drift Isolation:</strong> Unrecognized or malformed payloads route to dead-letter queues without stalling active data streams.
-                  </div>
-                </>
-              )}
+                );
+              })}
             </div>
-          </CardContent>
-        </Card>
+
+            {/* Detail + rationale */}
+            <div className="grid gap-6 border-t border-border bg-muted/30 p-6 md:grid-cols-[1fr_1.2fr] md:p-8">
+              <div key={`${system.id}-${activeNode}`} className="animate-in fade-in slide-in-from-bottom-2 duration-500">
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">
+                  Step {activeNode + 1} · {node.tech}
+                </p>
+                <h3 className="mt-2 text-2xl font-bold tracking-tight text-foreground">{node.title}</h3>
+                <p className="mt-3 text-sm leading-7 text-muted-foreground">{node.detail}</p>
+                <Link
+                  href={`/projects/${system.projectSlug}`}
+                  className="group mt-5 inline-flex items-center gap-2 text-sm font-medium text-primary"
+                >
+                  Read the full case study
+                  <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </Link>
+              </div>
+              <div className="grid gap-3">
+                {system.rationale.map((item) => (
+                  <div key={item.title} className="rounded-2xl border border-border bg-card p-4">
+                    <p className="text-sm font-semibold text-foreground">{item.title}</p>
+                    <p className="mt-1 text-sm leading-6 text-muted-foreground">{item.text}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </Reveal>
       </div>
     </section>
   );

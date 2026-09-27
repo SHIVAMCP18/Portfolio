@@ -30,6 +30,13 @@ export async function POST(req: NextRequest) {
     const email = String(body?.email ?? "").trim();
     const message = String(body?.message ?? "").trim();
 
+    if (name.length > 100 || email.length > 254 || message.length > 2000) {
+      return NextResponse.json(
+        { error: "Message is too long." },
+        { status: 400 }
+      );
+    }
+
     if (!name || !email || !message) {
       return NextResponse.json(
         { error: "All fields are required." },
@@ -54,7 +61,7 @@ export async function POST(req: NextRequest) {
       from: "Portfolio Contact <onboarding@resend.dev>",
       to: receiverEmail,
       replyTo: email,
-      subject: `New portfolio message from ${name}`,
+      subject: `New portfolio message from ${name.replace(/[\r\n]+/g, " ")}`,
       html: `
         <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #111;">
           <h2>New message from portfolio</h2>

@@ -1,93 +1,60 @@
 import Link from "next/link";
-import { Award, ExternalLink, ArrowRight } from "lucide-react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+import { ArrowRight, Award, ExternalLink } from "lucide-react";
+import { Reveal } from "@/components/ui/reveal";
 import { SectionTitle } from "@/components/layout/section-title";
 import { certificates } from "@/data/certificates";
 
+const featured = certificates.slice(0, 6);
+
 export function CertificatesSection() {
-  const featuredCertificates = certificates.slice(0, 5);
+  const categoryCount = new Set(certificates.map((item) => item.category)).size;
 
   return (
-    <section id="certifications" className="mx-auto max-w-7xl px-6 py-20">
+    <section id="certifications" className="mx-auto max-w-7xl px-6 py-24">
       <SectionTitle
         eyebrow="Certifications"
-        title="Continuous learning across cloud, Java, testing, DevOps, and AI"
-        description="A curated certification wall showing formal learning across backend engineering, cloud platforms, software testing, and professional development."
+        title="Always learning"
+        description={`${certificates.length} certificates across ${categoryCount} areas — cloud, Java, testing, DevOps, security, AI, and more.`}
       />
 
-      <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-        {featuredCertificates.map((certificate, index) => (
-          <Card
-            key={`${certificate.title}-${index}`}
-            className="rounded-[2rem] border-border bg-card backdrop-blur-xl"
-          >
-            <CardContent className="p-6">
-              <div className="mb-5 flex items-start justify-between gap-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-primary/20 bg-primary/10">
-                  <Award className="h-5 w-5 text-primary" />
-                </div>
-                <Badge className="rounded-full border border-border bg-card text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
-                  {certificate.category}
-                </Badge>
-              </div>
-
-              <h3 className="text-lg font-semibold text-foreground">
-                {certificate.title}
-              </h3>
-
-              <p className="mt-2 text-sm text-muted-foreground">
-                {certificate.provider}
-              </p>
-
-              <p className="mt-3 text-sm text-muted-foreground">
-                Issued: {certificate.issueDate}
-              </p>
-
-              <div className="mt-6">
-                <a href={certificate.file} target="_blank" rel="noreferrer">
-                  <Button
-                    variant="outline"
-                    className="rounded-full border-border bg-card text-foreground hover:bg-muted"
-                  >
-                    <ExternalLink className="mr-2 h-4 w-4" />
-                    View Certificate
-                  </Button>
-                </a>
-              </div>
-            </CardContent>
-          </Card>
-        ))}
-
-        <Card className="rounded-[2rem] border-border bg-card backdrop-blur-xl">
-          <CardContent className="flex h-full min-h-[280px] flex-col justify-between p-6">
-            <div>
-              <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl border border-primary/20 bg-primary/10">
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {featured.map((certificate, index) => (
+          <Reveal key={certificate.file} y={20} delay={(index % 3) * 70}>
+            <a
+              href={certificate.file}
+              target="_blank"
+              rel="noreferrer"
+              className="group flex h-full items-start gap-4 rounded-2xl border border-border bg-card p-5 transition hover:-translate-y-0.5 hover:border-primary/40 hover:shadow-lg"
+            >
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-primary/20 bg-primary/10">
                 <Award className="h-5 w-5 text-primary" />
               </div>
-
-              <h3 className="text-lg font-semibold text-foreground">
-                More Certificates
-              </h3>
-
-              <p className="mt-3 text-sm leading-7 text-muted-foreground">
-                Explore the full certification archive including cloud, Java,
-                DevOps, testing, security, AI, and professional development credentials.
-              </p>
-            </div>
-
-            <div className="mt-6">
-              <Link href="/certificates">
-                <Button className="rounded-full bg-primary text-primary-foreground hover:bg-primary/80">
-                  View All Certificates
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
-              </Link>
-            </div>
-          </CardContent>
-        </Card>
+              <div className="min-w-0 flex-1">
+                <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-muted-foreground">
+                  {certificate.category}
+                </p>
+                <h3 className="mt-1 font-semibold leading-snug text-foreground group-hover:text-primary">
+                  {certificate.title}
+                </h3>
+                <p className="mt-1 text-xs text-muted-foreground">{certificate.provider}</p>
+              </div>
+              <ExternalLink className="h-4 w-4 shrink-0 text-muted-foreground opacity-0 transition group-hover:opacity-100" />
+            </a>
+          </Reveal>
+        ))}
       </div>
+
+      <Reveal y={16} delay={120}>
+        <div className="mt-8 flex justify-center">
+          <Link
+            href="/certificates"
+            className="group inline-flex items-center gap-2 rounded-full border border-border bg-card px-5 py-2.5 text-sm font-medium text-foreground transition hover:border-primary/40"
+          >
+            View all {certificates.length} certificates
+            <ArrowRight className="h-4 w-4 text-primary transition-transform group-hover:translate-x-1" />
+          </Link>
+        </div>
+      </Reveal>
     </section>
   );
 }

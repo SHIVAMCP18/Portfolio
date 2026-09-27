@@ -16,43 +16,50 @@ export const achievements: Achievement[] = [
   {
     title: "Google Big Code Challenge",
     organization: "Google",
-    badge: "Top 1,500 Global",
+    badge: "Top 1,500 Nationwide",
     description:
-      "Ranked among the top 1,500 globally in Google's competitive coding and algorithmic optimization challenge.",
-  },
-  {
-    title: "Flipkart GRID 8.0",
-    organization: "Flipkart",
-    badge: "Semi-Finalist",
-    description:
-      "Reached the national semi-finals of Flipkart's premier engineering campus challenge, solving high-concurrency systems problems.",
+      "Ranked among the top 1,500 participants nationwide in Google's competitive coding and algorithmic problem-solving challenge.",
   },
   {
     title: "NASA Space Apps Challenge 2024",
     organization: "NASA",
     badge: "Top Team",
     description:
-      "Recognized as a Top Team for architecting innovative technical solutions tackling complex scientific challenges.",
+      "Selected among the top teams at Nirma University for building a technical solution to a real-world space science challenge.",
   },
+  {
+    title: "Flipkart GRID 8.0",
+    organization: "Flipkart",
+    badge: "Semi-Finalist",
+    description:
+      "Reached the semi-final round of Flipkart's national engineering campus challenge.",
+  },
+];
+
+// Professional credentials listed on the resume (no PDF in /public).
+export const credentials = [
+  "AWS Certified Cloud Practitioner",
+  "Machine Learning Specialization — Coursera",
+  "Deep Learning Specialization — Coursera",
 ];
 
 export const leadership: LeadershipRole[] = [
   {
     role: "Board Member",
     organization: "IEEE Signal Processing Society (SPS) Student Chapter",
-    location: "Nirma University, Ahmedabad",
+    location: "Nirma University",
     highlights: [
-      "Organized and executed hands-on technical workshops, hackathons, and guest lectures featuring industry experts.",
-      "Spearheaded technical curriculum planning, mentor coordination, and interactive learning tracks for 300+ students.",
+      "Organized hands-on technical workshops, hackathons, and guest lectures with industry experts.",
+      "Coordinated curriculum planning and mentors for learning tracks reaching 300+ students.",
     ],
   },
   {
     role: "Technical Head",
     organization: "Association of Computer Engineering Students (ACES)",
-    location: "Nirma University, Ahmedabad",
+    location: "Nirma University",
     highlights: [
-      "Led high-impact university-wide technical initiatives, including competitive coding contests, algorithmic hackathons, and deep-dive workshops (e.g. Exploratory Data Analysis & System Design).",
-      "Mentored junior engineers in data structures, algorithms, and practical full-stack software development practices.",
+      "Led university-wide coding contests, hackathons, and workshops on topics like EDA and System Design.",
+      "Mentored junior students in data structures, algorithms, and full-stack development.",
     ],
   },
 ];
