@@ -5,7 +5,7 @@ import { notes } from "@/data/notes";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = profile.siteUrl;
-  const staticRoutes = ["", "/projects", "/resume", "/notes", "/certificates"].map((path) => ({
+  const staticRoutes = ["", "/projects", "/notes", "/certificates"].map((path) => ({
     url: `${base}${path}`,
     changeFrequency: "monthly" as const,
     priority: path === "" ? 1 : 0.8,

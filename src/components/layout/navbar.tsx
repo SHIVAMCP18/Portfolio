@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, Moon, Search, Sun, X, FileText } from "lucide-react";
+import { Mail, Menu, Moon, Search, Sun, X } from "lucide-react";
 import { useTheme } from "@/components/theme-provider";
 import { OPEN_PALETTE_EVENT } from "@/components/layout/command-palette";
 import { profile } from "@/data/profile";
@@ -111,11 +111,11 @@ export function Navbar() {
           </button>
 
           <Link
-            href="/resume"
+            href="/#contact"
             className="hidden items-center gap-1.5 rounded-full border border-primary/30 bg-primary/10 px-3 py-1.5 text-xs font-medium text-primary transition hover:bg-primary hover:text-primary-foreground md:inline-flex"
           >
-            <FileText className="h-3.5 w-3.5" />
-            Resume
+            <Mail className="h-3.5 w-3.5" />
+            Let&apos;s talk
           </Link>
 
           <button
@@ -156,11 +156,11 @@ export function Navbar() {
             ))}
             <div className="mt-2 grid grid-cols-2 gap-2">
               <Link
-                href="/resume"
+                href="/#contact"
                 onClick={() => setMenuOpen(false)}
                 className="rounded-xl bg-primary px-3 py-2.5 text-center text-sm font-medium text-primary-foreground"
               >
-                Resume
+                Let&apos;s talk
               </Link>
               <Link
                 href="/projects"

@@ -8,7 +8,6 @@ import {
   Award,
   Briefcase,
   Copy,
-  FileText,
   FolderGit2,
   Github,
   Home,
@@ -56,7 +55,6 @@ export function CommandPalette() {
       { id: "home", label: "Home", group: "Navigate", icon: Home, run: go("/") },
       { id: "experience", label: "Experience", group: "Navigate", icon: Briefcase, keywords: "internships work", run: go("/#experience") },
       { id: "projects", label: "All projects", group: "Navigate", icon: FolderGit2, run: go("/projects") },
-      { id: "resume", label: "Resume", group: "Navigate", icon: FileText, keywords: "cv", run: go("/resume") },
       { id: "notes", label: "Engineering notes", group: "Navigate", icon: BookOpen, keywords: "blog articles", run: go("/notes") },
       { id: "certificates", label: "Certificates", group: "Navigate", icon: Award, run: go("/certificates") },
       { id: "contact", label: "Contact", group: "Navigate", icon: Mail, run: go("/#contact") },
@@ -83,7 +81,6 @@ export function CommandPalette() {
       { id: "theme", label: "Toggle dark / light theme", group: "Actions", icon: Moon, run: toggleTheme },
       { id: "github", label: "Open GitHub", group: "Actions", icon: Github, run: external(profile.github) },
       { id: "linkedin", label: "Open LinkedIn", group: "Actions", icon: Linkedin, run: external(profile.linkedin) },
-      { id: "download", label: "Download resume (PDF)", group: "Actions", icon: FileText, run: external(profile.resume) },
     ];
   }, [router, toggleTheme]);
 

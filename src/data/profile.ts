@@ -22,7 +22,6 @@ export const profile = {
   linkedinHandle: "linkedin.com/in/shivamcp",
   github: "https://github.com/SHIVAMCP18",
   githubHandle: "SHIVAMCP18",
-  resume: "/resume/Shivam_Patel_Resume.pdf",
   heroImage: "/images/profile/shivam.png",
   siteUrl: "https://shivam-patel.vercel.app",
 };

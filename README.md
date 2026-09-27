@@ -21,7 +21,7 @@ All content lives in `src/data/` — update these files and every section, the a
 
 | File | Content |
 | --- | --- |
-| `profile.ts` | Name, headline, summary, availability, links, resume path |
+| `profile.ts` | Name, headline, summary, availability, links |
 | `experience.ts` | Internships (role, company, dates, highlights) |
 | `projects.ts` | Project case studies and homepage featured list |
 | `skills.ts` | Skill groups, competencies, marquee |

@@ -7,7 +7,7 @@ export interface InternshipExperience {
   summary: string;
 }
 
-// Ordered most recent first. Roles, dates and bullets mirror the resume PDF.
+// Ordered most recent first.
 export const experience: InternshipExperience[] = [
   {
     company: "Adani Group",

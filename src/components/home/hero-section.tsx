@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Download, Github, Linkedin, Mail, MapPin } from "lucide-react";
+import { ArrowRight, Github, Linkedin, Mail, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/ui/reveal";
 import { Typewriter } from "@/components/ui/typewriter";
@@ -81,14 +81,9 @@ export function HeroSection() {
                   <ArrowRight className="transition-transform group-hover:translate-x-1" />
                 </Button>
               </Link>
-              <a href={profile.resume} download>
-                <Button size="lg" variant="outline" className="h-11 rounded-full px-6">
-                  <Download /> Download resume
-                </Button>
-              </a>
               <Link href="#contact">
-                <Button size="lg" variant="ghost" className="h-11 rounded-full px-5">
-                  Get in touch
+                <Button size="lg" variant="outline" className="h-11 rounded-full px-6">
+                  <Mail /> Get in touch
                 </Button>
               </Link>
             </div>

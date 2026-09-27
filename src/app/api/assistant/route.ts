@@ -95,7 +95,7 @@ function getAssistantReply(raw: string) {
   }
 
   if (includesAny(text, ["resume", "cv"])) {
-    return `You can view or download the resume at /resume (direct PDF: ${profile.resume}).`;
+    return `${name} shares a resume tailored to each role — email ${profile.email} or use the contact form and mention the position. Meanwhile, this site covers experience, projects, and skills in detail.`;
   }
 
   if (includesAny(text, ["educat", "degree", "college", "university", "cgpa", "gpa", "nirma", "study", "graduat"])) {
