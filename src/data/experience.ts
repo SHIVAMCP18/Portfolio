@@ -23,7 +23,7 @@ export const experience: InternshipExperience[] = [
     ],
   },
   {
-    company: "Codveda Technologies",
+    company: "Maruti Enterprise",
     role: "Full-Stack Development Intern",
     period: "May 2025 – Jun 2025",
     technologies: ["React", "Node.js", "Express.js", "REST APIs", "Git"],

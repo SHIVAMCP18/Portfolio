@@ -203,7 +203,7 @@ export const notes: Note[] = [
     ],
     bullets: ["Model resources, not verbs", "Validate at the edge", "Version deliberately"],
     whereUsed:
-      "CoreInventory exposes 15+ REST endpoints over a normalized PostgreSQL schema with request validation on every route. The same practices — layered services, input validation, and consistent error handling — were applied to Node.js/Express services during internships at Disha Enterprise and Codveda Technologies.",
+      "CoreInventory exposes 15+ REST endpoints over a normalized PostgreSQL schema with request validation on every route. The same practices — layered services, input validation, and consistent error handling — were applied to Node.js/Express services during internships at Disha Enterprise and Maruti Enterprise.",
     tradeoffs: [
       "Chatty clients may need many round-trips",
       "Versioning adds maintenance burden",
