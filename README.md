@@ -1,56 +1,47 @@
 # Shivam Patel — Software Engineering Portfolio
 
-A modern, high-performance portfolio website built with **Next.js 16 (App Router)**, **TypeScript**, and **Tailwind CSS**.
+Personal portfolio built with **Next.js 16 (App Router)**, **TypeScript**, and **Tailwind CSS v4**.
 
-## 🚀 Overview
+## Features
 
-- **Engineer:** Shivam Patel
-- **Focus:** Distributed Systems, Cloud Architecture, Real-Time Streaming, Applied AI & ML
-- **Education:** B.E. in Computer Science & Engineering @ Nirma University (CGPA: 8.84/10) | Minor in Adaptive AI & Computer Vision Deep Learning
-- **Location:** Ahmedabad, India (Open to relocation to Tokyo, Japan)
-- **LinkedIn:** [linkedin.com/in/shivamcp](https://www.linkedin.com/in/shivamcp)
-- **GitHub:** [github.com/SHIVAMCP18](https://github.com/SHIVAMCP18)
+- **Animated hero** — typewriter role rotation, animated counters, gradient blobs, and a tech-stack marquee
+- **Experience timeline** — alternating, expandable timeline with roles and dates
+- **Interactive system design visualizer** — three architectures (DAG orchestration, streaming, webhook delivery) with animated request flow and clickable components
+- **Project archive** — search by technology, filter by domain, sort, and per-project case studies with prev/next navigation
+- **Command palette** — `⌘K` / `Ctrl K` to jump to any page, project, or action
+- **Portfolio assistant** — chat widget that answers from the site's own data (experience, projects, skills, contact)
+- **Engineering notes** — write-ups tied back to the projects where each concept was applied
+- **Contact form** — validated form backed by Resend
+- Persistent light/dark theme, scroll progress bar, back-to-top, `prefers-reduced-motion` support
+- SEO: per-page metadata, Open Graph, JSON-LD `Person` schema, `sitemap.xml`, and `robots.txt`
 
----
+## Editing content
 
-## 🛠️ Key Features
+All content lives in `src/data/` — update these files and every section, the assistant, and the command palette pick up the change:
 
-- **4 Industry Internships:** Adani Group, Disha Enterprise, Nexus Software, and Maruti Enterprise.
-- **18 Engineering Projects:** Full searchable and filterable project catalog with deep case studies.
-  - *FlowForge: Distributed DAG Workflow Orchestrator*
-  - *Real-Time Streaming Analytics Pipeline (GCP Pub/Sub + Apache Beam Dataflow + Bigtable & BigQuery)*
-  - *VoiceIQ Enterprise (Next.js + Llama 3 + pgvector RAG Platform)*
-  - *Distributed Webhook Delivery Platform (Go + Kafka + Redis Idempotency)*
-  - *Zentry Gaming Multiverse Platform (React + FastAPI + Gemini Live API)*
-  - *DeRaindrop (Attentive GAN in PyTorch)*
-- **Interactive System Architecture Visualizer:** Live interactive toggle between DAG orchestration flows and real-time streaming architectures.
-- **AI Portfolio Assistant:** Interactive in-app chatbot answering recruiter questions in real-time.
-- **Verified Credentials & Resume:** Interactive PDF viewer and one-click downloads.
+| File | Content |
+| --- | --- |
+| `profile.ts` | Name, headline, summary, availability, links, resume path |
+| `experience.ts` | Internships (role, company, dates, highlights) |
+| `projects.ts` | Project case studies and homepage featured list |
+| `skills.ts` | Skill groups, competencies, marquee |
+| `education.ts` | Degree, CGPA, coursework |
+| `achievements.ts` | Achievements, credentials, leadership |
+| `certificates.ts` | Certificate list (PDFs in `public/certificates/`) |
+| `notes.ts` | Engineering notes |
 
----
-
-## 💻 Tech Stack
-
-- **Framework:** Next.js 16 (App Router & Server Components)
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS & Radix UI primitives
-- **Icons:** Lucide React
-- **Deployment:** Vercel
-
----
-
-## 🏃 Getting Started Locally
+## Getting started
 
 ```bash
-# 1. Install dependencies
 npm install
-
-# 2. Run the development server
-npm run dev
-
-# 3. Build for production
+npm run dev     # http://localhost:3000
+npm run lint
 npm run build
-npm run start
 ```
 
-Visit [http://localhost:3000](http://localhost:3000) to view the application.
+### Environment variables (contact form)
+
+```
+RESEND_API_KEY=...
+CONTACT_RECEIVER_EMAIL=...
+```

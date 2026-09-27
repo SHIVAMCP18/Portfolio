@@ -1,105 +1,133 @@
-import { ExternalLink, Github, Star } from "lucide-react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+import { ArrowUpRight, Github, Star } from "lucide-react";
+import { Reveal } from "@/components/ui/reveal";
 import { SectionTitle } from "@/components/layout/section-title";
 import { getGitHubRepos, type GitHubRepo } from "@/lib/github";
-import { githubConfig, featuredRepoNames } from "@/data/github";
+import { githubConfig, featuredRepoNames, githubDescriptionOverrides } from "@/data/github";
+
+const languageColors: Record<string, string> = {
+  TypeScript: "#3178c6",
+  JavaScript: "#f1e05a",
+  Python: "#3572A5",
+  Java: "#b07219",
+  Go: "#00ADD8",
+  "C++": "#f34b7d",
+  HTML: "#e34c26",
+  CSS: "#563d7c",
+  "Jupyter Notebook": "#DA5B0B",
+  Shell: "#89e051",
+};
 
 function formatDate(dateString: string) {
-  return new Date(dateString).toLocaleDateString("en-US", {
-    year: "numeric",
-    month: "short",
-    day: "numeric",
-  });
+  return new Date(dateString).toLocaleDateString("en-US", { year: "numeric", month: "short" });
 }
+
+type RepoCard = {
+  name: string;
+  url: string;
+  description: string;
+  language: string | null;
+  stars: number | null;
+  updated: string | null;
+};
+
+function toCard(repo: GitHubRepo): RepoCard {
+  return {
+    name: repo.name,
+    url: repo.html_url,
+    description: repo.description ?? "",
+    language: repo.language,
+    stars: repo.stargazers_count,
+    updated: repo.updated_at,
+  };
+}
+
+// Used when the GitHub API is unavailable (e.g. rate limited at build time).
+const fallbackCards: RepoCard[] = featuredRepoNames.map((name) => ({
+  name,
+  url: `${githubConfig.profileUrl}/${name}`,
+  description: githubDescriptionOverrides[name] ?? "",
+  language: null,
+  stars: null,
+  updated: null,
+}));
 
 export async function GitHubSection() {
   let repos: GitHubRepo[] = [];
-
   try {
     repos = await getGitHubRepos();
   } catch {
     repos = [];
   }
 
-  const topRepos = featuredRepoNames
+  const live = featuredRepoNames
     .map((name) => repos.find((repo) => repo.name === name))
-    .filter((repo): repo is GitHubRepo => Boolean(repo));
+    .filter((repo): repo is GitHubRepo => Boolean(repo))
+    .map(toCard);
+  const cards = live.length > 0 ? live : fallbackCards;
 
   return (
-    <section id="github" className="mx-auto max-w-7xl px-6 py-20">
+    <section id="github" className="mx-auto max-w-7xl px-6 py-24">
       <SectionTitle
-        eyebrow="Build Log"
-        title="Live GitHub projects and engineering activity"
-        description="A dynamic snapshot of your public repositories, recent activity, and project footprint pulled directly from GitHub."
+        eyebrow="Open Source"
+        title="Code on GitHub"
+        description={
+          repos.length > 0
+            ? `${repos.length} public repositories — here are a few highlights, synced live from GitHub.`
+            : "A few highlighted repositories. Browse the full list on my GitHub profile."
+        }
       />
 
-      <div className="mb-8 flex justify-center">
-        <a href={githubConfig.profileUrl} target="_blank" rel="noreferrer">
-          <Button className="rounded-full bg-primary px-6 text-primary-foreground hover:bg-primary/80">
-            <Github className="mr-2 h-4 w-4" />
-            View GitHub Profile
-          </Button>
-        </a>
+      <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+        {cards.map((repo, index) => (
+          <Reveal key={repo.name} y={20} delay={(index % 3) * 70} className="h-full">
+            <a
+              href={repo.url}
+              target="_blank"
+              rel="noreferrer"
+              className="group flex h-full flex-col rounded-2xl border border-border bg-card p-5 transition hover:-translate-y-0.5 hover:border-primary/40 hover:shadow-lg"
+            >
+              <div className="flex items-center justify-between gap-3">
+                <span className="inline-flex min-w-0 items-center gap-2 font-mono text-sm font-semibold text-foreground">
+                  <Github className="h-4 w-4 shrink-0 text-muted-foreground" />
+                  <span className="truncate group-hover:text-primary">{repo.name}</span>
+                </span>
+                <ArrowUpRight className="h-4 w-4 shrink-0 text-muted-foreground transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-primary" />
+              </div>
+              <p className="mt-3 flex-1 text-sm leading-6 text-muted-foreground">{repo.description}</p>
+              {(repo.language || repo.stars !== null) && (
+                <div className="mt-4 flex items-center gap-4 text-xs text-muted-foreground">
+                  {repo.language && (
+                    <span className="inline-flex items-center gap-1.5">
+                      <span
+                        className="h-2.5 w-2.5 rounded-full"
+                        style={{ backgroundColor: languageColors[repo.language] ?? "var(--primary)" }}
+                      />
+                      {repo.language}
+                    </span>
+                  )}
+                  {repo.stars !== null && (
+                    <span className="inline-flex items-center gap-1">
+                      <Star className="h-3.5 w-3.5" /> {repo.stars}
+                    </span>
+                  )}
+                  {repo.updated && <span>Updated {formatDate(repo.updated)}</span>}
+                </div>
+              )}
+            </a>
+          </Reveal>
+        ))}
       </div>
 
-      {topRepos.length > 0 ? (
-        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-          {topRepos.map((repo) => (
-            <Card
-              key={repo.id}
-              className="rounded-[2rem] border-border bg-card backdrop-blur-xl"
-            >
-              <CardContent className="p-6">
-                <div className="mb-5 flex items-start justify-between gap-4">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-primary/20 bg-primary/10">
-                    <Github className="h-5 w-5 text-primary" />
-                  </div>
-
-                  {repo.language && (
-                    <Badge className="rounded-full border border-border bg-card text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
-                      {repo.language}
-                    </Badge>
-                  )}
-                </div>
-
-                <h3 className="text-lg font-semibold text-foreground">{repo.name}</h3>
-
-                <p className="mt-3 min-h-[72px] text-sm leading-6 text-muted-foreground">
-                  {repo.description || "Repository description will appear here from GitHub."}
-                </p>
-
-                <div className="mt-4 flex items-center gap-4 text-sm text-muted-foreground">
-                  <div className="flex items-center gap-1">
-                    <Star className="h-4 w-4" />
-                    {repo.stargazers_count}
-                  </div>
-                  <div>Updated {formatDate(repo.updated_at)}</div>
-                </div>
-
-                <div className="mt-6">
-                  <a href={repo.html_url} target="_blank" rel="noreferrer">
-                    <Button
-                      variant="outline"
-                      className="rounded-full border-border bg-card text-foreground hover:bg-muted"
-                    >
-                      <ExternalLink className="mr-2 h-4 w-4" />
-                      Open Repository
-                    </Button>
-                  </a>
-                </div>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-      ) : (
-        <Card className="rounded-[2rem] border-border bg-card backdrop-blur-xl">
-          <CardContent className="p-8 text-center text-muted-foreground">
-            GitHub repositories could not be loaded right now. The rest of the portfolio is still working correctly.
-          </CardContent>
-        </Card>
-      )}
+      <div className="mt-8 flex justify-center">
+        <a
+          href={githubConfig.profileUrl}
+          target="_blank"
+          rel="noreferrer"
+          className="inline-flex items-center gap-2 rounded-full bg-foreground px-5 py-2.5 text-sm font-medium text-background transition hover:opacity-90"
+        >
+          <Github className="h-4 w-4" /> @{githubConfig.username}
+        </a>
+      </div>
     </section>
   );
 }

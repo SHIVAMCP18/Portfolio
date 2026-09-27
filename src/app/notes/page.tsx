@@ -1,94 +1,58 @@
+import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, ArrowLeft, BookOpen, Layers3 } from "lucide-react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+import { ArrowRight, Clock, Layers3 } from "lucide-react";
+import { PageHeader } from "@/components/layout/page-header";
+import { Reveal } from "@/components/ui/reveal";
 import { notes } from "@/data/notes";
+
+export const metadata: Metadata = {
+  title: "Engineering Notes",
+  description: "Practical notes on distributed systems, data engineering, reliability, and AI — tied to real projects.",
+};
 
 export default function NotesPage() {
   return (
-    <div className="min-h-screen bg-background px-6 py-16 text-foreground">
-      <div className="mx-auto max-w-7xl">
-        <div className="mb-8">
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 text-sm text-muted-foreground transition hover:text-foreground"
-          >
-            <ArrowLeft className="h-4 w-4" /> Back to main page
-          </Link>
-        </div>
+    <div className="mx-auto max-w-7xl px-6 pb-16">
+      <PageHeader
+        backHref="/"
+        backLabel="Home"
+        eyebrow="Engineering Notes"
+        title="Notes on building real systems"
+        description="Short, practical write-ups on the concepts behind my projects — distributed systems, data pipelines, reliability, security, and AI. Each one covers where I used it, the trade-offs, and when to reach for it."
+      />
 
-        <div className="mb-12 text-center">
-          <p className="mb-3 text-xs uppercase tracking-[0.4em] text-muted-foreground">
-            System Design Notes
-          </p>
-          <h1 className="text-4xl font-semibold tracking-tight md:text-6xl">
-            Engineering Notes & Architecture Thinking
-          </h1>
-          <p className="mx-auto mt-4 max-w-3xl text-sm leading-7 text-muted-foreground md:text-base">
-            A curated knowledge section covering distributed systems, backend
-            architecture, performance engineering, and practical security ideas
-            tied to the projects in this portfolio.
-          </p>
-        </div>
-
-        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-          {notes.map((note) => (
-            <Link key={note.slug} href={`/notes/${note.slug}`}>
-              <Card className="h-full rounded-[2rem] border-border bg-card backdrop-blur-xl">
-                <CardContent className="flex h-full flex-col p-6">
-                  <div className="mb-5 flex items-start justify-between gap-4">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-primary/20 bg-primary/10">
-                      <BookOpen className="h-5 w-5 text-primary" />
-                    </div>
-
-                    <Badge className="rounded-full border border-border bg-card text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
-                      {note.category}
-                    </Badge>
-                  </div>
-
-                  <h3 className="text-xl font-semibold text-foreground">
-                    {note.title}
-                  </h3>
-
-                  <p className="mt-3 text-sm leading-7 text-muted-foreground">
-                    {note.description}
-                  </p>
-
-                  <div className="mt-4 flex flex-wrap gap-2 text-xs text-muted-foreground">
-                    <span>{note.level}</span>
-                    <span>•</span>
-                    <span>{note.readTime}</span>
-                  </div>
-
-                  <div className="mt-5 flex flex-wrap gap-2">
-                    {note.bullets.map((bullet, index) => (
-                      <Badge
-                        key={`${note.slug}-bullet-${index}`}
-                        className="rounded-full border border-border bg-card text-[10px] uppercase tracking-[0.2em] text-muted-foreground"
-                      >
-                        {bullet}
-                      </Badge>
-                    ))}
-                  </div>
-
-                  <div className="mt-6 rounded-2xl border border-border bg-muted p-4">
-                    <p className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
-                      Related Project
-                    </p>
-                    <div className="mt-2 flex items-center gap-2 text-sm text-foreground">
-                      <Layers3 className="h-4 w-4 text-primary" />
-                      {note.relatedProject}
-                    </div>
-                  </div>
-
-                  <div className="mt-auto pt-6 flex items-center text-sm text-primary">
-                    Read note <ArrowRight className="ml-2 h-4 w-4" />
-                  </div>
-                </CardContent>
-              </Card>
+      <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+        {notes.map((note, index) => (
+          <Reveal key={note.slug} y={20} delay={(index % 3) * 70} className="h-full">
+            <Link
+              href={`/notes/${note.slug}`}
+              className="group flex h-full flex-col rounded-[1.75rem] border border-border bg-card p-6 transition hover:-translate-y-1 hover:border-primary/40 hover:shadow-xl"
+            >
+              <div className="flex items-center justify-between gap-2 text-xs text-muted-foreground">
+                <span className="rounded-full border border-border bg-muted/60 px-2.5 py-0.5 font-medium">{note.category}</span>
+                <span className="inline-flex items-center gap-1">
+                  <Clock className="h-3.5 w-3.5" /> {note.readTime}
+                </span>
+              </div>
+              <h2 className="mt-4 text-lg font-bold tracking-tight text-foreground group-hover:text-primary">{note.title}</h2>
+              <p className="mt-2 text-sm leading-6 text-muted-foreground">{note.description}</p>
+              <div className="mt-4 flex flex-wrap gap-1.5">
+                {note.bullets.map((bullet) => (
+                  <span key={bullet} className="rounded-md bg-primary/5 px-2 py-0.5 text-[11px] text-foreground/75">
+                    {bullet}
+                  </span>
+                ))}
+              </div>
+              <div className="mt-auto flex items-center justify-between gap-3 pt-6 text-xs">
+                <span className="inline-flex min-w-0 items-center gap-1.5 text-muted-foreground">
+                  <Layers3 className="h-3.5 w-3.5 shrink-0 text-primary" />
+                  <span className="truncate">{note.relatedProject}</span>
+                </span>
+                <ArrowRight className="h-4 w-4 shrink-0 text-primary transition-transform group-hover:translate-x-1" />
+              </div>
             </Link>
-          ))}
-        </div>
+          </Reveal>
+        ))}
       </div>
     </div>
   );
