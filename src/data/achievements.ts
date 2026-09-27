@@ -36,13 +36,6 @@ export const achievements: Achievement[] = [
   },
 ];
 
-// Professional credentials listed on the resume (no PDF in /public).
-export const credentials = [
-  "AWS Certified Cloud Practitioner",
-  "Machine Learning Specialization — Coursera",
-  "Deep Learning Specialization — Coursera",
-];
-
 export const leadership: LeadershipRole[] = [
   {
     role: "Board Member",

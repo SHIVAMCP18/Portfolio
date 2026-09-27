@@ -4,7 +4,7 @@ import { experience } from "@/data/experience";
 import { allProjects, type Project } from "@/data/projects";
 import { technicalSkillGroups } from "@/data/skills";
 import { education } from "@/data/education";
-import { achievements, credentials, leadership } from "@/data/achievements";
+import { achievements, leadership } from "@/data/achievements";
 import { certificates } from "@/data/certificates";
 
 const MAX_MESSAGE_LENGTH = 500;
@@ -103,8 +103,10 @@ function getAssistantReply(raw: string) {
     return `${edu.degree} at ${edu.school}, ${edu.location} (${edu.period}), CGPA ${edu.gpa}. Coursework includes ${edu.coursework.join(", ")}.`;
   }
 
-  if (includesAny(text, ["certif", "course", "credential", "aws certified"])) {
-    return `Credentials: ${credentials.join("; ")}. Plus ${certificates.length} course certificates across cloud, Java, testing, DevOps, security, and AI — see /certificates.`;
+  if (includesAny(text, ["certif", "credential", "simulation", "deloitte", "jpmorgan", "jp morgan", "forage"])) {
+    return `Certifications: ${certificates
+      .map((item) => `${item.issuer} ${item.title} (${item.provider})`)
+      .join("; ")}. See /certificates.`;
   }
 
   if (includesAny(text, ["achiev", "award", "rank", "hackathon", "competition", "google", "nasa", "flipkart"])) {

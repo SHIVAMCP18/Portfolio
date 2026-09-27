@@ -8,14 +8,13 @@ import { AnimatedCounter } from "@/components/ui/animated-counter";
 import { profile } from "@/data/profile";
 import { experience } from "@/data/experience";
 import { allProjects } from "@/data/projects";
-import { certificates } from "@/data/certificates";
 import { education } from "@/data/education";
-import { marqueeTech } from "@/data/skills";
+import { marqueeTech, technicalSkillGroups } from "@/data/skills";
 
 const stats = [
   { value: experience.length, label: "Internships", suffix: "" },
   { value: allProjects.length, label: "Projects built", suffix: "+" },
-  { value: certificates.length, label: "Certifications", suffix: "+" },
+  { value: technicalSkillGroups.flatMap((group) => group.skills).length, label: "Technologies", suffix: "+" },
   { value: education[0].gpaValue, label: "CGPA / 10", suffix: "", decimals: 2 },
 ];
 

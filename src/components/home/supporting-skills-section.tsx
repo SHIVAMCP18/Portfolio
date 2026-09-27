@@ -1,9 +1,9 @@
-import { BadgeCheck, Brain, CheckCircle2, Cloud, Code2, Database, Layers, Trophy, Users, Wrench } from "lucide-react";
+import { Brain, CheckCircle2, Cloud, Code2, Database, Layers, Trophy, Users, Wrench } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { SpotlightCard } from "@/components/ui/spotlight-card";
 import { SectionTitle } from "@/components/layout/section-title";
 import { technicalSkillGroups, coreCompetencies, type SkillGroup } from "@/data/skills";
-import { achievements, credentials, leadership } from "@/data/achievements";
+import { achievements, leadership } from "@/data/achievements";
 
 const icons: Record<SkillGroup["icon"], typeof Code2> = {
   code: Code2,
@@ -74,7 +74,7 @@ export function SupportingSkillsSection() {
                 <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-primary/20 bg-primary/10">
                   <Trophy className="h-5 w-5 text-primary" />
                 </div>
-                <h3 className="text-xl font-bold tracking-tight text-foreground">Achievements & Credentials</h3>
+                <h3 className="text-xl font-bold tracking-tight text-foreground">Achievements</h3>
               </div>
 
               <div className="space-y-3">
@@ -88,17 +88,6 @@ export function SupportingSkillsSection() {
                     </div>
                     <p className="mt-1.5 text-sm leading-6 text-muted-foreground">{item.description}</p>
                   </div>
-                ))}
-              </div>
-
-              <div className="mt-5 flex flex-wrap gap-2">
-                {credentials.map((item) => (
-                  <span
-                    key={item}
-                    className="inline-flex items-center gap-1.5 rounded-full border border-border bg-card px-3 py-1.5 text-xs font-medium text-foreground/85"
-                  >
-                    <BadgeCheck className="h-3.5 w-3.5 text-emerald-500" /> {item}
-                  </span>
                 ))}
               </div>
             </div>

@@ -17,7 +17,8 @@ import { profile } from "@/data/profile";
 import { education } from "@/data/education";
 import { technicalSkillGroups } from "@/data/skills";
 import { experience } from "@/data/experience";
-import { achievements, credentials } from "@/data/achievements";
+import { achievements } from "@/data/achievements";
+import { certificates } from "@/data/certificates";
 
 export const metadata: Metadata = {
   title: "Resume",
@@ -163,8 +164,12 @@ export default function ResumePage() {
                   </span>
                 </li>
               ))}
-              {credentials.map((item) => (
-                <li key={item} className="text-muted-foreground">{item}</li>
+              {certificates.map((item) => (
+                <li key={item.file}>
+                  <a href={item.file} target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary">
+                    {item.issuer} — {item.title}
+                  </a>
+                </li>
               ))}
             </ul>
           </Panel>
