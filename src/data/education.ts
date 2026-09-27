@@ -4,8 +4,8 @@ export const education = [
     school: "Nirma University",
     location: "Ahmedabad, India",
     period: "Aug 2023 – Jul 2027",
-    gpa: "8.78 / 10",
-    gpaValue: 8.78,
+    gpa: "8.84 / 10",
+    gpaValue: 8.84,
     focus:
       "Core CS fundamentals with a focus on distributed systems, data engineering, and applied machine learning.",
     coursework: [
