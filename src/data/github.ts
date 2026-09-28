@@ -5,15 +5,17 @@ export const githubConfig = {
 
 // Repos to spotlight in the GitHub activity section
 export const featuredRepoNames = [
+  "Flowforge",
   "Customer-Intelligence-Platform",
   "Gaming-Website",
   "CoreInventory",
   "Mined-Hackthon",
   "DeRaindrop",
-  "CNADevOps",
 ];
 
 export const githubDescriptionOverrides: Record<string, string> = {
+  Flowforge:
+    "DAG workflow orchestrator: Spring Boot control plane, Go workers leasing tasks from PostgreSQL with SKIP LOCKED, retries, checkpoints, and a live React dashboard.",
   "Customer-Intelligence-Platform":
     "VoiceIQ: AI customer intelligence platform aggregating feedback, clustering themes with pgvector & LangGraph, and scoring sentiment roadmaps.",
   "Gaming-Website":

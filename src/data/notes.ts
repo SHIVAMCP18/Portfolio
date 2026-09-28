@@ -33,7 +33,7 @@ export const notes: Note[] = [
     ],
     bullets: ["Partial failure is normal", "Idempotency everywhere", "Persist at boundaries"],
     whereUsed:
-      "FlowForge splits DAG scheduling from task execution: the scheduler publishes task envelopes to Kafka, Go/Java workers consume them, Redis leases prevent duplicate execution, and PostgreSQL checkpoints each node so a crashed workflow resumes instead of restarting.",
+      "FlowForge splits DAG scheduling from task execution: a stateless Spring Boot control plane keeps all state in PostgreSQL, Go workers lease tasks with FOR UPDATE SKIP LOCKED so none is run twice, a reaper reclaims leases from crashed workers, and each task's output is checkpointed so a failed run resumes instead of restarting.",
     tradeoffs: [
       "Much higher operational complexity than a monolith",
       "Debugging requires tracing across process boundaries",
@@ -67,7 +67,7 @@ export const notes: Note[] = [
     ],
     bullets: ["Durable, replayable log", "Partition for ordering", "At-least-once + idempotency"],
     whereUsed:
-      "The webhook platform accepts events on the API, signs them, and writes them to Kafka. Dispatch workers consume by partition, deliver over HTTP, and push failures to a retry topic with exponential backoff, so a slow customer endpoint never blocks the ingestion path. FlowForge uses the same pattern to distribute DAG tasks to worker pools.",
+      "The webhook platform accepts events on the API, signs them, and writes them to Kafka. Dispatch workers consume by partition, deliver over HTTP, and push failures to a retry topic with exponential backoff, so a slow customer endpoint never blocks the ingestion path. FlowForge deliberately takes the other route: at its volume a PostgreSQL table leased with FOR UPDATE SKIP LOCKED gives the same safety without running a broker.",
     tradeoffs: [
       "Eventual consistency between services",
       "Operating Kafka (or paying for a managed service) is non-trivial",
