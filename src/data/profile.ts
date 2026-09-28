@@ -23,5 +23,5 @@ export const profile = {
   github: "https://github.com/SHIVAMCP18",
   githubHandle: "SHIVAMCP18",
   heroImage: "/images/profile/shivam.png",
-  siteUrl: "https://shivam-patel.vercel.app",
+  siteUrl: "https://portfolio-shivamcp18s-projects.vercel.app",
 };
