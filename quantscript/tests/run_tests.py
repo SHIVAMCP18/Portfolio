@@ -276,7 +276,7 @@ def differential_one(f):
         rel = abs(x - y) / max(1.0, abs(x), abs(y))
         worst = max(worst, rel)
     res.append(("differential", f"{f.stem}: series values naive vs incremental within 1e-9 (worst {worst:.1e})", ok and worst <= 1e-9, ""))
-    for regs in ("8", "4", "2"):
+    for regs in ("8", "4", "2", "1"):
         outdir = WORK / f"cpp_{f.stem}_{regs}"
         rc, _, err = run([QSC, "--no-color", "--regs", regs, "-o", outdir, f])
         got, err = build_and_run(outdir, WORK / f"bt_{f.stem}_{regs}")

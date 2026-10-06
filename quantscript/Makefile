@@ -22,7 +22,7 @@ regex2dfa: tools/regex2dfa.cpp $(BUILD)/rdfa.o $(BUILD)/json.o
 $(BUILD):
 	@mkdir -p $(BUILD)
 
-$(BUILD)/parser.tab.cpp $(BUILD)/parser.tab.hpp $(BUILD)/parser.output: src/parser.y | $(BUILD)
+$(BUILD)/parser.tab.cpp $(BUILD)/parser.tab.hpp $(BUILD)/parser.output &: src/parser.y | $(BUILD)
 	$(BISON) -d -v -Werror=conflicts-sr -Werror=conflicts-rr -o $(BUILD)/parser.tab.cpp src/parser.y
 
 $(BUILD)/parser_stats.inc: $(BUILD)/parser.output tools/parser_stats.awk
@@ -54,12 +54,17 @@ serve:
 	@echo "Viewer at http://localhost:8000/viewer/index.html"
 	python3 -m http.server 8000
 
-# Regenerate the phase dumps shipped for the viewer demo.
+# Regenerate the phase dumps bundled with the viewer demo (viewer/samples/samples.js).
 examples: all
-	@mkdir -p viewer/samples
-	./qsc --dump-json viewer/samples/zrevert_O2.json -o $(BUILD)/out examples/valid/zrevert.qs
-	./qsc -O0 --dump-json viewer/samples/zrevert_O0.json -o $(BUILD)/out examples/valid/zrevert.qs
-	-./qsc --dump-json viewer/samples/lookahead_error.json -o $(BUILD)/out examples/invalid/e502_close_in_open.qs
+	@mkdir -p viewer/samples $(BUILD)/samples
+	./qsc --dump-json $(BUILD)/samples/zrevert_O2.json -o $(BUILD)/out examples/valid/zrevert.qs
+	./qsc -O0 --dump-json $(BUILD)/samples/zrevert_O0.json -o $(BUILD)/out examples/valid/zrevert.qs
+	./qsc --dump-json $(BUILD)/samples/channel_O2.json -o $(BUILD)/out examples/valid/channel.qs
+	./qsc --regs 2 --dump-json $(BUILD)/samples/vol_target_regs2.json -o $(BUILD)/out examples/valid/vol_target.qs
+	./qsc --dump-json $(BUILD)/samples/lookahead_error.json -o $(BUILD)/out examples/invalid/e502_phase_c_series.qs 2>/dev/null || true
+	./qsc --dump-json $(BUILD)/samples/type_error.json -o $(BUILD)/out examples/invalid/e401_price_plus_volume.qs 2>/dev/null || true
+	python3 tools/make_samples.py viewer/samples/samples.js $(BUILD)/samples/zrevert_O2.json $(BUILD)/samples/zrevert_O0.json \
+		$(BUILD)/samples/channel_O2.json $(BUILD)/samples/vol_target_regs2.json $(BUILD)/samples/lookahead_error.json $(BUILD)/samples/type_error.json
 
 clean:
 	rm -rf $(BUILD) qsc regex2dfa out

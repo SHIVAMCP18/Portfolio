@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // QuantScript compiler project (C++ + a vanilla-JS viewer with its own tests).
+    "quantscript/**",
   ]),
 ]);
 
