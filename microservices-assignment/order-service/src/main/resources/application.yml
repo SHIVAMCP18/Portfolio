@@ -20,6 +20,8 @@ spring:
         # them to the dead-letter queue after 5 attempts.
         default-requeue-rejected: true
         prefetch: 10
+        # Keep retrying if a queue is not declared yet (e.g. the init job is still running).
+        missing-queues-fatal: false
   security:
     oauth2:
       resourceserver:
