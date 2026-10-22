@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Standalone microservices course project with its own toolchains.
+    "microservices-assignment/**",
   ]),
 ]);
 
