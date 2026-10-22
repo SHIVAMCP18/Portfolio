@@ -224,7 +224,7 @@ Json programJson(const TacProgram& p) {
 
 // ---- interpreter -------------------------------------------------------
 
-Interpreter::Interpreter(const TacProgram& p, const Layout& lay) : p_(p), lay_(lay) {
+Interpreter::Interpreter(const TacProgram& p, const Layout& lay) : p_(p) {
     for (auto& [name, cap] : lay.cap) buf_[name].assign(static_cast<size_t>(cap), 0.0);
     for (auto& [name, cap] : lay.dqcap) {
         Deque d;

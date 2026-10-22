@@ -133,7 +133,6 @@ private:
     struct Deque { std::vector<long> idx; long head = 0, tail = 0; };
 
     const TacProgram& p_;
-    const Layout& lay_;
     long bars_ = 0;
     std::map<std::string, std::vector<double>> buf_;
     std::map<std::string, double> state_, param_, acc_;

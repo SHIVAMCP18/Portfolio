@@ -22,7 +22,7 @@ VALID = sorted((ROOT / "examples" / "valid").glob("*.qs"))
 INVALID = sorted((ROOT / "examples" / "invalid").glob("*.qs"))
 GOLDEN = ROOT / "tests" / "golden"
 TAC_GOLDEN = ["sma_cross", "zrevert", "momentum_func", "twin_mean", "channel"]
-CXX = ["g++", "-std=c++17", "-O1", "-Wall", "-Wextra", "-Werror"]
+CXX = [os.environ.get("CXX", "g++"), "-std=c++17", "-O1", "-Wall", "-Wextra", "-Werror"]
 UPDATE = "--update-golden" in sys.argv
 WORK = Path(tempfile.mkdtemp(prefix="qs-tests-"))
 

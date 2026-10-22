@@ -22,7 +22,9 @@ class Emitter {
 public:
     Emitter(const TacProgram& p, const RegAllocResult& ra, const Layout& lay, const SemaResult& sr, Node* prog,
             const CodegenOptions& o)
-        : P(p), RA(ra), L(lay), SR(sr), prog_(prog), opt(o) {}
+        : P(p), RA(ra), L(lay), prog_(prog), opt(o) {
+        (void)sr;
+    }
 
     std::string header() {
         std::ostringstream os;
@@ -75,7 +77,7 @@ public:
             os << decl << "  // offset " << m.offset << ", size " << m.size << (m.note.empty() ? "" : ": " + m.note) << "\n";
         }
         os << "    } s_;\n";
-        os << "    Params p_;\n";
+        os << "    [[maybe_unused]] Params p_;  // unused when the strategy has no params\n";
         os << "};\n";
         return os.str();
     }
@@ -375,7 +377,6 @@ private:
     const TacProgram& P;
     const RegAllocResult& RA;
     const Layout& L;
-    const SemaResult& SR;
     Node* prog_;
     const CodegenOptions& opt;
 };

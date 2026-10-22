@@ -22,8 +22,10 @@ regex2dfa: tools/regex2dfa.cpp $(BUILD)/rdfa.o $(BUILD)/json.o
 $(BUILD):
 	@mkdir -p $(BUILD)
 
-$(BUILD)/parser.tab.cpp $(BUILD)/parser.tab.hpp $(BUILD)/parser.output &: src/parser.y | $(BUILD)
-	$(BISON) -d -v -Werror=conflicts-sr -Werror=conflicts-rr -o $(BUILD)/parser.tab.cpp src/parser.y
+# Pattern rule: one Bison run produces all three files (grouped in every GNU
+# Make version, including the 3.81 that ships with macOS).
+$(BUILD)/%.tab.cpp $(BUILD)/%.tab.hpp $(BUILD)/%.output: src/%.y | $(BUILD)
+	$(BISON) -d -v -Werror=conflicts-sr -Werror=conflicts-rr -o $(BUILD)/$*.tab.cpp $<
 
 $(BUILD)/parser_stats.inc: $(BUILD)/parser.output tools/parser_stats.awk
 	awk -f tools/parser_stats.awk $(BUILD)/parser.output > $@
