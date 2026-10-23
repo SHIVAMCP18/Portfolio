@@ -9,7 +9,7 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 CLUSTER="${CLUSTER:-kind}"
 NS=retailflow
-SERVICES=(product-service customer-service order-service billing-service notification-service)
+SERVICES=(product-service customer-service order-service billing-service notification-service web-ui)
 
 [ -f .env ] || cp .env.example .env
 
@@ -52,13 +52,13 @@ echo "== 5/5 Deploying workloads"
 kubectl apply -f k8s/10-infrastructure.yaml -f k8s/20-databases.yaml -f k8s/30-services.yaml \
               -f k8s/40-observability.yaml -f k8s/50-network-policies.yaml
 kubectl -n "$NS" rollout status deployment/kong deployment/order-service deployment/product-service \
-  deployment/customer-service deployment/notification-service statefulset/billing-service --timeout=10m
+  deployment/customer-service deployment/notification-service deployment/web-ui statefulset/billing-service --timeout=10m
 
 cat <<EOF
 
 RetailFlow is running in namespace "$NS".
   kubectl -n $NS get pods
-  Gateway : https://localhost:30443   (kind; otherwise: kubectl -n $NS port-forward svc/kong 8443:8443)
+  Website : https://localhost:30443   (kind; otherwise: kubectl -n $NS port-forward svc/kong 8443:8443)
   Grafana : http://localhost:30300    (admin / GRAFANA_ADMIN_PASSWORD from .env)
   Demo    : GATEWAY=https://localhost:30443 ./scripts/demo.sh
 EOF

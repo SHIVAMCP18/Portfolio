@@ -255,6 +255,13 @@ services:
       secrets-init: { condition: service_completed_successfully }
       consul: { condition: service_healthy }
 
+  web-ui:   # React website, served by nginx and routed by Kong at https://localhost:8443/
+    <<: *service
+    build: ./web-ui
+    image: retailflow/web-ui:1.0
+    depends_on:
+      consul: { condition: service_healthy }
+
   # ------------------------------------------------- monitoring and logging
   prometheus:
     <<: *service

@@ -1,7 +1,7 @@
 # RetailFlow — Microservices Architecture Assignment
 
 A small retail system (customers, products, orders, invoices, notifications) built as five
-independent microservices. Each one is written in a different language and owns a different
+independent microservices, with a **React website** on top. Each one is written in a different language and owns a different
 database. The whole system starts with **one command** using Docker Compose, and can also be
 deployed to Kubernetes.
 
@@ -25,6 +25,25 @@ deployed to Kubernetes.
 
    Prometheus (finds targets through Consul) → Grafana dashboard ← Loki ← Promtail (all logs)
 ```
+
+## The website
+
+Open **https://localhost:8443** (accept the self-signed certificate warning). Kong serves the
+React website at `/` and routes its API calls to the five services.
+
+| Page | What it shows |
+|---|---|
+| Sign in / Create account | Customer Service issues the JWT. Demo admin: `admin@example.com` / `Admin@12345` |
+| Shop | Catalogue and cart (Product Service). **Place order** calls Order Service, which uses REST + gRPC |
+| My orders → order page | **Live timeline** of the saga: order.created → invoice.created → payment.completed → order.paid. Includes the "Pay" button |
+| Invoices | Billing Service invoices with payment status |
+| Notifications | In-app notifications (Notification Service), with a badge in the menu |
+| Admin (admin only) | Add products and set stock, all orders with revenue, all customers |
+| Architecture | Diagram, the patterns used, and links to Consul, RabbitMQ, Grafana, Prometheus and Mailpit |
+
+The **"Live API calls through Kong"** bar at the bottom lists every request the page made: the
+service and language that answered, the status, the time it took, and the `X-Request-ID`
+(search for it in Grafana logs).
 
 ## How each requirement is met
 
@@ -54,7 +73,7 @@ docker compose ps               # wait until the services are "Up"
 
 | What | Address | Login |
 |---|---|---|
-| API gateway (HTTPS, self-signed) | https://localhost:8443 | JWT from `POST /auth/login` |
+| **Website** + API gateway (HTTPS, self-signed) | https://localhost:8443 | `admin@example.com` / `Admin@12345`, or register |
 | Consul (discovery + health) | http://localhost:8500 | — |
 | RabbitMQ (exchanges, queues, DLQs) | http://localhost:15672 | `RABBITMQ_ADMIN_USER` / `_PASSWORD` from `.env` |
 | Grafana dashboard | http://localhost:3000 | `admin` / `GRAFANA_ADMIN_PASSWORD` |
@@ -95,7 +114,8 @@ Calico or Cilium). The HPA needs metrics-server.
 
 ## Things to show in a demo
 
-1. **The order flow**: run `./scripts/demo.sh`. The order's `history` shows `order.created → invoice.created → payment.completed → order.paid` arriving asynchronously.
+1. **The website**: open https://localhost:8443, register a customer, add two products to the cart, place the order, and watch the timeline fill in. Click **Pay with UPI** and the order turns PAID. Open the "Live API calls" bar to show which service answered each request.
+1. **The order flow from the terminal**: run `./scripts/demo.sh`. The order's `history` shows `order.created → invoice.created → payment.completed → order.paid` arriving asynchronously.
 2. **Circuit breaker**: `docker compose stop product-service`, then place two or three orders. Responses switch to a fast `503 … circuit breaker fallback`. Check `docker compose exec order-service wget -qO- localhost:8083/actuator/circuitbreakers` (state `OPEN`) and the Grafana panel. Restart the service with `docker compose start product-service`.
 3. **Discovery**: open the Consul UI. Stop a service and watch its health check turn red; Kong stops routing to it.
 4. **CDC / outbox**: `docker compose logs debezium` shows the binlog connection. The `outbox` table in MySQL holds every event that was published.

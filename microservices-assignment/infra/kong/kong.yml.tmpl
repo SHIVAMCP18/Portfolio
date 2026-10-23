@@ -82,6 +82,19 @@ services:
         https_redirect_status_code: 308
         plugins: [{ name: jwt, config: { key_claim_name: iss, claims_to_verify: [exp] } }]
 
+  # The React website. "/" is public; Kong prefers the longer API paths above,
+  # so only page and asset requests reach this service.
+  - name: web-ui
+    host: web-ui.service.consul
+    protocol: http
+    retries: 2
+    routes:
+      - name: website
+        paths: [/]
+        strip_path: false
+        protocols: [https]
+        https_redirect_status_code: 308
+
 # The JWT plugin finds this consumer through the token's "iss" claim and
 # verifies the RS256 signature with the public key. Kong never sees the
 # private key, so it can validate tokens but cannot mint them.

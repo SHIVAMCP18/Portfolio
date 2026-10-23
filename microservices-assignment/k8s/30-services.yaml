@@ -223,3 +223,25 @@ spec:
       volumes:
         - { name: jwt-public, secret: { secretName: jwt-public } }
         - { name: tmp, emptyDir: {} }
+---
+# The React website (nginx). Routed by Kong at "/", registered in Consul like the services.
+apiVersion: apps/v1
+kind: Deployment
+metadata: { name: web-ui, namespace: retailflow, labels: { app: web-ui, tier: service } }
+spec:
+  replicas: 1
+  selector: { matchLabels: { app: web-ui } }
+  template:
+    metadata: { labels: { app: web-ui, tier: service } }
+    spec:
+      automountServiceAccountToken: false
+      containers:
+        - name: web-ui
+          image: retailflow/web-ui:1.0
+          imagePullPolicy: IfNotPresent
+          env:
+            - { name: CONSUL_HTTP_ADDR, value: "http://consul:8500" }
+            - { name: POD_IP, valueFrom: { fieldRef: { fieldPath: status.podIP } } }
+          ports: [{ name: http, containerPort: 8080 }]
+          readinessProbe: { httpGet: { path: /health, port: 8080 }, periodSeconds: 5 }
+          resources: { requests: { cpu: 10m, memory: 16Mi }, limits: { memory: 64Mi } }
