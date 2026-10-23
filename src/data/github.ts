@@ -6,18 +6,22 @@ export const githubConfig = {
 // Repos to spotlight in the GitHub activity section
 export const featuredRepoNames = [
   "Flowforge",
+  "retailflow-microservices-project",
   "Customer-Intelligence-Platform",
+  "retailflow-devops",
   "Gaming-Website",
   "CoreInventory",
-  "Mined-Hackthon",
-  "DeRaindrop",
 ];
 
 export const githubDescriptionOverrides: Record<string, string> = {
+  "retailflow-microservices-project":
+    "RetailFlow: five microservices in Python, Node.js, Java, Go and C#, each with its own database, behind Kong + Consul, with a RabbitMQ order saga, Debezium outbox CDC and CQRS.",
+  "retailflow-devops":
+    "RetailFlow DevOps: an online store delivered with Docker, Kubernetes, Terraform on Render, and a GitHub Actions pipeline with Gitleaks and Trivy security gates.",
   Flowforge:
     "DAG workflow orchestrator: Spring Boot control plane, Go workers leasing tasks from PostgreSQL with SKIP LOCKED, retries, checkpoints, and a live React dashboard.",
   "Customer-Intelligence-Platform":
-    "VoiceIQ: AI customer intelligence platform aggregating feedback, clustering themes with pgvector & LangGraph, and scoring sentiment roadmaps.",
+    "VoiceIQ: AI customer intelligence platform that clusters feedback into themes with pgvector, scores opportunities, and answers questions with a cited RAG chat.",
   "Gaming-Website":
     "Zentry: High-performance gaming multiverse platform built with React, GSAP, FastAPI, and integrated Gemini Live real-time voice assistant.",
   CoreInventory:

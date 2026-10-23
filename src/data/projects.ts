@@ -67,6 +67,126 @@ export const allProjects: Project[] = [
     ],
   },
   {
+    slug: "retailflow-microservices",
+    title: "RetailFlow: Polyglot Event-Driven Microservices",
+    type: "Layer A",
+    category: "Distributed Systems",
+    status: "Completed",
+    year: 2026,
+    tagline: "Five services in five languages with a choreographed order saga, CDC outbox, and CQRS",
+    engineeringSummary:
+      "Built a retail system as five independent microservices (Python, Node.js, Java, Go, C#), each owning a different database, behind a Kong gateway with Consul discovery. Orders, invoices and payments complete as an event-driven saga over RabbitMQ, with a Debezium transactional outbox, a CQRS read model, and circuit breakers on every cross-service call.",
+    metrics: ["🧩 5 Languages · 5 Databases", "🔁 Saga + CDC Outbox", "✅ 84 Automated System Checks"],
+    dataFlow:
+      "Kong (HTTPS + JWT) → Order Service (MySQL + outbox) → Debezium CDC → RabbitMQ → Billing (invoice, payment) → Order PAID → Notifications",
+    stack: [
+      "Java 21",
+      "Spring Boot",
+      "Go",
+      "Python (FastAPI)",
+      "Node.js",
+      "C# (.NET 8)",
+      "Kong",
+      "Consul",
+      "RabbitMQ",
+      "Debezium",
+      "gRPC",
+      "Kubernetes",
+      "Prometheus",
+      "Grafana",
+      "React",
+    ],
+    github: "https://github.com/SHIVAMCP18/retailflow-microservices-project",
+    overview:
+      "RetailFlow is a small retail platform (customers, products, orders, invoices, notifications) split into five services, each written in a different language and backed by a different database: Customer (Python, MongoDB), Product (Node.js, PostgreSQL), Order (Java, MySQL), Billing (Go, SQLite) and Notification (C#, Redis). A React storefront shows each order's saga as a live timeline, and the whole system starts with one Docker Compose command or deploys to Kubernetes.",
+    problem:
+      "Splitting a system into services trades one database transaction for many: an order, its stock reservation, invoice and payment now live in different databases, so the system has to stay correct when messages are delayed or duplicated and when a downstream service is down.",
+    solution:
+      "Each service commits its own changes in one local ACID transaction and publishes events through a transactional outbox, which Debezium streams from the MySQL binlog to a RabbitMQ topic exchange. The order → invoice → payment → paid flow is a choreographed saga; every consumer is idempotent, failures go to dead-letter queues, and synchronous calls are protected by Resilience4j and Polly circuit breakers.",
+    architecture: [
+      "Kong API gateway terminates HTTPS, validates RS256 JWTs, rate-limits auth routes, and adds an X-Request-ID that follows each request across HTTP, gRPC and RabbitMQ.",
+      "Every service registers with Consul and a health check; Kong, the Order Service and Prometheus all find services through Consul.",
+      "Order Service reserves stock over gRPC (Product Service, with row locks in PostgreSQL) and checks the customer over REST, each behind a Resilience4j circuit breaker.",
+      "The order, its items and an outbox row commit in one MySQL transaction; Debezium reads the binlog and publishes the outbox rows to RabbitMQ.",
+      "Billing (Go) consumes order.created, creates the invoice and payment, and publishes through its own polling outbox; Order Service updates a separate CQRS read model from those events.",
+      "Notification Service (C#) sends e-mail through a Polly-protected SMTP client and stores in-app notifications in Redis.",
+      "Prometheus, Grafana and Loki/Promtail provide metrics, alerts (including dead-letter queue depth) and searchable logs for every container.",
+    ],
+    engineeringDecisions: [
+      "Used a transactional outbox with CDC instead of publishing directly from request handlers, so an event is sent if and only if its database change commits.",
+      "Chose a choreographed saga over a central orchestrator so each service only reacts to events, with no service owning the whole flow.",
+      "Made every consumer idempotent (processed_events tables, Redis SET NX) because RabbitMQ delivers at least once.",
+      "Gave only the Customer Service the JWT private key; the gateway and every service verify with the public key and enforce roles themselves.",
+      "Locked Kubernetes down with default-deny NetworkPolicies so only the owning service can reach each database.",
+    ],
+    scalingStrategy: [
+      "Stateless services scale horizontally; Product and Customer run two replicas each, load-balanced through Consul.",
+      "An HPA scales service pods on CPU, and quorum queues keep RabbitMQ messages safe across broker restarts.",
+    ],
+    highlights: [
+      "Five languages and five databases, each owned by exactly one service",
+      "Order saga with a live timeline: order.created → invoice.created → payment.completed → order.paid",
+      "Transactional outbox + Debezium CDC, CQRS read model, dead-letter queues",
+      "Circuit breakers, Consul discovery, JWT security, and per-request tracing in Grafana",
+      "Kubernetes manifests with multi-container pods, init containers, HPA and NetworkPolicies",
+      "84-check verification script, including a circuit-breaker failure drill",
+    ],
+  },
+  {
+    slug: "retailflow-devops",
+    title: "RetailFlow DevOps: Cloud Delivery Pipeline",
+    type: "Layer A",
+    category: "Cloud / DevOps",
+    status: "Completed",
+    year: 2026,
+    tagline: "An online store shipped end to end with Docker, Kubernetes, Terraform and a DevSecOps CI/CD pipeline",
+    engineeringSummary:
+      "Delivered a Node.js and PostgreSQL online store through a complete DevOps toolchain: Docker and Docker Compose locally, Kubernetes manifests tested on every push in a kind cluster, Terraform-provisioned cloud infrastructure on Render, and a GitHub Actions pipeline that scans for secrets and vulnerabilities before deploying the exact commit and smoke-testing the live site.",
+    metrics: ["🚀 5-Stage CI/CD Pipeline", "🛡️ Gitleaks + Trivy Gates", "☸️ K8s Tested on Every Push"],
+    dataFlow:
+      "git push → Test → Security Scan → Build + Image Scan → kind Kubernetes Test → Render Deploy (exact SHA) → Live Smoke Test",
+    stack: [
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "GitHub Actions",
+      "Trivy",
+      "Gitleaks",
+      "Render",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Caddy",
+    ],
+    github: "https://github.com/SHIVAMCP18/retailflow-devops",
+    overview:
+      "A multi-page online store (shop with cart, orders, an admin dashboard, and a live 'How it's built' status page) built to demonstrate the full delivery lifecycle. The same container runs on a laptop with Docker Compose, on Kubernetes with two replicas, and in the cloud on Render, and the site itself shows which commit and which pod served each request.",
+    problem:
+      "A working app is only half of shipping software: it also needs reproducible environments, infrastructure that can be recreated on demand, and a release process that blocks leaked secrets, vulnerable dependencies and broken deployments before users see them.",
+    solution:
+      "Packaged the service as a small non-root Docker image, described the cloud resources in Terraform, and wired a GitHub Actions pipeline that tests, scans, builds, proves the app works on a real Kubernetes cluster, then deploys that exact commit to Render, waits until it is live, and runs the same smoke test against the public URL.",
+    architecture: [
+      "Express API (/api/products, /api/orders, /api/stats, /api/info) with a health endpoint and graceful shutdown; placing an order reserves stock for every cart item in one PostgreSQL transaction.",
+      "Docker Compose runs the app, PostgreSQL and a Caddy reverse proxy with health checks and volumes.",
+      "Kubernetes: a Deployment with 2 replicas, probes, resource limits and a read-only filesystem, a PostgreSQL StatefulSet with a persistent volume, and the password stored as a Secret.",
+      "Terraform uses Render's provider to create the web service (built from the Dockerfile) and a managed PostgreSQL database, and connects them.",
+      "GitHub Actions: unit tests → Gitleaks and Trivy scans → image build and scan → kind cluster test → push to GHCR → Render deploy and live smoke test.",
+    ],
+    engineeringDecisions: [
+      "Ran the same smoke-test script locally, against the kind cluster in CI, and against the live URL, so 'it works' means the same thing everywhere.",
+      "Deployed by commit SHA through the Render API and showed the running SHA in the UI, making every release traceable.",
+      "Shifted security left: secret, dependency, image and misconfiguration scans fail the pipeline before anything ships.",
+      "Kept secrets out of Git entirely: Render generates the database password, Terraform passes it to the app, and the API key lives in GitHub secrets.",
+    ],
+    highlights: [
+      "One container image across Docker Compose, Kubernetes and the cloud",
+      "Infrastructure as Code with Terraform (apply / destroy in one command)",
+      "DevSecOps gates: Gitleaks, Trivy dependency, image and config scans, Dependabot",
+      "Kubernetes verified automatically on every push in a temporary kind cluster",
+      "Live status page showing health, database latency, deployed commit and serving pod",
+    ],
+  },
+  {
     slug: "streaming-analytics-pipeline",
     title: "Real-Time Streaming Analytics Pipeline",
     type: "Layer A",
@@ -668,11 +788,11 @@ export const allProjects: Project[] = [
 
 export const homepageFeaturedSlugs = [
   "flowforge",
-  "streaming-analytics-pipeline",
+  "retailflow-microservices",
   "voiceiq-enterprise",
+  "retailflow-devops",
+  "streaming-analytics-pipeline",
   "distributed-webhook-delivery",
-  "zentry-gaming-multiverse",
-  "lakehouse-platform",
 ];
 
 export const layerAProjects = allProjects.filter((p) => p.type === "Layer A");

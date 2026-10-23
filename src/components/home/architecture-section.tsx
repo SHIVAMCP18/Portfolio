@@ -41,6 +41,24 @@ const systems: SystemBlueprint[] = [
     ],
   },
   {
+    id: "retailflow",
+    label: "Event-Driven Saga",
+    heading: "RetailFlow — polyglot microservices",
+    projectSlug: "retailflow-microservices",
+    nodes: [
+      { title: "API Gateway", tech: "Kong · JWT", detail: "Kong terminates HTTPS, verifies the RS256 JWT, rate-limits and stamps an X-Request-ID, then routes to services it finds through Consul." },
+      { title: "Place Order", tech: "Java · MySQL", detail: "Order Service reserves stock over gRPC and writes the order, its items and an outbox row in one local MySQL transaction." },
+      { title: "Outbox CDC", tech: "Debezium", detail: "Debezium tails the MySQL binlog and publishes each outbox row, so an event goes out if and only if its transaction committed." },
+      { title: "Event Bus", tech: "RabbitMQ", detail: "A topic exchange fans order.*, invoice.* and payment.* events to idempotent consumers, with retries and dead-letter queues." },
+      { title: "Invoice + Pay", tech: "Go · SQLite", detail: "Billing creates the invoice and records payment, then publishes payment.completed; Order Service marks the order PAID in its CQRS read model." },
+    ],
+    rationale: [
+      { title: "No distributed transaction", text: "Each service commits locally and the saga moves forward through events, so no two databases ever need to lock together." },
+      { title: "Never lose an event", text: "The transactional outbox plus CDC removes the gap between 'saved' and 'published'." },
+      { title: "Failures stay contained", text: "Circuit breakers fail fast when a dependency is down, and bad messages land in a DLQ instead of blocking the queue." },
+    ],
+  },
+  {
     id: "streaming",
     label: "Real-Time Streaming",
     heading: "Clickstream analytics on GCP",
