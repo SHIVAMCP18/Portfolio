@@ -13,7 +13,7 @@ export default function Login({ onLogin, notify }) {
     try {
       if (mode === 'register') {
         await api('POST', '/auth/register', { name: form.name, email: form.email, password: form.password, phone: form.phone || null });
-        notify('Account created - a welcome e-mail is on its way');
+        notify('Welcome to RetailFlow! Check your inbox for a welcome email.');
       }
       const { token } = await api('POST', '/auth/login', { email: form.email, password: form.password });
       setToken(token);
@@ -23,22 +23,17 @@ export default function Login({ onLogin, notify }) {
     } finally { setBusy(false); }
   }
 
-  const fill = (email, password) => setForm({ ...form, email, password });
-
   return (
     <div className="login-page">
       <div className="login-hero">
         <div className="brand big"><span className="logo">R</span> RetailFlow</div>
-        <h1>Order management on five microservices.</h1>
-        <p>Every click on this site goes through the Kong API gateway to services written in
-          Python, Node.js, Java, Go and C# - each with its own database.</p>
-        <ul className="stack">
-          <li><b>Customer</b> Python · MongoDB</li>
-          <li><b>Product</b> Node.js · PostgreSQL</li>
-          <li><b>Order</b> Java · MySQL</li>
-          <li><b>Billing</b> Go · SQLite</li>
-          <li><b>Notification</b> C# · Redis</li>
-        </ul>
+        <h1>Desk gear and books, delivered.</h1>
+        <p>Order in a couple of clicks, pay when the invoice arrives and follow your order until it's confirmed.</p>
+        <div className="hero-points">
+          <div><strong>Live order tracking</strong><span>See each step as it happens</span></div>
+          <div><strong>Pay your way</strong><span>UPI, card or net banking</span></div>
+          <div><strong>Instant updates</strong><span>Email and in-app notifications</span></div>
+        </div>
       </div>
       <form className="card login-card" onSubmit={submit}>
         <div className="tabs">
@@ -47,16 +42,14 @@ export default function Login({ onLogin, notify }) {
         </div>
         {mode === 'register' && (<>
           <label>Full name<input required minLength={2} value={form.name} onChange={set('name')} placeholder="Asha Shah" /></label>
-          <label>Phone (optional, for SMS)<input value={form.phone} onChange={set('phone')} placeholder="+91 99999 99999" /></label>
+          <label>Phone <span className="muted">(optional)</span><input value={form.phone} onChange={set('phone')} placeholder="+91 98765 43210" /></label>
         </>)}
-        <label>E-mail<input required type="email" value={form.email} onChange={set('email')} placeholder="you@example.com" /></label>
+        <label>Email<input required type="email" value={form.email} onChange={set('email')} placeholder="you@example.com" /></label>
         <label>Password<input required type="password" minLength={mode === 'register' ? 8 : 1} value={form.password} onChange={set('password')} placeholder={mode === 'register' ? 'At least 8 characters' : ''} /></label>
         <button className="primary" disabled={busy}>{busy ? 'Please wait…' : mode === 'login' ? 'Sign in' : 'Create account'}</button>
-        <div className="hint">
-          Demo admin: <a href="#" onClick={e => { e.preventDefault(); setMode('login'); fill('admin@example.com', 'Admin@12345'); }}>admin@example.com / Admin@12345</a>
-          <br />Or create a customer account.
-        </div>
-        <small className="muted">Signed in with an RS256 JWT issued by the Customer Service.</small>
+        <p className="hint">
+          Store admin? Use <button type="button" className="link" onClick={() => { setMode('login'); setForm({ ...form, email: 'admin@example.com', password: 'Admin@12345' }); }}>admin@example.com</button>
+        </p>
       </form>
     </div>
   );

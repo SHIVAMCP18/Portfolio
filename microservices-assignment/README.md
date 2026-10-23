@@ -39,9 +39,9 @@ React website at `/` and routes its API calls to the five services.
 | Invoices | Billing Service invoices with payment status |
 | Notifications | In-app notifications (Notification Service), with a badge in the menu |
 | Admin (admin only) | Add products and set stock, all orders with revenue, all customers |
-| Architecture | Diagram, the patterns used, and links to Consul, RabbitMQ, Grafana, Prometheus and Mailpit |
+| System | Diagram, the patterns used, and links to Consul, RabbitMQ, Grafana, Prometheus and Mailpit |
 
-The **"Live API calls through Kong"** bar at the bottom lists every request the page made: the
+The **Request log** bar at the bottom lists every request the page made: the
 service and language that answered, the status, the time it took, and the `X-Request-ID`
 (search for it in Grafana logs).
 
@@ -82,6 +82,24 @@ docker compose ps               # wait until the services are "Up"
 
 Stop: `docker compose down` (keeps data) or `docker compose down -v` (fresh start).
 
+### Check that everything works
+
+```bash
+./scripts/check.sh                    # 84 checks: containers, Consul, Kong, every endpoint, events, CDC, monitoring
+./scripts/check.sh --circuit-breaker  # also stops Product Service to prove the breaker opens and recovers
+```
+
+Each check prints PASS or FAIL, so if something is broken you can see exactly which part.
+
+### Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| `variable is not set` warnings | `.env` is missing: `cp .env.example .env` |
+| `TLS handshake timeout` / `Name or service not known` while building | Network problem. Run the command again, restart Docker Desktop, or switch networks. |
+| Website says "name resolution failed" right after start | Services are still registering in Consul. Wait 30–60 s. |
+| A service stays red in Consul, or placing an order fails | Start from scratch: `docker compose down -v && docker compose up -d`, then `./scripts/check.sh` |
+
 ## Run it on Kubernetes
 
 ```bash
@@ -114,7 +132,7 @@ Calico or Cilium). The HPA needs metrics-server.
 
 ## Things to show in a demo
 
-1. **The website**: open https://localhost:8443, register a customer, add two products to the cart, place the order, and watch the timeline fill in. Click **Pay with UPI** and the order turns PAID. Open the "Live API calls" bar to show which service answered each request.
+1. **The website**: open https://localhost:8443, register a customer, add two products to the cart, place the order, and watch the timeline fill in. Click **UPI** and the order turns Paid. Open the "Request log" bar to show which service answered each request.
 1. **The order flow from the terminal**: run `./scripts/demo.sh`. The order's `history` shows `order.created → invoice.created → payment.completed → order.paid` arriving asynchronously.
 2. **Circuit breaker**: `docker compose stop product-service`, then place two or three orders. Responses switch to a fast `503 … circuit breaker fallback`. Check `docker compose exec order-service wget -qO- localhost:8083/actuator/circuitbreakers` (state `OPEN`) and the Grafana panel. Restart the service with `docker compose start product-service`.
 3. **Discovery**: open the Consul UI. Stop a service and watch its health check turn red; Kong stops routing to it.

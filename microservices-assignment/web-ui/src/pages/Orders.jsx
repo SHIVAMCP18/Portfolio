@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { api, money } from '../api.js';
+import Icon from '../Icon.jsx';
 
-// The saga steps as they arrive from RabbitMQ into the CQRS read model.
+// Each step is filled in when the matching event reaches the order's read model.
 const STEPS = [
-  { event: 'order.created', title: 'Order placed', detail: 'Order Service saved the order, its items and an outbox event in one MySQL transaction.' },
-  { event: 'invoice.created', title: 'Invoice created', detail: 'Debezium published order.created; Billing Service (Go) created the invoice.' },
-  { event: 'payment.completed', title: 'Payment received', detail: 'Billing Service recorded the payment and published payment.completed.' },
-  { event: 'order.paid', title: 'Order confirmed', detail: 'Order Service consumed payment.completed and marked the order PAID.' }
+  { event: 'order.created', title: 'Order received', detail: 'We have your order and reserved the items.' },
+  { event: 'invoice.created', title: 'Invoice issued', detail: 'Your invoice is ready to pay.' },
+  { event: 'payment.completed', title: 'Payment received', detail: 'Thanks, your payment went through.' },
+  { event: 'order.paid', title: 'Order confirmed', detail: 'Your order is confirmed and will ship soon.' }
 ];
 
 export default function Orders({ user, selected, go, notify }) {
@@ -18,10 +19,10 @@ export default function Orders({ user, selected, go, notify }) {
   return (
     <div>
       <header className="page-head">
-        <div><h1>{user.role === 'ADMIN' ? 'All orders' : 'My orders'}</h1>
-          <p className="muted">Read from the CQRS read model <code>order_view</code> (Order Service, Java + MySQL)</p></div>
+        <div><h1>{user.role === 'ADMIN' ? 'All orders' : 'Your orders'}</h1>
+          <p className="muted">{orders ? `${orders.length} order${orders.length === 1 ? '' : 's'}` : 'Loading…'}</p></div>
       </header>
-      {orders && orders.length === 0 && <div className="card empty">No orders yet. <a href="#/shop">Go shopping →</a></div>}
+      {orders && orders.length === 0 && <div className="card empty">You haven't ordered anything yet. <a href="#/shop">Browse the shop</a></div>}
       <div className="list">
         {(orders || []).map(o => (
           <button key={o.orderId} className="card list-row" onClick={() => go('orders', o.orderId)}>
@@ -62,7 +63,7 @@ function OrderDetail({ id, go, notify }) {
     setPaying(true);
     try {
       await api('POST', `/billing/invoices/${order.invoiceId}/pay`, { method });
-      notify('Payment recorded by the Billing Service');
+      notify('Payment successful');
       setOrder({ ...order });
     } catch (error) { notify(error.message, 'error'); }
     finally { setPaying(false); }
@@ -75,16 +76,13 @@ function OrderDetail({ id, go, notify }) {
   return (
     <div>
       <header className="page-head">
-        <div><button className="link" onClick={() => go('orders')}>← All orders</button>
+        <div><button className="link back" onClick={() => go('orders')}><Icon name="arrowLeft" size={16} /> All orders</button>
           <h1>Order #{id.slice(0, 8)}</h1></div>
         {view && <StatusPill status={view.status} />}
       </header>
 
       {waiting && (
-        <div className="card notice">
-          ⏳ <b>Eventual consistency in action:</b> the order is saved, but the read model is built
-          asynchronously from events, so it can take a moment to appear here.
-        </div>
+        <div className="card notice"><span className="spinner" /> Processing your order…</div>
       )}
 
       <div className="detail">
@@ -93,21 +91,20 @@ function OrderDetail({ id, go, notify }) {
           <ol className="timeline">
             {STEPS.map(step => (
               <li key={step.event} className={done.has(step.event) ? 'done' : ''}>
-                <span className="dot">{done.has(step.event) ? '✓' : ''}</span>
+                <span className="dot">{done.has(step.event) && <Icon name="check" size={15} />}</span>
                 <div>
                   <strong>{step.title}</strong>
                   {at(step.event) && <small className="muted"> · {new Date(at(step.event)).toLocaleTimeString()}</small>}
-                  <p className="muted small">{step.detail}</p>
-                  <code className="event">{step.event}</code>
+                  <p className="muted small" title={`Event: ${step.event}`}>{step.detail}</p>
                 </div>
               </li>
             ))}
           </ol>
           {order?.invoiceId && order.paymentStatus !== 'PAID' && (
             <div className="pay-box">
-              <div><strong>Invoice {order.invoiceId}</strong><small className="muted">waiting for payment</small></div>
+              <div><strong>Invoice {order.invoiceId}</strong><small className="muted">Choose how you'd like to pay</small></div>
               <div className="row">
-                {['UPI', 'CARD', 'NETBANKING'].map(m => <button key={m} className="primary" disabled={paying} onClick={() => pay(m)}>Pay with {m}</button>)}
+                {['UPI', 'CARD', 'NETBANKING'].map(m => <button key={m} className="primary" disabled={paying} onClick={() => pay(m)}>{m === 'NETBANKING' ? 'Net banking' : m === 'CARD' ? 'Card' : 'UPI'}</button>)}
               </div>
             </div>
           )}
@@ -118,14 +115,14 @@ function OrderDetail({ id, go, notify }) {
             <h2>Items</h2>
             {view.items.map(item => (
               <div key={item.productId} className="row between item-line">
-                <span>{item.quantity} × {item.name}</span><span>{money(item.unitPrice * item.quantity)}</span>
+                <span>{item.name} <span className="muted">x{item.quantity}</span></span><span>{money(item.unitPrice * item.quantity)}</span>
               </div>
             ))}
             <div className="row between total"><span>Total</span><strong>{money(view.total, view.currency)}</strong></div>
             <dl className="meta">
               <dt>Customer</dt><dd>{view.customerName}</dd>
-              <dt>Invoice</dt><dd>{view.invoiceId || '—'}</dd>
-              <dt>Payment</dt><dd>{view.paymentStatus || '—'}</dd>
+              <dt>Invoice</dt><dd>{view.invoiceId || 'Pending'}</dd>
+              <dt>Payment</dt><dd>{view.paymentStatus === 'PAID' ? 'Paid' : view.paymentStatus === 'UNPAID' ? 'Awaiting payment' : 'Pending'}</dd>
             </dl>
           </div>
         )}

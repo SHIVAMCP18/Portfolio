@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { api, money } from '../api.js';
 import { StatusPill } from './Orders.jsx';
+import Icon from '../Icon.jsx';
 
 export default function Invoices({ user, notify, go }) {
   const [invoices, setInvoices] = useState(null);
@@ -10,7 +11,7 @@ export default function Invoices({ user, notify, go }) {
   async function pay(invoice) {
     try {
       await api('POST', `/billing/invoices/${invoice.invoiceId}/pay`, { method: 'UPI' });
-      notify(`${invoice.invoiceId} paid`);
+      notify('Payment successful');
       load();
     } catch (error) { notify(error.message, 'error'); }
   }
@@ -18,8 +19,8 @@ export default function Invoices({ user, notify, go }) {
   return (
     <div>
       <header className="page-head">
-        <div><h1>Invoices</h1><p className="muted">Billing Service (Go + SQLite) creates an invoice for every order.created event</p></div>
-        <button className="ghost" onClick={load}>↻ Refresh</button>
+        <div><h1>Invoices</h1><p className="muted">One invoice per order</p></div>
+        <button className="ghost row" onClick={load}><Icon name="refresh" size={16} /> Refresh</button>
       </header>
       {invoices && invoices.length === 0 && <div className="card empty">No invoices yet.</div>}
       <div className="card table-card">
@@ -33,7 +34,7 @@ export default function Invoices({ user, notify, go }) {
                 {user.role === 'ADMIN' && <td>{i.customerEmail}</td>}
                 <td>{money(i.amount, i.currency)}</td>
                 <td><StatusPill status={i.status} /></td>
-                <td className="muted">{i.paidAt ? `${new Date(i.paidAt).toLocaleString()} · ${i.paymentMethod}` : '—'}</td>
+                <td className="muted">{i.paidAt ? `${new Date(i.paidAt).toLocaleString()} via ${i.paymentMethod}` : ''}</td>
                 <td>{i.status === 'UNPAID' && <button className="primary small" onClick={() => pay(i)}>Pay</button>}</td>
               </tr>
             ))}

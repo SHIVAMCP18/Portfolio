@@ -11,11 +11,11 @@ export default function ApiLog() {
   return (
     <section className={`apilog ${open ? 'open' : ''}`}>
       <button className="apilog-toggle" onClick={() => setOpen(!open)}>
-        <span className="pulse" /> Live API calls through Kong ({entries.length}) {open ? '▾' : '▴'}
+        <span className="pulse" /> Request log <span className="muted">· {entries.length} calls through the gateway</span><span className="chev">{open ? 'Hide' : 'Show'}</span>
       </button>
       {open && (
         <div className="apilog-body">
-          {entries.length === 0 && <p className="muted">No requests yet.</p>}
+          {entries.length === 0 && <p className="muted">Nothing yet.</p>}
           <table>
             <tbody>
               {entries.map(e => (

@@ -8,14 +8,15 @@ import Notifications from './pages/Notifications.jsx';
 import Admin from './pages/Admin.jsx';
 import Architecture from './pages/Architecture.jsx';
 import ApiLog from './ApiLog.jsx';
+import Icon from './Icon.jsx';
 
 const PAGES = [
-  { id: 'shop', label: 'Shop', icon: '🛍️' },
-  { id: 'orders', label: 'My orders', icon: '📦' },
-  { id: 'invoices', label: 'Invoices', icon: '🧾' },
-  { id: 'notifications', label: 'Notifications', icon: '🔔' },
-  { id: 'admin', label: 'Admin', icon: '🛠️', admin: true },
-  { id: 'architecture', label: 'Architecture', icon: '🧩' }
+  { id: 'shop', label: 'Shop', icon: 'shop' },
+  { id: 'orders', label: 'Orders', icon: 'orders' },
+  { id: 'invoices', label: 'Invoices', icon: 'invoice' },
+  { id: 'notifications', label: 'Notifications', icon: 'bell' },
+  { id: 'admin', label: 'Admin', icon: 'admin', admin: true },
+  { id: 'architecture', label: 'System', icon: 'system' }
 ];
 
 function useHashPage() {
@@ -72,7 +73,7 @@ export default function App() {
         <nav>
           {visible.map(p => (
             <a key={p.id} href={`#/${p.id}`} className={active === p.id ? 'active' : ''}>
-              <span>{p.icon}</span> {p.label}
+              <Icon name={p.icon} /> {p.label}
               {p.id === 'notifications' && unread > 0 && <span className="badge">{unread}</span>}
               {p.id === 'shop' && cart.length > 0 && <span className="badge soft">{cart.reduce((n, l) => n + l.quantity, 0)}</span>}
             </a>
@@ -84,7 +85,7 @@ export default function App() {
             <strong>{user.name}</strong>
             <small>{user.role === 'ADMIN' ? 'Administrator' : 'Customer'}</small>
           </div>
-          <button className="ghost" onClick={logout} title="Sign out">⎋</button>
+          <button className="ghost icon-btn" onClick={logout} title="Sign out"><Icon name="logout" /></button>
         </div>
       </aside>
 

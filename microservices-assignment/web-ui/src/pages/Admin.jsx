@@ -7,7 +7,7 @@ export default function Admin({ notify }) {
   return (
     <div>
       <header className="page-head">
-        <div><h1>Admin</h1><p className="muted">Only tokens with role ADMIN can use these endpoints - every service checks the role itself.</p></div>
+        <div><h1>Admin</h1><p className="muted">Manage products, orders and customers</p></div>
         <div className="tabs inline">
           {['products', 'orders', 'customers'].map(t => <button key={t} className={tab === t ? 'active' : ''} onClick={() => setTab(t)}>{t[0].toUpperCase() + t.slice(1)}</button>)}
         </div>
@@ -29,7 +29,7 @@ function Products({ notify }) {
     e.preventDefault();
     try {
       const p = await api('POST', '/products', { name: form.name, price: Number(form.price), stock: Number(form.stock), category: form.category });
-      notify(`Created product #${p.id}`);
+      notify(`${p.name} added`);
       setForm({ ...form, name: '', price: '', stock: '' });
       load();
     } catch (error) { notify(error.message, 'error'); }
@@ -45,7 +45,7 @@ function Products({ notify }) {
   return (
     <div className="admin-grid">
       <form className="card" onSubmit={create}>
-        <h2>New product</h2>
+        <h2>Add a product</h2>
         <label>Name<input required value={form.name} onChange={e => setForm({ ...form, name: e.target.value })} /></label>
         <div className="row">
           <label>Price (INR)<input required type="number" min="0" step="0.01" value={form.price} onChange={e => setForm({ ...form, price: e.target.value })} /></label>
@@ -53,7 +53,7 @@ function Products({ notify }) {
         </div>
         <label>Category<input value={form.category} onChange={e => setForm({ ...form, category: e.target.value })} list="categories" /></label>
         <datalist id="categories">{[...new Set(products.map(p => p.category))].map(c => <option key={c} value={c} />)}</datalist>
-        <button className="primary">Create product</button>
+        <button className="primary">Add product</button>
       </form>
       <div className="card table-card">
         <table className="table">
@@ -63,7 +63,7 @@ function Products({ notify }) {
               <tr key={p.id}>
                 <td>{p.id}</td><td>{p.name}</td><td>{p.category}</td><td>{money(p.price)}</td>
                 <td><span className={p.stock > 0 ? (p.stock < 5 ? 'stock low' : 'stock') : 'stock out'}>{p.stock}</span></td>
-                <td><button className="ghost small" onClick={() => restock(p)}>Set stock</button></td>
+                <td><button className="ghost small" onClick={() => restock(p)}>Edit stock</button></td>
               </tr>
             ))}
           </tbody>
@@ -93,7 +93,7 @@ function AllOrders({ notify }) {
               <tr key={o.orderId}>
                 <td><a href={`#/orders/${o.orderId}`}>#{o.orderId.slice(0, 8)}</a></td>
                 <td>{o.customerName}</td><td>{o.items.reduce((n, i) => n + i.quantity, 0)}</td>
-                <td>{money(o.total, o.currency)}</td><td className="mono">{o.invoiceId || '—'}</td>
+                <td>{money(o.total, o.currency)}</td><td className="mono">{o.invoiceId || ''}</td>
                 <td><StatusPill status={o.status} /></td><td className="muted">{new Date(o.createdAt).toLocaleString()}</td>
               </tr>
             ))}
@@ -114,7 +114,7 @@ function Customers({ notify }) {
         <tbody>
           {customers.map(c => (
             <tr key={c.id}>
-              <td>{c.name}</td><td>{c.email}</td><td>{c.phone || '—'}</td>
+              <td>{c.name}</td><td>{c.email}</td><td>{c.phone || ''}</td>
               <td><span className="tag">{c.role}</span></td><td><StatusPill status={c.status} /></td>
               <td className="muted">{new Date(c.createdAt).toLocaleDateString()}</td>
             </tr>

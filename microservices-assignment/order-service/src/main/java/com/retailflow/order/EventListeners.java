@@ -36,7 +36,8 @@ public class EventListeners {
   public void onPayment(Message message) {
     JsonNode event = read(message);
     JsonNode p = event.path("payload");
-    orders.markPaid(event.path("eventId").asText(), p.path("orderId").asText(), p.path("invoiceId").asText());
+    orders.markPaid(event.path("eventId").asText(), p.path("orderId").asText(), p.path("invoiceId").asText(),
+        p.path("customerId").asText(), p.path("customerEmail").asText());
   }
 
   /**

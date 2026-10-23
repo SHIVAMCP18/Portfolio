@@ -86,11 +86,12 @@ public class OrderService {
   }
 
   /** Saga step: Billing reported a successful payment. */
-  public void markPaid(String eventId, String orderId, String invoiceId) {
+  public void markPaid(String eventId, String orderId, String invoiceId, String customerId, String customerEmail) {
     tx.executeWithoutResult(status -> {
       if (!firstDelivery("order-payments", eventId)) return;
       int updated = db.update("UPDATE orders SET status = 'PAID', version = version + 1 WHERE id = ? AND status = 'PENDING_PAYMENT'", orderId);
-      if (updated == 1) writeOutbox(orderId, "order.paid", Map.of("orderId", orderId, "invoiceId", invoiceId, "status", "PAID"));
+      if (updated == 1) writeOutbox(orderId, "order.paid", Map.of("orderId", orderId, "invoiceId", invoiceId, "status", "PAID",
+          "customerId", customerId, "customerEmail", customerEmail));
       log.info("order {} marked PAID (invoice {})", orderId, invoiceId);
     });
   }

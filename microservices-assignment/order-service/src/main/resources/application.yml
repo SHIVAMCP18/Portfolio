@@ -35,10 +35,14 @@ spring:
         instance-id: order-service-${HOSTNAME:local}
         prefer-ip-address: true
         ip-address: ${POD_IP:${spring.cloud.client.ip-address}}
-        # Consul calls this endpoint every 10 s, like it does for the other services.
-        health-check-path: /actuator/health/liveness
+        # Consul calls this every 10 s. The "consul" health group checks the
+        # database but not the circuit breakers, so an open breaker (which is
+        # expected behaviour) doesn't take Order Service out of rotation.
+        health-check-path: /actuator/health/consul
         health-check-interval: 10s
         health-check-critical-timeout: 1m
+        # Only hand out instances whose Consul health check is passing.
+        query-passing: true
         tags: [java]
         metadata:
           metrics_path: /actuator/prometheus
@@ -72,6 +76,9 @@ management:
       show-details: always
       probes:
         enabled: true
+      group:
+        consul:
+          include: db,ping
   health:
     circuitbreakers:
       enabled: true
