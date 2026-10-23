@@ -35,13 +35,10 @@ spring:
         instance-id: order-service-${HOSTNAME:local}
         prefer-ip-address: true
         ip-address: ${POD_IP:${spring.cloud.client.ip-address}}
+        # Consul calls this endpoint every 10 s, like it does for the other services.
+        health-check-path: /actuator/health/liveness
+        health-check-interval: 10s
         health-check-critical-timeout: 1m
-        # TTL heartbeat that reports the actuator health; if Consul loses the
-        # registration (e.g. a Consul restart) the service registers again.
-        heartbeat:
-          enabled: true
-          ttl: 15s
-          reregister-service-on-failure: true
         tags: [java]
         metadata:
           metrics_path: /actuator/prometheus
@@ -73,6 +70,8 @@ management:
   endpoint:
     health:
       show-details: always
+      probes:
+        enabled: true
   health:
     circuitbreakers:
       enabled: true

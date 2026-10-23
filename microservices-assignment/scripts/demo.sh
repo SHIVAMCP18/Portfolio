@@ -25,6 +25,18 @@ ADMIN_TOKEN=$(call POST /auth/login "" "{\"email\":\"$ADMIN_EMAIL\",\"password\"
 [ -n "$ADMIN_TOKEN" ] || { echo "admin login failed - check ADMIN_EMAIL/ADMIN_PASSWORD (or wait a minute if rate-limited)"; exit 1; }
 echo "admin token: ${ADMIN_TOKEN:0:40}..."
 
+printf "waiting until all services are registered and healthy"
+for i in $(seq 1 60); do
+  ready=1
+  for path in /products /customers /orders /billing/invoices /notifications; do
+    code=$(status GET "$path" "$ADMIN_TOKEN")
+    [ "$code" = "200" ] || ready=0
+  done
+  [ "$ready" = 1 ] && break
+  printf "."; sleep 3
+done
+echo
+
 bold "3. Admin creates a product (Product Service -> PostgreSQL)"
 PRODUCT=$(call POST /products "$ADMIN_TOKEN" '{"name":"Mechanical keyboard","price":2499,"stock":5,"category":"Electronics"}')
 echo "$PRODUCT"
