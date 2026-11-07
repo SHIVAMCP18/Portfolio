@@ -6,14 +6,16 @@ export const githubConfig = {
 // Repos to spotlight in the GitHub activity section
 export const featuredRepoNames = [
   "Flowforge",
+  "QuantScript",
   "retailflow-microservices-project",
   "Customer-Intelligence-Platform",
   "retailflow-devops",
   "Gaming-Website",
-  "CoreInventory",
 ];
 
 export const githubDescriptionOverrides: Record<string, string> = {
+  QuantScript:
+    "Trading-signal DSL compiler (C++17, Flex, Bison): units-of-measure types and a causality checker reject look-ahead bias at compile time; TAC optimizer, graph-coloring register allocation, C++ codegen.",
   "retailflow-microservices-project":
     "RetailFlow: five microservices in Python, Node.js, Java, Go and C#, each with its own database, behind Kong + Consul, with a RabbitMQ order saga, Debezium outbox CDC and CQRS.",
   "retailflow-devops":

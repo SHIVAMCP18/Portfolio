@@ -67,6 +67,50 @@ export const allProjects: Project[] = [
     ],
   },
   {
+    slug: "quantscript",
+    title: "QuantScript: Unit-Checked Trading DSL Compiler",
+    type: "Layer A",
+    category: "Compilers & Systems",
+    status: "Completed",
+    year: 2026,
+    tagline: "A trading-strategy language whose compiler rejects look-ahead bias and unit errors, then emits optimized C++17",
+    engineeringSummary:
+      "Built a compiler in C++17 with Flex and Bison for a trading-signal DSL. A units-of-measure type system and a compile-time causality checker reject dimensional nonsense and look-ahead bias; the backend lowers to three-address code, runs data-flow optimizations and window strength reduction, allocates registers by graph coloring, and emits a self-contained C++ backtest.",
+    metrics: ["🧪 215 Tests Passing", "⚡ 41× Faster at -O2", "🧭 13 Compiler Phases Visualized"],
+    dataFlow:
+      "Source (.qs) → Flex/Bison Parser → Typed AST (units + causality) → TAC → Optimizer → Graph-Coloring RegAlloc → C++17 Codegen",
+    stack: ["C++17", "Flex", "Bison", "Python", "Make", "JavaScript"],
+    github: "https://github.com/SHIVAMCP18/QuantScript",
+    overview:
+      "QuantScript is a domain-specific language for trading signals. Strategies declare series, parameters and state with physical-style units (price, volume, notional), and react to bar_open / bar_close events. The compiler proves at compile time that no rule reads data from the future and that every expression is dimensionally sound, then generates a fast, self-contained C++ class with a backtest harness that reports trades, equity, drawdown and Sharpe ratio.",
+    problem:
+      "Backtests often report results no live strategy could achieve: a rule silently trades at the open using that same bar's close (look-ahead bias), or adds a price to a volume. These bugs make it through code review and only show up as losses in production.",
+    solution:
+      "Made both mistakes compile errors. Every value carries a dimension vector of price and volume exponents, so `close + volume` is error E401 while `close * volume` is notional. Every series read carries a (bars-ago, open/close phase) stamp, so reading `close[0]` inside `on bar_open` is error E502. Diagnostics point at the exact span with a fix-it hint.",
+    architecture: [
+      "Flex lexer and a Bison LALR parser built with conflicts treated as errors; a separate regex-to-DFA tool shows the lexer's automata.",
+      "Semantic analysis builds the symbol table and a typed AST, checking units-of-measure dimensions on every operator and builtin.",
+      "The causality checker stamps every read with how many bars back and which phase it comes from, and proves each handler only reads data already known.",
+      "IR generation lowers to three-address code; passes include constant folding, copy propagation, dead-code elimination and data-flow analysis over a CFG.",
+      "Window strength reduction turns mean/sum/std into O(1) running accumulators and highest/lowest into monotonic deques.",
+      "Register allocation by graph coloring on an interference graph, then C++17 code generation with an embedded backtest harness.",
+      "A static phase viewer renders all 13 phases: DFAs, parse tree, typed AST, causality timeline, optimizer diffs, CFG and an animated interference graph.",
+    ],
+    engineeringDecisions: [
+      "Encoded units as integer exponent vectors so multiplication and division compose dimensions automatically, instead of hard-coding allowed operator pairs.",
+      "Kept a TAC interpreter alongside the C++ backend and tested them against each other (differential testing) so optimizer bugs surface as mismatched orders.",
+      "Made output deterministic and byte-identical across runs, verified in the test suite, so generated code is diffable and reviewable.",
+      "Generated code compiles cleanly under -Wall -Wextra -Werror, and optional strong-type wrappers re-check units in the emitted C++.",
+    ],
+    highlights: [
+      "Compile-time detection of look-ahead bias and unit errors, with rustc-style diagnostics",
+      "Three-address code, data-flow optimizations and graph-coloring register allocation",
+      "O(N) → O(1) window strength reduction: 41× faster at -O2 on 5M bars (~100M bars/s)",
+      "215 tests across lexer, parser, types, causality, optimizer, differential, regalloc and determinism",
+      "Interactive viewer for every compiler phase, with no build step and no network",
+    ],
+  },
+  {
     slug: "retailflow-microservices",
     title: "RetailFlow: Polyglot Event-Driven Microservices",
     type: "Layer A",
@@ -751,6 +795,47 @@ export const allProjects: Project[] = [
     ],
   },
   {
+    slug: "lunar-ice-prospecting",
+    title: "Project Shishir: Lunar Subsurface Ice & Rover Path Planning (ISRO BAH 2026)",
+    type: "Layer B",
+    category: "AI / Vision",
+    status: "Completed",
+    year: 2026,
+    tagline: "Team hackathon project: detecting buried water ice at the Moon's south pole from Chandrayaan-2 radar and planning a safe rover route",
+    engineeringSummary:
+      "Team solution to ISRO's Bharatiya Antariksh Hackathon 2026 problem statement 8. A Python geospatial pipeline fuses Chandrayaan-2 DFSAR polarimetric radar, OHRC imagery and NASA LOLA terrain to map likely subsurface ice in permanently shadowed craters, estimate its volume, and plan a hazard-avoiding A* rover traverse, with results in QGIS and a web mission dashboard.",
+    metrics: ["🛰️ Chandrayaan-2 DFSAR Radar", "🧊 CPR + DOP Ice Detection", "🤖 A* Rover Traverse"],
+    dataFlow:
+      "DFSAR L/S-band → Stokes, CPR, DOP → Ice Mask → Co-register to LOLA DEM → Looyenga Volume → A* Traverse → QGIS GeoTIFFs + Dashboard",
+    stack: ["Python", "NumPy", "Rasterio", "GDAL", "QGIS", "Matplotlib", "JavaScript", "HTML / CSS"],
+    github: "https://github.com/SoulBreaker9/BAH-2026",
+    overview:
+      "Permanently shadowed craters at the lunar south pole may hold water ice, but optical cameras see nothing there and radar alone confuses ice with rough rock. This team project combines Chandrayaan-2's dual-frequency radar with terrain data to find likely ice, estimate how much there is, and plan how a rover could safely reach it.",
+    problem:
+      "A circular polarization ratio above 1 is the classic radar sign of ice, but rough, blocky dry terrain produces the same signal, and the data comes from different instruments with different resolutions and map projections.",
+    solution:
+      "Required two independent radar signals to agree (CPR > 1.0 and degree of polarization < 0.13), co-registered every layer onto the 5 m/pixel LOLA terrain grid, estimated ice volume with the Looyenga dielectric mixing model, and routed a rover with cost-weighted A* around slopes steeper than 15°.",
+    architecture: [
+      "Radar loader builds the scattering matrix from DFSAR full-polarimetric data and computes Stokes parameters, CPR and DOP.",
+      "Dual-threshold ice detection with a fallback for sparse radar tiles, producing an ice-probability raster.",
+      "Co-registration warps radar and optical layers onto the LOLA DEM grid in the Moon south-polar stereographic projection.",
+      "Looyenga mixing model converts radar dielectric estimates into ice volume, using L-band (0–5 m) and S-band (0–2 m) depth differences.",
+      "Cost-weighted A* on a hazard-classified terrain raster plans the rover traverse to the target crater.",
+      "Exports QGIS-ready GeoTIFF layers and a multi-page web mission dashboard (radar, terrain, fusion and rover views).",
+    ],
+    engineeringDecisions: [
+      "Cross-validated two radar signatures instead of trusting CPR alone, to separate ice from rough terrain.",
+      "Processed 40,000 × 40,000-pixel terrain rasters in windows to stay within memory.",
+    ],
+    highlights: [
+      "Team project for ISRO's Bharatiya Antariksh Hackathon 2026 (problem statement 8)",
+      "Multi-instrument fusion of Chandrayaan-2 DFSAR radar, OHRC imagery and NASA LOLA terrain",
+      "Ice volume estimate with the Looyenga dielectric mixing model",
+      "Hazard-aware A* rover traverse and QGIS 3D visualization",
+      "My contribution: the mission dashboard's branding, styling and content",
+    ],
+  },
+  {
     slug: "deraindrop-image-restoration",
     title: "DeRaindrop: Image Restoration System",
     type: "Layer B",
@@ -788,11 +873,11 @@ export const allProjects: Project[] = [
 
 export const homepageFeaturedSlugs = [
   "flowforge",
+  "quantscript",
   "retailflow-microservices",
   "voiceiq-enterprise",
   "retailflow-devops",
   "streaming-analytics-pipeline",
-  "distributed-webhook-delivery",
 ];
 
 export const layerAProjects = allProjects.filter((p) => p.type === "Layer A");
