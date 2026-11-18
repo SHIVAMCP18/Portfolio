@@ -1,0 +1,264 @@
+[
+ {
+  "kind": "scene",
+  "id": "s01",
+  "start": 0,
+  "dur": 11.408
+ },
+ {
+  "kind": "scene",
+  "id": "s02",
+  "start": 11.408,
+  "dur": 15.831
+ },
+ {
+  "kind": "scene",
+  "id": "s03",
+  "start": 27.238999999999997,
+  "dur": 20.303
+ },
+ {
+  "kind": "scene",
+  "id": "s04",
+  "start": 47.542,
+  "dur": 8.615
+ },
+ {
+  "kind": "chapter",
+  "id": "ch1",
+  "start": 56.157000000000004,
+  "dur": 2.8,
+  "chap": [
+   1,
+   "Rum & Bullets"
+  ]
+ },
+ {
+  "kind": "scene",
+  "id": "s05",
+  "start": 58.957,
+  "dur": 18.096
+ },
+ {
+  "kind": "scene",
+  "id": "s06",
+  "start": 77.053,
+  "dur": 21.633
+ },
+ {
+  "kind": "scene",
+  "id": "s07",
+  "start": 98.68599999999999,
+  "dur": 20.49
+ },
+ {
+  "kind": "chapter",
+  "id": "ch2",
+  "start": 119.17599999999999,
+  "dur": 2.8,
+  "chap": [
+   2,
+   "The Tank That Groaned"
+  ]
+ },
+ {
+  "kind": "scene",
+  "id": "s08",
+  "start": 121.97599999999998,
+  "dur": 17.159
+ },
+ {
+  "kind": "scene",
+  "id": "s09",
+  "start": 139.135,
+  "dur": 20.458
+ },
+ {
+  "kind": "scene",
+  "id": "s10",
+  "start": 159.593,
+  "dur": 16.375
+ },
+ {
+  "kind": "scene",
+  "id": "s11",
+  "start": 175.968,
+  "dur": 14.356
+ },
+ {
+  "kind": "scene",
+  "id": "s12",
+  "start": 190.32399999999998,
+  "dur": 22.077
+ },
+ {
+  "kind": "scene",
+  "id": "s13",
+  "start": 212.40099999999998,
+  "dur": 24.958
+ },
+ {
+  "kind": "chapter",
+  "id": "ch3",
+  "start": 237.35899999999998,
+  "dur": 2.8,
+  "chap": [
+   3,
+   "A Warm Day in January"
+  ]
+ },
+ {
+  "kind": "scene",
+  "id": "s14",
+  "start": 240.159,
+  "dur": 27.009
+ },
+ {
+  "kind": "scene",
+  "id": "s15",
+  "start": 267.168,
+  "dur": 19.731
+ },
+ {
+  "kind": "chapter",
+  "id": "ch4",
+  "start": 286.899,
+  "dur": 2.8,
+  "chap": [
+   4,
+   "The Wave"
+  ]
+ },
+ {
+  "kind": "scene",
+  "id": "s16",
+  "start": 289.699,
+  "dur": 23.527
+ },
+ {
+  "kind": "scene",
+  "id": "s17",
+  "start": 313.226,
+  "dur": 22.913
+ },
+ {
+  "kind": "scene",
+  "id": "s18",
+  "start": 336.139,
+  "dur": 15.166
+ },
+ {
+  "kind": "scene",
+  "id": "s19",
+  "start": 351.305,
+  "dur": 19.729
+ },
+ {
+  "kind": "scene",
+  "id": "s20",
+  "start": 371.034,
+  "dur": 23.282
+ },
+ {
+  "kind": "scene",
+  "id": "s21",
+  "start": 394.316,
+  "dur": 31.664
+ },
+ {
+  "kind": "chapter",
+  "id": "ch5",
+  "start": 425.97999999999996,
+  "dur": 2.8,
+  "chap": [
+   5,
+   "Rescue & Ruin"
+  ]
+ },
+ {
+  "kind": "scene",
+  "id": "s22",
+  "start": 428.78,
+  "dur": 25.544
+ },
+ {
+  "kind": "scene",
+  "id": "s23",
+  "start": 454.32399999999996,
+  "dur": 19.948
+ },
+ {
+  "kind": "scene",
+  "id": "s24",
+  "start": 474.27199999999993,
+  "dur": 24.393
+ },
+ {
+  "kind": "chapter",
+  "id": "ch6",
+  "start": 498.66499999999996,
+  "dur": 2.8,
+  "chap": [
+   6,
+   "Who Was to Blame?"
+  ]
+ },
+ {
+  "kind": "scene",
+  "id": "s25",
+  "start": 501.465,
+  "dur": 20.419
+ },
+ {
+  "kind": "scene",
+  "id": "s26",
+  "start": 521.884,
+  "dur": 22.664
+ },
+ {
+  "kind": "scene",
+  "id": "s27",
+  "start": 544.548,
+  "dur": 19.77
+ },
+ {
+  "kind": "scene",
+  "id": "s28",
+  "start": 564.318,
+  "dur": 23.131
+ },
+ {
+  "kind": "chapter",
+  "id": "ch7",
+  "start": 587.449,
+  "dur": 2.8,
+  "chap": [
+   7,
+   "The Answer"
+  ]
+ },
+ {
+  "kind": "scene",
+  "id": "s29",
+  "start": 590.2489999999999,
+  "dur": 43.204
+ },
+ {
+  "kind": "scene",
+  "id": "s30",
+  "start": 633.4529999999999,
+  "dur": 22.746
+ },
+ {
+  "kind": "scene",
+  "id": "s31",
+  "start": 656.1989999999998,
+  "dur": 18.784
+ },
+ {
+  "kind": "scene",
+  "id": "s32",
+  "start": 674.9829999999998,
+  "dur": 24.64
+ }
+]

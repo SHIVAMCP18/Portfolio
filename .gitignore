@@ -1,0 +1,14 @@
+node_modules/
+.venv/
+models/
+test/
+**/build/
+**/output/
+**/storyboard/
+**/.check/
+**/.hyperframes/
+*.wav
+thumbnail/thumb-1920.png
+**/.check*/
+release/
+*.mp4

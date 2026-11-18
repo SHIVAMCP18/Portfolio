@@ -1,0 +1,552 @@
+1
+00:00:00,300 --> 00:00:01,260
+Boston.
+
+2
+00:00:01,580 --> 00:00:04,430
+January fifteenth, nineteen nineteen.
+
+3
+00:00:04,750 --> 00:00:10,690
+It is lunchtime in the North End, and for the first time in weeks, the weather is almost pleasant.
+
+4
+00:00:11,708 --> 00:00:18,398
+Then, at about twelve thirty, a wall of something dark and shining comes rolling down Commercial Street.
+
+5
+00:00:18,718 --> 00:00:21,238
+It is taller than a two-story house.
+
+6
+00:00:21,558 --> 00:00:24,568
+It is moving faster than a man can run.
+
+7
+00:00:24,888 --> 00:00:26,518
+And it is not water.
+
+8
+00:00:27,539 --> 00:00:29,159
+It is molasses.
+
+9
+00:00:29,479 --> 00:00:31,869
+More than two million gallons of it.
+
+10
+00:00:32,189 --> 00:00:36,839
+By nightfall, twenty-one people are dead and a hundred and fifty are hurt.
+
+11
+00:00:37,159 --> 00:00:39,029
+So here is the question.
+
+12
+00:00:39,349 --> 00:00:41,399
+How does syrup kill people?
+
+13
+00:00:41,849 --> 00:00:46,689
+And why did the answer change the way America builds almost everything?
+
+14
+00:00:47,842 --> 00:00:55,432
+To find out, we have to go back four years, to a steel tank by the harbor, and to a man who was in a very big hurry.
+
+15
+00:00:59,257 --> 00:01:03,167
+First, why was there so much molasses in Boston at all?
+
+16
+00:01:03,617 --> 00:01:09,617
+Molasses is the thick, dark syrup left over when sugar cane is boiled into sugar.
+
+17
+00:01:09,937 --> 00:01:16,337
+Ships carried it up from the Caribbean, and New England had been turning it into rum for two hundred years.
+
+18
+00:01:17,353 --> 00:01:23,333
+But in nineteen fifteen, the most valuable thing you could make from molasses was not rum.
+
+19
+00:01:23,653 --> 00:01:26,963
+Ferment it, and you get industrial alcohol.
+
+20
+00:01:27,283 --> 00:01:32,163
+And industrial alcohol was a key ingredient in making explosives.
+
+21
+00:01:32,483 --> 00:01:37,963
+Europe was at war, and explosives were selling as fast as factories could make them.
+
+22
+00:01:38,986 --> 00:01:50,416
+A company called Purity Distilling, which was soon bought by the United States Industrial Alcohol Company, wanted a giant storage tank right on the Boston waterfront.
+
+23
+00:01:50,736 --> 00:01:53,066
+Ships would pump molasses into it.
+
+24
+00:01:53,386 --> 00:01:58,456
+Then a pipeline would carry it to a distillery across the river in Cambridge.
+
+25
+00:02:02,276 --> 00:02:06,196
+The man in charge of building that tank was Arthur Jell.
+
+26
+00:02:06,516 --> 00:02:08,496
+He was the company's treasurer.
+
+27
+00:02:08,816 --> 00:02:10,846
+He was not an engineer.
+
+28
+00:02:11,166 --> 00:02:13,126
+He could not read a blueprint.
+
+29
+00:02:13,446 --> 00:02:18,416
+And he was under pressure to get the tank finished before the next shipment arrived.
+
+30
+00:02:19,435 --> 00:02:23,285
+The tank went up on Commercial Street in nineteen fifteen.
+
+31
+00:02:23,605 --> 00:02:30,215
+It was fifty feet tall and ninety feet wide, and it could hold about two point three million gallons.
+
+32
+00:02:30,535 --> 00:02:38,875
+It sat in one of the most crowded neighborhoods in the city, beside homes, a firehouse, a playground, and the elevated railway.
+
+33
+00:02:39,893 --> 00:02:46,143
+A new tank like this should be tested by filling it to the top with water, to see whether it leaks.
+
+34
+00:02:46,463 --> 00:02:47,883
+Jell skipped that.
+
+35
+00:02:48,203 --> 00:02:55,253
+He ran only a few inches of water into the bottom, declared it fine, and ordered the first load of molasses.
+
+36
+00:02:56,268 --> 00:02:59,058
+The tank leaked from the very first day.
+
+37
+00:02:59,378 --> 00:03:03,568
+Thin brown streaks ran down the seams between the steel plates.
+
+38
+00:03:03,888 --> 00:03:09,608
+Neighborhood families brought pots and cans and collected the dripping syrup to take home.
+
+39
+00:03:10,624 --> 00:03:12,874
+People also noticed the noise.
+
+40
+00:03:13,194 --> 00:03:16,924
+Every time the tank was filled, it groaned and rumbled.
+
+41
+00:03:17,244 --> 00:03:18,804
+Workers complained.
+
+42
+00:03:19,124 --> 00:03:22,814
+One of them even brought Jell a piece of flaking steel.
+
+43
+00:03:23,134 --> 00:03:26,264
+Jell's response was not to fix the tank.
+
+44
+00:03:26,584 --> 00:03:31,684
+His response was to have it painted brown, so the leaks would be harder to see.
+
+45
+00:03:32,701 --> 00:03:35,421
+And there was one more pressure on the tank.
+
+46
+00:03:35,741 --> 00:03:43,261
+By January nineteen nineteen, the country was days away from writing a ban on alcohol into the Constitution.
+
+47
+00:03:43,581 --> 00:03:47,621
+The movement for Prohibition was winning state after state.
+
+48
+00:03:47,941 --> 00:03:56,641
+Several historians argue the company was racing to turn as much molasses into alcohol as it could before the law arrived.
+
+49
+00:04:00,459 --> 00:04:02,749
+Now, back to January fifteenth.
+
+50
+00:04:03,069 --> 00:04:07,629
+For days, Boston had been bitterly cold, close to zero degrees.
+
+51
+00:04:07,949 --> 00:04:12,049
+Then, almost overnight, the temperature jumped to over forty.
+
+52
+00:04:12,369 --> 00:04:19,759
+Just days before, a ship had delivered a fresh load of warm molasses, heated so that it would pump more easily.
+
+53
+00:04:20,079 --> 00:04:24,169
+It was poured on top of the cold molasses already inside.
+
+54
+00:04:24,489 --> 00:04:26,449
+The tank was almost full.
+
+55
+00:04:27,468 --> 00:04:30,558
+Around noon, the North End went about its day.
+
+56
+00:04:30,878 --> 00:04:33,698
+Children were walking home from school for lunch.
+
+57
+00:04:34,018 --> 00:04:37,738
+Men from the city paving yard were eating in their shed.
+
+58
+00:04:38,058 --> 00:04:41,848
+Firefighters at Engine thirty-one were playing cards.
+
+59
+00:04:42,168 --> 00:04:46,178
+A streetcar rattled along the elevated tracks overhead.
+
+60
+00:04:49,999 --> 00:04:52,929
+Then, at about twelve thirty, people heard it.
+
+61
+00:04:53,249 --> 00:04:55,689
+Some said it sounded like thunder.
+
+62
+00:04:56,009 --> 00:04:59,039
+Others said it sounded like a machine gun.
+
+63
+00:04:59,359 --> 00:05:03,139
+It was the rivets, popping out of the tank one after another.
+
+64
+00:05:03,459 --> 00:05:12,509
+The steel walls split open, and two point three million gallons of molasses, weighing about twelve thousand tons, came out all at once.
+
+65
+00:05:13,526 --> 00:05:15,636
+What came out was a wave.
+
+66
+00:05:15,956 --> 00:05:22,446
+At its peak it was around twenty-five feet high, and it moved at about thirty-five miles an hour.
+
+67
+00:05:22,766 --> 00:05:25,136
+It flattened the company's office.
+
+68
+00:05:25,456 --> 00:05:27,356
+It smashed the paving yard.
+
+69
+00:05:27,676 --> 00:05:35,416
+A sheet of the tank's steel slammed into the elevated railway and buckled its supports, just after a train had passed.
+
+70
+00:05:36,439 --> 00:05:39,959
+The wave knocked the firehouse off its foundation.
+
+71
+00:05:40,279 --> 00:05:42,749
+It lifted houses and crushed them.
+
+72
+00:05:43,069 --> 00:05:45,749
+A truck was thrown into the harbor.
+
+73
+00:05:46,069 --> 00:05:50,589
+Blocks of the neighborhood were flooded two to three feet deep in syrup.
+
+74
+00:05:51,605 --> 00:05:56,215
+A boy named Anthony di Stasio was walking home with his sisters.
+
+75
+00:05:56,535 --> 00:06:01,825
+The wave picked him up and carried him along on its crest, almost like he was surfing.
+
+76
+00:06:02,145 --> 00:06:05,345
+Then it rolled him over and over and dropped him.
+
+77
+00:06:05,665 --> 00:06:06,865
+He survived.
+
+78
+00:06:07,185 --> 00:06:10,315
+His ten-year-old sister Maria did not.
+
+79
+00:06:11,334 --> 00:06:13,134
+So, how does syrup kill?
+
+80
+00:06:13,584 --> 00:06:15,854
+The answer is in the physics.
+
+81
+00:06:16,174 --> 00:06:22,194
+Molasses is about forty percent heavier than water, so the wave hit with terrible force.
+
+82
+00:06:22,514 --> 00:06:25,464
+And molasses changes how thick it is.
+
+83
+00:06:25,784 --> 00:06:28,924
+When it is warm and moving fast, it flows.
+
+84
+00:06:29,244 --> 00:06:33,594
+When it cools down, it turns thick and sticky, almost like glue.
+
+85
+00:06:34,616 --> 00:06:36,846
+That is exactly what happened.
+
+86
+00:06:37,166 --> 00:06:46,846
+In two thousand sixteen, a team at Harvard studied the disaster using old maps, weather records, and a scale model flooded with corn syrup.
+
+87
+00:06:47,166 --> 00:06:53,466
+They found that the warm molasses rushed out fast, then cooled quickly in the January air.
+
+88
+00:06:53,786 --> 00:06:58,046
+Within minutes, the people and horses caught in it could barely move.
+
+89
+00:06:58,366 --> 00:07:01,956
+Many of the victims did not die from the impact.
+
+90
+00:07:02,276 --> 00:07:05,256
+They suffocated, trapped in the sticky mass.
+
+91
+00:07:09,080 --> 00:07:17,890
+The first rescuers to arrive were a hundred and sixteen young cadets from the training ship U S S Nantucket, docked nearby.
+
+92
+00:07:18,210 --> 00:07:24,170
+They ran toward the disaster and waded into the syrup, pulling out anyone they could reach.
+
+93
+00:07:24,490 --> 00:07:28,930
+Police, Red Cross nurses, soldiers and sailors soon followed.
+
+94
+00:07:29,250 --> 00:07:33,600
+Doctors set up an emergency hospital in a nearby building.
+
+95
+00:07:34,624 --> 00:07:36,834
+The search went on for four days.
+
+96
+00:07:37,154 --> 00:07:42,294
+Some victims were so coated in molasses that they were hard to recognize.
+
+97
+00:07:42,614 --> 00:07:46,744
+Others had been swept into the harbor and were not found for months.
+
+98
+00:07:47,064 --> 00:07:53,554
+Among the twenty-one dead were laborers, teamsters, a firefighter, and two ten-year-old children.
+
+99
+00:07:54,572 --> 00:07:56,282
+Then came the cleanup.
+
+100
+00:07:56,602 --> 00:08:02,962
+Crews sprayed the streets with salt water from fireboats and scattered sand to soak up the syrup.
+
+101
+00:08:03,282 --> 00:08:10,152
+Rescuers and sightseers tracked it everywhere: onto streetcars, into homes, onto telephones.
+
+102
+00:08:10,472 --> 00:08:14,972
+As one account put it, everything a Bostonian touched was sticky.
+
+103
+00:08:15,292 --> 00:08:17,942
+The harbor stayed brown until summer.
+
+104
+00:08:21,765 --> 00:08:24,665
+Now the question became, who was to blame?
+
+105
+00:08:25,115 --> 00:08:27,605
+The company had an answer ready.
+
+106
+00:08:27,925 --> 00:08:30,535
+It said the tank had not failed at all.
+
+107
+00:08:30,855 --> 00:08:34,045
+It said anarchists had blown it up with a bomb.
+
+108
+00:08:34,365 --> 00:08:41,165
+After all, the alcohol went into explosives, and bombings by radicals were real fears at the time.
+
+109
+00:08:42,184 --> 00:08:44,744
+But the families did not accept that.
+
+110
+00:08:45,064 --> 00:08:52,694
+More than a hundred people sued the company together, in one of the first class-action lawsuits in Massachusetts history.
+
+111
+00:08:53,014 --> 00:08:57,084
+The court appointed an auditor, Hugh Ogden, to hear the evidence.
+
+112
+00:08:57,404 --> 00:09:03,824
+The hearings went on for about three years, with a mountain of testimony from witnesses and experts.
+
+113
+00:09:04,848 --> 00:09:08,328
+In nineteen twenty-five, Ogden gave his verdict.
+
+114
+00:09:08,648 --> 00:09:10,098
+There was no bomb.
+
+115
+00:09:10,418 --> 00:09:16,108
+The tank had simply been too weak for the load it carried, and the company was responsible.
+
+116
+00:09:16,428 --> 00:09:23,598
+It paid about six hundred and twenty-eight thousand dollars in damages, more than eleven million dollars today.
+
+117
+00:09:24,618 --> 00:09:27,848
+Later investigations found even more.
+
+118
+00:09:28,168 --> 00:09:38,338
+A two thousand fourteen analysis concluded that the steel walls were only about half as thick as they should have been, even by the standards of the time.
+
+119
+00:09:38,658 --> 00:09:43,708
+The steel was also low in manganese, which made it more brittle in the cold.
+
+120
+00:09:44,028 --> 00:09:46,728
+The cracks began at the rivet holes.
+
+121
+00:09:50,549 --> 00:09:52,909
+And that brings us back to our question.
+
+122
+00:09:53,229 --> 00:09:55,929
+How did syrup kill twenty-one people?
+
+123
+00:09:56,379 --> 00:09:59,229
+Not by bad luck, and not by a bomb.
+
+124
+00:09:59,549 --> 00:10:07,739
+It was a giant tank, built by a man who was not an engineer, tested by no one, and painted brown to hide the warnings.
+
+125
+00:10:08,059 --> 00:10:14,429
+So Massachusetts and other states began to require something that sounds obvious today.
+
+126
+00:10:14,749 --> 00:10:23,149
+Before a big structure is built, a licensed engineer or architect must check the calculations and sign their name to them.
+
+127
+00:10:23,469 --> 00:10:27,269
+That kind of signature is now standard across the country.
+
+128
+00:10:27,589 --> 00:10:32,729
+Every bridge, tower, and tank you walk past today depends on that idea.
+
+129
+00:10:33,753 --> 00:10:36,163
+And the race against Prohibition?
+
+130
+00:10:36,613 --> 00:10:45,783
+On January sixteenth, nineteen nineteen, the very next day, Nebraska became the thirty-sixth state to ratify the Eighteenth Amendment.
+
+131
+00:10:46,103 --> 00:10:49,583
+Prohibition was now part of the Constitution.
+
+132
+00:10:49,903 --> 00:10:55,483
+The company had been racing a deadline that arrived one day after its tank collapsed.
+
+133
+00:10:56,499 --> 00:11:01,809
+Today, the spot where the tank stood is a park with a Little League baseball field.
+
+134
+00:11:02,129 --> 00:11:07,039
+Its concrete base is still there, about twenty inches under the infield.
+
+135
+00:11:07,359 --> 00:11:14,259
+For decades, people in the North End said that on hot summer days, you could still smell molasses in the air.
+
+136
+00:11:15,283 --> 00:11:20,933
+Twenty-one people died that day because someone decided a warning was a paint job.
+
+137
+00:11:21,253 --> 00:11:29,563
+So next time you see a crack in something that is supposed to be strong, remember Boston, and remember the wave that wasn't water.
+
+138
+00:11:29,883 --> 00:11:38,903
+If you want more forgotten stories from American history, subscribe, and tell us in the comments which disaster we should cover next.
+

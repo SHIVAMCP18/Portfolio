@@ -1,0 +1,9002 @@
+[
+ {
+  "id": "s01",
+  "name": "hook-day",
+  "text": "Boston. January fifteenth, nineteen nineteen. It is lunchtime in the North End, and for the first time in weeks, the weather is almost pleasant.",
+  "audio_dur": 11.408,
+  "sentences": [
+   {
+    "text": "Boston.",
+    "s": 0.3,
+    "e": 1.26
+   },
+   {
+    "text": "January fifteenth, nineteen nineteen.",
+    "s": 1.58,
+    "e": 4.43
+   },
+   {
+    "text": "It is lunchtime in the North End, and for the first time in weeks, the weather is almost pleasant.",
+    "s": 4.75,
+    "e": 10.69
+   }
+  ],
+  "words": [
+   {
+    "w": "Boston",
+    "s": 0.34,
+    "e": 1.22
+   },
+   {
+    "w": "January",
+    "s": 1.69,
+    "e": 2.25
+   },
+   {
+    "w": "fifteenth",
+    "s": 2.25,
+    "e": 3.0
+   },
+   {
+    "w": "nineteen",
+    "s": 3.0,
+    "e": 3.63
+   },
+   {
+    "w": "nineteen",
+    "s": 3.63,
+    "e": 4.32
+   },
+   {
+    "w": "It",
+    "s": 4.99,
+    "e": 5.15
+   },
+   {
+    "w": "is",
+    "s": 5.15,
+    "e": 5.32
+   },
+   {
+    "w": "lunchtime",
+    "s": 5.32,
+    "e": 5.87
+   },
+   {
+    "w": "in",
+    "s": 5.87,
+    "e": 6.04
+   },
+   {
+    "w": "the",
+    "s": 6.04,
+    "e": 6.26
+   },
+   {
+    "w": "North",
+    "s": 6.26,
+    "e": 6.59
+   },
+   {
+    "w": "End",
+    "s": 6.59,
+    "e": 6.86
+   },
+   {
+    "w": "and",
+    "s": 6.86,
+    "e": 7.08
+   },
+   {
+    "w": "for",
+    "s": 7.08,
+    "e": 7.3
+   },
+   {
+    "w": "the",
+    "s": 7.3,
+    "e": 7.53
+   },
+   {
+    "w": "first",
+    "s": 7.53,
+    "e": 7.86
+   },
+   {
+    "w": "time",
+    "s": 7.86,
+    "e": 8.13
+   },
+   {
+    "w": "in",
+    "s": 8.13,
+    "e": 8.3
+   },
+   {
+    "w": "weeks",
+    "s": 8.3,
+    "e": 8.68
+   },
+   {
+    "w": "the",
+    "s": 8.68,
+    "e": 8.91
+   },
+   {
+    "w": "weather",
+    "s": 8.91,
+    "e": 9.35
+   },
+   {
+    "w": "is",
+    "s": 9.35,
+    "e": 9.51
+   },
+   {
+    "w": "almost",
+    "s": 9.51,
+    "e": 9.9
+   },
+   {
+    "w": "pleasant",
+    "s": 9.9,
+    "e": 10.45
+   }
+  ]
+ },
+ {
+  "id": "s02",
+  "name": "hook-wave",
+  "text": "Then, at about twelve thirty, a wall of something dark and shining comes rolling down Commercial Street. It is taller than a two-story house. It is moving faster than a man can run. And it is not water.",
+  "audio_dur": 15.831,
+  "sentences": [
+   {
+    "text": "Then, at about twelve thirty, a wall of something dark and shining comes rolling down Commercial Street.",
+    "s": 0.3,
+    "e": 6.99
+   },
+   {
+    "text": "It is taller than a two-story house.",
+    "s": 7.31,
+    "e": 9.83
+   },
+   {
+    "text": "It is moving faster than a man can run.",
+    "s": 10.15,
+    "e": 13.16
+   },
+   {
+    "text": "And it is not water.",
+    "s": 13.48,
+    "e": 15.11
+   }
+  ],
+  "words": [
+   {
+    "w": "Then",
+    "s": 0.57,
+    "e": 0.92
+   },
+   {
+    "w": "at",
+    "s": 0.92,
+    "e": 1.1
+   },
+   {
+    "w": "about",
+    "s": 1.1,
+    "e": 1.45
+   },
+   {
+    "w": "twelve",
+    "s": 1.45,
+    "e": 1.86
+   },
+   {
+    "w": "thirty",
+    "s": 1.86,
+    "e": 2.33
+   },
+   {
+    "w": "a",
+    "s": 2.33,
+    "e": 2.44
+   },
+   {
+    "w": "wall",
+    "s": 2.44,
+    "e": 2.74
+   },
+   {
+    "w": "of",
+    "s": 2.74,
+    "e": 2.91
+   },
+   {
+    "w": "something",
+    "s": 2.91,
+    "e": 3.5
+   },
+   {
+    "w": "dark",
+    "s": 3.5,
+    "e": 3.79
+   },
+   {
+    "w": "and",
+    "s": 3.79,
+    "e": 4.03
+   },
+   {
+    "w": "shining",
+    "s": 4.03,
+    "e": 4.49
+   },
+   {
+    "w": "comes",
+    "s": 4.49,
+    "e": 4.85
+   },
+   {
+    "w": "rolling",
+    "s": 4.85,
+    "e": 5.31
+   },
+   {
+    "w": "down",
+    "s": 5.31,
+    "e": 5.61
+   },
+   {
+    "w": "Commercial",
+    "s": 5.61,
+    "e": 6.25
+   },
+   {
+    "w": "Street",
+    "s": 6.25,
+    "e": 6.72
+   },
+   {
+    "w": "It",
+    "s": 7.41,
+    "e": 7.6
+   },
+   {
+    "w": "is",
+    "s": 7.6,
+    "e": 7.79
+   },
+   {
+    "w": "taller",
+    "s": 7.79,
+    "e": 8.23
+   },
+   {
+    "w": "than",
+    "s": 8.23,
+    "e": 8.54
+   },
+   {
+    "w": "a",
+    "s": 8.54,
+    "e": 8.66
+   },
+   {
+    "w": "two-story",
+    "s": 8.66,
+    "e": 9.29
+   },
+   {
+    "w": "house",
+    "s": 9.29,
+    "e": 9.73
+   },
+   {
+    "w": "It",
+    "s": 10.27,
+    "e": 10.48
+   },
+   {
+    "w": "is",
+    "s": 10.48,
+    "e": 10.69
+   },
+   {
+    "w": "moving",
+    "s": 10.69,
+    "e": 11.17
+   },
+   {
+    "w": "faster",
+    "s": 11.17,
+    "e": 11.66
+   },
+   {
+    "w": "than",
+    "s": 11.66,
+    "e": 12.0
+   },
+   {
+    "w": "a",
+    "s": 12.0,
+    "e": 12.14
+   },
+   {
+    "w": "man",
+    "s": 12.14,
+    "e": 12.42
+   },
+   {
+    "w": "can",
+    "s": 12.42,
+    "e": 12.69
+   },
+   {
+    "w": "run",
+    "s": 12.69,
+    "e": 13.04
+   },
+   {
+    "w": "And",
+    "s": 13.54,
+    "e": 13.83
+   },
+   {
+    "w": "it",
+    "s": 13.83,
+    "e": 14.04
+   },
+   {
+    "w": "is",
+    "s": 14.04,
+    "e": 14.26
+   },
+   {
+    "w": "not",
+    "s": 14.26,
+    "e": 14.55
+   },
+   {
+    "w": "water",
+    "s": 14.55,
+    "e": 15.05
+   }
+  ]
+ },
+ {
+  "id": "s03",
+  "name": "hook-question",
+  "text": "It is molasses. More than two million gallons of it. By nightfall, twenty-one people are dead and a hundred and fifty are hurt. So here is the question. How does syrup kill people? And why did the answer change the way America builds almost everything?",
+  "audio_dur": 20.303,
+  "sentences": [
+   {
+    "text": "It is molasses.",
+    "s": 0.3,
+    "e": 1.92
+   },
+   {
+    "text": "More than two million gallons of it.",
+    "s": 2.24,
+    "e": 4.63
+   },
+   {
+    "text": "By nightfall, twenty-one people are dead and a hundred and fifty are hurt.",
+    "s": 4.95,
+    "e": 9.6
+   },
+   {
+    "text": "So here is the question.",
+    "s": 9.92,
+    "e": 11.79
+   },
+   {
+    "text": "How does syrup kill people?",
+    "s": 12.11,
+    "e": 14.16
+   },
+   {
+    "text": "And why did the answer change the way America builds almost everything?",
+    "s": 14.61,
+    "e": 19.45
+   }
+  ],
+  "words": [
+   {
+    "w": "It",
+    "s": 0.36,
+    "e": 0.64
+   },
+   {
+    "w": "is",
+    "s": 0.64,
+    "e": 0.92
+   },
+   {
+    "w": "molasses",
+    "s": 0.92,
+    "e": 1.86
+   },
+   {
+    "w": "More",
+    "s": 2.34,
+    "e": 2.63
+   },
+   {
+    "w": "than",
+    "s": 2.63,
+    "e": 2.93
+   },
+   {
+    "w": "two",
+    "s": 2.93,
+    "e": 3.17
+   },
+   {
+    "w": "million",
+    "s": 3.17,
+    "e": 3.65
+   },
+   {
+    "w": "gallons",
+    "s": 3.65,
+    "e": 4.12
+   },
+   {
+    "w": "of",
+    "s": 4.12,
+    "e": 4.3
+   },
+   {
+    "w": "it",
+    "s": 4.3,
+    "e": 4.54
+   },
+   {
+    "w": "By",
+    "s": 5.14,
+    "e": 5.31
+   },
+   {
+    "w": "nightfall",
+    "s": 5.31,
+    "e": 5.94
+   },
+   {
+    "w": "twenty-one",
+    "s": 5.94,
+    "e": 6.56
+   },
+   {
+    "w": "people",
+    "s": 6.56,
+    "e": 6.96
+   },
+   {
+    "w": "are",
+    "s": 6.96,
+    "e": 7.19
+   },
+   {
+    "w": "dead",
+    "s": 7.19,
+    "e": 7.48
+   },
+   {
+    "w": "and",
+    "s": 7.48,
+    "e": 7.71
+   },
+   {
+    "w": "a",
+    "s": 7.71,
+    "e": 7.82
+   },
+   {
+    "w": "hundred",
+    "s": 7.82,
+    "e": 8.28
+   },
+   {
+    "w": "and",
+    "s": 8.28,
+    "e": 8.5
+   },
+   {
+    "w": "fifty",
+    "s": 8.5,
+    "e": 8.85
+   },
+   {
+    "w": "are",
+    "s": 8.85,
+    "e": 9.07
+   },
+   {
+    "w": "hurt",
+    "s": 9.07,
+    "e": 9.42
+   },
+   {
+    "w": "So",
+    "s": 10.0,
+    "e": 10.2
+   },
+   {
+    "w": "here",
+    "s": 10.2,
+    "e": 10.55
+   },
+   {
+    "w": "is",
+    "s": 10.55,
+    "e": 10.75
+   },
+   {
+    "w": "the",
+    "s": 10.75,
+    "e": 11.03
+   },
+   {
+    "w": "question",
+    "s": 11.03,
+    "e": 11.71
+   },
+   {
+    "w": "How",
+    "s": 12.19,
+    "e": 12.46
+   },
+   {
+    "w": "does",
+    "s": 12.46,
+    "e": 12.8
+   },
+   {
+    "w": "syrup",
+    "s": 12.8,
+    "e": 13.2
+   },
+   {
+    "w": "kill",
+    "s": 13.2,
+    "e": 13.54
+   },
+   {
+    "w": "people",
+    "s": 13.54,
+    "e": 14.08
+   },
+   {
+    "w": "And",
+    "s": 14.81,
+    "e": 15.05
+   },
+   {
+    "w": "why",
+    "s": 15.05,
+    "e": 15.3
+   },
+   {
+    "w": "did",
+    "s": 15.3,
+    "e": 15.55
+   },
+   {
+    "w": "the",
+    "s": 15.55,
+    "e": 15.8
+   },
+   {
+    "w": "answer",
+    "s": 15.8,
+    "e": 16.23
+   },
+   {
+    "w": "change",
+    "s": 16.23,
+    "e": 16.66
+   },
+   {
+    "w": "the",
+    "s": 16.66,
+    "e": 16.91
+   },
+   {
+    "w": "way",
+    "s": 16.91,
+    "e": 17.16
+   },
+   {
+    "w": "America",
+    "s": 17.16,
+    "e": 17.65
+   },
+   {
+    "w": "builds",
+    "s": 17.65,
+    "e": 18.08
+   },
+   {
+    "w": "almost",
+    "s": 18.08,
+    "e": 18.52
+   },
+   {
+    "w": "everything",
+    "s": 18.52,
+    "e": 19.26
+   }
+  ]
+ },
+ {
+  "id": "s04",
+  "name": "title",
+  "text": "To find out, we have to go back four years, to a steel tank by the harbor, and to a man who was in a very big hurry.",
+  "audio_dur": 8.615,
+  "sentences": [
+   {
+    "text": "To find out, we have to go back four years, to a steel tank by the harbor, and to a man who was in a very big hurry.",
+    "s": 0.3,
+    "e": 7.89
+   }
+  ],
+  "words": [
+   {
+    "w": "To",
+    "s": 0.6,
+    "e": 0.78
+   },
+   {
+    "w": "find",
+    "s": 0.78,
+    "e": 1.08
+   },
+   {
+    "w": "out",
+    "s": 1.08,
+    "e": 1.38
+   },
+   {
+    "w": "we",
+    "s": 1.38,
+    "e": 1.56
+   },
+   {
+    "w": "have",
+    "s": 1.56,
+    "e": 1.86
+   },
+   {
+    "w": "to",
+    "s": 1.86,
+    "e": 2.04
+   },
+   {
+    "w": "go",
+    "s": 2.04,
+    "e": 2.22
+   },
+   {
+    "w": "back",
+    "s": 2.22,
+    "e": 2.51
+   },
+   {
+    "w": "four",
+    "s": 2.51,
+    "e": 2.81
+   },
+   {
+    "w": "years",
+    "s": 2.81,
+    "e": 3.23
+   },
+   {
+    "w": "to",
+    "s": 3.23,
+    "e": 3.41
+   },
+   {
+    "w": "a",
+    "s": 3.41,
+    "e": 3.53
+   },
+   {
+    "w": "steel",
+    "s": 3.53,
+    "e": 3.89
+   },
+   {
+    "w": "tank",
+    "s": 3.89,
+    "e": 4.19
+   },
+   {
+    "w": "by",
+    "s": 4.19,
+    "e": 4.37
+   },
+   {
+    "w": "the",
+    "s": 4.37,
+    "e": 4.6
+   },
+   {
+    "w": "harbor",
+    "s": 4.6,
+    "e": 5.08
+   },
+   {
+    "w": "and",
+    "s": 5.08,
+    "e": 5.32
+   },
+   {
+    "w": "to",
+    "s": 5.32,
+    "e": 5.5
+   },
+   {
+    "w": "a",
+    "s": 5.5,
+    "e": 5.62
+   },
+   {
+    "w": "man",
+    "s": 5.62,
+    "e": 5.86
+   },
+   {
+    "w": "who",
+    "s": 5.86,
+    "e": 6.1
+   },
+   {
+    "w": "was",
+    "s": 6.1,
+    "e": 6.34
+   },
+   {
+    "w": "in",
+    "s": 6.34,
+    "e": 6.52
+   },
+   {
+    "w": "a",
+    "s": 6.52,
+    "e": 6.64
+   },
+   {
+    "w": "very",
+    "s": 6.64,
+    "e": 6.93
+   },
+   {
+    "w": "big",
+    "s": 6.93,
+    "e": 7.17
+   },
+   {
+    "w": "hurry",
+    "s": 7.17,
+    "e": 7.59
+   }
+  ]
+ },
+ {
+  "id": "s05",
+  "name": "molasses-why",
+  "text": "First, why was there so much molasses in Boston at all? Molasses is the thick, dark syrup left over when sugar cane is boiled into sugar. Ships carried it up from the Caribbean, and New England had been turning it into rum for two hundred years.",
+  "audio_dur": 18.096,
+  "sentences": [
+   {
+    "text": "First, why was there so much molasses in Boston at all?",
+    "s": 0.3,
+    "e": 4.21
+   },
+   {
+    "text": "Molasses is the thick, dark syrup left over when sugar cane is boiled into sugar.",
+    "s": 4.66,
+    "e": 10.66
+   },
+   {
+    "text": "Ships carried it up from the Caribbean, and New England had been turning it into rum for two hundred years.",
+    "s": 10.98,
+    "e": 17.38
+   }
+  ],
+  "words": [
+   {
+    "w": "First",
+    "s": 0.46,
+    "e": 0.91
+   },
+   {
+    "w": "why",
+    "s": 0.91,
+    "e": 1.16
+   },
+   {
+    "w": "was",
+    "s": 1.16,
+    "e": 1.42
+   },
+   {
+    "w": "there",
+    "s": 1.42,
+    "e": 1.81
+   },
+   {
+    "w": "so",
+    "s": 1.81,
+    "e": 2.0
+   },
+   {
+    "w": "much",
+    "s": 2.0,
+    "e": 2.32
+   },
+   {
+    "w": "molasses",
+    "s": 2.32,
+    "e": 2.9
+   },
+   {
+    "w": "in",
+    "s": 2.9,
+    "e": 3.09
+   },
+   {
+    "w": "Boston",
+    "s": 3.09,
+    "e": 3.54
+   },
+   {
+    "w": "at",
+    "s": 3.54,
+    "e": 3.74
+   },
+   {
+    "w": "all",
+    "s": 3.74,
+    "e": 4.06
+   },
+   {
+    "w": "Molasses",
+    "s": 4.9,
+    "e": 5.51
+   },
+   {
+    "w": "is",
+    "s": 5.51,
+    "e": 5.71
+   },
+   {
+    "w": "the",
+    "s": 5.71,
+    "e": 5.98
+   },
+   {
+    "w": "thick",
+    "s": 5.98,
+    "e": 6.45
+   },
+   {
+    "w": "dark",
+    "s": 6.45,
+    "e": 6.79
+   },
+   {
+    "w": "syrup",
+    "s": 6.79,
+    "e": 7.19
+   },
+   {
+    "w": "left",
+    "s": 7.19,
+    "e": 7.53
+   },
+   {
+    "w": "over",
+    "s": 7.53,
+    "e": 7.86
+   },
+   {
+    "w": "when",
+    "s": 7.86,
+    "e": 8.2
+   },
+   {
+    "w": "sugar",
+    "s": 8.2,
+    "e": 8.6
+   },
+   {
+    "w": "cane",
+    "s": 8.6,
+    "e": 8.94
+   },
+   {
+    "w": "is",
+    "s": 8.94,
+    "e": 9.14
+   },
+   {
+    "w": "boiled",
+    "s": 9.14,
+    "e": 9.61
+   },
+   {
+    "w": "into",
+    "s": 9.61,
+    "e": 9.95
+   },
+   {
+    "w": "sugar",
+    "s": 9.95,
+    "e": 10.42
+   },
+   {
+    "w": "Ships",
+    "s": 11.23,
+    "e": 11.56
+   },
+   {
+    "w": "carried",
+    "s": 11.56,
+    "e": 12.0
+   },
+   {
+    "w": "it",
+    "s": 12.0,
+    "e": 12.16
+   },
+   {
+    "w": "up",
+    "s": 12.16,
+    "e": 12.32
+   },
+   {
+    "w": "from",
+    "s": 12.32,
+    "e": 12.6
+   },
+   {
+    "w": "the",
+    "s": 12.6,
+    "e": 12.81
+   },
+   {
+    "w": "Caribbean",
+    "s": 12.81,
+    "e": 13.41
+   },
+   {
+    "w": "and",
+    "s": 13.41,
+    "e": 13.63
+   },
+   {
+    "w": "New",
+    "s": 13.63,
+    "e": 13.85
+   },
+   {
+    "w": "England",
+    "s": 13.85,
+    "e": 14.29
+   },
+   {
+    "w": "had",
+    "s": 14.29,
+    "e": 14.5
+   },
+   {
+    "w": "been",
+    "s": 14.5,
+    "e": 14.78
+   },
+   {
+    "w": "turning",
+    "s": 14.78,
+    "e": 15.21
+   },
+   {
+    "w": "it",
+    "s": 15.21,
+    "e": 15.38
+   },
+   {
+    "w": "into",
+    "s": 15.38,
+    "e": 15.65
+   },
+   {
+    "w": "rum",
+    "s": 15.65,
+    "e": 15.87
+   },
+   {
+    "w": "for",
+    "s": 15.87,
+    "e": 16.08
+   },
+   {
+    "w": "two",
+    "s": 16.08,
+    "e": 16.3
+   },
+   {
+    "w": "hundred",
+    "s": 16.3,
+    "e": 16.74
+   },
+   {
+    "w": "years",
+    "s": 16.74,
+    "e": 17.12
+   }
+  ]
+ },
+ {
+  "id": "s06",
+  "name": "munitions",
+  "text": "But in nineteen fifteen, the most valuable thing you could make from molasses was not rum. Ferment it, and you get industrial alcohol. And industrial alcohol was a key ingredient in making explosives. Europe was at war, and explosives were selling as fast as factories could make them.",
+  "audio_dur": 21.633,
+  "sentences": [
+   {
+    "text": "But in nineteen fifteen, the most valuable thing you could make from molasses was not rum.",
+    "s": 0.3,
+    "e": 6.28
+   },
+   {
+    "text": "Ferment it, and you get industrial alcohol.",
+    "s": 6.6,
+    "e": 9.91
+   },
+   {
+    "text": "And industrial alcohol was a key ingredient in making explosives.",
+    "s": 10.23,
+    "e": 15.11
+   },
+   {
+    "text": "Europe was at war, and explosives were selling as fast as factories could make them.",
+    "s": 15.43,
+    "e": 20.91
+   }
+  ],
+  "words": [
+   {
+    "w": "But",
+    "s": 0.54,
+    "e": 0.78
+   },
+   {
+    "w": "in",
+    "s": 0.78,
+    "e": 0.96
+   },
+   {
+    "w": "nineteen",
+    "s": 0.96,
+    "e": 1.51
+   },
+   {
+    "w": "fifteen",
+    "s": 1.51,
+    "e": 2.05
+   },
+   {
+    "w": "the",
+    "s": 2.05,
+    "e": 2.29
+   },
+   {
+    "w": "most",
+    "s": 2.29,
+    "e": 2.59
+   },
+   {
+    "w": "valuable",
+    "s": 2.59,
+    "e": 3.14
+   },
+   {
+    "w": "thing",
+    "s": 3.14,
+    "e": 3.5
+   },
+   {
+    "w": "you",
+    "s": 3.5,
+    "e": 3.74
+   },
+   {
+    "w": "could",
+    "s": 3.74,
+    "e": 4.11
+   },
+   {
+    "w": "make",
+    "s": 4.11,
+    "e": 4.41
+   },
+   {
+    "w": "from",
+    "s": 4.41,
+    "e": 4.71
+   },
+   {
+    "w": "molasses",
+    "s": 4.71,
+    "e": 5.26
+   },
+   {
+    "w": "was",
+    "s": 5.26,
+    "e": 5.5
+   },
+   {
+    "w": "not",
+    "s": 5.5,
+    "e": 5.74
+   },
+   {
+    "w": "rum",
+    "s": 5.74,
+    "e": 6.04
+   },
+   {
+    "w": "Ferment",
+    "s": 6.73,
+    "e": 7.29
+   },
+   {
+    "w": "it",
+    "s": 7.29,
+    "e": 7.56
+   },
+   {
+    "w": "and",
+    "s": 7.56,
+    "e": 7.84
+   },
+   {
+    "w": "you",
+    "s": 7.84,
+    "e": 8.12
+   },
+   {
+    "w": "get",
+    "s": 8.12,
+    "e": 8.4
+   },
+   {
+    "w": "industrial",
+    "s": 8.4,
+    "e": 9.16
+   },
+   {
+    "w": "alcohol",
+    "s": 9.16,
+    "e": 9.78
+   },
+   {
+    "w": "And",
+    "s": 10.43,
+    "e": 10.7
+   },
+   {
+    "w": "industrial",
+    "s": 10.7,
+    "e": 11.45
+   },
+   {
+    "w": "alcohol",
+    "s": 11.45,
+    "e": 11.99
+   },
+   {
+    "w": "was",
+    "s": 11.99,
+    "e": 12.27
+   },
+   {
+    "w": "a",
+    "s": 12.27,
+    "e": 12.4
+   },
+   {
+    "w": "key",
+    "s": 12.4,
+    "e": 12.67
+   },
+   {
+    "w": "ingredient",
+    "s": 12.67,
+    "e": 13.42
+   },
+   {
+    "w": "in",
+    "s": 13.42,
+    "e": 13.63
+   },
+   {
+    "w": "making",
+    "s": 13.63,
+    "e": 14.1
+   },
+   {
+    "w": "explosives",
+    "s": 14.1,
+    "e": 14.92
+   },
+   {
+    "w": "Europe",
+    "s": 15.65,
+    "e": 16.07
+   },
+   {
+    "w": "was",
+    "s": 16.07,
+    "e": 16.3
+   },
+   {
+    "w": "at",
+    "s": 16.3,
+    "e": 16.48
+   },
+   {
+    "w": "war",
+    "s": 16.48,
+    "e": 16.78
+   },
+   {
+    "w": "and",
+    "s": 16.78,
+    "e": 17.02
+   },
+   {
+    "w": "explosives",
+    "s": 17.02,
+    "e": 17.67
+   },
+   {
+    "w": "were",
+    "s": 17.67,
+    "e": 17.97
+   },
+   {
+    "w": "selling",
+    "s": 17.97,
+    "e": 18.44
+   },
+   {
+    "w": "as",
+    "s": 18.44,
+    "e": 18.62
+   },
+   {
+    "w": "fast",
+    "s": 18.62,
+    "e": 18.91
+   },
+   {
+    "w": "as",
+    "s": 18.91,
+    "e": 19.09
+   },
+   {
+    "w": "factories",
+    "s": 19.09,
+    "e": 19.69
+   },
+   {
+    "w": "could",
+    "s": 19.69,
+    "e": 20.04
+   },
+   {
+    "w": "make",
+    "s": 20.04,
+    "e": 20.34
+   },
+   {
+    "w": "them",
+    "s": 20.34,
+    "e": 20.69
+   }
+  ]
+ },
+ {
+  "id": "s07",
+  "name": "company",
+  "text": "A company called Purity Distilling, which was soon bought by the United States Industrial Alcohol Company, wanted a giant storage tank right on the Boston waterfront. Ships would pump molasses into it. Then a pipeline would carry it to a distillery across the river in Cambridge.",
+  "audio_dur": 20.49,
+  "sentences": [
+   {
+    "text": "A company called Purity Distilling, which was soon bought by the United States Industrial Alcohol Company, wanted a giant storage tank right on the Boston waterfront.",
+    "s": 0.3,
+    "e": 11.73
+   },
+   {
+    "text": "Ships would pump molasses into it.",
+    "s": 12.05,
+    "e": 14.38
+   },
+   {
+    "text": "Then a pipeline would carry it to a distillery across the river in Cambridge.",
+    "s": 14.7,
+    "e": 19.77
+   }
+  ],
+  "words": [
+   {
+    "w": "A",
+    "s": 0.76,
+    "e": 0.88
+   },
+   {
+    "w": "company",
+    "s": 0.88,
+    "e": 1.39
+   },
+   {
+    "w": "called",
+    "s": 1.39,
+    "e": 1.83
+   },
+   {
+    "w": "Purity",
+    "s": 1.83,
+    "e": 2.27
+   },
+   {
+    "w": "Distilling",
+    "s": 2.27,
+    "e": 3.02
+   },
+   {
+    "w": "which",
+    "s": 3.02,
+    "e": 3.4
+   },
+   {
+    "w": "was",
+    "s": 3.4,
+    "e": 3.65
+   },
+   {
+    "w": "soon",
+    "s": 3.65,
+    "e": 3.97
+   },
+   {
+    "w": "bought",
+    "s": 3.97,
+    "e": 4.41
+   },
+   {
+    "w": "by",
+    "s": 4.41,
+    "e": 4.6
+   },
+   {
+    "w": "the",
+    "s": 4.6,
+    "e": 4.85
+   },
+   {
+    "w": "United",
+    "s": 4.85,
+    "e": 5.29
+   },
+   {
+    "w": "States",
+    "s": 5.29,
+    "e": 5.73
+   },
+   {
+    "w": "Industrial",
+    "s": 5.73,
+    "e": 6.43
+   },
+   {
+    "w": "Alcohol",
+    "s": 6.43,
+    "e": 6.93
+   },
+   {
+    "w": "Company",
+    "s": 6.93,
+    "e": 7.5
+   },
+   {
+    "w": "wanted",
+    "s": 7.5,
+    "e": 7.94
+   },
+   {
+    "w": "a",
+    "s": 7.94,
+    "e": 8.06
+   },
+   {
+    "w": "giant",
+    "s": 8.06,
+    "e": 8.44
+   },
+   {
+    "w": "storage",
+    "s": 8.44,
+    "e": 8.95
+   },
+   {
+    "w": "tank",
+    "s": 8.95,
+    "e": 9.26
+   },
+   {
+    "w": "right",
+    "s": 9.26,
+    "e": 9.64
+   },
+   {
+    "w": "on",
+    "s": 9.64,
+    "e": 9.83
+   },
+   {
+    "w": "the",
+    "s": 9.83,
+    "e": 10.08
+   },
+   {
+    "w": "Boston",
+    "s": 10.08,
+    "e": 10.52
+   },
+   {
+    "w": "waterfront",
+    "s": 10.52,
+    "e": 11.28
+   },
+   {
+    "w": "Ships",
+    "s": 12.15,
+    "e": 12.51
+   },
+   {
+    "w": "would",
+    "s": 12.51,
+    "e": 12.88
+   },
+   {
+    "w": "pump",
+    "s": 12.88,
+    "e": 13.18
+   },
+   {
+    "w": "molasses",
+    "s": 13.18,
+    "e": 13.73
+   },
+   {
+    "w": "into",
+    "s": 13.73,
+    "e": 14.04
+   },
+   {
+    "w": "it",
+    "s": 14.04,
+    "e": 14.28
+   },
+   {
+    "w": "Then",
+    "s": 14.9,
+    "e": 15.2
+   },
+   {
+    "w": "a",
+    "s": 15.2,
+    "e": 15.32
+   },
+   {
+    "w": "pipeline",
+    "s": 15.32,
+    "e": 15.86
+   },
+   {
+    "w": "would",
+    "s": 15.86,
+    "e": 16.21
+   },
+   {
+    "w": "carry",
+    "s": 16.21,
+    "e": 16.57
+   },
+   {
+    "w": "it",
+    "s": 16.57,
+    "e": 16.75
+   },
+   {
+    "w": "to",
+    "s": 16.75,
+    "e": 16.93
+   },
+   {
+    "w": "a",
+    "s": 16.93,
+    "e": 17.05
+   },
+   {
+    "w": "distillery",
+    "s": 17.05,
+    "e": 17.71
+   },
+   {
+    "w": "across",
+    "s": 17.71,
+    "e": 18.13
+   },
+   {
+    "w": "the",
+    "s": 18.13,
+    "e": 18.37
+   },
+   {
+    "w": "river",
+    "s": 18.37,
+    "e": 18.73
+   },
+   {
+    "w": "in",
+    "s": 18.73,
+    "e": 18.91
+   },
+   {
+    "w": "Cambridge",
+    "s": 18.91,
+    "e": 19.57
+   }
+  ]
+ },
+ {
+  "id": "s08",
+  "name": "jell",
+  "text": "The man in charge of building that tank was Arthur Jell. He was the company's treasurer. He was not an engineer. He could not read a blueprint. And he was under pressure to get the tank finished before the next shipment arrived.",
+  "audio_dur": 17.159,
+  "sentences": [
+   {
+    "text": "The man in charge of building that tank was Arthur Jell.",
+    "s": 0.3,
+    "e": 4.22
+   },
+   {
+    "text": "He was the company's treasurer.",
+    "s": 4.54,
+    "e": 6.52
+   },
+   {
+    "text": "He was not an engineer.",
+    "s": 6.84,
+    "e": 8.87
+   },
+   {
+    "text": "He could not read a blueprint.",
+    "s": 9.19,
+    "e": 11.15
+   },
+   {
+    "text": "And he was under pressure to get the tank finished before the next shipment arrived.",
+    "s": 11.47,
+    "e": 16.44
+   }
+  ],
+  "words": [
+   {
+    "w": "The",
+    "s": 0.46,
+    "e": 0.71
+   },
+   {
+    "w": "man",
+    "s": 0.71,
+    "e": 0.96
+   },
+   {
+    "w": "in",
+    "s": 0.96,
+    "e": 1.15
+   },
+   {
+    "w": "charge",
+    "s": 1.15,
+    "e": 1.6
+   },
+   {
+    "w": "of",
+    "s": 1.6,
+    "e": 1.79
+   },
+   {
+    "w": "building",
+    "s": 1.79,
+    "e": 2.36
+   },
+   {
+    "w": "that",
+    "s": 2.36,
+    "e": 2.67
+   },
+   {
+    "w": "tank",
+    "s": 2.67,
+    "e": 2.99
+   },
+   {
+    "w": "was",
+    "s": 2.99,
+    "e": 3.24
+   },
+   {
+    "w": "Arthur",
+    "s": 3.24,
+    "e": 3.69
+   },
+   {
+    "w": "Jell",
+    "s": 3.69,
+    "e": 4.07
+   },
+   {
+    "w": "He",
+    "s": 4.62,
+    "e": 4.79
+   },
+   {
+    "w": "was",
+    "s": 4.79,
+    "e": 5.02
+   },
+   {
+    "w": "the",
+    "s": 5.02,
+    "e": 5.25
+   },
+   {
+    "w": "company's",
+    "s": 5.25,
+    "e": 5.82
+   },
+   {
+    "w": "treasurer",
+    "s": 5.82,
+    "e": 6.44
+   },
+   {
+    "w": "He",
+    "s": 6.92,
+    "e": 7.16
+   },
+   {
+    "w": "was",
+    "s": 7.16,
+    "e": 7.47
+   },
+   {
+    "w": "not",
+    "s": 7.47,
+    "e": 7.78
+   },
+   {
+    "w": "an",
+    "s": 7.78,
+    "e": 8.01
+   },
+   {
+    "w": "engineer",
+    "s": 8.01,
+    "e": 8.79
+   },
+   {
+    "w": "He",
+    "s": 9.27,
+    "e": 9.44
+   },
+   {
+    "w": "could",
+    "s": 9.44,
+    "e": 9.79
+   },
+   {
+    "w": "not",
+    "s": 9.79,
+    "e": 10.02
+   },
+   {
+    "w": "read",
+    "s": 10.02,
+    "e": 10.31
+   },
+   {
+    "w": "a",
+    "s": 10.31,
+    "e": 10.43
+   },
+   {
+    "w": "blueprint",
+    "s": 10.43,
+    "e": 11.07
+   },
+   {
+    "w": "And",
+    "s": 11.67,
+    "e": 11.88
+   },
+   {
+    "w": "he",
+    "s": 11.88,
+    "e": 12.04
+   },
+   {
+    "w": "was",
+    "s": 12.04,
+    "e": 12.26
+   },
+   {
+    "w": "under",
+    "s": 12.26,
+    "e": 12.58
+   },
+   {
+    "w": "pressure",
+    "s": 12.58,
+    "e": 13.07
+   },
+   {
+    "w": "to",
+    "s": 13.07,
+    "e": 13.23
+   },
+   {
+    "w": "get",
+    "s": 13.23,
+    "e": 13.44
+   },
+   {
+    "w": "the",
+    "s": 13.44,
+    "e": 13.66
+   },
+   {
+    "w": "tank",
+    "s": 13.66,
+    "e": 13.93
+   },
+   {
+    "w": "finished",
+    "s": 13.93,
+    "e": 14.41
+   },
+   {
+    "w": "before",
+    "s": 14.41,
+    "e": 14.79
+   },
+   {
+    "w": "the",
+    "s": 14.79,
+    "e": 15.0
+   },
+   {
+    "w": "next",
+    "s": 15.0,
+    "e": 15.27
+   },
+   {
+    "w": "shipment",
+    "s": 15.27,
+    "e": 15.76
+   },
+   {
+    "w": "arrived",
+    "s": 15.76,
+    "e": 16.24
+   }
+  ]
+ },
+ {
+  "id": "s09",
+  "name": "tank-built",
+  "text": "The tank went up on Commercial Street in nineteen fifteen. It was fifty feet tall and ninety feet wide, and it could hold about two point three million gallons. It sat in one of the most crowded neighborhoods in the city, beside homes, a firehouse, a playground, and the elevated railway.",
+  "audio_dur": 20.458,
+  "sentences": [
+   {
+    "text": "The tank went up on Commercial Street in nineteen fifteen.",
+    "s": 0.3,
+    "e": 4.15
+   },
+   {
+    "text": "It was fifty feet tall and ninety feet wide, and it could hold about two point three million gallons.",
+    "s": 4.47,
+    "e": 11.08
+   },
+   {
+    "text": "It sat in one of the most crowded neighborhoods in the city, beside homes, a firehouse, a playground, and the elevated railway.",
+    "s": 11.4,
+    "e": 19.74
+   }
+  ],
+  "words": [
+   {
+    "w": "The",
+    "s": 0.45,
+    "e": 0.69
+   },
+   {
+    "w": "tank",
+    "s": 0.69,
+    "e": 0.99
+   },
+   {
+    "w": "went",
+    "s": 0.99,
+    "e": 1.29
+   },
+   {
+    "w": "up",
+    "s": 1.29,
+    "e": 1.47
+   },
+   {
+    "w": "on",
+    "s": 1.47,
+    "e": 1.65
+   },
+   {
+    "w": "Commercial",
+    "s": 1.65,
+    "e": 2.31
+   },
+   {
+    "w": "Street",
+    "s": 2.31,
+    "e": 2.73
+   },
+   {
+    "w": "in",
+    "s": 2.73,
+    "e": 2.91
+   },
+   {
+    "w": "nineteen",
+    "s": 2.91,
+    "e": 3.45
+   },
+   {
+    "w": "fifteen",
+    "s": 3.45,
+    "e": 4.0
+   },
+   {
+    "w": "It",
+    "s": 4.73,
+    "e": 4.91
+   },
+   {
+    "w": "was",
+    "s": 4.91,
+    "e": 5.15
+   },
+   {
+    "w": "fifty",
+    "s": 5.15,
+    "e": 5.51
+   },
+   {
+    "w": "feet",
+    "s": 5.51,
+    "e": 5.81
+   },
+   {
+    "w": "tall",
+    "s": 5.81,
+    "e": 6.1
+   },
+   {
+    "w": "and",
+    "s": 6.1,
+    "e": 6.34
+   },
+   {
+    "w": "ninety",
+    "s": 6.34,
+    "e": 6.76
+   },
+   {
+    "w": "feet",
+    "s": 6.76,
+    "e": 7.06
+   },
+   {
+    "w": "wide",
+    "s": 7.06,
+    "e": 7.42
+   },
+   {
+    "w": "and",
+    "s": 7.42,
+    "e": 7.65
+   },
+   {
+    "w": "it",
+    "s": 7.65,
+    "e": 7.83
+   },
+   {
+    "w": "could",
+    "s": 7.83,
+    "e": 8.19
+   },
+   {
+    "w": "hold",
+    "s": 8.19,
+    "e": 8.49
+   },
+   {
+    "w": "about",
+    "s": 8.49,
+    "e": 8.85
+   },
+   {
+    "w": "two",
+    "s": 8.85,
+    "e": 9.08
+   },
+   {
+    "w": "point",
+    "s": 9.08,
+    "e": 9.44
+   },
+   {
+    "w": "three",
+    "s": 9.44,
+    "e": 9.8
+   },
+   {
+    "w": "million",
+    "s": 9.8,
+    "e": 10.28
+   },
+   {
+    "w": "gallons",
+    "s": 10.28,
+    "e": 10.81
+   },
+   {
+    "w": "It",
+    "s": 11.73,
+    "e": 11.91
+   },
+   {
+    "w": "sat",
+    "s": 11.91,
+    "e": 12.15
+   },
+   {
+    "w": "in",
+    "s": 12.15,
+    "e": 12.33
+   },
+   {
+    "w": "one",
+    "s": 12.33,
+    "e": 12.57
+   },
+   {
+    "w": "of",
+    "s": 12.57,
+    "e": 12.75
+   },
+   {
+    "w": "the",
+    "s": 12.75,
+    "e": 12.99
+   },
+   {
+    "w": "most",
+    "s": 12.99,
+    "e": 13.29
+   },
+   {
+    "w": "crowded",
+    "s": 13.29,
+    "e": 13.77
+   },
+   {
+    "w": "neighborhoods",
+    "s": 13.77,
+    "e": 14.61
+   },
+   {
+    "w": "in",
+    "s": 14.61,
+    "e": 14.79
+   },
+   {
+    "w": "the",
+    "s": 14.79,
+    "e": 15.03
+   },
+   {
+    "w": "city",
+    "s": 15.03,
+    "e": 15.39
+   },
+   {
+    "w": "beside",
+    "s": 15.39,
+    "e": 15.81
+   },
+   {
+    "w": "homes",
+    "s": 15.81,
+    "e": 16.23
+   },
+   {
+    "w": "a",
+    "s": 16.23,
+    "e": 16.35
+   },
+   {
+    "w": "firehouse",
+    "s": 16.35,
+    "e": 17.01
+   },
+   {
+    "w": "a",
+    "s": 17.01,
+    "e": 17.13
+   },
+   {
+    "w": "playground",
+    "s": 17.13,
+    "e": 17.85
+   },
+   {
+    "w": "and",
+    "s": 17.85,
+    "e": 18.09
+   },
+   {
+    "w": "the",
+    "s": 18.09,
+    "e": 18.33
+   },
+   {
+    "w": "elevated",
+    "s": 18.33,
+    "e": 18.87
+   },
+   {
+    "w": "railway",
+    "s": 18.87,
+    "e": 19.4
+   }
+  ]
+ },
+ {
+  "id": "s10",
+  "name": "test",
+  "text": "A new tank like this should be tested by filling it to the top with water, to see whether it leaks. Jell skipped that. He ran only a few inches of water into the bottom, declared it fine, and ordered the first load of molasses.",
+  "audio_dur": 16.375,
+  "sentences": [
+   {
+    "text": "A new tank like this should be tested by filling it to the top with water, to see whether it leaks.",
+    "s": 0.3,
+    "e": 6.55
+   },
+   {
+    "text": "Jell skipped that.",
+    "s": 6.87,
+    "e": 8.29
+   },
+   {
+    "text": "He ran only a few inches of water into the bottom, declared it fine, and ordered the first load of molasses.",
+    "s": 8.61,
+    "e": 15.66
+   }
+  ],
+  "words": [
+   {
+    "w": "A",
+    "s": 0.55,
+    "e": 0.67
+   },
+   {
+    "w": "new",
+    "s": 0.67,
+    "e": 0.9
+   },
+   {
+    "w": "tank",
+    "s": 0.9,
+    "e": 1.18
+   },
+   {
+    "w": "like",
+    "s": 1.18,
+    "e": 1.47
+   },
+   {
+    "w": "this",
+    "s": 1.47,
+    "e": 1.76
+   },
+   {
+    "w": "should",
+    "s": 1.76,
+    "e": 2.16
+   },
+   {
+    "w": "be",
+    "s": 2.16,
+    "e": 2.33
+   },
+   {
+    "w": "tested",
+    "s": 2.33,
+    "e": 2.74
+   },
+   {
+    "w": "by",
+    "s": 2.74,
+    "e": 2.91
+   },
+   {
+    "w": "filling",
+    "s": 2.91,
+    "e": 3.37
+   },
+   {
+    "w": "it",
+    "s": 3.37,
+    "e": 3.54
+   },
+   {
+    "w": "to",
+    "s": 3.54,
+    "e": 3.71
+   },
+   {
+    "w": "the",
+    "s": 3.71,
+    "e": 3.94
+   },
+   {
+    "w": "top",
+    "s": 3.94,
+    "e": 4.17
+   },
+   {
+    "w": "with",
+    "s": 4.17,
+    "e": 4.46
+   },
+   {
+    "w": "water",
+    "s": 4.46,
+    "e": 4.86
+   },
+   {
+    "w": "to",
+    "s": 4.86,
+    "e": 5.04
+   },
+   {
+    "w": "see",
+    "s": 5.04,
+    "e": 5.27
+   },
+   {
+    "w": "whether",
+    "s": 5.27,
+    "e": 5.73
+   },
+   {
+    "w": "it",
+    "s": 5.73,
+    "e": 5.9
+   },
+   {
+    "w": "leaks",
+    "s": 5.9,
+    "e": 6.3
+   },
+   {
+    "w": "Jell",
+    "s": 6.93,
+    "e": 7.27
+   },
+   {
+    "w": "skipped",
+    "s": 7.27,
+    "e": 7.82
+   },
+   {
+    "w": "that",
+    "s": 7.82,
+    "e": 8.23
+   },
+   {
+    "w": "He",
+    "s": 8.89,
+    "e": 9.07
+   },
+   {
+    "w": "ran",
+    "s": 9.07,
+    "e": 9.31
+   },
+   {
+    "w": "only",
+    "s": 9.31,
+    "e": 9.6
+   },
+   {
+    "w": "a",
+    "s": 9.6,
+    "e": 9.72
+   },
+   {
+    "w": "few",
+    "s": 9.72,
+    "e": 9.96
+   },
+   {
+    "w": "inches",
+    "s": 9.96,
+    "e": 10.38
+   },
+   {
+    "w": "of",
+    "s": 10.38,
+    "e": 10.56
+   },
+   {
+    "w": "water",
+    "s": 10.56,
+    "e": 10.91
+   },
+   {
+    "w": "into",
+    "s": 10.91,
+    "e": 11.21
+   },
+   {
+    "w": "the",
+    "s": 11.21,
+    "e": 11.45
+   },
+   {
+    "w": "bottom",
+    "s": 11.45,
+    "e": 11.92
+   },
+   {
+    "w": "declared",
+    "s": 11.92,
+    "e": 12.46
+   },
+   {
+    "w": "it",
+    "s": 12.46,
+    "e": 12.64
+   },
+   {
+    "w": "fine",
+    "s": 12.64,
+    "e": 12.99
+   },
+   {
+    "w": "and",
+    "s": 12.99,
+    "e": 13.23
+   },
+   {
+    "w": "ordered",
+    "s": 13.23,
+    "e": 13.71
+   },
+   {
+    "w": "the",
+    "s": 13.71,
+    "e": 13.95
+   },
+   {
+    "w": "first",
+    "s": 13.95,
+    "e": 14.3
+   },
+   {
+    "w": "load",
+    "s": 14.3,
+    "e": 14.6
+   },
+   {
+    "w": "of",
+    "s": 14.6,
+    "e": 14.78
+   },
+   {
+    "w": "molasses",
+    "s": 14.78,
+    "e": 15.37
+   }
+  ]
+ },
+ {
+  "id": "s11",
+  "name": "leaks",
+  "text": "The tank leaked from the very first day. Thin brown streaks ran down the seams between the steel plates. Neighborhood families brought pots and cans and collected the dripping syrup to take home.",
+  "audio_dur": 14.356,
+  "sentences": [
+   {
+    "text": "The tank leaked from the very first day.",
+    "s": 0.3,
+    "e": 3.09
+   },
+   {
+    "text": "Thin brown streaks ran down the seams between the steel plates.",
+    "s": 3.41,
+    "e": 7.6
+   },
+   {
+    "text": "Neighborhood families brought pots and cans and collected the dripping syrup to take home.",
+    "s": 7.92,
+    "e": 13.64
+   }
+  ],
+  "words": [
+   {
+    "w": "The",
+    "s": 0.41,
+    "e": 0.66
+   },
+   {
+    "w": "tank",
+    "s": 0.66,
+    "e": 0.98
+   },
+   {
+    "w": "leaked",
+    "s": 0.98,
+    "e": 1.41
+   },
+   {
+    "w": "from",
+    "s": 1.41,
+    "e": 1.73
+   },
+   {
+    "w": "the",
+    "s": 1.73,
+    "e": 1.98
+   },
+   {
+    "w": "very",
+    "s": 1.98,
+    "e": 2.29
+   },
+   {
+    "w": "first",
+    "s": 2.29,
+    "e": 2.67
+   },
+   {
+    "w": "day",
+    "s": 2.67,
+    "e": 2.98
+   },
+   {
+    "w": "Thin",
+    "s": 3.58,
+    "e": 3.88
+   },
+   {
+    "w": "brown",
+    "s": 3.88,
+    "e": 4.24
+   },
+   {
+    "w": "streaks",
+    "s": 4.24,
+    "e": 4.72
+   },
+   {
+    "w": "ran",
+    "s": 4.72,
+    "e": 4.97
+   },
+   {
+    "w": "down",
+    "s": 4.97,
+    "e": 5.27
+   },
+   {
+    "w": "the",
+    "s": 5.27,
+    "e": 5.51
+   },
+   {
+    "w": "seams",
+    "s": 5.51,
+    "e": 5.87
+   },
+   {
+    "w": "between",
+    "s": 5.87,
+    "e": 6.35
+   },
+   {
+    "w": "the",
+    "s": 6.35,
+    "e": 6.59
+   },
+   {
+    "w": "steel",
+    "s": 6.59,
+    "e": 6.95
+   },
+   {
+    "w": "plates",
+    "s": 6.95,
+    "e": 7.44
+   },
+   {
+    "w": "Neighborhood",
+    "s": 8.15,
+    "e": 8.9
+   },
+   {
+    "w": "families",
+    "s": 8.9,
+    "e": 9.42
+   },
+   {
+    "w": "brought",
+    "s": 9.42,
+    "e": 9.88
+   },
+   {
+    "w": "pots",
+    "s": 9.88,
+    "e": 10.17
+   },
+   {
+    "w": "and",
+    "s": 10.17,
+    "e": 10.4
+   },
+   {
+    "w": "cans",
+    "s": 10.4,
+    "e": 10.69
+   },
+   {
+    "w": "and",
+    "s": 10.69,
+    "e": 10.92
+   },
+   {
+    "w": "collected",
+    "s": 10.92,
+    "e": 11.5
+   },
+   {
+    "w": "the",
+    "s": 11.5,
+    "e": 11.73
+   },
+   {
+    "w": "dripping",
+    "s": 11.73,
+    "e": 12.25
+   },
+   {
+    "w": "syrup",
+    "s": 12.25,
+    "e": 12.6
+   },
+   {
+    "w": "to",
+    "s": 12.6,
+    "e": 12.77
+   },
+   {
+    "w": "take",
+    "s": 12.77,
+    "e": 13.06
+   },
+   {
+    "w": "home",
+    "s": 13.06,
+    "e": 13.41
+   }
+  ]
+ },
+ {
+  "id": "s12",
+  "name": "groan",
+  "text": "People also noticed the noise. Every time the tank was filled, it groaned and rumbled. Workers complained. One of them even brought Jell a piece of flaking steel. Jell's response was not to fix the tank. His response was to have it painted brown, so the leaks would be harder to see.",
+  "audio_dur": 22.077,
+  "sentences": [
+   {
+    "text": "People also noticed the noise.",
+    "s": 0.3,
+    "e": 2.55
+   },
+   {
+    "text": "Every time the tank was filled, it groaned and rumbled.",
+    "s": 2.87,
+    "e": 6.6
+   },
+   {
+    "text": "Workers complained.",
+    "s": 6.92,
+    "e": 8.48
+   },
+   {
+    "text": "One of them even brought Jell a piece of flaking steel.",
+    "s": 8.8,
+    "e": 12.49
+   },
+   {
+    "text": "Jell's response was not to fix the tank.",
+    "s": 12.81,
+    "e": 15.94
+   },
+   {
+    "text": "His response was to have it painted brown, so the leaks would be harder to see.",
+    "s": 16.26,
+    "e": 21.36
+   }
+  ],
+  "words": [
+   {
+    "w": "People",
+    "s": 0.39,
+    "e": 0.86
+   },
+   {
+    "w": "also",
+    "s": 0.86,
+    "e": 1.19
+   },
+   {
+    "w": "noticed",
+    "s": 1.19,
+    "e": 1.72
+   },
+   {
+    "w": "the",
+    "s": 1.72,
+    "e": 1.99
+   },
+   {
+    "w": "noise",
+    "s": 1.99,
+    "e": 2.46
+   },
+   {
+    "w": "Every",
+    "s": 3.01,
+    "e": 3.38
+   },
+   {
+    "w": "time",
+    "s": 3.38,
+    "e": 3.69
+   },
+   {
+    "w": "the",
+    "s": 3.69,
+    "e": 3.93
+   },
+   {
+    "w": "tank",
+    "s": 3.93,
+    "e": 4.24
+   },
+   {
+    "w": "was",
+    "s": 4.24,
+    "e": 4.49
+   },
+   {
+    "w": "filled",
+    "s": 4.49,
+    "e": 4.98
+   },
+   {
+    "w": "it",
+    "s": 4.98,
+    "e": 5.16
+   },
+   {
+    "w": "groaned",
+    "s": 5.16,
+    "e": 5.65
+   },
+   {
+    "w": "and",
+    "s": 5.65,
+    "e": 5.9
+   },
+   {
+    "w": "rumbled",
+    "s": 5.9,
+    "e": 6.45
+   },
+   {
+    "w": "Workers",
+    "s": 6.98,
+    "e": 7.56
+   },
+   {
+    "w": "complained",
+    "s": 7.56,
+    "e": 8.42
+   },
+   {
+    "w": "One",
+    "s": 8.95,
+    "e": 9.19
+   },
+   {
+    "w": "of",
+    "s": 9.19,
+    "e": 9.37
+   },
+   {
+    "w": "them",
+    "s": 9.37,
+    "e": 9.68
+   },
+   {
+    "w": "even",
+    "s": 9.68,
+    "e": 9.98
+   },
+   {
+    "w": "brought",
+    "s": 9.98,
+    "e": 10.47
+   },
+   {
+    "w": "Jell",
+    "s": 10.47,
+    "e": 10.77
+   },
+   {
+    "w": "a",
+    "s": 10.77,
+    "e": 10.89
+   },
+   {
+    "w": "piece",
+    "s": 10.89,
+    "e": 11.25
+   },
+   {
+    "w": "of",
+    "s": 11.25,
+    "e": 11.44
+   },
+   {
+    "w": "flaking",
+    "s": 11.44,
+    "e": 11.92
+   },
+   {
+    "w": "steel",
+    "s": 11.92,
+    "e": 12.35
+   },
+   {
+    "w": "Jell's",
+    "s": 12.94,
+    "e": 13.43
+   },
+   {
+    "w": "response",
+    "s": 13.43,
+    "e": 14.06
+   },
+   {
+    "w": "was",
+    "s": 14.06,
+    "e": 14.34
+   },
+   {
+    "w": "not",
+    "s": 14.34,
+    "e": 14.62
+   },
+   {
+    "w": "to",
+    "s": 14.62,
+    "e": 14.83
+   },
+   {
+    "w": "fix",
+    "s": 14.83,
+    "e": 15.11
+   },
+   {
+    "w": "the",
+    "s": 15.11,
+    "e": 15.39
+   },
+   {
+    "w": "tank",
+    "s": 15.39,
+    "e": 15.82
+   },
+   {
+    "w": "His",
+    "s": 16.46,
+    "e": 16.7
+   },
+   {
+    "w": "response",
+    "s": 16.7,
+    "e": 17.23
+   },
+   {
+    "w": "was",
+    "s": 17.23,
+    "e": 17.46
+   },
+   {
+    "w": "to",
+    "s": 17.46,
+    "e": 17.64
+   },
+   {
+    "w": "have",
+    "s": 17.64,
+    "e": 17.93
+   },
+   {
+    "w": "it",
+    "s": 17.93,
+    "e": 18.11
+   },
+   {
+    "w": "painted",
+    "s": 18.11,
+    "e": 18.57
+   },
+   {
+    "w": "brown",
+    "s": 18.57,
+    "e": 18.98
+   },
+   {
+    "w": "so",
+    "s": 18.98,
+    "e": 19.16
+   },
+   {
+    "w": "the",
+    "s": 19.16,
+    "e": 19.39
+   },
+   {
+    "w": "leaks",
+    "s": 19.39,
+    "e": 19.75
+   },
+   {
+    "w": "would",
+    "s": 19.75,
+    "e": 20.1
+   },
+   {
+    "w": "be",
+    "s": 20.1,
+    "e": 20.27
+   },
+   {
+    "w": "harder",
+    "s": 20.27,
+    "e": 20.68
+   },
+   {
+    "w": "to",
+    "s": 20.68,
+    "e": 20.86
+   },
+   {
+    "w": "see",
+    "s": 20.86,
+    "e": 21.15
+   }
+  ]
+ },
+ {
+  "id": "s13",
+  "name": "prohibition",
+  "text": "And there was one more pressure on the tank. By January nineteen nineteen, the country was days away from writing a ban on alcohol into the Constitution. The movement for Prohibition was winning state after state. Several historians argue the company was racing to turn as much molasses into alcohol as it could before the law arrived.",
+  "audio_dur": 24.958,
+  "sentences": [
+   {
+    "text": "And there was one more pressure on the tank.",
+    "s": 0.3,
+    "e": 3.02
+   },
+   {
+    "text": "By January nineteen nineteen, the country was days away from writing a ban on alcohol into the Constitution.",
+    "s": 3.34,
+    "e": 10.86
+   },
+   {
+    "text": "The movement for Prohibition was winning state after state.",
+    "s": 11.18,
+    "e": 15.22
+   },
+   {
+    "text": "Several historians argue the company was racing to turn as much molasses into alcohol as it could before the law arrived.",
+    "s": 15.54,
+    "e": 24.24
+   }
+  ],
+  "words": [
+   {
+    "w": "And",
+    "s": 0.41,
+    "e": 0.63
+   },
+   {
+    "w": "there",
+    "s": 0.63,
+    "e": 0.96
+   },
+   {
+    "w": "was",
+    "s": 0.96,
+    "e": 1.19
+   },
+   {
+    "w": "one",
+    "s": 1.19,
+    "e": 1.41
+   },
+   {
+    "w": "more",
+    "s": 1.41,
+    "e": 1.69
+   },
+   {
+    "w": "pressure",
+    "s": 1.69,
+    "e": 2.19
+   },
+   {
+    "w": "on",
+    "s": 2.19,
+    "e": 2.35
+   },
+   {
+    "w": "the",
+    "s": 2.35,
+    "e": 2.57
+   },
+   {
+    "w": "tank",
+    "s": 2.57,
+    "e": 2.91
+   },
+   {
+    "w": "By",
+    "s": 3.64,
+    "e": 3.83
+   },
+   {
+    "w": "January",
+    "s": 3.83,
+    "e": 4.33
+   },
+   {
+    "w": "nineteen",
+    "s": 4.33,
+    "e": 4.91
+   },
+   {
+    "w": "nineteen",
+    "s": 4.91,
+    "e": 5.54
+   },
+   {
+    "w": "the",
+    "s": 5.54,
+    "e": 5.79
+   },
+   {
+    "w": "country",
+    "s": 5.79,
+    "e": 6.3
+   },
+   {
+    "w": "was",
+    "s": 6.3,
+    "e": 6.56
+   },
+   {
+    "w": "days",
+    "s": 6.56,
+    "e": 6.87
+   },
+   {
+    "w": "away",
+    "s": 6.87,
+    "e": 7.19
+   },
+   {
+    "w": "from",
+    "s": 7.19,
+    "e": 7.51
+   },
+   {
+    "w": "writing",
+    "s": 7.51,
+    "e": 8.02
+   },
+   {
+    "w": "a",
+    "s": 8.02,
+    "e": 8.14
+   },
+   {
+    "w": "ban",
+    "s": 8.14,
+    "e": 8.4
+   },
+   {
+    "w": "on",
+    "s": 8.4,
+    "e": 8.59
+   },
+   {
+    "w": "alcohol",
+    "s": 8.59,
+    "e": 9.1
+   },
+   {
+    "w": "into",
+    "s": 9.1,
+    "e": 9.41
+   },
+   {
+    "w": "the",
+    "s": 9.41,
+    "e": 9.67
+   },
+   {
+    "w": "Constitution",
+    "s": 9.67,
+    "e": 10.56
+   },
+   {
+    "w": "The",
+    "s": 11.34,
+    "e": 11.59
+   },
+   {
+    "w": "movement",
+    "s": 11.59,
+    "e": 12.14
+   },
+   {
+    "w": "for",
+    "s": 12.14,
+    "e": 12.39
+   },
+   {
+    "w": "Prohibition",
+    "s": 12.39,
+    "e": 13.13
+   },
+   {
+    "w": "was",
+    "s": 13.13,
+    "e": 13.38
+   },
+   {
+    "w": "winning",
+    "s": 13.38,
+    "e": 13.88
+   },
+   {
+    "w": "state",
+    "s": 13.88,
+    "e": 14.25
+   },
+   {
+    "w": "after",
+    "s": 14.25,
+    "e": 14.62
+   },
+   {
+    "w": "state",
+    "s": 14.62,
+    "e": 15.05
+   },
+   {
+    "w": "Several",
+    "s": 15.88,
+    "e": 16.41
+   },
+   {
+    "w": "historians",
+    "s": 16.41,
+    "e": 17.13
+   },
+   {
+    "w": "argue",
+    "s": 17.13,
+    "e": 17.52
+   },
+   {
+    "w": "the",
+    "s": 17.52,
+    "e": 17.79
+   },
+   {
+    "w": "company",
+    "s": 17.79,
+    "e": 18.31
+   },
+   {
+    "w": "was",
+    "s": 18.31,
+    "e": 18.57
+   },
+   {
+    "w": "racing",
+    "s": 18.57,
+    "e": 19.03
+   },
+   {
+    "w": "to",
+    "s": 19.03,
+    "e": 19.23
+   },
+   {
+    "w": "turn",
+    "s": 19.23,
+    "e": 19.56
+   },
+   {
+    "w": "as",
+    "s": 19.56,
+    "e": 19.76
+   },
+   {
+    "w": "much",
+    "s": 19.76,
+    "e": 20.08
+   },
+   {
+    "w": "molasses",
+    "s": 20.08,
+    "e": 20.67
+   },
+   {
+    "w": "into",
+    "s": 20.67,
+    "e": 21.0
+   },
+   {
+    "w": "alcohol",
+    "s": 21.0,
+    "e": 21.53
+   },
+   {
+    "w": "as",
+    "s": 21.53,
+    "e": 21.72
+   },
+   {
+    "w": "it",
+    "s": 21.72,
+    "e": 21.92
+   },
+   {
+    "w": "could",
+    "s": 21.92,
+    "e": 22.31
+   },
+   {
+    "w": "before",
+    "s": 22.31,
+    "e": 22.77
+   },
+   {
+    "w": "the",
+    "s": 22.77,
+    "e": 23.04
+   },
+   {
+    "w": "law",
+    "s": 23.04,
+    "e": 23.3
+   },
+   {
+    "w": "arrived",
+    "s": 23.3,
+    "e": 23.89
+   }
+  ]
+ },
+ {
+  "id": "s14",
+  "name": "weather",
+  "text": "Now, back to January fifteenth. For days, Boston had been bitterly cold, close to zero degrees. Then, almost overnight, the temperature jumped to over forty. Just days before, a ship had delivered a fresh load of warm molasses, heated so that it would pump more easily. It was poured on top of the cold molasses already inside. The tank was almost full.",
+  "audio_dur": 27.009,
+  "sentences": [
+   {
+    "text": "Now, back to January fifteenth.",
+    "s": 0.3,
+    "e": 2.59
+   },
+   {
+    "text": "For days, Boston had been bitterly cold, close to zero degrees.",
+    "s": 2.91,
+    "e": 7.47
+   },
+   {
+    "text": "Then, almost overnight, the temperature jumped to over forty.",
+    "s": 7.79,
+    "e": 11.89
+   },
+   {
+    "text": "Just days before, a ship had delivered a fresh load of warm molasses, heated so that it would pump more easily.",
+    "s": 12.21,
+    "e": 19.6
+   },
+   {
+    "text": "It was poured on top of the cold molasses already inside.",
+    "s": 19.92,
+    "e": 24.01
+   },
+   {
+    "text": "The tank was almost full.",
+    "s": 24.33,
+    "e": 26.29
+   }
+  ],
+  "words": [
+   {
+    "w": "Now",
+    "s": 0.39,
+    "e": 0.72
+   },
+   {
+    "w": "back",
+    "s": 0.72,
+    "e": 1.05
+   },
+   {
+    "w": "to",
+    "s": 1.05,
+    "e": 1.25
+   },
+   {
+    "w": "January",
+    "s": 1.25,
+    "e": 1.78
+   },
+   {
+    "w": "fifteenth",
+    "s": 1.78,
+    "e": 2.5
+   },
+   {
+    "w": "For",
+    "s": 3.1,
+    "e": 3.36
+   },
+   {
+    "w": "days",
+    "s": 3.36,
+    "e": 3.75
+   },
+   {
+    "w": "Boston",
+    "s": 3.75,
+    "e": 4.21
+   },
+   {
+    "w": "had",
+    "s": 4.21,
+    "e": 4.47
+   },
+   {
+    "w": "been",
+    "s": 4.47,
+    "e": 4.8
+   },
+   {
+    "w": "bitterly",
+    "s": 4.8,
+    "e": 5.39
+   },
+   {
+    "w": "cold",
+    "s": 5.39,
+    "e": 5.78
+   },
+   {
+    "w": "close",
+    "s": 5.78,
+    "e": 6.17
+   },
+   {
+    "w": "to",
+    "s": 6.17,
+    "e": 6.37
+   },
+   {
+    "w": "zero",
+    "s": 6.37,
+    "e": 6.7
+   },
+   {
+    "w": "degrees",
+    "s": 6.7,
+    "e": 7.29
+   },
+   {
+    "w": "Then",
+    "s": 7.95,
+    "e": 8.32
+   },
+   {
+    "w": "almost",
+    "s": 8.32,
+    "e": 8.74
+   },
+   {
+    "w": "overnight",
+    "s": 8.74,
+    "e": 9.41
+   },
+   {
+    "w": "the",
+    "s": 9.41,
+    "e": 9.66
+   },
+   {
+    "w": "temperature",
+    "s": 9.66,
+    "e": 10.39
+   },
+   {
+    "w": "jumped",
+    "s": 10.39,
+    "e": 10.81
+   },
+   {
+    "w": "to",
+    "s": 10.81,
+    "e": 10.99
+   },
+   {
+    "w": "over",
+    "s": 10.99,
+    "e": 11.3
+   },
+   {
+    "w": "forty",
+    "s": 11.3,
+    "e": 11.72
+   },
+   {
+    "w": "Just",
+    "s": 12.5,
+    "e": 12.81
+   },
+   {
+    "w": "days",
+    "s": 12.81,
+    "e": 13.11
+   },
+   {
+    "w": "before",
+    "s": 13.11,
+    "e": 13.6
+   },
+   {
+    "w": "a",
+    "s": 13.6,
+    "e": 13.72
+   },
+   {
+    "w": "ship",
+    "s": 13.72,
+    "e": 14.02
+   },
+   {
+    "w": "had",
+    "s": 14.02,
+    "e": 14.26
+   },
+   {
+    "w": "delivered",
+    "s": 14.26,
+    "e": 14.87
+   },
+   {
+    "w": "a",
+    "s": 14.87,
+    "e": 14.99
+   },
+   {
+    "w": "fresh",
+    "s": 14.99,
+    "e": 15.36
+   },
+   {
+    "w": "load",
+    "s": 15.36,
+    "e": 15.66
+   },
+   {
+    "w": "of",
+    "s": 15.66,
+    "e": 15.84
+   },
+   {
+    "w": "warm",
+    "s": 15.84,
+    "e": 16.14
+   },
+   {
+    "w": "molasses",
+    "s": 16.14,
+    "e": 16.75
+   },
+   {
+    "w": "heated",
+    "s": 16.75,
+    "e": 17.18
+   },
+   {
+    "w": "so",
+    "s": 17.18,
+    "e": 17.36
+   },
+   {
+    "w": "that",
+    "s": 17.36,
+    "e": 17.66
+   },
+   {
+    "w": "it",
+    "s": 17.66,
+    "e": 17.84
+   },
+   {
+    "w": "would",
+    "s": 17.84,
+    "e": 18.21
+   },
+   {
+    "w": "pump",
+    "s": 18.21,
+    "e": 18.51
+   },
+   {
+    "w": "more",
+    "s": 18.51,
+    "e": 18.81
+   },
+   {
+    "w": "easily",
+    "s": 18.81,
+    "e": 19.3
+   },
+   {
+    "w": "It",
+    "s": 20.08,
+    "e": 20.27
+   },
+   {
+    "w": "was",
+    "s": 20.27,
+    "e": 20.53
+   },
+   {
+    "w": "poured",
+    "s": 20.53,
+    "e": 20.99
+   },
+   {
+    "w": "on",
+    "s": 20.99,
+    "e": 21.18
+   },
+   {
+    "w": "top",
+    "s": 21.18,
+    "e": 21.44
+   },
+   {
+    "w": "of",
+    "s": 21.44,
+    "e": 21.64
+   },
+   {
+    "w": "the",
+    "s": 21.64,
+    "e": 21.9
+   },
+   {
+    "w": "cold",
+    "s": 21.9,
+    "e": 22.22
+   },
+   {
+    "w": "molasses",
+    "s": 22.22,
+    "e": 22.8
+   },
+   {
+    "w": "already",
+    "s": 22.8,
+    "e": 23.32
+   },
+   {
+    "w": "inside",
+    "s": 23.32,
+    "e": 23.84
+   },
+   {
+    "w": "The",
+    "s": 24.41,
+    "e": 24.68
+   },
+   {
+    "w": "tank",
+    "s": 24.68,
+    "e": 25.03
+   },
+   {
+    "w": "was",
+    "s": 25.03,
+    "e": 25.31
+   },
+   {
+    "w": "almost",
+    "s": 25.31,
+    "e": 25.79
+   },
+   {
+    "w": "full",
+    "s": 25.79,
+    "e": 26.21
+   }
+  ]
+ },
+ {
+  "id": "s15",
+  "name": "noon",
+  "text": "Around noon, the North End went about its day. Children were walking home from school for lunch. Men from the city paving yard were eating in their shed. Firefighters at Engine thirty-one were playing cards. A streetcar rattled along the elevated tracks overhead.",
+  "audio_dur": 19.731,
+  "sentences": [
+   {
+    "text": "Around noon, the North End went about its day.",
+    "s": 0.3,
+    "e": 3.39
+   },
+   {
+    "text": "Children were walking home from school for lunch.",
+    "s": 3.71,
+    "e": 6.53
+   },
+   {
+    "text": "Men from the city paving yard were eating in their shed.",
+    "s": 6.85,
+    "e": 10.57
+   },
+   {
+    "text": "Firefighters at Engine thirty-one were playing cards.",
+    "s": 10.89,
+    "e": 14.68
+   },
+   {
+    "text": "A streetcar rattled along the elevated tracks overhead.",
+    "s": 15.0,
+    "e": 19.01
+   }
+  ],
+  "words": [
+   {
+    "w": "Around",
+    "s": 0.42,
+    "e": 0.85
+   },
+   {
+    "w": "noon",
+    "s": 0.85,
+    "e": 1.21
+   },
+   {
+    "w": "the",
+    "s": 1.21,
+    "e": 1.45
+   },
+   {
+    "w": "North",
+    "s": 1.45,
+    "e": 1.82
+   },
+   {
+    "w": "End",
+    "s": 1.82,
+    "e": 2.06
+   },
+   {
+    "w": "went",
+    "s": 2.06,
+    "e": 2.36
+   },
+   {
+    "w": "about",
+    "s": 2.36,
+    "e": 2.72
+   },
+   {
+    "w": "its",
+    "s": 2.72,
+    "e": 2.97
+   },
+   {
+    "w": "day",
+    "s": 2.97,
+    "e": 3.27
+   },
+   {
+    "w": "Children",
+    "s": 3.82,
+    "e": 4.29
+   },
+   {
+    "w": "were",
+    "s": 4.29,
+    "e": 4.55
+   },
+   {
+    "w": "walking",
+    "s": 4.55,
+    "e": 4.97
+   },
+   {
+    "w": "home",
+    "s": 4.97,
+    "e": 5.23
+   },
+   {
+    "w": "from",
+    "s": 5.23,
+    "e": 5.49
+   },
+   {
+    "w": "school",
+    "s": 5.49,
+    "e": 5.85
+   },
+   {
+    "w": "for",
+    "s": 5.85,
+    "e": 6.06
+   },
+   {
+    "w": "lunch",
+    "s": 6.06,
+    "e": 6.42
+   },
+   {
+    "w": "Men",
+    "s": 7.0,
+    "e": 7.24
+   },
+   {
+    "w": "from",
+    "s": 7.24,
+    "e": 7.54
+   },
+   {
+    "w": "the",
+    "s": 7.54,
+    "e": 7.78
+   },
+   {
+    "w": "city",
+    "s": 7.78,
+    "e": 8.08
+   },
+   {
+    "w": "paving",
+    "s": 8.08,
+    "e": 8.5
+   },
+   {
+    "w": "yard",
+    "s": 8.5,
+    "e": 8.8
+   },
+   {
+    "w": "were",
+    "s": 8.8,
+    "e": 9.1
+   },
+   {
+    "w": "eating",
+    "s": 9.1,
+    "e": 9.52
+   },
+   {
+    "w": "in",
+    "s": 9.52,
+    "e": 9.7
+   },
+   {
+    "w": "their",
+    "s": 9.7,
+    "e": 10.06
+   },
+   {
+    "w": "shed",
+    "s": 10.06,
+    "e": 10.42
+   },
+   {
+    "w": "Firefighters",
+    "s": 11.04,
+    "e": 11.88
+   },
+   {
+    "w": "at",
+    "s": 11.88,
+    "e": 12.07
+   },
+   {
+    "w": "Engine",
+    "s": 12.07,
+    "e": 12.53
+   },
+   {
+    "w": "thirty-one",
+    "s": 12.53,
+    "e": 13.24
+   },
+   {
+    "w": "were",
+    "s": 13.24,
+    "e": 13.56
+   },
+   {
+    "w": "playing",
+    "s": 13.56,
+    "e": 14.08
+   },
+   {
+    "w": "cards",
+    "s": 14.08,
+    "e": 14.53
+   },
+   {
+    "w": "A",
+    "s": 15.16,
+    "e": 15.29
+   },
+   {
+    "w": "streetcar",
+    "s": 15.29,
+    "e": 15.95
+   },
+   {
+    "w": "rattled",
+    "s": 15.95,
+    "e": 16.48
+   },
+   {
+    "w": "along",
+    "s": 16.48,
+    "e": 16.87
+   },
+   {
+    "w": "the",
+    "s": 16.87,
+    "e": 17.14
+   },
+   {
+    "w": "elevated",
+    "s": 17.14,
+    "e": 17.73
+   },
+   {
+    "w": "tracks",
+    "s": 17.73,
+    "e": 18.19
+   },
+   {
+    "w": "overhead",
+    "s": 18.19,
+    "e": 18.85
+   }
+  ]
+ },
+ {
+  "id": "s16",
+  "name": "collapse",
+  "text": "Then, at about twelve thirty, people heard it. Some said it sounded like thunder. Others said it sounded like a machine gun. It was the rivets, popping out of the tank one after another. The steel walls split open, and two point three million gallons of molasses, weighing about twelve thousand tons, came out all at once.",
+  "audio_dur": 23.527,
+  "sentences": [
+   {
+    "text": "Then, at about twelve thirty, people heard it.",
+    "s": 0.3,
+    "e": 3.23
+   },
+   {
+    "text": "Some said it sounded like thunder.",
+    "s": 3.55,
+    "e": 5.99
+   },
+   {
+    "text": "Others said it sounded like a machine gun.",
+    "s": 6.31,
+    "e": 9.34
+   },
+   {
+    "text": "It was the rivets, popping out of the tank one after another.",
+    "s": 9.66,
+    "e": 13.44
+   },
+   {
+    "text": "The steel walls split open, and two point three million gallons of molasses, weighing about twelve thousand tons, came out all at once.",
+    "s": 13.76,
+    "e": 22.81
+   }
+  ],
+  "words": [
+   {
+    "w": "Then",
+    "s": 0.42,
+    "e": 0.76
+   },
+   {
+    "w": "at",
+    "s": 0.76,
+    "e": 0.93
+   },
+   {
+    "w": "about",
+    "s": 0.93,
+    "e": 1.28
+   },
+   {
+    "w": "twelve",
+    "s": 1.28,
+    "e": 1.68
+   },
+   {
+    "w": "thirty",
+    "s": 1.68,
+    "e": 2.14
+   },
+   {
+    "w": "people",
+    "s": 2.14,
+    "e": 2.54
+   },
+   {
+    "w": "heard",
+    "s": 2.54,
+    "e": 2.89
+   },
+   {
+    "w": "it",
+    "s": 2.89,
+    "e": 3.12
+   },
+   {
+    "w": "Some",
+    "s": 3.65,
+    "e": 3.97
+   },
+   {
+    "w": "said",
+    "s": 3.97,
+    "e": 4.29
+   },
+   {
+    "w": "it",
+    "s": 4.29,
+    "e": 4.48
+   },
+   {
+    "w": "sounded",
+    "s": 4.48,
+    "e": 5.0
+   },
+   {
+    "w": "like",
+    "s": 5.0,
+    "e": 5.32
+   },
+   {
+    "w": "thunder",
+    "s": 5.32,
+    "e": 5.89
+   },
+   {
+    "w": "Others",
+    "s": 6.43,
+    "e": 6.89
+   },
+   {
+    "w": "said",
+    "s": 6.89,
+    "e": 7.21
+   },
+   {
+    "w": "it",
+    "s": 7.21,
+    "e": 7.4
+   },
+   {
+    "w": "sounded",
+    "s": 7.4,
+    "e": 7.92
+   },
+   {
+    "w": "like",
+    "s": 7.92,
+    "e": 8.25
+   },
+   {
+    "w": "a",
+    "s": 8.25,
+    "e": 8.38
+   },
+   {
+    "w": "machine",
+    "s": 8.38,
+    "e": 8.89
+   },
+   {
+    "w": "gun",
+    "s": 8.89,
+    "e": 9.22
+   },
+   {
+    "w": "It",
+    "s": 9.81,
+    "e": 9.98
+   },
+   {
+    "w": "was",
+    "s": 9.98,
+    "e": 10.2
+   },
+   {
+    "w": "the",
+    "s": 10.2,
+    "e": 10.43
+   },
+   {
+    "w": "rivets",
+    "s": 10.43,
+    "e": 10.88
+   },
+   {
+    "w": "popping",
+    "s": 10.88,
+    "e": 11.32
+   },
+   {
+    "w": "out",
+    "s": 11.32,
+    "e": 11.55
+   },
+   {
+    "w": "of",
+    "s": 11.55,
+    "e": 11.72
+   },
+   {
+    "w": "the",
+    "s": 11.72,
+    "e": 11.94
+   },
+   {
+    "w": "tank",
+    "s": 11.94,
+    "e": 12.22
+   },
+   {
+    "w": "one",
+    "s": 12.22,
+    "e": 12.44
+   },
+   {
+    "w": "after",
+    "s": 12.44,
+    "e": 12.78
+   },
+   {
+    "w": "another",
+    "s": 12.78,
+    "e": 13.28
+   },
+   {
+    "w": "The",
+    "s": 14.12,
+    "e": 14.36
+   },
+   {
+    "w": "steel",
+    "s": 14.36,
+    "e": 14.73
+   },
+   {
+    "w": "walls",
+    "s": 14.73,
+    "e": 15.1
+   },
+   {
+    "w": "split",
+    "s": 15.1,
+    "e": 15.46
+   },
+   {
+    "w": "open",
+    "s": 15.46,
+    "e": 15.83
+   },
+   {
+    "w": "and",
+    "s": 15.83,
+    "e": 16.08
+   },
+   {
+    "w": "two",
+    "s": 16.08,
+    "e": 16.32
+   },
+   {
+    "w": "point",
+    "s": 16.32,
+    "e": 16.69
+   },
+   {
+    "w": "three",
+    "s": 16.69,
+    "e": 17.06
+   },
+   {
+    "w": "million",
+    "s": 17.06,
+    "e": 17.55
+   },
+   {
+    "w": "gallons",
+    "s": 17.55,
+    "e": 18.04
+   },
+   {
+    "w": "of",
+    "s": 18.04,
+    "e": 18.22
+   },
+   {
+    "w": "molasses",
+    "s": 18.22,
+    "e": 18.83
+   },
+   {
+    "w": "weighing",
+    "s": 18.83,
+    "e": 19.38
+   },
+   {
+    "w": "about",
+    "s": 19.38,
+    "e": 19.75
+   },
+   {
+    "w": "twelve",
+    "s": 19.75,
+    "e": 20.18
+   },
+   {
+    "w": "thousand",
+    "s": 20.18,
+    "e": 20.73
+   },
+   {
+    "w": "tons",
+    "s": 20.73,
+    "e": 21.1
+   },
+   {
+    "w": "came",
+    "s": 21.1,
+    "e": 21.4
+   },
+   {
+    "w": "out",
+    "s": 21.4,
+    "e": 21.65
+   },
+   {
+    "w": "all",
+    "s": 21.65,
+    "e": 21.89
+   },
+   {
+    "w": "at",
+    "s": 21.89,
+    "e": 22.08
+   },
+   {
+    "w": "once",
+    "s": 22.08,
+    "e": 22.44
+   }
+  ]
+ },
+ {
+  "id": "s17",
+  "name": "wave",
+  "text": "What came out was a wave. At its peak it was around twenty-five feet high, and it moved at about thirty-five miles an hour. It flattened the company's office. It smashed the paving yard. A sheet of the tank's steel slammed into the elevated railway and buckled its supports, just after a train had passed.",
+  "audio_dur": 22.913,
+  "sentences": [
+   {
+    "text": "What came out was a wave.",
+    "s": 0.3,
+    "e": 2.41
+   },
+   {
+    "text": "At its peak it was around twenty-five feet high, and it moved at about thirty-five miles an hour.",
+    "s": 2.73,
+    "e": 9.22
+   },
+   {
+    "text": "It flattened the company's office.",
+    "s": 9.54,
+    "e": 11.91
+   },
+   {
+    "text": "It smashed the paving yard.",
+    "s": 12.23,
+    "e": 14.13
+   },
+   {
+    "text": "A sheet of the tank's steel slammed into the elevated railway and buckled its supports, just after a train had passed.",
+    "s": 14.45,
+    "e": 22.19
+   }
+  ],
+  "words": [
+   {
+    "w": "What",
+    "s": 0.38,
+    "e": 0.76
+   },
+   {
+    "w": "came",
+    "s": 0.76,
+    "e": 1.13
+   },
+   {
+    "w": "out",
+    "s": 1.13,
+    "e": 1.43
+   },
+   {
+    "w": "was",
+    "s": 1.43,
+    "e": 1.73
+   },
+   {
+    "w": "a",
+    "s": 1.73,
+    "e": 1.88
+   },
+   {
+    "w": "wave",
+    "s": 1.88,
+    "e": 2.33
+   },
+   {
+    "w": "At",
+    "s": 2.99,
+    "e": 3.18
+   },
+   {
+    "w": "its",
+    "s": 3.18,
+    "e": 3.42
+   },
+   {
+    "w": "peak",
+    "s": 3.42,
+    "e": 3.72
+   },
+   {
+    "w": "it",
+    "s": 3.72,
+    "e": 3.91
+   },
+   {
+    "w": "was",
+    "s": 3.91,
+    "e": 4.15
+   },
+   {
+    "w": "around",
+    "s": 4.15,
+    "e": 4.58
+   },
+   {
+    "w": "twenty-five",
+    "s": 4.58,
+    "e": 5.31
+   },
+   {
+    "w": "feet",
+    "s": 5.31,
+    "e": 5.61
+   },
+   {
+    "w": "high",
+    "s": 5.61,
+    "e": 5.97
+   },
+   {
+    "w": "and",
+    "s": 5.97,
+    "e": 6.22
+   },
+   {
+    "w": "it",
+    "s": 6.22,
+    "e": 6.4
+   },
+   {
+    "w": "moved",
+    "s": 6.4,
+    "e": 6.77
+   },
+   {
+    "w": "at",
+    "s": 6.77,
+    "e": 6.95
+   },
+   {
+    "w": "about",
+    "s": 6.95,
+    "e": 7.31
+   },
+   {
+    "w": "thirty-five",
+    "s": 7.31,
+    "e": 8.04
+   },
+   {
+    "w": "miles",
+    "s": 8.04,
+    "e": 8.41
+   },
+   {
+    "w": "an",
+    "s": 8.41,
+    "e": 8.59
+   },
+   {
+    "w": "hour",
+    "s": 8.59,
+    "e": 8.96
+   },
+   {
+    "w": "It",
+    "s": 9.63,
+    "e": 9.82
+   },
+   {
+    "w": "flattened",
+    "s": 9.82,
+    "e": 10.44
+   },
+   {
+    "w": "the",
+    "s": 10.44,
+    "e": 10.69
+   },
+   {
+    "w": "company's",
+    "s": 10.69,
+    "e": 11.32
+   },
+   {
+    "w": "office",
+    "s": 11.32,
+    "e": 11.82
+   },
+   {
+    "w": "It",
+    "s": 12.31,
+    "e": 12.5
+   },
+   {
+    "w": "smashed",
+    "s": 12.5,
+    "e": 12.99
+   },
+   {
+    "w": "the",
+    "s": 12.99,
+    "e": 13.24
+   },
+   {
+    "w": "paving",
+    "s": 13.24,
+    "e": 13.68
+   },
+   {
+    "w": "yard",
+    "s": 13.68,
+    "e": 14.05
+   },
+   {
+    "w": "A",
+    "s": 14.76,
+    "e": 14.88
+   },
+   {
+    "w": "sheet",
+    "s": 14.88,
+    "e": 15.24
+   },
+   {
+    "w": "of",
+    "s": 15.24,
+    "e": 15.42
+   },
+   {
+    "w": "the",
+    "s": 15.42,
+    "e": 15.66
+   },
+   {
+    "w": "tank's",
+    "s": 15.66,
+    "e": 16.08
+   },
+   {
+    "w": "steel",
+    "s": 16.08,
+    "e": 16.43
+   },
+   {
+    "w": "slammed",
+    "s": 16.43,
+    "e": 16.91
+   },
+   {
+    "w": "into",
+    "s": 16.91,
+    "e": 17.21
+   },
+   {
+    "w": "the",
+    "s": 17.21,
+    "e": 17.45
+   },
+   {
+    "w": "elevated",
+    "s": 17.45,
+    "e": 17.99
+   },
+   {
+    "w": "railway",
+    "s": 17.99,
+    "e": 18.47
+   },
+   {
+    "w": "and",
+    "s": 18.47,
+    "e": 18.71
+   },
+   {
+    "w": "buckled",
+    "s": 18.71,
+    "e": 19.19
+   },
+   {
+    "w": "its",
+    "s": 19.19,
+    "e": 19.43
+   },
+   {
+    "w": "supports",
+    "s": 19.43,
+    "e": 20.03
+   },
+   {
+    "w": "just",
+    "s": 20.03,
+    "e": 20.33
+   },
+   {
+    "w": "after",
+    "s": 20.33,
+    "e": 20.69
+   },
+   {
+    "w": "a",
+    "s": 20.69,
+    "e": 20.81
+   },
+   {
+    "w": "train",
+    "s": 20.81,
+    "e": 21.16
+   },
+   {
+    "w": "had",
+    "s": 21.16,
+    "e": 21.4
+   },
+   {
+    "w": "passed",
+    "s": 21.4,
+    "e": 21.88
+   }
+  ]
+ },
+ {
+  "id": "s18",
+  "name": "destruction",
+  "text": "The wave knocked the firehouse off its foundation. It lifted houses and crushed them. A truck was thrown into the harbor. Blocks of the neighborhood were flooded two to three feet deep in syrup.",
+  "audio_dur": 15.166,
+  "sentences": [
+   {
+    "text": "The wave knocked the firehouse off its foundation.",
+    "s": 0.3,
+    "e": 3.82
+   },
+   {
+    "text": "It lifted houses and crushed them.",
+    "s": 4.14,
+    "e": 6.61
+   },
+   {
+    "text": "A truck was thrown into the harbor.",
+    "s": 6.93,
+    "e": 9.61
+   },
+   {
+    "text": "Blocks of the neighborhood were flooded two to three feet deep in syrup.",
+    "s": 9.93,
+    "e": 14.45
+   }
+  ],
+  "words": [
+   {
+    "w": "The",
+    "s": 0.44,
+    "e": 0.69
+   },
+   {
+    "w": "wave",
+    "s": 0.69,
+    "e": 1.01
+   },
+   {
+    "w": "knocked",
+    "s": 1.01,
+    "e": 1.52
+   },
+   {
+    "w": "the",
+    "s": 1.52,
+    "e": 1.77
+   },
+   {
+    "w": "firehouse",
+    "s": 1.77,
+    "e": 2.41
+   },
+   {
+    "w": "off",
+    "s": 2.41,
+    "e": 2.66
+   },
+   {
+    "w": "its",
+    "s": 2.66,
+    "e": 2.92
+   },
+   {
+    "w": "foundation",
+    "s": 2.92,
+    "e": 3.68
+   },
+   {
+    "w": "It",
+    "s": 4.24,
+    "e": 4.43
+   },
+   {
+    "w": "lifted",
+    "s": 4.43,
+    "e": 4.89
+   },
+   {
+    "w": "houses",
+    "s": 4.89,
+    "e": 5.34
+   },
+   {
+    "w": "and",
+    "s": 5.34,
+    "e": 5.6
+   },
+   {
+    "w": "crushed",
+    "s": 5.6,
+    "e": 6.12
+   },
+   {
+    "w": "them",
+    "s": 6.12,
+    "e": 6.51
+   },
+   {
+    "w": "A",
+    "s": 7.04,
+    "e": 7.17
+   },
+   {
+    "w": "truck",
+    "s": 7.17,
+    "e": 7.59
+   },
+   {
+    "w": "was",
+    "s": 7.59,
+    "e": 7.86
+   },
+   {
+    "w": "thrown",
+    "s": 7.86,
+    "e": 8.34
+   },
+   {
+    "w": "into",
+    "s": 8.34,
+    "e": 8.68
+   },
+   {
+    "w": "the",
+    "s": 8.68,
+    "e": 8.96
+   },
+   {
+    "w": "harbor",
+    "s": 8.96,
+    "e": 9.5
+   },
+   {
+    "w": "Blocks",
+    "s": 10.11,
+    "e": 10.51
+   },
+   {
+    "w": "of",
+    "s": 10.51,
+    "e": 10.68
+   },
+   {
+    "w": "the",
+    "s": 10.68,
+    "e": 10.91
+   },
+   {
+    "w": "neighborhood",
+    "s": 10.91,
+    "e": 11.65
+   },
+   {
+    "w": "were",
+    "s": 11.65,
+    "e": 11.93
+   },
+   {
+    "w": "flooded",
+    "s": 11.93,
+    "e": 12.39
+   },
+   {
+    "w": "two",
+    "s": 12.39,
+    "e": 12.62
+   },
+   {
+    "w": "to",
+    "s": 12.62,
+    "e": 12.79
+   },
+   {
+    "w": "three",
+    "s": 12.79,
+    "e": 13.13
+   },
+   {
+    "w": "feet",
+    "s": 13.13,
+    "e": 13.41
+   },
+   {
+    "w": "deep",
+    "s": 13.41,
+    "e": 13.7
+   },
+   {
+    "w": "in",
+    "s": 13.7,
+    "e": 13.87
+   },
+   {
+    "w": "syrup",
+    "s": 13.87,
+    "e": 14.27
+   }
+  ]
+ },
+ {
+  "id": "s19",
+  "name": "anthony",
+  "text": "A boy named Anthony di Stasio was walking home with his sisters. The wave picked him up and carried him along on its crest, almost like he was surfing. Then it rolled him over and over and dropped him. He survived. His ten-year-old sister Maria did not.",
+  "audio_dur": 19.729,
+  "sentences": [
+   {
+    "text": "A boy named Anthony di Stasio was walking home with his sisters.",
+    "s": 0.3,
+    "e": 4.91
+   },
+   {
+    "text": "The wave picked him up and carried him along on its crest, almost like he was surfing.",
+    "s": 5.23,
+    "e": 10.52
+   },
+   {
+    "text": "Then it rolled him over and over and dropped him.",
+    "s": 10.84,
+    "e": 14.04
+   },
+   {
+    "text": "He survived.",
+    "s": 14.36,
+    "e": 15.56
+   },
+   {
+    "text": "His ten-year-old sister Maria did not.",
+    "s": 15.88,
+    "e": 19.01
+   }
+  ],
+  "words": [
+   {
+    "w": "A",
+    "s": 0.48,
+    "e": 0.61
+   },
+   {
+    "w": "boy",
+    "s": 0.61,
+    "e": 0.88
+   },
+   {
+    "w": "named",
+    "s": 0.88,
+    "e": 1.27
+   },
+   {
+    "w": "Anthony",
+    "s": 1.27,
+    "e": 1.79
+   },
+   {
+    "w": "di",
+    "s": 1.79,
+    "e": 1.98
+   },
+   {
+    "w": "Stasio",
+    "s": 1.98,
+    "e": 2.44
+   },
+   {
+    "w": "was",
+    "s": 2.44,
+    "e": 2.7
+   },
+   {
+    "w": "walking",
+    "s": 2.7,
+    "e": 3.22
+   },
+   {
+    "w": "home",
+    "s": 3.22,
+    "e": 3.55
+   },
+   {
+    "w": "with",
+    "s": 3.55,
+    "e": 3.88
+   },
+   {
+    "w": "his",
+    "s": 3.88,
+    "e": 4.14
+   },
+   {
+    "w": "sisters",
+    "s": 4.14,
+    "e": 4.72
+   },
+   {
+    "w": "The",
+    "s": 5.44,
+    "e": 5.66
+   },
+   {
+    "w": "wave",
+    "s": 5.66,
+    "e": 5.94
+   },
+   {
+    "w": "picked",
+    "s": 5.94,
+    "e": 6.33
+   },
+   {
+    "w": "him",
+    "s": 6.33,
+    "e": 6.56
+   },
+   {
+    "w": "up",
+    "s": 6.56,
+    "e": 6.73
+   },
+   {
+    "w": "and",
+    "s": 6.73,
+    "e": 6.95
+   },
+   {
+    "w": "carried",
+    "s": 6.95,
+    "e": 7.4
+   },
+   {
+    "w": "him",
+    "s": 7.4,
+    "e": 7.62
+   },
+   {
+    "w": "along",
+    "s": 7.62,
+    "e": 7.96
+   },
+   {
+    "w": "on",
+    "s": 7.96,
+    "e": 8.13
+   },
+   {
+    "w": "its",
+    "s": 8.13,
+    "e": 8.35
+   },
+   {
+    "w": "crest",
+    "s": 8.35,
+    "e": 8.74
+   },
+   {
+    "w": "almost",
+    "s": 8.74,
+    "e": 9.13
+   },
+   {
+    "w": "like",
+    "s": 9.13,
+    "e": 9.41
+   },
+   {
+    "w": "he",
+    "s": 9.41,
+    "e": 9.58
+   },
+   {
+    "w": "was",
+    "s": 9.58,
+    "e": 9.8
+   },
+   {
+    "w": "surfing",
+    "s": 9.8,
+    "e": 10.31
+   },
+   {
+    "w": "Then",
+    "s": 10.97,
+    "e": 11.26
+   },
+   {
+    "w": "it",
+    "s": 11.26,
+    "e": 11.44
+   },
+   {
+    "w": "rolled",
+    "s": 11.44,
+    "e": 11.85
+   },
+   {
+    "w": "him",
+    "s": 11.85,
+    "e": 12.09
+   },
+   {
+    "w": "over",
+    "s": 12.09,
+    "e": 12.38
+   },
+   {
+    "w": "and",
+    "s": 12.38,
+    "e": 12.62
+   },
+   {
+    "w": "over",
+    "s": 12.62,
+    "e": 12.91
+   },
+   {
+    "w": "and",
+    "s": 12.91,
+    "e": 13.15
+   },
+   {
+    "w": "dropped",
+    "s": 13.15,
+    "e": 13.62
+   },
+   {
+    "w": "him",
+    "s": 13.62,
+    "e": 13.92
+   },
+   {
+    "w": "He",
+    "s": 14.41,
+    "e": 14.67
+   },
+   {
+    "w": "survived",
+    "s": 14.67,
+    "e": 15.52
+   },
+   {
+    "w": "His",
+    "s": 16.01,
+    "e": 16.3
+   },
+   {
+    "w": "ten-year-old",
+    "s": 16.3,
+    "e": 17.26
+   },
+   {
+    "w": "sister",
+    "s": 17.26,
+    "e": 17.78
+   },
+   {
+    "w": "Maria",
+    "s": 17.78,
+    "e": 18.22
+   },
+   {
+    "w": "did",
+    "s": 18.22,
+    "e": 18.52
+   },
+   {
+    "w": "not",
+    "s": 18.52,
+    "e": 18.88
+   }
+  ]
+ },
+ {
+  "id": "s20",
+  "name": "physics",
+  "text": "So, how does syrup kill? The answer is in the physics. Molasses is about forty percent heavier than water, so the wave hit with terrible force. And molasses changes how thick it is. When it is warm and moving fast, it flows. When it cools down, it turns thick and sticky, almost like glue.",
+  "audio_dur": 23.282,
+  "sentences": [
+   {
+    "text": "So, how does syrup kill?",
+    "s": 0.3,
+    "e": 2.1
+   },
+   {
+    "text": "The answer is in the physics.",
+    "s": 2.55,
+    "e": 4.82
+   },
+   {
+    "text": "Molasses is about forty percent heavier than water, so the wave hit with terrible force.",
+    "s": 5.14,
+    "e": 11.16
+   },
+   {
+    "text": "And molasses changes how thick it is.",
+    "s": 11.48,
+    "e": 14.43
+   },
+   {
+    "text": "When it is warm and moving fast, it flows.",
+    "s": 14.75,
+    "e": 17.89
+   },
+   {
+    "text": "When it cools down, it turns thick and sticky, almost like glue.",
+    "s": 18.21,
+    "e": 22.56
+   }
+  ],
+  "words": [
+   {
+    "w": "So",
+    "s": 0.37,
+    "e": 0.64
+   },
+   {
+    "w": "how",
+    "s": 0.64,
+    "e": 0.9
+   },
+   {
+    "w": "does",
+    "s": 0.9,
+    "e": 1.23
+   },
+   {
+    "w": "syrup",
+    "s": 1.23,
+    "e": 1.63
+   },
+   {
+    "w": "kill",
+    "s": 1.63,
+    "e": 2.03
+   },
+   {
+    "w": "The",
+    "s": 2.64,
+    "e": 2.92
+   },
+   {
+    "w": "answer",
+    "s": 2.92,
+    "e": 3.41
+   },
+   {
+    "w": "is",
+    "s": 3.41,
+    "e": 3.62
+   },
+   {
+    "w": "in",
+    "s": 3.62,
+    "e": 3.82
+   },
+   {
+    "w": "the",
+    "s": 3.82,
+    "e": 4.1
+   },
+   {
+    "w": "physics",
+    "s": 4.1,
+    "e": 4.73
+   },
+   {
+    "w": "Molasses",
+    "s": 5.38,
+    "e": 5.94
+   },
+   {
+    "w": "is",
+    "s": 5.94,
+    "e": 6.13
+   },
+   {
+    "w": "about",
+    "s": 6.13,
+    "e": 6.5
+   },
+   {
+    "w": "forty",
+    "s": 6.5,
+    "e": 6.87
+   },
+   {
+    "w": "percent",
+    "s": 6.87,
+    "e": 7.37
+   },
+   {
+    "w": "heavier",
+    "s": 7.37,
+    "e": 7.87
+   },
+   {
+    "w": "than",
+    "s": 7.87,
+    "e": 8.18
+   },
+   {
+    "w": "water",
+    "s": 8.18,
+    "e": 8.61
+   },
+   {
+    "w": "so",
+    "s": 8.61,
+    "e": 8.8
+   },
+   {
+    "w": "the",
+    "s": 8.8,
+    "e": 9.05
+   },
+   {
+    "w": "wave",
+    "s": 9.05,
+    "e": 9.36
+   },
+   {
+    "w": "hit",
+    "s": 9.36,
+    "e": 9.61
+   },
+   {
+    "w": "with",
+    "s": 9.61,
+    "e": 9.92
+   },
+   {
+    "w": "terrible",
+    "s": 9.92,
+    "e": 10.48
+   },
+   {
+    "w": "force",
+    "s": 10.48,
+    "e": 10.92
+   },
+   {
+    "w": "And",
+    "s": 11.59,
+    "e": 11.88
+   },
+   {
+    "w": "molasses",
+    "s": 11.88,
+    "e": 12.52
+   },
+   {
+    "w": "changes",
+    "s": 12.52,
+    "e": 13.09
+   },
+   {
+    "w": "how",
+    "s": 13.09,
+    "e": 13.38
+   },
+   {
+    "w": "thick",
+    "s": 13.38,
+    "e": 13.81
+   },
+   {
+    "w": "it",
+    "s": 13.81,
+    "e": 14.02
+   },
+   {
+    "w": "is",
+    "s": 14.02,
+    "e": 14.31
+   },
+   {
+    "w": "When",
+    "s": 14.87,
+    "e": 15.21
+   },
+   {
+    "w": "it",
+    "s": 15.21,
+    "e": 15.41
+   },
+   {
+    "w": "is",
+    "s": 15.41,
+    "e": 15.61
+   },
+   {
+    "w": "warm",
+    "s": 15.61,
+    "e": 15.95
+   },
+   {
+    "w": "and",
+    "s": 15.95,
+    "e": 16.22
+   },
+   {
+    "w": "moving",
+    "s": 16.22,
+    "e": 16.69
+   },
+   {
+    "w": "fast",
+    "s": 16.69,
+    "e": 17.09
+   },
+   {
+    "w": "it",
+    "s": 17.09,
+    "e": 17.29
+   },
+   {
+    "w": "flows",
+    "s": 17.29,
+    "e": 17.76
+   },
+   {
+    "w": "When",
+    "s": 18.38,
+    "e": 18.69
+   },
+   {
+    "w": "it",
+    "s": 18.69,
+    "e": 18.87
+   },
+   {
+    "w": "cools",
+    "s": 18.87,
+    "e": 19.24
+   },
+   {
+    "w": "down",
+    "s": 19.24,
+    "e": 19.61
+   },
+   {
+    "w": "it",
+    "s": 19.61,
+    "e": 19.8
+   },
+   {
+    "w": "turns",
+    "s": 19.8,
+    "e": 20.17
+   },
+   {
+    "w": "thick",
+    "s": 20.17,
+    "e": 20.54
+   },
+   {
+    "w": "and",
+    "s": 20.54,
+    "e": 20.78
+   },
+   {
+    "w": "sticky",
+    "s": 20.78,
+    "e": 21.28
+   },
+   {
+    "w": "almost",
+    "s": 21.28,
+    "e": 21.71
+   },
+   {
+    "w": "like",
+    "s": 21.71,
+    "e": 22.02
+   },
+   {
+    "w": "glue",
+    "s": 22.02,
+    "e": 22.39
+   }
+  ]
+ },
+ {
+  "id": "s21",
+  "name": "trap",
+  "text": "That is exactly what happened. In two thousand sixteen, a team at Harvard studied the disaster using old maps, weather records, and a scale model flooded with corn syrup. They found that the warm molasses rushed out fast, then cooled quickly in the January air. Within minutes, the people and horses caught in it could barely move. Many of the victims did not die from the impact. They suffocated, trapped in the sticky mass.",
+  "audio_dur": 31.664,
+  "sentences": [
+   {
+    "text": "That is exactly what happened.",
+    "s": 0.3,
+    "e": 2.53
+   },
+   {
+    "text": "In two thousand sixteen, a team at Harvard studied the disaster using old maps, weather records, and a scale model flooded with corn syrup.",
+    "s": 2.85,
+    "e": 12.53
+   },
+   {
+    "text": "They found that the warm molasses rushed out fast, then cooled quickly in the January air.",
+    "s": 12.85,
+    "e": 19.15
+   },
+   {
+    "text": "Within minutes, the people and horses caught in it could barely move.",
+    "s": 19.47,
+    "e": 23.73
+   },
+   {
+    "text": "Many of the victims did not die from the impact.",
+    "s": 24.05,
+    "e": 27.64
+   },
+   {
+    "text": "They suffocated, trapped in the sticky mass.",
+    "s": 27.96,
+    "e": 30.94
+   }
+  ],
+  "words": [
+   {
+    "w": "That",
+    "s": 0.39,
+    "e": 0.72
+   },
+   {
+    "w": "is",
+    "s": 0.72,
+    "e": 0.92
+   },
+   {
+    "w": "exactly",
+    "s": 0.92,
+    "e": 1.45
+   },
+   {
+    "w": "what",
+    "s": 1.45,
+    "e": 1.78
+   },
+   {
+    "w": "happened",
+    "s": 1.78,
+    "e": 2.44
+   },
+   {
+    "w": "In",
+    "s": 3.24,
+    "e": 3.43
+   },
+   {
+    "w": "two",
+    "s": 3.43,
+    "e": 3.68
+   },
+   {
+    "w": "thousand",
+    "s": 3.68,
+    "e": 4.25
+   },
+   {
+    "w": "sixteen",
+    "s": 4.25,
+    "e": 4.83
+   },
+   {
+    "w": "a",
+    "s": 4.83,
+    "e": 4.95
+   },
+   {
+    "w": "team",
+    "s": 4.95,
+    "e": 5.27
+   },
+   {
+    "w": "at",
+    "s": 5.27,
+    "e": 5.46
+   },
+   {
+    "w": "Harvard",
+    "s": 5.46,
+    "e": 5.97
+   },
+   {
+    "w": "studied",
+    "s": 5.97,
+    "e": 6.48
+   },
+   {
+    "w": "the",
+    "s": 6.48,
+    "e": 6.74
+   },
+   {
+    "w": "disaster",
+    "s": 6.74,
+    "e": 7.31
+   },
+   {
+    "w": "using",
+    "s": 7.31,
+    "e": 7.69
+   },
+   {
+    "w": "old",
+    "s": 7.69,
+    "e": 7.95
+   },
+   {
+    "w": "maps",
+    "s": 7.95,
+    "e": 8.33
+   },
+   {
+    "w": "weather",
+    "s": 8.33,
+    "e": 8.84
+   },
+   {
+    "w": "records",
+    "s": 8.84,
+    "e": 9.41
+   },
+   {
+    "w": "and",
+    "s": 9.41,
+    "e": 9.66
+   },
+   {
+    "w": "a",
+    "s": 9.66,
+    "e": 9.79
+   },
+   {
+    "w": "scale",
+    "s": 9.79,
+    "e": 10.17
+   },
+   {
+    "w": "model",
+    "s": 10.17,
+    "e": 10.55
+   },
+   {
+    "w": "flooded",
+    "s": 10.55,
+    "e": 11.06
+   },
+   {
+    "w": "with",
+    "s": 11.06,
+    "e": 11.38
+   },
+   {
+    "w": "corn",
+    "s": 11.38,
+    "e": 11.7
+   },
+   {
+    "w": "syrup",
+    "s": 11.7,
+    "e": 12.15
+   },
+   {
+    "w": "They",
+    "s": 13.11,
+    "e": 13.42
+   },
+   {
+    "w": "found",
+    "s": 13.42,
+    "e": 13.81
+   },
+   {
+    "w": "that",
+    "s": 13.81,
+    "e": 14.12
+   },
+   {
+    "w": "the",
+    "s": 14.12,
+    "e": 14.38
+   },
+   {
+    "w": "warm",
+    "s": 14.38,
+    "e": 14.7
+   },
+   {
+    "w": "molasses",
+    "s": 14.7,
+    "e": 15.27
+   },
+   {
+    "w": "rushed",
+    "s": 15.27,
+    "e": 15.71
+   },
+   {
+    "w": "out",
+    "s": 15.71,
+    "e": 15.97
+   },
+   {
+    "w": "fast",
+    "s": 15.97,
+    "e": 16.35
+   },
+   {
+    "w": "then",
+    "s": 16.35,
+    "e": 16.67
+   },
+   {
+    "w": "cooled",
+    "s": 16.67,
+    "e": 17.11
+   },
+   {
+    "w": "quickly",
+    "s": 17.11,
+    "e": 17.62
+   },
+   {
+    "w": "in",
+    "s": 17.62,
+    "e": 17.81
+   },
+   {
+    "w": "the",
+    "s": 17.81,
+    "e": 18.07
+   },
+   {
+    "w": "January",
+    "s": 18.07,
+    "e": 18.58
+   },
+   {
+    "w": "air",
+    "s": 18.58,
+    "e": 18.9
+   },
+   {
+    "w": "Within",
+    "s": 19.64,
+    "e": 20.03
+   },
+   {
+    "w": "minutes",
+    "s": 20.03,
+    "e": 20.53
+   },
+   {
+    "w": "the",
+    "s": 20.53,
+    "e": 20.76
+   },
+   {
+    "w": "people",
+    "s": 20.76,
+    "e": 21.15
+   },
+   {
+    "w": "and",
+    "s": 21.15,
+    "e": 21.38
+   },
+   {
+    "w": "horses",
+    "s": 21.38,
+    "e": 21.77
+   },
+   {
+    "w": "caught",
+    "s": 21.77,
+    "e": 22.16
+   },
+   {
+    "w": "in",
+    "s": 22.16,
+    "e": 22.33
+   },
+   {
+    "w": "it",
+    "s": 22.33,
+    "e": 22.5
+   },
+   {
+    "w": "could",
+    "s": 22.5,
+    "e": 22.83
+   },
+   {
+    "w": "barely",
+    "s": 22.83,
+    "e": 23.23
+   },
+   {
+    "w": "move",
+    "s": 23.23,
+    "e": 23.56
+   },
+   {
+    "w": "Many",
+    "s": 24.2,
+    "e": 24.53
+   },
+   {
+    "w": "of",
+    "s": 24.53,
+    "e": 24.74
+   },
+   {
+    "w": "the",
+    "s": 24.74,
+    "e": 25.01
+   },
+   {
+    "w": "victims",
+    "s": 25.01,
+    "e": 25.54
+   },
+   {
+    "w": "did",
+    "s": 25.54,
+    "e": 25.81
+   },
+   {
+    "w": "not",
+    "s": 25.81,
+    "e": 26.08
+   },
+   {
+    "w": "die",
+    "s": 26.08,
+    "e": 26.35
+   },
+   {
+    "w": "from",
+    "s": 26.35,
+    "e": 26.69
+   },
+   {
+    "w": "the",
+    "s": 26.69,
+    "e": 26.96
+   },
+   {
+    "w": "impact",
+    "s": 26.96,
+    "e": 27.5
+   },
+   {
+    "w": "They",
+    "s": 28.08,
+    "e": 28.39
+   },
+   {
+    "w": "suffocated",
+    "s": 28.39,
+    "e": 29.12
+   },
+   {
+    "w": "trapped",
+    "s": 29.12,
+    "e": 29.61
+   },
+   {
+    "w": "in",
+    "s": 29.61,
+    "e": 29.79
+   },
+   {
+    "w": "the",
+    "s": 29.79,
+    "e": 30.03
+   },
+   {
+    "w": "sticky",
+    "s": 30.03,
+    "e": 30.46
+   },
+   {
+    "w": "mass",
+    "s": 30.46,
+    "e": 30.82
+   }
+  ]
+ },
+ {
+  "id": "s22",
+  "name": "rescue",
+  "text": "The first rescuers to arrive were a hundred and sixteen young cadets from the training ship U S S Nantucket, docked nearby. They ran toward the disaster and waded into the syrup, pulling out anyone they could reach. Police, Red Cross nurses, soldiers and sailors soon followed. Doctors set up an emergency hospital in a nearby building.",
+  "audio_dur": 25.544,
+  "sentences": [
+   {
+    "text": "The first rescuers to arrive were a hundred and sixteen young cadets from the training ship U S S Nantucket, docked nearby.",
+    "s": 0.3,
+    "e": 9.11
+   },
+   {
+    "text": "They ran toward the disaster and waded into the syrup, pulling out anyone they could reach.",
+    "s": 9.43,
+    "e": 15.39
+   },
+   {
+    "text": "Police, Red Cross nurses, soldiers and sailors soon followed.",
+    "s": 15.71,
+    "e": 20.15
+   },
+   {
+    "text": "Doctors set up an emergency hospital in a nearby building.",
+    "s": 20.47,
+    "e": 24.82
+   }
+  ],
+  "words": [
+   {
+    "w": "The",
+    "s": 0.65,
+    "e": 0.91
+   },
+   {
+    "w": "first",
+    "s": 0.91,
+    "e": 1.31
+   },
+   {
+    "w": "rescuers",
+    "s": 1.31,
+    "e": 1.9
+   },
+   {
+    "w": "to",
+    "s": 1.9,
+    "e": 2.09
+   },
+   {
+    "w": "arrive",
+    "s": 2.09,
+    "e": 2.55
+   },
+   {
+    "w": "were",
+    "s": 2.55,
+    "e": 2.88
+   },
+   {
+    "w": "a",
+    "s": 2.88,
+    "e": 3.01
+   },
+   {
+    "w": "hundred",
+    "s": 3.01,
+    "e": 3.53
+   },
+   {
+    "w": "and",
+    "s": 3.53,
+    "e": 3.79
+   },
+   {
+    "w": "sixteen",
+    "s": 3.79,
+    "e": 4.31
+   },
+   {
+    "w": "young",
+    "s": 4.31,
+    "e": 4.71
+   },
+   {
+    "w": "cadets",
+    "s": 4.71,
+    "e": 5.16
+   },
+   {
+    "w": "from",
+    "s": 5.16,
+    "e": 5.49
+   },
+   {
+    "w": "the",
+    "s": 5.49,
+    "e": 5.75
+   },
+   {
+    "w": "training",
+    "s": 5.75,
+    "e": 6.34
+   },
+   {
+    "w": "ship",
+    "s": 6.34,
+    "e": 6.67
+   },
+   {
+    "w": "U",
+    "s": 6.67,
+    "e": 6.8
+   },
+   {
+    "w": "S",
+    "s": 6.8,
+    "e": 6.93
+   },
+   {
+    "w": "S",
+    "s": 6.93,
+    "e": 7.06
+   },
+   {
+    "w": "Nantucket",
+    "s": 7.06,
+    "e": 7.78
+   },
+   {
+    "w": "docked",
+    "s": 7.78,
+    "e": 8.24
+   },
+   {
+    "w": "nearby",
+    "s": 8.24,
+    "e": 8.76
+   },
+   {
+    "w": "They",
+    "s": 9.67,
+    "e": 9.97
+   },
+   {
+    "w": "ran",
+    "s": 9.97,
+    "e": 10.21
+   },
+   {
+    "w": "toward",
+    "s": 10.21,
+    "e": 10.63
+   },
+   {
+    "w": "the",
+    "s": 10.63,
+    "e": 10.86
+   },
+   {
+    "w": "disaster",
+    "s": 10.86,
+    "e": 11.4
+   },
+   {
+    "w": "and",
+    "s": 11.4,
+    "e": 11.64
+   },
+   {
+    "w": "waded",
+    "s": 11.64,
+    "e": 12.0
+   },
+   {
+    "w": "into",
+    "s": 12.0,
+    "e": 12.29
+   },
+   {
+    "w": "the",
+    "s": 12.29,
+    "e": 12.53
+   },
+   {
+    "w": "syrup",
+    "s": 12.53,
+    "e": 12.95
+   },
+   {
+    "w": "pulling",
+    "s": 12.95,
+    "e": 13.43
+   },
+   {
+    "w": "out",
+    "s": 13.43,
+    "e": 13.66
+   },
+   {
+    "w": "anyone",
+    "s": 13.66,
+    "e": 14.08
+   },
+   {
+    "w": "they",
+    "s": 14.08,
+    "e": 14.38
+   },
+   {
+    "w": "could",
+    "s": 14.38,
+    "e": 14.74
+   },
+   {
+    "w": "reach",
+    "s": 14.74,
+    "e": 15.15
+   },
+   {
+    "w": "Police",
+    "s": 15.89,
+    "e": 16.42
+   },
+   {
+    "w": "Red",
+    "s": 16.42,
+    "e": 16.68
+   },
+   {
+    "w": "Cross",
+    "s": 16.68,
+    "e": 17.07
+   },
+   {
+    "w": "nurses",
+    "s": 17.07,
+    "e": 17.6
+   },
+   {
+    "w": "soldiers",
+    "s": 17.6,
+    "e": 18.19
+   },
+   {
+    "w": "and",
+    "s": 18.19,
+    "e": 18.46
+   },
+   {
+    "w": "sailors",
+    "s": 18.46,
+    "e": 18.98
+   },
+   {
+    "w": "soon",
+    "s": 18.98,
+    "e": 19.31
+   },
+   {
+    "w": "followed",
+    "s": 19.31,
+    "e": 19.97
+   },
+   {
+    "w": "Doctors",
+    "s": 20.64,
+    "e": 21.19
+   },
+   {
+    "w": "set",
+    "s": 21.19,
+    "e": 21.46
+   },
+   {
+    "w": "up",
+    "s": 21.46,
+    "e": 21.66
+   },
+   {
+    "w": "an",
+    "s": 21.66,
+    "e": 21.87
+   },
+   {
+    "w": "emergency",
+    "s": 21.87,
+    "e": 22.54
+   },
+   {
+    "w": "hospital",
+    "s": 22.54,
+    "e": 23.16
+   },
+   {
+    "w": "in",
+    "s": 23.16,
+    "e": 23.36
+   },
+   {
+    "w": "a",
+    "s": 23.36,
+    "e": 23.5
+   },
+   {
+    "w": "nearby",
+    "s": 23.5,
+    "e": 23.97
+   },
+   {
+    "w": "building",
+    "s": 23.97,
+    "e": 24.65
+   }
+  ]
+ },
+ {
+  "id": "s23",
+  "name": "search",
+  "text": "The search went on for four days. Some victims were so coated in molasses that they were hard to recognize. Others had been swept into the harbor and were not found for months. Among the twenty-one dead were laborers, teamsters, a firefighter, and two ten-year-old children.",
+  "audio_dur": 19.948,
+  "sentences": [
+   {
+    "text": "The search went on for four days.",
+    "s": 0.3,
+    "e": 2.51
+   },
+   {
+    "text": "Some victims were so coated in molasses that they were hard to recognize.",
+    "s": 2.83,
+    "e": 7.97
+   },
+   {
+    "text": "Others had been swept into the harbor and were not found for months.",
+    "s": 8.29,
+    "e": 12.42
+   },
+   {
+    "text": "Among the twenty-one dead were laborers, teamsters, a firefighter, and two ten-year-old children.",
+    "s": 12.74,
+    "e": 19.23
+   }
+  ],
+  "words": [
+   {
+    "w": "The",
+    "s": 0.39,
+    "e": 0.63
+   },
+   {
+    "w": "search",
+    "s": 0.63,
+    "e": 1.05
+   },
+   {
+    "w": "went",
+    "s": 1.05,
+    "e": 1.34
+   },
+   {
+    "w": "on",
+    "s": 1.34,
+    "e": 1.52
+   },
+   {
+    "w": "for",
+    "s": 1.52,
+    "e": 1.76
+   },
+   {
+    "w": "four",
+    "s": 1.76,
+    "e": 2.06
+   },
+   {
+    "w": "days",
+    "s": 2.06,
+    "e": 2.42
+   },
+   {
+    "w": "Some",
+    "s": 3.03,
+    "e": 3.35
+   },
+   {
+    "w": "victims",
+    "s": 3.35,
+    "e": 3.86
+   },
+   {
+    "w": "were",
+    "s": 3.86,
+    "e": 4.18
+   },
+   {
+    "w": "so",
+    "s": 4.18,
+    "e": 4.37
+   },
+   {
+    "w": "coated",
+    "s": 4.37,
+    "e": 4.82
+   },
+   {
+    "w": "in",
+    "s": 4.82,
+    "e": 5.01
+   },
+   {
+    "w": "molasses",
+    "s": 5.01,
+    "e": 5.59
+   },
+   {
+    "w": "that",
+    "s": 5.59,
+    "e": 5.91
+   },
+   {
+    "w": "they",
+    "s": 5.91,
+    "e": 6.23
+   },
+   {
+    "w": "were",
+    "s": 6.23,
+    "e": 6.55
+   },
+   {
+    "w": "hard",
+    "s": 6.55,
+    "e": 6.87
+   },
+   {
+    "w": "to",
+    "s": 6.87,
+    "e": 7.06
+   },
+   {
+    "w": "recognize",
+    "s": 7.06,
+    "e": 7.76
+   },
+   {
+    "w": "Others",
+    "s": 8.45,
+    "e": 8.84
+   },
+   {
+    "w": "had",
+    "s": 8.84,
+    "e": 9.06
+   },
+   {
+    "w": "been",
+    "s": 9.06,
+    "e": 9.33
+   },
+   {
+    "w": "swept",
+    "s": 9.33,
+    "e": 9.67
+   },
+   {
+    "w": "into",
+    "s": 9.67,
+    "e": 9.94
+   },
+   {
+    "w": "the",
+    "s": 9.94,
+    "e": 10.16
+   },
+   {
+    "w": "harbor",
+    "s": 10.16,
+    "e": 10.55
+   },
+   {
+    "w": "and",
+    "s": 10.55,
+    "e": 10.77
+   },
+   {
+    "w": "were",
+    "s": 10.77,
+    "e": 11.04
+   },
+   {
+    "w": "not",
+    "s": 11.04,
+    "e": 11.26
+   },
+   {
+    "w": "found",
+    "s": 11.26,
+    "e": 11.6
+   },
+   {
+    "w": "for",
+    "s": 11.6,
+    "e": 11.82
+   },
+   {
+    "w": "months",
+    "s": 11.82,
+    "e": 12.26
+   },
+   {
+    "w": "Among",
+    "s": 13.0,
+    "e": 13.37
+   },
+   {
+    "w": "the",
+    "s": 13.37,
+    "e": 13.61
+   },
+   {
+    "w": "twenty-one",
+    "s": 13.61,
+    "e": 14.28
+   },
+   {
+    "w": "dead",
+    "s": 14.28,
+    "e": 14.58
+   },
+   {
+    "w": "were",
+    "s": 14.58,
+    "e": 14.89
+   },
+   {
+    "w": "laborers",
+    "s": 14.89,
+    "e": 15.5
+   },
+   {
+    "w": "teamsters",
+    "s": 15.5,
+    "e": 16.17
+   },
+   {
+    "w": "a",
+    "s": 16.17,
+    "e": 16.29
+   },
+   {
+    "w": "firefighter",
+    "s": 16.29,
+    "e": 17.08
+   },
+   {
+    "w": "and",
+    "s": 17.08,
+    "e": 17.32
+   },
+   {
+    "w": "two",
+    "s": 17.32,
+    "e": 17.57
+   },
+   {
+    "w": "ten-year-old",
+    "s": 17.57,
+    "e": 18.36
+   },
+   {
+    "w": "children",
+    "s": 18.36,
+    "e": 18.97
+   }
+  ]
+ },
+ {
+  "id": "s24",
+  "name": "cleanup",
+  "text": "Then came the cleanup. Crews sprayed the streets with salt water from fireboats and scattered sand to soak up the syrup. Rescuers and sightseers tracked it everywhere: onto streetcars, into homes, onto telephones. As one account put it, everything a Bostonian touched was sticky. The harbor stayed brown until summer.",
+  "audio_dur": 24.393,
+  "sentences": [
+   {
+    "text": "Then came the cleanup.",
+    "s": 0.3,
+    "e": 2.01
+   },
+   {
+    "text": "Crews sprayed the streets with salt water from fireboats and scattered sand to soak up the syrup.",
+    "s": 2.33,
+    "e": 8.69
+   },
+   {
+    "text": "Rescuers and sightseers tracked it everywhere: onto streetcars, into homes, onto telephones.",
+    "s": 9.01,
+    "e": 15.88
+   },
+   {
+    "text": "As one account put it, everything a Bostonian touched was sticky.",
+    "s": 16.2,
+    "e": 20.7
+   },
+   {
+    "text": "The harbor stayed brown until summer.",
+    "s": 21.02,
+    "e": 23.67
+   }
+  ],
+  "words": [
+   {
+    "w": "Then",
+    "s": 0.37,
+    "e": 0.71
+   },
+   {
+    "w": "came",
+    "s": 0.71,
+    "e": 1.05
+   },
+   {
+    "w": "the",
+    "s": 1.05,
+    "e": 1.33
+   },
+   {
+    "w": "cleanup",
+    "s": 1.33,
+    "e": 1.94
+   },
+   {
+    "w": "Crews",
+    "s": 2.59,
+    "e": 2.95
+   },
+   {
+    "w": "sprayed",
+    "s": 2.95,
+    "e": 3.42
+   },
+   {
+    "w": "the",
+    "s": 3.42,
+    "e": 3.66
+   },
+   {
+    "w": "streets",
+    "s": 3.66,
+    "e": 4.14
+   },
+   {
+    "w": "with",
+    "s": 4.14,
+    "e": 4.44
+   },
+   {
+    "w": "salt",
+    "s": 4.44,
+    "e": 4.74
+   },
+   {
+    "w": "water",
+    "s": 4.74,
+    "e": 5.1
+   },
+   {
+    "w": "from",
+    "s": 5.1,
+    "e": 5.39
+   },
+   {
+    "w": "fireboats",
+    "s": 5.39,
+    "e": 5.99
+   },
+   {
+    "w": "and",
+    "s": 5.99,
+    "e": 6.23
+   },
+   {
+    "w": "scattered",
+    "s": 6.23,
+    "e": 6.83
+   },
+   {
+    "w": "sand",
+    "s": 6.83,
+    "e": 7.13
+   },
+   {
+    "w": "to",
+    "s": 7.13,
+    "e": 7.3
+   },
+   {
+    "w": "soak",
+    "s": 7.3,
+    "e": 7.6
+   },
+   {
+    "w": "up",
+    "s": 7.6,
+    "e": 7.78
+   },
+   {
+    "w": "the",
+    "s": 7.78,
+    "e": 8.02
+   },
+   {
+    "w": "syrup",
+    "s": 8.02,
+    "e": 8.44
+   },
+   {
+    "w": "Rescuers",
+    "s": 9.29,
+    "e": 9.9
+   },
+   {
+    "w": "and",
+    "s": 9.9,
+    "e": 10.17
+   },
+   {
+    "w": "sightseers",
+    "s": 10.17,
+    "e": 10.92
+   },
+   {
+    "w": "tracked",
+    "s": 10.92,
+    "e": 11.46
+   },
+   {
+    "w": "it",
+    "s": 11.46,
+    "e": 11.66
+   },
+   {
+    "w": "everywhere",
+    "s": 11.66,
+    "e": 12.48
+   },
+   {
+    "w": "onto",
+    "s": 12.48,
+    "e": 12.82
+   },
+   {
+    "w": "streetcars",
+    "s": 12.82,
+    "e": 13.63
+   },
+   {
+    "w": "into",
+    "s": 13.63,
+    "e": 13.97
+   },
+   {
+    "w": "homes",
+    "s": 13.97,
+    "e": 14.45
+   },
+   {
+    "w": "onto",
+    "s": 14.45,
+    "e": 14.79
+   },
+   {
+    "w": "telephones",
+    "s": 14.79,
+    "e": 15.6
+   },
+   {
+    "w": "As",
+    "s": 16.38,
+    "e": 16.56
+   },
+   {
+    "w": "one",
+    "s": 16.56,
+    "e": 16.82
+   },
+   {
+    "w": "account",
+    "s": 16.82,
+    "e": 17.32
+   },
+   {
+    "w": "put",
+    "s": 17.32,
+    "e": 17.57
+   },
+   {
+    "w": "it",
+    "s": 17.57,
+    "e": 17.82
+   },
+   {
+    "w": "everything",
+    "s": 17.82,
+    "e": 18.51
+   },
+   {
+    "w": "a",
+    "s": 18.51,
+    "e": 18.64
+   },
+   {
+    "w": "Bostonian",
+    "s": 18.64,
+    "e": 19.26
+   },
+   {
+    "w": "touched",
+    "s": 19.26,
+    "e": 19.77
+   },
+   {
+    "w": "was",
+    "s": 19.77,
+    "e": 20.02
+   },
+   {
+    "w": "sticky",
+    "s": 20.02,
+    "e": 20.52
+   },
+   {
+    "w": "The",
+    "s": 21.13,
+    "e": 21.38
+   },
+   {
+    "w": "harbor",
+    "s": 21.38,
+    "e": 21.83
+   },
+   {
+    "w": "stayed",
+    "s": 21.83,
+    "e": 22.28
+   },
+   {
+    "w": "brown",
+    "s": 22.28,
+    "e": 22.67
+   },
+   {
+    "w": "until",
+    "s": 22.67,
+    "e": 23.05
+   },
+   {
+    "w": "summer",
+    "s": 23.05,
+    "e": 23.57
+   }
+  ]
+ },
+ {
+  "id": "s25",
+  "name": "trial-blame",
+  "text": "Now the question became, who was to blame? The company had an answer ready. It said the tank had not failed at all. It said anarchists had blown it up with a bomb. After all, the alcohol went into explosives, and bombings by radicals were real fears at the time.",
+  "audio_dur": 20.419,
+  "sentences": [
+   {
+    "text": "Now the question became, who was to blame?",
+    "s": 0.3,
+    "e": 3.2
+   },
+   {
+    "text": "The company had an answer ready.",
+    "s": 3.65,
+    "e": 6.14
+   },
+   {
+    "text": "It said the tank had not failed at all.",
+    "s": 6.46,
+    "e": 9.07
+   },
+   {
+    "text": "It said anarchists had blown it up with a bomb.",
+    "s": 9.39,
+    "e": 12.58
+   },
+   {
+    "text": "After all, the alcohol went into explosives, and bombings by radicals were real fears at the time.",
+    "s": 12.9,
+    "e": 19.7
+   }
+  ],
+  "words": [
+   {
+    "w": "Now",
+    "s": 0.42,
+    "e": 0.66
+   },
+   {
+    "w": "the",
+    "s": 0.66,
+    "e": 0.91
+   },
+   {
+    "w": "question",
+    "s": 0.91,
+    "e": 1.47
+   },
+   {
+    "w": "became",
+    "s": 1.47,
+    "e": 1.96
+   },
+   {
+    "w": "who",
+    "s": 1.96,
+    "e": 2.21
+   },
+   {
+    "w": "was",
+    "s": 2.21,
+    "e": 2.46
+   },
+   {
+    "w": "to",
+    "s": 2.46,
+    "e": 2.65
+   },
+   {
+    "w": "blame",
+    "s": 2.65,
+    "e": 3.08
+   },
+   {
+    "w": "The",
+    "s": 3.75,
+    "e": 4.02
+   },
+   {
+    "w": "company",
+    "s": 4.02,
+    "e": 4.58
+   },
+   {
+    "w": "had",
+    "s": 4.58,
+    "e": 4.86
+   },
+   {
+    "w": "an",
+    "s": 4.86,
+    "e": 5.07
+   },
+   {
+    "w": "answer",
+    "s": 5.07,
+    "e": 5.55
+   },
+   {
+    "w": "ready",
+    "s": 5.55,
+    "e": 6.04
+   },
+   {
+    "w": "It",
+    "s": 6.56,
+    "e": 6.74
+   },
+   {
+    "w": "said",
+    "s": 6.74,
+    "e": 7.04
+   },
+   {
+    "w": "the",
+    "s": 7.04,
+    "e": 7.28
+   },
+   {
+    "w": "tank",
+    "s": 7.28,
+    "e": 7.58
+   },
+   {
+    "w": "had",
+    "s": 7.58,
+    "e": 7.83
+   },
+   {
+    "w": "not",
+    "s": 7.83,
+    "e": 8.07
+   },
+   {
+    "w": "failed",
+    "s": 8.07,
+    "e": 8.49
+   },
+   {
+    "w": "at",
+    "s": 8.49,
+    "e": 8.67
+   },
+   {
+    "w": "all",
+    "s": 8.67,
+    "e": 8.97
+   },
+   {
+    "w": "It",
+    "s": 9.52,
+    "e": 9.7
+   },
+   {
+    "w": "said",
+    "s": 9.7,
+    "e": 10.01
+   },
+   {
+    "w": "anarchists",
+    "s": 10.01,
+    "e": 10.68
+   },
+   {
+    "w": "had",
+    "s": 10.68,
+    "e": 10.92
+   },
+   {
+    "w": "blown",
+    "s": 10.92,
+    "e": 11.29
+   },
+   {
+    "w": "it",
+    "s": 11.29,
+    "e": 11.47
+   },
+   {
+    "w": "up",
+    "s": 11.47,
+    "e": 11.65
+   },
+   {
+    "w": "with",
+    "s": 11.65,
+    "e": 11.96
+   },
+   {
+    "w": "a",
+    "s": 11.96,
+    "e": 12.08
+   },
+   {
+    "w": "bomb",
+    "s": 12.08,
+    "e": 12.45
+   },
+   {
+    "w": "After",
+    "s": 13.17,
+    "e": 13.55
+   },
+   {
+    "w": "all",
+    "s": 13.55,
+    "e": 13.86
+   },
+   {
+    "w": "the",
+    "s": 13.86,
+    "e": 14.12
+   },
+   {
+    "w": "alcohol",
+    "s": 14.12,
+    "e": 14.62
+   },
+   {
+    "w": "went",
+    "s": 14.62,
+    "e": 14.94
+   },
+   {
+    "w": "into",
+    "s": 14.94,
+    "e": 15.25
+   },
+   {
+    "w": "explosives",
+    "s": 15.25,
+    "e": 16.01
+   },
+   {
+    "w": "and",
+    "s": 16.01,
+    "e": 16.27
+   },
+   {
+    "w": "bombings",
+    "s": 16.27,
+    "e": 16.83
+   },
+   {
+    "w": "by",
+    "s": 16.83,
+    "e": 17.02
+   },
+   {
+    "w": "radicals",
+    "s": 17.02,
+    "e": 17.59
+   },
+   {
+    "w": "were",
+    "s": 17.59,
+    "e": 17.91
+   },
+   {
+    "w": "real",
+    "s": 17.91,
+    "e": 18.23
+   },
+   {
+    "w": "fears",
+    "s": 18.23,
+    "e": 18.6
+   },
+   {
+    "w": "at",
+    "s": 18.6,
+    "e": 18.79
+   },
+   {
+    "w": "the",
+    "s": 18.79,
+    "e": 19.05
+   },
+   {
+    "w": "time",
+    "s": 19.05,
+    "e": 19.43
+   }
+  ]
+ },
+ {
+  "id": "s26",
+  "name": "lawsuit",
+  "text": "But the families did not accept that. More than a hundred people sued the company together, in one of the first class-action lawsuits in Massachusetts history. The court appointed an auditor, Hugh Ogden, to hear the evidence. The hearings went on for about three years, with a mountain of testimony from witnesses and experts.",
+  "audio_dur": 22.664,
+  "sentences": [
+   {
+    "text": "But the families did not accept that.",
+    "s": 0.3,
+    "e": 2.86
+   },
+   {
+    "text": "More than a hundred people sued the company together, in one of the first class-action lawsuits in Massachusetts history.",
+    "s": 3.18,
+    "e": 10.81
+   },
+   {
+    "text": "The court appointed an auditor, Hugh Ogden, to hear the evidence.",
+    "s": 11.13,
+    "e": 15.2
+   },
+   {
+    "text": "The hearings went on for about three years, with a mountain of testimony from witnesses and experts.",
+    "s": 15.52,
+    "e": 21.94
+   }
+  ],
+  "words": [
+   {
+    "w": "But",
+    "s": 0.4,
+    "e": 0.65
+   },
+   {
+    "w": "the",
+    "s": 0.65,
+    "e": 0.9
+   },
+   {
+    "w": "families",
+    "s": 0.9,
+    "e": 1.46
+   },
+   {
+    "w": "did",
+    "s": 1.46,
+    "e": 1.7
+   },
+   {
+    "w": "not",
+    "s": 1.7,
+    "e": 1.95
+   },
+   {
+    "w": "accept",
+    "s": 1.95,
+    "e": 2.39
+   },
+   {
+    "w": "that",
+    "s": 2.39,
+    "e": 2.76
+   },
+   {
+    "w": "More",
+    "s": 3.49,
+    "e": 3.77
+   },
+   {
+    "w": "than",
+    "s": 3.77,
+    "e": 4.06
+   },
+   {
+    "w": "a",
+    "s": 4.06,
+    "e": 4.18
+   },
+   {
+    "w": "hundred",
+    "s": 4.18,
+    "e": 4.64
+   },
+   {
+    "w": "people",
+    "s": 4.64,
+    "e": 5.04
+   },
+   {
+    "w": "sued",
+    "s": 5.04,
+    "e": 5.33
+   },
+   {
+    "w": "the",
+    "s": 5.33,
+    "e": 5.56
+   },
+   {
+    "w": "company",
+    "s": 5.56,
+    "e": 6.02
+   },
+   {
+    "w": "together",
+    "s": 6.02,
+    "e": 6.59
+   },
+   {
+    "w": "in",
+    "s": 6.59,
+    "e": 6.76
+   },
+   {
+    "w": "one",
+    "s": 6.76,
+    "e": 6.99
+   },
+   {
+    "w": "of",
+    "s": 6.99,
+    "e": 7.17
+   },
+   {
+    "w": "the",
+    "s": 7.17,
+    "e": 7.4
+   },
+   {
+    "w": "first",
+    "s": 7.4,
+    "e": 7.74
+   },
+   {
+    "w": "class-action",
+    "s": 7.74,
+    "e": 8.49
+   },
+   {
+    "w": "lawsuits",
+    "s": 8.49,
+    "e": 9.01
+   },
+   {
+    "w": "in",
+    "s": 9.01,
+    "e": 9.18
+   },
+   {
+    "w": "Massachusetts",
+    "s": 9.18,
+    "e": 9.98
+   },
+   {
+    "w": "history",
+    "s": 9.98,
+    "e": 10.5
+   },
+   {
+    "w": "The",
+    "s": 11.29,
+    "e": 11.52
+   },
+   {
+    "w": "court",
+    "s": 11.52,
+    "e": 11.86
+   },
+   {
+    "w": "appointed",
+    "s": 11.86,
+    "e": 12.43
+   },
+   {
+    "w": "an",
+    "s": 12.43,
+    "e": 12.6
+   },
+   {
+    "w": "auditor",
+    "s": 12.6,
+    "e": 13.11
+   },
+   {
+    "w": "Hugh",
+    "s": 13.11,
+    "e": 13.39
+   },
+   {
+    "w": "Ogden",
+    "s": 13.39,
+    "e": 13.79
+   },
+   {
+    "w": "to",
+    "s": 13.79,
+    "e": 13.96
+   },
+   {
+    "w": "hear",
+    "s": 13.96,
+    "e": 14.24
+   },
+   {
+    "w": "the",
+    "s": 14.24,
+    "e": 14.47
+   },
+   {
+    "w": "evidence",
+    "s": 14.47,
+    "e": 15.04
+   },
+   {
+    "w": "The",
+    "s": 15.78,
+    "e": 16.01
+   },
+   {
+    "w": "hearings",
+    "s": 16.01,
+    "e": 16.54
+   },
+   {
+    "w": "went",
+    "s": 16.54,
+    "e": 16.83
+   },
+   {
+    "w": "on",
+    "s": 16.83,
+    "e": 17.0
+   },
+   {
+    "w": "for",
+    "s": 17.0,
+    "e": 17.24
+   },
+   {
+    "w": "about",
+    "s": 17.24,
+    "e": 17.59
+   },
+   {
+    "w": "three",
+    "s": 17.59,
+    "e": 17.94
+   },
+   {
+    "w": "years",
+    "s": 17.94,
+    "e": 18.35
+   },
+   {
+    "w": "with",
+    "s": 18.35,
+    "e": 18.64
+   },
+   {
+    "w": "a",
+    "s": 18.64,
+    "e": 18.76
+   },
+   {
+    "w": "mountain",
+    "s": 18.76,
+    "e": 19.29
+   },
+   {
+    "w": "of",
+    "s": 19.29,
+    "e": 19.46
+   },
+   {
+    "w": "testimony",
+    "s": 19.46,
+    "e": 20.05
+   },
+   {
+    "w": "from",
+    "s": 20.05,
+    "e": 20.34
+   },
+   {
+    "w": "witnesses",
+    "s": 20.34,
+    "e": 20.93
+   },
+   {
+    "w": "and",
+    "s": 20.93,
+    "e": 21.16
+   },
+   {
+    "w": "experts",
+    "s": 21.16,
+    "e": 21.69
+   }
+  ]
+ },
+ {
+  "id": "s27",
+  "name": "verdict",
+  "text": "In nineteen twenty-five, Ogden gave his verdict. There was no bomb. The tank had simply been too weak for the load it carried, and the company was responsible. It paid about six hundred and twenty-eight thousand dollars in damages, more than eleven million dollars today.",
+  "audio_dur": 19.77,
+  "sentences": [
+   {
+    "text": "In nineteen twenty-five, Ogden gave his verdict.",
+    "s": 0.3,
+    "e": 3.78
+   },
+   {
+    "text": "There was no bomb.",
+    "s": 4.1,
+    "e": 5.55
+   },
+   {
+    "text": "The tank had simply been too weak for the load it carried, and the company was responsible.",
+    "s": 5.87,
+    "e": 11.56
+   },
+   {
+    "text": "It paid about six hundred and twenty-eight thousand dollars in damages, more than eleven million dollars today.",
+    "s": 11.88,
+    "e": 19.05
+   }
+  ],
+  "words": [
+   {
+    "w": "In",
+    "s": 0.44,
+    "e": 0.64
+   },
+   {
+    "w": "nineteen",
+    "s": 0.64,
+    "e": 1.22
+   },
+   {
+    "w": "twenty-five",
+    "s": 1.22,
+    "e": 2.07
+   },
+   {
+    "w": "Ogden",
+    "s": 2.07,
+    "e": 2.47
+   },
+   {
+    "w": "gave",
+    "s": 2.47,
+    "e": 2.79
+   },
+   {
+    "w": "his",
+    "s": 2.79,
+    "e": 3.05
+   },
+   {
+    "w": "verdict",
+    "s": 3.05,
+    "e": 3.64
+   },
+   {
+    "w": "There",
+    "s": 4.16,
+    "e": 4.58
+   },
+   {
+    "w": "was",
+    "s": 4.58,
+    "e": 4.86
+   },
+   {
+    "w": "no",
+    "s": 4.86,
+    "e": 5.07
+   },
+   {
+    "w": "bomb",
+    "s": 5.07,
+    "e": 5.49
+   },
+   {
+    "w": "The",
+    "s": 6.1,
+    "e": 6.33
+   },
+   {
+    "w": "tank",
+    "s": 6.33,
+    "e": 6.61
+   },
+   {
+    "w": "had",
+    "s": 6.61,
+    "e": 6.84
+   },
+   {
+    "w": "simply",
+    "s": 6.84,
+    "e": 7.24
+   },
+   {
+    "w": "been",
+    "s": 7.24,
+    "e": 7.52
+   },
+   {
+    "w": "too",
+    "s": 7.52,
+    "e": 7.75
+   },
+   {
+    "w": "weak",
+    "s": 7.75,
+    "e": 8.03
+   },
+   {
+    "w": "for",
+    "s": 8.03,
+    "e": 8.26
+   },
+   {
+    "w": "the",
+    "s": 8.26,
+    "e": 8.49
+   },
+   {
+    "w": "load",
+    "s": 8.49,
+    "e": 8.77
+   },
+   {
+    "w": "it",
+    "s": 8.77,
+    "e": 8.95
+   },
+   {
+    "w": "carried",
+    "s": 8.95,
+    "e": 9.46
+   },
+   {
+    "w": "and",
+    "s": 9.46,
+    "e": 9.69
+   },
+   {
+    "w": "the",
+    "s": 9.69,
+    "e": 9.91
+   },
+   {
+    "w": "company",
+    "s": 9.91,
+    "e": 10.37
+   },
+   {
+    "w": "was",
+    "s": 10.37,
+    "e": 10.6
+   },
+   {
+    "w": "responsible",
+    "s": 10.6,
+    "e": 11.34
+   },
+   {
+    "w": "It",
+    "s": 12.17,
+    "e": 12.35
+   },
+   {
+    "w": "paid",
+    "s": 12.35,
+    "e": 12.64
+   },
+   {
+    "w": "about",
+    "s": 12.64,
+    "e": 12.99
+   },
+   {
+    "w": "six",
+    "s": 12.99,
+    "e": 13.23
+   },
+   {
+    "w": "hundred",
+    "s": 13.23,
+    "e": 13.7
+   },
+   {
+    "w": "and",
+    "s": 13.7,
+    "e": 13.94
+   },
+   {
+    "w": "twenty-eight",
+    "s": 13.94,
+    "e": 14.7
+   },
+   {
+    "w": "thousand",
+    "s": 14.7,
+    "e": 15.23
+   },
+   {
+    "w": "dollars",
+    "s": 15.23,
+    "e": 15.7
+   },
+   {
+    "w": "in",
+    "s": 15.7,
+    "e": 15.88
+   },
+   {
+    "w": "damages",
+    "s": 15.88,
+    "e": 16.41
+   },
+   {
+    "w": "more",
+    "s": 16.41,
+    "e": 16.7
+   },
+   {
+    "w": "than",
+    "s": 16.7,
+    "e": 17.0
+   },
+   {
+    "w": "eleven",
+    "s": 17.0,
+    "e": 17.41
+   },
+   {
+    "w": "million",
+    "s": 17.41,
+    "e": 17.88
+   },
+   {
+    "w": "dollars",
+    "s": 17.88,
+    "e": 18.35
+   },
+   {
+    "w": "today",
+    "s": 18.35,
+    "e": 18.76
+   }
+  ]
+ },
+ {
+  "id": "s28",
+  "name": "engineering",
+  "text": "Later investigations found even more. A two thousand fourteen analysis concluded that the steel walls were only about half as thick as they should have been, even by the standards of the time. The steel was also low in manganese, which made it more brittle in the cold. The cracks began at the rivet holes.",
+  "audio_dur": 23.131,
+  "sentences": [
+   {
+    "text": "Later investigations found even more.",
+    "s": 0.3,
+    "e": 3.53
+   },
+   {
+    "text": "A two thousand fourteen analysis concluded that the steel walls were only about half as thick as they should have been, even by the standards of the time.",
+    "s": 3.85,
+    "e": 14.02
+   },
+   {
+    "text": "The steel was also low in manganese, which made it more brittle in the cold.",
+    "s": 14.34,
+    "e": 19.39
+   },
+   {
+    "text": "The cracks began at the rivet holes.",
+    "s": 19.71,
+    "e": 22.41
+   }
+  ],
+  "words": [
+   {
+    "w": "Later",
+    "s": 0.43,
+    "e": 0.9
+   },
+   {
+    "w": "investigations",
+    "s": 0.9,
+    "e": 2.07
+   },
+   {
+    "w": "found",
+    "s": 2.07,
+    "e": 2.54
+   },
+   {
+    "w": "even",
+    "s": 2.54,
+    "e": 2.93
+   },
+   {
+    "w": "more",
+    "s": 2.93,
+    "e": 3.4
+   },
+   {
+    "w": "A",
+    "s": 4.25,
+    "e": 4.37
+   },
+   {
+    "w": "two",
+    "s": 4.37,
+    "e": 4.62
+   },
+   {
+    "w": "thousand",
+    "s": 4.62,
+    "e": 5.16
+   },
+   {
+    "w": "fourteen",
+    "s": 5.16,
+    "e": 5.7
+   },
+   {
+    "w": "analysis",
+    "s": 5.7,
+    "e": 6.25
+   },
+   {
+    "w": "concluded",
+    "s": 6.25,
+    "e": 6.85
+   },
+   {
+    "w": "that",
+    "s": 6.85,
+    "e": 7.15
+   },
+   {
+    "w": "the",
+    "s": 7.15,
+    "e": 7.39
+   },
+   {
+    "w": "steel",
+    "s": 7.39,
+    "e": 7.76
+   },
+   {
+    "w": "walls",
+    "s": 7.76,
+    "e": 8.12
+   },
+   {
+    "w": "were",
+    "s": 8.12,
+    "e": 8.42
+   },
+   {
+    "w": "only",
+    "s": 8.42,
+    "e": 8.72
+   },
+   {
+    "w": "about",
+    "s": 8.72,
+    "e": 9.09
+   },
+   {
+    "w": "half",
+    "s": 9.09,
+    "e": 9.39
+   },
+   {
+    "w": "as",
+    "s": 9.39,
+    "e": 9.57
+   },
+   {
+    "w": "thick",
+    "s": 9.57,
+    "e": 9.93
+   },
+   {
+    "w": "as",
+    "s": 9.93,
+    "e": 10.11
+   },
+   {
+    "w": "they",
+    "s": 10.11,
+    "e": 10.41
+   },
+   {
+    "w": "should",
+    "s": 10.41,
+    "e": 10.84
+   },
+   {
+    "w": "have",
+    "s": 10.84,
+    "e": 11.14
+   },
+   {
+    "w": "been",
+    "s": 11.14,
+    "e": 11.5
+   },
+   {
+    "w": "even",
+    "s": 11.5,
+    "e": 11.8
+   },
+   {
+    "w": "by",
+    "s": 11.8,
+    "e": 11.98
+   },
+   {
+    "w": "the",
+    "s": 11.98,
+    "e": 12.23
+   },
+   {
+    "w": "standards",
+    "s": 12.23,
+    "e": 12.83
+   },
+   {
+    "w": "of",
+    "s": 12.83,
+    "e": 13.01
+   },
+   {
+    "w": "the",
+    "s": 13.01,
+    "e": 13.25
+   },
+   {
+    "w": "time",
+    "s": 13.25,
+    "e": 13.61
+   },
+   {
+    "w": "The",
+    "s": 14.54,
+    "e": 14.79
+   },
+   {
+    "w": "steel",
+    "s": 14.79,
+    "e": 15.15
+   },
+   {
+    "w": "was",
+    "s": 15.15,
+    "e": 15.39
+   },
+   {
+    "w": "also",
+    "s": 15.39,
+    "e": 15.69
+   },
+   {
+    "w": "low",
+    "s": 15.69,
+    "e": 15.93
+   },
+   {
+    "w": "in",
+    "s": 15.93,
+    "e": 16.11
+   },
+   {
+    "w": "manganese",
+    "s": 16.11,
+    "e": 16.78
+   },
+   {
+    "w": "which",
+    "s": 16.78,
+    "e": 17.14
+   },
+   {
+    "w": "made",
+    "s": 17.14,
+    "e": 17.44
+   },
+   {
+    "w": "it",
+    "s": 17.44,
+    "e": 17.62
+   },
+   {
+    "w": "more",
+    "s": 17.62,
+    "e": 17.92
+   },
+   {
+    "w": "brittle",
+    "s": 17.92,
+    "e": 18.41
+   },
+   {
+    "w": "in",
+    "s": 18.41,
+    "e": 18.59
+   },
+   {
+    "w": "the",
+    "s": 18.59,
+    "e": 18.83
+   },
+   {
+    "w": "cold",
+    "s": 18.83,
+    "e": 19.19
+   },
+   {
+    "w": "The",
+    "s": 19.82,
+    "e": 20.09
+   },
+   {
+    "w": "cracks",
+    "s": 20.09,
+    "e": 20.56
+   },
+   {
+    "w": "began",
+    "s": 20.56,
+    "e": 20.96
+   },
+   {
+    "w": "at",
+    "s": 20.96,
+    "e": 21.16
+   },
+   {
+    "w": "the",
+    "s": 21.16,
+    "e": 21.43
+   },
+   {
+    "w": "rivet",
+    "s": 21.43,
+    "e": 21.83
+   },
+   {
+    "w": "holes",
+    "s": 21.83,
+    "e": 22.3
+   }
+  ]
+ },
+ {
+  "id": "s29",
+  "name": "payoff-law",
+  "text": "And that brings us back to our question. How did syrup kill twenty-one people? Not by bad luck, and not by a bomb. It was a giant tank, built by a man who was not an engineer, tested by no one, and painted brown to hide the warnings. So Massachusetts and other states began to require something that sounds obvious today. Before a big structure is built, a licensed engineer or architect must check the calculations and sign their name to them. That kind of signature is now standard across the country. Every bridge, tower, and tank you walk past today depends on that idea.",
+  "audio_dur": 43.204,
+  "sentences": [
+   {
+    "text": "And that brings us back to our question.",
+    "s": 0.3,
+    "e": 2.66
+   },
+   {
+    "text": "How did syrup kill twenty-one people?",
+    "s": 2.98,
+    "e": 5.68
+   },
+   {
+    "text": "Not by bad luck, and not by a bomb.",
+    "s": 6.13,
+    "e": 8.98
+   },
+   {
+    "text": "It was a giant tank, built by a man who was not an engineer, tested by no one, and painted brown to hide the warnings.",
+    "s": 9.3,
+    "e": 17.49
+   },
+   {
+    "text": "So Massachusetts and other states began to require something that sounds obvious today.",
+    "s": 17.81,
+    "e": 24.18
+   },
+   {
+    "text": "Before a big structure is built, a licensed engineer or architect must check the calculations and sign their name to them.",
+    "s": 24.5,
+    "e": 32.9
+   },
+   {
+    "text": "That kind of signature is now standard across the country.",
+    "s": 33.22,
+    "e": 37.02
+   },
+   {
+    "text": "Every bridge, tower, and tank you walk past today depends on that idea.",
+    "s": 37.34,
+    "e": 42.48
+   }
+  ],
+  "words": [
+   {
+    "w": "And",
+    "s": 0.39,
+    "e": 0.61
+   },
+   {
+    "w": "that",
+    "s": 0.61,
+    "e": 0.87
+   },
+   {
+    "w": "brings",
+    "s": 0.87,
+    "e": 1.24
+   },
+   {
+    "w": "us",
+    "s": 1.24,
+    "e": 1.4
+   },
+   {
+    "w": "back",
+    "s": 1.4,
+    "e": 1.66
+   },
+   {
+    "w": "to",
+    "s": 1.66,
+    "e": 1.82
+   },
+   {
+    "w": "our",
+    "s": 1.82,
+    "e": 2.03
+   },
+   {
+    "w": "question",
+    "s": 2.03,
+    "e": 2.56
+   },
+   {
+    "w": "How",
+    "s": 3.09,
+    "e": 3.35
+   },
+   {
+    "w": "did",
+    "s": 3.35,
+    "e": 3.61
+   },
+   {
+    "w": "syrup",
+    "s": 3.61,
+    "e": 4.0
+   },
+   {
+    "w": "kill",
+    "s": 4.0,
+    "e": 4.33
+   },
+   {
+    "w": "twenty-one",
+    "s": 4.33,
+    "e": 5.05
+   },
+   {
+    "w": "people",
+    "s": 5.05,
+    "e": 5.57
+   },
+   {
+    "w": "Not",
+    "s": 6.24,
+    "e": 6.54
+   },
+   {
+    "w": "by",
+    "s": 6.54,
+    "e": 6.75
+   },
+   {
+    "w": "bad",
+    "s": 6.75,
+    "e": 7.05
+   },
+   {
+    "w": "luck",
+    "s": 7.05,
+    "e": 7.48
+   },
+   {
+    "w": "and",
+    "s": 7.48,
+    "e": 7.77
+   },
+   {
+    "w": "not",
+    "s": 7.77,
+    "e": 8.07
+   },
+   {
+    "w": "by",
+    "s": 8.07,
+    "e": 8.28
+   },
+   {
+    "w": "a",
+    "s": 8.28,
+    "e": 8.43
+   },
+   {
+    "w": "bomb",
+    "s": 8.43,
+    "e": 8.87
+   },
+   {
+    "w": "It",
+    "s": 9.63,
+    "e": 9.82
+   },
+   {
+    "w": "was",
+    "s": 9.82,
+    "e": 10.07
+   },
+   {
+    "w": "a",
+    "s": 10.07,
+    "e": 10.2
+   },
+   {
+    "w": "giant",
+    "s": 10.2,
+    "e": 10.58
+   },
+   {
+    "w": "tank",
+    "s": 10.58,
+    "e": 10.96
+   },
+   {
+    "w": "built",
+    "s": 10.96,
+    "e": 11.34
+   },
+   {
+    "w": "by",
+    "s": 11.34,
+    "e": 11.53
+   },
+   {
+    "w": "a",
+    "s": 11.53,
+    "e": 11.65
+   },
+   {
+    "w": "man",
+    "s": 11.65,
+    "e": 11.91
+   },
+   {
+    "w": "who",
+    "s": 11.91,
+    "e": 12.16
+   },
+   {
+    "w": "was",
+    "s": 12.16,
+    "e": 12.41
+   },
+   {
+    "w": "not",
+    "s": 12.41,
+    "e": 12.67
+   },
+   {
+    "w": "an",
+    "s": 12.67,
+    "e": 12.86
+   },
+   {
+    "w": "engineer",
+    "s": 12.86,
+    "e": 13.49
+   },
+   {
+    "w": "tested",
+    "s": 13.49,
+    "e": 13.93
+   },
+   {
+    "w": "by",
+    "s": 13.93,
+    "e": 14.12
+   },
+   {
+    "w": "no",
+    "s": 14.12,
+    "e": 14.31
+   },
+   {
+    "w": "one",
+    "s": 14.31,
+    "e": 14.63
+   },
+   {
+    "w": "and",
+    "s": 14.63,
+    "e": 14.88
+   },
+   {
+    "w": "painted",
+    "s": 14.88,
+    "e": 15.39
+   },
+   {
+    "w": "brown",
+    "s": 15.39,
+    "e": 15.77
+   },
+   {
+    "w": "to",
+    "s": 15.77,
+    "e": 15.96
+   },
+   {
+    "w": "hide",
+    "s": 15.96,
+    "e": 16.27
+   },
+   {
+    "w": "the",
+    "s": 16.27,
+    "e": 16.53
+   },
+   {
+    "w": "warnings",
+    "s": 16.53,
+    "e": 17.16
+   },
+   {
+    "w": "So",
+    "s": 18.06,
+    "e": 18.26
+   },
+   {
+    "w": "Massachusetts",
+    "s": 18.26,
+    "e": 19.19
+   },
+   {
+    "w": "and",
+    "s": 19.19,
+    "e": 19.46
+   },
+   {
+    "w": "other",
+    "s": 19.46,
+    "e": 19.86
+   },
+   {
+    "w": "states",
+    "s": 19.86,
+    "e": 20.33
+   },
+   {
+    "w": "began",
+    "s": 20.33,
+    "e": 20.73
+   },
+   {
+    "w": "to",
+    "s": 20.73,
+    "e": 20.93
+   },
+   {
+    "w": "require",
+    "s": 20.93,
+    "e": 21.46
+   },
+   {
+    "w": "something",
+    "s": 21.46,
+    "e": 22.13
+   },
+   {
+    "w": "that",
+    "s": 22.13,
+    "e": 22.46
+   },
+   {
+    "w": "sounds",
+    "s": 22.46,
+    "e": 22.93
+   },
+   {
+    "w": "obvious",
+    "s": 22.93,
+    "e": 23.46
+   },
+   {
+    "w": "today",
+    "s": 23.46,
+    "e": 23.92
+   },
+   {
+    "w": "Before",
+    "s": 24.84,
+    "e": 25.28
+   },
+   {
+    "w": "a",
+    "s": 25.28,
+    "e": 25.4
+   },
+   {
+    "w": "big",
+    "s": 25.4,
+    "e": 25.65
+   },
+   {
+    "w": "structure",
+    "s": 25.65,
+    "e": 26.28
+   },
+   {
+    "w": "is",
+    "s": 26.28,
+    "e": 26.47
+   },
+   {
+    "w": "built",
+    "s": 26.47,
+    "e": 26.91
+   },
+   {
+    "w": "a",
+    "s": 26.91,
+    "e": 27.03
+   },
+   {
+    "w": "licensed",
+    "s": 27.03,
+    "e": 27.6
+   },
+   {
+    "w": "engineer",
+    "s": 27.6,
+    "e": 28.17
+   },
+   {
+    "w": "or",
+    "s": 28.17,
+    "e": 28.35
+   },
+   {
+    "w": "architect",
+    "s": 28.35,
+    "e": 28.98
+   },
+   {
+    "w": "must",
+    "s": 28.98,
+    "e": 29.3
+   },
+   {
+    "w": "check",
+    "s": 29.3,
+    "e": 29.67
+   },
+   {
+    "w": "the",
+    "s": 29.67,
+    "e": 29.92
+   },
+   {
+    "w": "calculations",
+    "s": 29.92,
+    "e": 30.74
+   },
+   {
+    "w": "and",
+    "s": 30.74,
+    "e": 30.99
+   },
+   {
+    "w": "sign",
+    "s": 30.99,
+    "e": 31.31
+   },
+   {
+    "w": "their",
+    "s": 31.31,
+    "e": 31.68
+   },
+   {
+    "w": "name",
+    "s": 31.68,
+    "e": 32.0
+   },
+   {
+    "w": "to",
+    "s": 32.0,
+    "e": 32.19
+   },
+   {
+    "w": "them",
+    "s": 32.19,
+    "e": 32.56
+   },
+   {
+    "w": "That",
+    "s": 33.37,
+    "e": 33.67
+   },
+   {
+    "w": "kind",
+    "s": 33.67,
+    "e": 33.96
+   },
+   {
+    "w": "of",
+    "s": 33.96,
+    "e": 34.14
+   },
+   {
+    "w": "signature",
+    "s": 34.14,
+    "e": 34.73
+   },
+   {
+    "w": "is",
+    "s": 34.73,
+    "e": 34.91
+   },
+   {
+    "w": "now",
+    "s": 34.91,
+    "e": 35.15
+   },
+   {
+    "w": "standard",
+    "s": 35.15,
+    "e": 35.68
+   },
+   {
+    "w": "across",
+    "s": 35.68,
+    "e": 36.09
+   },
+   {
+    "w": "the",
+    "s": 36.09,
+    "e": 36.33
+   },
+   {
+    "w": "country",
+    "s": 36.33,
+    "e": 36.86
+   },
+   {
+    "w": "Every",
+    "s": 37.54,
+    "e": 37.94
+   },
+   {
+    "w": "bridge",
+    "s": 37.94,
+    "e": 38.46
+   },
+   {
+    "w": "tower",
+    "s": 38.46,
+    "e": 38.92
+   },
+   {
+    "w": "and",
+    "s": 38.92,
+    "e": 39.19
+   },
+   {
+    "w": "tank",
+    "s": 39.19,
+    "e": 39.52
+   },
+   {
+    "w": "you",
+    "s": 39.52,
+    "e": 39.78
+   },
+   {
+    "w": "walk",
+    "s": 39.78,
+    "e": 40.11
+   },
+   {
+    "w": "past",
+    "s": 40.11,
+    "e": 40.44
+   },
+   {
+    "w": "today",
+    "s": 40.44,
+    "e": 40.83
+   },
+   {
+    "w": "depends",
+    "s": 40.83,
+    "e": 41.36
+   },
+   {
+    "w": "on",
+    "s": 41.36,
+    "e": 41.55
+   },
+   {
+    "w": "that",
+    "s": 41.55,
+    "e": 41.88
+   },
+   {
+    "w": "idea",
+    "s": 41.88,
+    "e": 42.28
+   }
+  ]
+ },
+ {
+  "id": "s30",
+  "name": "prohibition-twist",
+  "text": "And the race against Prohibition? On January sixteenth, nineteen nineteen, the very next day, Nebraska became the thirty-sixth state to ratify the Eighteenth Amendment. Prohibition was now part of the Constitution. The company had been racing a deadline that arrived one day after its tank collapsed.",
+  "audio_dur": 22.746,
+  "sentences": [
+   {
+    "text": "And the race against Prohibition?",
+    "s": 0.3,
+    "e": 2.71
+   },
+   {
+    "text": "On January sixteenth, nineteen nineteen, the very next day, Nebraska became the thirty-sixth state to ratify the Eighteenth Amendment.",
+    "s": 3.16,
+    "e": 12.33
+   },
+   {
+    "text": "Prohibition was now part of the Constitution.",
+    "s": 12.65,
+    "e": 16.13
+   },
+   {
+    "text": "The company had been racing a deadline that arrived one day after its tank collapsed.",
+    "s": 16.45,
+    "e": 22.03
+   }
+  ],
+  "words": [
+   {
+    "w": "And",
+    "s": 0.4,
+    "e": 0.66
+   },
+   {
+    "w": "the",
+    "s": 0.66,
+    "e": 0.92
+   },
+   {
+    "w": "race",
+    "s": 0.92,
+    "e": 1.24
+   },
+   {
+    "w": "against",
+    "s": 1.24,
+    "e": 1.76
+   },
+   {
+    "w": "Prohibition",
+    "s": 1.76,
+    "e": 2.61
+   },
+   {
+    "w": "On",
+    "s": 3.52,
+    "e": 3.71
+   },
+   {
+    "w": "January",
+    "s": 3.71,
+    "e": 4.21
+   },
+   {
+    "w": "sixteenth",
+    "s": 4.21,
+    "e": 4.9
+   },
+   {
+    "w": "nineteen",
+    "s": 4.9,
+    "e": 5.46
+   },
+   {
+    "w": "nineteen",
+    "s": 5.46,
+    "e": 6.09
+   },
+   {
+    "w": "the",
+    "s": 6.09,
+    "e": 6.34
+   },
+   {
+    "w": "very",
+    "s": 6.34,
+    "e": 6.65
+   },
+   {
+    "w": "next",
+    "s": 6.65,
+    "e": 6.96
+   },
+   {
+    "w": "day",
+    "s": 6.96,
+    "e": 7.27
+   },
+   {
+    "w": "Nebraska",
+    "s": 7.27,
+    "e": 7.84
+   },
+   {
+    "w": "became",
+    "s": 7.84,
+    "e": 8.28
+   },
+   {
+    "w": "the",
+    "s": 8.28,
+    "e": 8.53
+   },
+   {
+    "w": "thirty-sixth",
+    "s": 8.53,
+    "e": 9.34
+   },
+   {
+    "w": "state",
+    "s": 9.34,
+    "e": 9.71
+   },
+   {
+    "w": "to",
+    "s": 9.71,
+    "e": 9.9
+   },
+   {
+    "w": "ratify",
+    "s": 9.9,
+    "e": 10.34
+   },
+   {
+    "w": "the",
+    "s": 10.34,
+    "e": 10.59
+   },
+   {
+    "w": "Eighteenth",
+    "s": 10.59,
+    "e": 11.28
+   },
+   {
+    "w": "Amendment",
+    "s": 11.28,
+    "e": 11.96
+   },
+   {
+    "w": "Prohibition",
+    "s": 12.79,
+    "e": 13.63
+   },
+   {
+    "w": "was",
+    "s": 13.63,
+    "e": 13.9
+   },
+   {
+    "w": "now",
+    "s": 13.9,
+    "e": 14.18
+   },
+   {
+    "w": "part",
+    "s": 14.18,
+    "e": 14.53
+   },
+   {
+    "w": "of",
+    "s": 14.53,
+    "e": 14.74
+   },
+   {
+    "w": "the",
+    "s": 14.74,
+    "e": 15.02
+   },
+   {
+    "w": "Constitution",
+    "s": 15.02,
+    "e": 15.99
+   },
+   {
+    "w": "The",
+    "s": 16.67,
+    "e": 16.91
+   },
+   {
+    "w": "company",
+    "s": 16.91,
+    "e": 17.39
+   },
+   {
+    "w": "had",
+    "s": 17.39,
+    "e": 17.63
+   },
+   {
+    "w": "been",
+    "s": 17.63,
+    "e": 17.93
+   },
+   {
+    "w": "racing",
+    "s": 17.93,
+    "e": 18.34
+   },
+   {
+    "w": "a",
+    "s": 18.34,
+    "e": 18.46
+   },
+   {
+    "w": "deadline",
+    "s": 18.46,
+    "e": 19.0
+   },
+   {
+    "w": "that",
+    "s": 19.0,
+    "e": 19.3
+   },
+   {
+    "w": "arrived",
+    "s": 19.3,
+    "e": 19.78
+   },
+   {
+    "w": "one",
+    "s": 19.78,
+    "e": 20.01
+   },
+   {
+    "w": "day",
+    "s": 20.01,
+    "e": 20.25
+   },
+   {
+    "w": "after",
+    "s": 20.25,
+    "e": 20.61
+   },
+   {
+    "w": "its",
+    "s": 20.61,
+    "e": 20.85
+   },
+   {
+    "w": "tank",
+    "s": 20.85,
+    "e": 21.15
+   },
+   {
+    "w": "collapsed",
+    "s": 21.15,
+    "e": 21.8
+   }
+  ]
+ },
+ {
+  "id": "s31",
+  "name": "today",
+  "text": "Today, the spot where the tank stood is a park with a Little League baseball field. Its concrete base is still there, about twenty inches under the infield. For decades, people in the North End said that on hot summer days, you could still smell molasses in the air.",
+  "audio_dur": 18.784,
+  "sentences": [
+   {
+    "text": "Today, the spot where the tank stood is a park with a Little League baseball field.",
+    "s": 0.3,
+    "e": 5.61
+   },
+   {
+    "text": "Its concrete base is still there, about twenty inches under the infield.",
+    "s": 5.93,
+    "e": 10.84
+   },
+   {
+    "text": "For decades, people in the North End said that on hot summer days, you could still smell molasses in the air.",
+    "s": 11.16,
+    "e": 18.06
+   }
+  ],
+  "words": [
+   {
+    "w": "Today",
+    "s": 0.51,
+    "e": 0.92
+   },
+   {
+    "w": "the",
+    "s": 0.92,
+    "e": 1.15
+   },
+   {
+    "w": "spot",
+    "s": 1.15,
+    "e": 1.44
+   },
+   {
+    "w": "where",
+    "s": 1.44,
+    "e": 1.79
+   },
+   {
+    "w": "the",
+    "s": 1.79,
+    "e": 2.03
+   },
+   {
+    "w": "tank",
+    "s": 2.03,
+    "e": 2.32
+   },
+   {
+    "w": "stood",
+    "s": 2.32,
+    "e": 2.67
+   },
+   {
+    "w": "is",
+    "s": 2.67,
+    "e": 2.84
+   },
+   {
+    "w": "a",
+    "s": 2.84,
+    "e": 2.96
+   },
+   {
+    "w": "park",
+    "s": 2.96,
+    "e": 3.25
+   },
+   {
+    "w": "with",
+    "s": 3.25,
+    "e": 3.54
+   },
+   {
+    "w": "a",
+    "s": 3.54,
+    "e": 3.65
+   },
+   {
+    "w": "Little",
+    "s": 3.65,
+    "e": 4.06
+   },
+   {
+    "w": "League",
+    "s": 4.06,
+    "e": 4.47
+   },
+   {
+    "w": "baseball",
+    "s": 4.47,
+    "e": 4.99
+   },
+   {
+    "w": "field",
+    "s": 4.99,
+    "e": 5.4
+   },
+   {
+    "w": "Its",
+    "s": 6.13,
+    "e": 6.38
+   },
+   {
+    "w": "concrete",
+    "s": 6.38,
+    "e": 6.93
+   },
+   {
+    "w": "base",
+    "s": 6.93,
+    "e": 7.24
+   },
+   {
+    "w": "is",
+    "s": 7.24,
+    "e": 7.43
+   },
+   {
+    "w": "still",
+    "s": 7.43,
+    "e": 7.8
+   },
+   {
+    "w": "there",
+    "s": 7.8,
+    "e": 8.23
+   },
+   {
+    "w": "about",
+    "s": 8.23,
+    "e": 8.6
+   },
+   {
+    "w": "twenty",
+    "s": 8.6,
+    "e": 9.03
+   },
+   {
+    "w": "inches",
+    "s": 9.03,
+    "e": 9.47
+   },
+   {
+    "w": "under",
+    "s": 9.47,
+    "e": 9.84
+   },
+   {
+    "w": "the",
+    "s": 9.84,
+    "e": 10.09
+   },
+   {
+    "w": "infield",
+    "s": 10.09,
+    "e": 10.64
+   },
+   {
+    "w": "For",
+    "s": 11.43,
+    "e": 11.67
+   },
+   {
+    "w": "decades",
+    "s": 11.67,
+    "e": 12.19
+   },
+   {
+    "w": "people",
+    "s": 12.19,
+    "e": 12.59
+   },
+   {
+    "w": "in",
+    "s": 12.59,
+    "e": 12.76
+   },
+   {
+    "w": "the",
+    "s": 12.76,
+    "e": 12.99
+   },
+   {
+    "w": "North",
+    "s": 12.99,
+    "e": 13.34
+   },
+   {
+    "w": "End",
+    "s": 13.34,
+    "e": 13.57
+   },
+   {
+    "w": "said",
+    "s": 13.57,
+    "e": 13.86
+   },
+   {
+    "w": "that",
+    "s": 13.86,
+    "e": 14.15
+   },
+   {
+    "w": "on",
+    "s": 14.15,
+    "e": 14.32
+   },
+   {
+    "w": "hot",
+    "s": 14.32,
+    "e": 14.55
+   },
+   {
+    "w": "summer",
+    "s": 14.55,
+    "e": 14.96
+   },
+   {
+    "w": "days",
+    "s": 14.96,
+    "e": 15.3
+   },
+   {
+    "w": "you",
+    "s": 15.3,
+    "e": 15.54
+   },
+   {
+    "w": "could",
+    "s": 15.54,
+    "e": 15.88
+   },
+   {
+    "w": "still",
+    "s": 15.88,
+    "e": 16.23
+   },
+   {
+    "w": "smell",
+    "s": 16.23,
+    "e": 16.57
+   },
+   {
+    "w": "molasses",
+    "s": 16.57,
+    "e": 17.09
+   },
+   {
+    "w": "in",
+    "s": 17.09,
+    "e": 17.27
+   },
+   {
+    "w": "the",
+    "s": 17.27,
+    "e": 17.5
+   },
+   {
+    "w": "air",
+    "s": 17.5,
+    "e": 17.79
+   }
+  ]
+ },
+ {
+  "id": "s32",
+  "name": "outro",
+  "text": "Twenty-one people died that day because someone decided a warning was a paint job. So next time you see a crack in something that is supposed to be strong, remember Boston, and remember the wave that wasn't water. If you want more forgotten stories from American history, subscribe, and tell us in the comments which disaster we should cover next.",
+  "audio_dur": 24.64,
+  "sentences": [
+   {
+    "text": "Twenty-one people died that day because someone decided a warning was a paint job.",
+    "s": 0.3,
+    "e": 5.95
+   },
+   {
+    "text": "So next time you see a crack in something that is supposed to be strong, remember Boston, and remember the wave that wasn't water.",
+    "s": 6.27,
+    "e": 14.58
+   },
+   {
+    "text": "If you want more forgotten stories from American history, subscribe, and tell us in the comments which disaster we should cover next.",
+    "s": 14.9,
+    "e": 23.92
+   }
+  ],
+  "words": [
+   {
+    "w": "Twenty-one",
+    "s": 0.53,
+    "e": 1.22
+   },
+   {
+    "w": "people",
+    "s": 1.22,
+    "e": 1.65
+   },
+   {
+    "w": "died",
+    "s": 1.65,
+    "e": 1.97
+   },
+   {
+    "w": "that",
+    "s": 1.97,
+    "e": 2.28
+   },
+   {
+    "w": "day",
+    "s": 2.28,
+    "e": 2.53
+   },
+   {
+    "w": "because",
+    "s": 2.53,
+    "e": 3.03
+   },
+   {
+    "w": "someone",
+    "s": 3.03,
+    "e": 3.53
+   },
+   {
+    "w": "decided",
+    "s": 3.53,
+    "e": 4.04
+   },
+   {
+    "w": "a",
+    "s": 4.04,
+    "e": 4.16
+   },
+   {
+    "w": "warning",
+    "s": 4.16,
+    "e": 4.66
+   },
+   {
+    "w": "was",
+    "s": 4.66,
+    "e": 4.91
+   },
+   {
+    "w": "a",
+    "s": 4.91,
+    "e": 5.04
+   },
+   {
+    "w": "paint",
+    "s": 5.04,
+    "e": 5.41
+   },
+   {
+    "w": "job",
+    "s": 5.41,
+    "e": 5.73
+   },
+   {
+    "w": "So",
+    "s": 6.61,
+    "e": 6.78
+   },
+   {
+    "w": "next",
+    "s": 6.78,
+    "e": 7.07
+   },
+   {
+    "w": "time",
+    "s": 7.07,
+    "e": 7.36
+   },
+   {
+    "w": "you",
+    "s": 7.36,
+    "e": 7.6
+   },
+   {
+    "w": "see",
+    "s": 7.6,
+    "e": 7.83
+   },
+   {
+    "w": "a",
+    "s": 7.83,
+    "e": 7.95
+   },
+   {
+    "w": "crack",
+    "s": 7.95,
+    "e": 8.3
+   },
+   {
+    "w": "in",
+    "s": 8.3,
+    "e": 8.47
+   },
+   {
+    "w": "something",
+    "s": 8.47,
+    "e": 9.06
+   },
+   {
+    "w": "that",
+    "s": 9.06,
+    "e": 9.35
+   },
+   {
+    "w": "is",
+    "s": 9.35,
+    "e": 9.52
+   },
+   {
+    "w": "supposed",
+    "s": 9.52,
+    "e": 10.05
+   },
+   {
+    "w": "to",
+    "s": 10.05,
+    "e": 10.22
+   },
+   {
+    "w": "be",
+    "s": 10.22,
+    "e": 10.4
+   },
+   {
+    "w": "strong",
+    "s": 10.4,
+    "e": 10.86
+   },
+   {
+    "w": "remember",
+    "s": 10.86,
+    "e": 11.39
+   },
+   {
+    "w": "Boston",
+    "s": 11.39,
+    "e": 11.85
+   },
+   {
+    "w": "and",
+    "s": 11.85,
+    "e": 12.09
+   },
+   {
+    "w": "remember",
+    "s": 12.09,
+    "e": 12.61
+   },
+   {
+    "w": "the",
+    "s": 12.61,
+    "e": 12.85
+   },
+   {
+    "w": "wave",
+    "s": 12.85,
+    "e": 13.14
+   },
+   {
+    "w": "that",
+    "s": 13.14,
+    "e": 13.43
+   },
+   {
+    "w": "wasn't",
+    "s": 13.43,
+    "e": 13.84
+   },
+   {
+    "w": "water",
+    "s": 13.84,
+    "e": 14.25
+   },
+   {
+    "w": "If",
+    "s": 15.26,
+    "e": 15.44
+   },
+   {
+    "w": "you",
+    "s": 15.44,
+    "e": 15.69
+   },
+   {
+    "w": "want",
+    "s": 15.69,
+    "e": 16.0
+   },
+   {
+    "w": "more",
+    "s": 16.0,
+    "e": 16.31
+   },
+   {
+    "w": "forgotten",
+    "s": 16.31,
+    "e": 16.93
+   },
+   {
+    "w": "stories",
+    "s": 16.93,
+    "e": 17.43
+   },
+   {
+    "w": "from",
+    "s": 17.43,
+    "e": 17.74
+   },
+   {
+    "w": "American",
+    "s": 17.74,
+    "e": 18.29
+   },
+   {
+    "w": "history",
+    "s": 18.29,
+    "e": 18.85
+   },
+   {
+    "w": "subscribe",
+    "s": 18.85,
+    "e": 19.53
+   },
+   {
+    "w": "and",
+    "s": 19.53,
+    "e": 19.78
+   },
+   {
+    "w": "tell",
+    "s": 19.78,
+    "e": 20.09
+   },
+   {
+    "w": "us",
+    "s": 20.09,
+    "e": 20.28
+   },
+   {
+    "w": "in",
+    "s": 20.28,
+    "e": 20.46
+   },
+   {
+    "w": "the",
+    "s": 20.46,
+    "e": 20.71
+   },
+   {
+    "w": "comments",
+    "s": 20.71,
+    "e": 21.27
+   },
+   {
+    "w": "which",
+    "s": 21.27,
+    "e": 21.64
+   },
+   {
+    "w": "disaster",
+    "s": 21.64,
+    "e": 22.2
+   },
+   {
+    "w": "we",
+    "s": 22.2,
+    "e": 22.38
+   },
+   {
+    "w": "should",
+    "s": 22.38,
+    "e": 22.82
+   },
+   {
+    "w": "cover",
+    "s": 22.82,
+    "e": 23.19
+   },
+   {
+    "w": "next",
+    "s": 23.19,
+    "e": 23.56
+   }
+  ]
+ }
+]
