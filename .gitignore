@@ -10,5 +10,3 @@ test/
 *.wav
 thumbnail/thumb-1920.png
 **/.check*/
-release/
-*.mp4

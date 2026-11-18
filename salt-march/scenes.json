@@ -1,0 +1,9382 @@
+[
+ {
+  "id": "s01",
+  "name": "hook-beach",
+  "text": "India. April sixth, nineteen thirty. Early morning, on a quiet beach on the west coast. A thin man, sixty years old, wearing a simple white cloth, walks down to the edge of the sea. Thousands of people are watching him. He bends down and picks up a lump of salty mud.",
+  "audio_dur": 21.704,
+  "sentences": [
+   {
+    "text": "India.",
+    "s": 0.3,
+    "e": 1.17
+   },
+   {
+    "text": "April sixth, nineteen thirty.",
+    "s": 1.49,
+    "e": 3.87
+   },
+   {
+    "text": "Early morning, on a quiet beach on the west coast.",
+    "s": 4.19,
+    "e": 7.6
+   },
+   {
+    "text": "A thin man, sixty years old, wearing a simple white cloth, walks down to the edge of the sea.",
+    "s": 7.92,
+    "e": 14.26
+   },
+   {
+    "text": "Thousands of people are watching him.",
+    "s": 14.58,
+    "e": 17.18
+   },
+   {
+    "text": "He bends down and picks up a lump of salty mud.",
+    "s": 17.5,
+    "e": 20.98
+   }
+  ],
+  "words": [
+   {
+    "w": "India",
+    "s": 0.33,
+    "e": 1.13
+   },
+   {
+    "w": "April",
+    "s": 1.58,
+    "e": 2.02
+   },
+   {
+    "w": "sixth",
+    "s": 2.02,
+    "e": 2.53
+   },
+   {
+    "w": "nineteen",
+    "s": 2.53,
+    "e": 3.19
+   },
+   {
+    "w": "thirty",
+    "s": 3.19,
+    "e": 3.77
+   },
+   {
+    "w": "Early",
+    "s": 4.33,
+    "e": 4.7
+   },
+   {
+    "w": "morning",
+    "s": 4.7,
+    "e": 5.25
+   },
+   {
+    "w": "on",
+    "s": 5.25,
+    "e": 5.43
+   },
+   {
+    "w": "a",
+    "s": 5.43,
+    "e": 5.56
+   },
+   {
+    "w": "quiet",
+    "s": 5.56,
+    "e": 5.93
+   },
+   {
+    "w": "beach",
+    "s": 5.93,
+    "e": 6.3
+   },
+   {
+    "w": "on",
+    "s": 6.3,
+    "e": 6.48
+   },
+   {
+    "w": "the",
+    "s": 6.48,
+    "e": 6.73
+   },
+   {
+    "w": "west",
+    "s": 6.73,
+    "e": 7.04
+   },
+   {
+    "w": "coast",
+    "s": 7.04,
+    "e": 7.47
+   },
+   {
+    "w": "A",
+    "s": 8.18,
+    "e": 8.3
+   },
+   {
+    "w": "thin",
+    "s": 8.3,
+    "e": 8.61
+   },
+   {
+    "w": "man",
+    "s": 8.61,
+    "e": 8.92
+   },
+   {
+    "w": "sixty",
+    "s": 8.92,
+    "e": 9.29
+   },
+   {
+    "w": "years",
+    "s": 9.29,
+    "e": 9.67
+   },
+   {
+    "w": "old",
+    "s": 9.67,
+    "e": 9.98
+   },
+   {
+    "w": "wearing",
+    "s": 9.98,
+    "e": 10.47
+   },
+   {
+    "w": "a",
+    "s": 10.47,
+    "e": 10.6
+   },
+   {
+    "w": "simple",
+    "s": 10.6,
+    "e": 11.03
+   },
+   {
+    "w": "white",
+    "s": 11.03,
+    "e": 11.4
+   },
+   {
+    "w": "cloth",
+    "s": 11.4,
+    "e": 11.84
+   },
+   {
+    "w": "walks",
+    "s": 11.84,
+    "e": 12.21
+   },
+   {
+    "w": "down",
+    "s": 12.21,
+    "e": 12.52
+   },
+   {
+    "w": "to",
+    "s": 12.52,
+    "e": 12.71
+   },
+   {
+    "w": "the",
+    "s": 12.71,
+    "e": 12.96
+   },
+   {
+    "w": "edge",
+    "s": 12.96,
+    "e": 13.27
+   },
+   {
+    "w": "of",
+    "s": 13.27,
+    "e": 13.45
+   },
+   {
+    "w": "the",
+    "s": 13.45,
+    "e": 13.7
+   },
+   {
+    "w": "sea",
+    "s": 13.7,
+    "e": 14.01
+   },
+   {
+    "w": "Thousands",
+    "s": 14.69,
+    "e": 15.32
+   },
+   {
+    "w": "of",
+    "s": 15.32,
+    "e": 15.5
+   },
+   {
+    "w": "people",
+    "s": 15.5,
+    "e": 15.94
+   },
+   {
+    "w": "are",
+    "s": 15.94,
+    "e": 16.19
+   },
+   {
+    "w": "watching",
+    "s": 16.19,
+    "e": 16.76
+   },
+   {
+    "w": "him",
+    "s": 16.76,
+    "e": 17.07
+   },
+   {
+    "w": "He",
+    "s": 17.64,
+    "e": 17.84
+   },
+   {
+    "w": "bends",
+    "s": 17.84,
+    "e": 18.24
+   },
+   {
+    "w": "down",
+    "s": 18.24,
+    "e": 18.57
+   },
+   {
+    "w": "and",
+    "s": 18.57,
+    "e": 18.84
+   },
+   {
+    "w": "picks",
+    "s": 18.84,
+    "e": 19.24
+   },
+   {
+    "w": "up",
+    "s": 19.24,
+    "e": 19.44
+   },
+   {
+    "w": "a",
+    "s": 19.44,
+    "e": 19.57
+   },
+   {
+    "w": "lump",
+    "s": 19.57,
+    "e": 19.91
+   },
+   {
+    "w": "of",
+    "s": 19.91,
+    "e": 20.11
+   },
+   {
+    "w": "salty",
+    "s": 20.11,
+    "e": 20.51
+   },
+   {
+    "w": "mud",
+    "s": 20.51,
+    "e": 20.84
+   }
+  ]
+ },
+ {
+  "id": "s02",
+  "name": "hook-question",
+  "text": "Then he says: with this, I am shaking the foundations of the British Empire. It sounds impossible. A handful of salt against the largest empire on Earth. So how could salt shake an empire? And how did that walk to the sea end up changing America too?",
+  "audio_dur": 19.837,
+  "sentences": [
+   {
+    "text": "Then he says: with this, I am shaking the foundations of the British Empire.",
+    "s": 0.3,
+    "e": 5.57
+   },
+   {
+    "text": "It sounds impossible.",
+    "s": 5.89,
+    "e": 7.7
+   },
+   {
+    "text": "A handful of salt against the largest empire on Earth.",
+    "s": 8.02,
+    "e": 12.05
+   },
+   {
+    "text": "So how could salt shake an empire?",
+    "s": 12.37,
+    "e": 14.74
+   },
+   {
+    "text": "And how did that walk to the sea end up changing America too?",
+    "s": 15.19,
+    "e": 18.99
+   }
+  ],
+  "words": [
+   {
+    "w": "Then",
+    "s": 0.51,
+    "e": 0.83
+   },
+   {
+    "w": "he",
+    "s": 0.83,
+    "e": 1.01
+   },
+   {
+    "w": "says",
+    "s": 1.01,
+    "e": 1.39
+   },
+   {
+    "w": "with",
+    "s": 1.39,
+    "e": 1.71
+   },
+   {
+    "w": "this",
+    "s": 1.71,
+    "e": 2.08
+   },
+   {
+    "w": "I",
+    "s": 2.08,
+    "e": 2.21
+   },
+   {
+    "w": "am",
+    "s": 2.21,
+    "e": 2.4
+   },
+   {
+    "w": "shaking",
+    "s": 2.4,
+    "e": 2.9
+   },
+   {
+    "w": "the",
+    "s": 2.9,
+    "e": 3.15
+   },
+   {
+    "w": "foundations",
+    "s": 3.15,
+    "e": 3.91
+   },
+   {
+    "w": "of",
+    "s": 3.91,
+    "e": 4.1
+   },
+   {
+    "w": "the",
+    "s": 4.1,
+    "e": 4.35
+   },
+   {
+    "w": "British",
+    "s": 4.35,
+    "e": 4.85
+   },
+   {
+    "w": "Empire",
+    "s": 4.85,
+    "e": 5.36
+   },
+   {
+    "w": "It",
+    "s": 5.96,
+    "e": 6.19
+   },
+   {
+    "w": "sounds",
+    "s": 6.19,
+    "e": 6.72
+   },
+   {
+    "w": "impossible",
+    "s": 6.72,
+    "e": 7.62
+   },
+   {
+    "w": "A",
+    "s": 8.18,
+    "e": 8.31
+   },
+   {
+    "w": "handful",
+    "s": 8.31,
+    "e": 8.85
+   },
+   {
+    "w": "of",
+    "s": 8.85,
+    "e": 9.06
+   },
+   {
+    "w": "salt",
+    "s": 9.06,
+    "e": 9.39
+   },
+   {
+    "w": "against",
+    "s": 9.39,
+    "e": 9.93
+   },
+   {
+    "w": "the",
+    "s": 9.93,
+    "e": 10.2
+   },
+   {
+    "w": "largest",
+    "s": 10.2,
+    "e": 10.74
+   },
+   {
+    "w": "empire",
+    "s": 10.74,
+    "e": 11.22
+   },
+   {
+    "w": "on",
+    "s": 11.22,
+    "e": 11.42
+   },
+   {
+    "w": "Earth",
+    "s": 11.42,
+    "e": 11.89
+   },
+   {
+    "w": "So",
+    "s": 12.47,
+    "e": 12.65
+   },
+   {
+    "w": "how",
+    "s": 12.65,
+    "e": 12.9
+   },
+   {
+    "w": "could",
+    "s": 12.9,
+    "e": 13.28
+   },
+   {
+    "w": "salt",
+    "s": 13.28,
+    "e": 13.59
+   },
+   {
+    "w": "shake",
+    "s": 13.59,
+    "e": 13.96
+   },
+   {
+    "w": "an",
+    "s": 13.96,
+    "e": 14.15
+   },
+   {
+    "w": "empire",
+    "s": 14.15,
+    "e": 14.65
+   },
+   {
+    "w": "And",
+    "s": 15.34,
+    "e": 15.57
+   },
+   {
+    "w": "how",
+    "s": 15.57,
+    "e": 15.79
+   },
+   {
+    "w": "did",
+    "s": 15.79,
+    "e": 16.02
+   },
+   {
+    "w": "that",
+    "s": 16.02,
+    "e": 16.3
+   },
+   {
+    "w": "walk",
+    "s": 16.3,
+    "e": 16.58
+   },
+   {
+    "w": "to",
+    "s": 16.58,
+    "e": 16.75
+   },
+   {
+    "w": "the",
+    "s": 16.75,
+    "e": 16.98
+   },
+   {
+    "w": "sea",
+    "s": 16.98,
+    "e": 17.2
+   },
+   {
+    "w": "end",
+    "s": 17.2,
+    "e": 17.43
+   },
+   {
+    "w": "up",
+    "s": 17.43,
+    "e": 17.6
+   },
+   {
+    "w": "changing",
+    "s": 17.6,
+    "e": 18.1
+   },
+   {
+    "w": "America",
+    "s": 18.1,
+    "e": 18.55
+   },
+   {
+    "w": "too",
+    "s": 18.55,
+    "e": 18.84
+   }
+  ]
+ },
+ {
+  "id": "s03",
+  "name": "title",
+  "text": "To find out, we need to understand why picking up salt on a beach was a crime.",
+  "audio_dur": 6.359,
+  "sentences": [
+   {
+    "text": "To find out, we need to understand why picking up salt on a beach was a crime.",
+    "s": 0.3,
+    "e": 5.64
+   }
+  ],
+  "words": [
+   {
+    "w": "To",
+    "s": 0.51,
+    "e": 0.7
+   },
+   {
+    "w": "find",
+    "s": 0.7,
+    "e": 1.01
+   },
+   {
+    "w": "out",
+    "s": 1.01,
+    "e": 1.32
+   },
+   {
+    "w": "we",
+    "s": 1.32,
+    "e": 1.51
+   },
+   {
+    "w": "need",
+    "s": 1.51,
+    "e": 1.82
+   },
+   {
+    "w": "to",
+    "s": 1.82,
+    "e": 2.01
+   },
+   {
+    "w": "understand",
+    "s": 2.01,
+    "e": 2.69
+   },
+   {
+    "w": "why",
+    "s": 2.69,
+    "e": 2.94
+   },
+   {
+    "w": "picking",
+    "s": 2.94,
+    "e": 3.44
+   },
+   {
+    "w": "up",
+    "s": 3.44,
+    "e": 3.62
+   },
+   {
+    "w": "salt",
+    "s": 3.62,
+    "e": 3.93
+   },
+   {
+    "w": "on",
+    "s": 3.93,
+    "e": 4.12
+   },
+   {
+    "w": "a",
+    "s": 4.12,
+    "e": 4.24
+   },
+   {
+    "w": "beach",
+    "s": 4.24,
+    "e": 4.62
+   },
+   {
+    "w": "was",
+    "s": 4.62,
+    "e": 4.87
+   },
+   {
+    "w": "a",
+    "s": 4.87,
+    "e": 4.99
+   },
+   {
+    "w": "crime",
+    "s": 4.99,
+    "e": 5.43
+   }
+  ]
+ },
+ {
+  "id": "s04",
+  "name": "empire",
+  "text": "In nineteen thirty, India was the most valuable part of the British Empire. More than three hundred million people lived there, and they were ruled from London. Indians had little say in the laws that governed their lives, or in the taxes they paid.",
+  "audio_dur": 17.709,
+  "sentences": [
+   {
+    "text": "In nineteen thirty, India was the most valuable part of the British Empire.",
+    "s": 0.3,
+    "e": 5.59
+   },
+   {
+    "text": "More than three hundred million people lived there, and they were ruled from London.",
+    "s": 5.91,
+    "e": 10.68
+   },
+   {
+    "text": "Indians had little say in the laws that governed their lives, or in the taxes they paid.",
+    "s": 11.0,
+    "e": 16.99
+   }
+  ],
+  "words": [
+   {
+    "w": "In",
+    "s": 0.51,
+    "e": 0.7
+   },
+   {
+    "w": "nineteen",
+    "s": 0.7,
+    "e": 1.28
+   },
+   {
+    "w": "thirty",
+    "s": 1.28,
+    "e": 1.79
+   },
+   {
+    "w": "India",
+    "s": 1.79,
+    "e": 2.18
+   },
+   {
+    "w": "was",
+    "s": 2.18,
+    "e": 2.43
+   },
+   {
+    "w": "the",
+    "s": 2.43,
+    "e": 2.69
+   },
+   {
+    "w": "most",
+    "s": 2.69,
+    "e": 3.01
+   },
+   {
+    "w": "valuable",
+    "s": 3.01,
+    "e": 3.59
+   },
+   {
+    "w": "part",
+    "s": 3.59,
+    "e": 3.91
+   },
+   {
+    "w": "of",
+    "s": 3.91,
+    "e": 4.1
+   },
+   {
+    "w": "the",
+    "s": 4.1,
+    "e": 4.35
+   },
+   {
+    "w": "British",
+    "s": 4.35,
+    "e": 4.87
+   },
+   {
+    "w": "Empire",
+    "s": 4.87,
+    "e": 5.38
+   },
+   {
+    "w": "More",
+    "s": 6.1,
+    "e": 6.36
+   },
+   {
+    "w": "than",
+    "s": 6.36,
+    "e": 6.62
+   },
+   {
+    "w": "three",
+    "s": 6.62,
+    "e": 6.93
+   },
+   {
+    "w": "hundred",
+    "s": 6.93,
+    "e": 7.34
+   },
+   {
+    "w": "million",
+    "s": 7.34,
+    "e": 7.75
+   },
+   {
+    "w": "people",
+    "s": 7.75,
+    "e": 8.12
+   },
+   {
+    "w": "lived",
+    "s": 8.12,
+    "e": 8.43
+   },
+   {
+    "w": "there",
+    "s": 8.43,
+    "e": 8.79
+   },
+   {
+    "w": "and",
+    "s": 8.79,
+    "e": 8.99
+   },
+   {
+    "w": "they",
+    "s": 8.99,
+    "e": 9.25
+   },
+   {
+    "w": "were",
+    "s": 9.25,
+    "e": 9.51
+   },
+   {
+    "w": "ruled",
+    "s": 9.51,
+    "e": 9.82
+   },
+   {
+    "w": "from",
+    "s": 9.82,
+    "e": 10.08
+   },
+   {
+    "w": "London",
+    "s": 10.08,
+    "e": 10.49
+   },
+   {
+    "w": "Indians",
+    "s": 11.24,
+    "e": 11.74
+   },
+   {
+    "w": "had",
+    "s": 11.74,
+    "e": 11.99
+   },
+   {
+    "w": "little",
+    "s": 11.99,
+    "e": 12.42
+   },
+   {
+    "w": "say",
+    "s": 12.42,
+    "e": 12.67
+   },
+   {
+    "w": "in",
+    "s": 12.67,
+    "e": 12.85
+   },
+   {
+    "w": "the",
+    "s": 12.85,
+    "e": 13.1
+   },
+   {
+    "w": "laws",
+    "s": 13.1,
+    "e": 13.41
+   },
+   {
+    "w": "that",
+    "s": 13.41,
+    "e": 13.72
+   },
+   {
+    "w": "governed",
+    "s": 13.72,
+    "e": 14.27
+   },
+   {
+    "w": "their",
+    "s": 14.27,
+    "e": 14.65
+   },
+   {
+    "w": "lives",
+    "s": 14.65,
+    "e": 15.08
+   },
+   {
+    "w": "or",
+    "s": 15.08,
+    "e": 15.26
+   },
+   {
+    "w": "in",
+    "s": 15.26,
+    "e": 15.45
+   },
+   {
+    "w": "the",
+    "s": 15.45,
+    "e": 15.7
+   },
+   {
+    "w": "taxes",
+    "s": 15.7,
+    "e": 16.07
+   },
+   {
+    "w": "they",
+    "s": 16.07,
+    "e": 16.38
+   },
+   {
+    "w": "paid",
+    "s": 16.38,
+    "e": 16.75
+   }
+  ]
+ },
+ {
+  "id": "s05",
+  "name": "salt-act",
+  "text": "One of those laws was the Salt Act of eighteen eighty-two. It gave the British government a monopoly on salt. Indians were not allowed to make it or sell it. Even on the coast, where salt dried naturally on the rocks, collecting it was a criminal offense. Everyone had to buy salt from the government, and it came with a tax.",
+  "audio_dur": 23.549,
+  "sentences": [
+   {
+    "text": "One of those laws was the Salt Act of eighteen eighty-two.",
+    "s": 0.3,
+    "e": 4.25
+   },
+   {
+    "text": "It gave the British government a monopoly on salt.",
+    "s": 4.57,
+    "e": 8.16
+   },
+   {
+    "text": "Indians were not allowed to make it or sell it.",
+    "s": 8.48,
+    "e": 11.51
+   },
+   {
+    "text": "Even on the coast, where salt dried naturally on the rocks, collecting it was a criminal offense.",
+    "s": 11.83,
+    "e": 17.93
+   },
+   {
+    "text": "Everyone had to buy salt from the government, and it came with a tax.",
+    "s": 18.25,
+    "e": 22.83
+   }
+  ],
+  "words": [
+   {
+    "w": "One",
+    "s": 0.46,
+    "e": 0.7
+   },
+   {
+    "w": "of",
+    "s": 0.7,
+    "e": 0.89
+   },
+   {
+    "w": "those",
+    "s": 0.89,
+    "e": 1.26
+   },
+   {
+    "w": "laws",
+    "s": 1.26,
+    "e": 1.57
+   },
+   {
+    "w": "was",
+    "s": 1.57,
+    "e": 1.81
+   },
+   {
+    "w": "the",
+    "s": 1.81,
+    "e": 2.06
+   },
+   {
+    "w": "Salt",
+    "s": 2.06,
+    "e": 2.37
+   },
+   {
+    "w": "Act",
+    "s": 2.37,
+    "e": 2.61
+   },
+   {
+    "w": "of",
+    "s": 2.61,
+    "e": 2.8
+   },
+   {
+    "w": "eighteen",
+    "s": 2.8,
+    "e": 3.35
+   },
+   {
+    "w": "eighty-two",
+    "s": 3.35,
+    "e": 4.09
+   },
+   {
+    "w": "It",
+    "s": 4.71,
+    "e": 4.91
+   },
+   {
+    "w": "gave",
+    "s": 4.91,
+    "e": 5.23
+   },
+   {
+    "w": "the",
+    "s": 5.23,
+    "e": 5.49
+   },
+   {
+    "w": "British",
+    "s": 5.49,
+    "e": 6.01
+   },
+   {
+    "w": "government",
+    "s": 6.01,
+    "e": 6.72
+   },
+   {
+    "w": "a",
+    "s": 6.72,
+    "e": 6.85
+   },
+   {
+    "w": "monopoly",
+    "s": 6.85,
+    "e": 7.43
+   },
+   {
+    "w": "on",
+    "s": 7.43,
+    "e": 7.63
+   },
+   {
+    "w": "salt",
+    "s": 7.63,
+    "e": 8.02
+   },
+   {
+    "w": "Indians",
+    "s": 8.6,
+    "e": 9.06
+   },
+   {
+    "w": "were",
+    "s": 9.06,
+    "e": 9.35
+   },
+   {
+    "w": "not",
+    "s": 9.35,
+    "e": 9.59
+   },
+   {
+    "w": "allowed",
+    "s": 9.59,
+    "e": 10.05
+   },
+   {
+    "w": "to",
+    "s": 10.05,
+    "e": 10.22
+   },
+   {
+    "w": "make",
+    "s": 10.22,
+    "e": 10.51
+   },
+   {
+    "w": "it",
+    "s": 10.51,
+    "e": 10.69
+   },
+   {
+    "w": "or",
+    "s": 10.69,
+    "e": 10.86
+   },
+   {
+    "w": "sell",
+    "s": 10.86,
+    "e": 11.15
+   },
+   {
+    "w": "it",
+    "s": 11.15,
+    "e": 11.38
+   },
+   {
+    "w": "Even",
+    "s": 12.07,
+    "e": 12.36
+   },
+   {
+    "w": "on",
+    "s": 12.36,
+    "e": 12.53
+   },
+   {
+    "w": "the",
+    "s": 12.53,
+    "e": 12.76
+   },
+   {
+    "w": "coast",
+    "s": 12.76,
+    "e": 13.16
+   },
+   {
+    "w": "where",
+    "s": 13.16,
+    "e": 13.5
+   },
+   {
+    "w": "salt",
+    "s": 13.5,
+    "e": 13.79
+   },
+   {
+    "w": "dried",
+    "s": 13.79,
+    "e": 14.13
+   },
+   {
+    "w": "naturally",
+    "s": 14.13,
+    "e": 14.7
+   },
+   {
+    "w": "on",
+    "s": 14.7,
+    "e": 14.88
+   },
+   {
+    "w": "the",
+    "s": 14.88,
+    "e": 15.1
+   },
+   {
+    "w": "rocks",
+    "s": 15.1,
+    "e": 15.51
+   },
+   {
+    "w": "collecting",
+    "s": 15.51,
+    "e": 16.14
+   },
+   {
+    "w": "it",
+    "s": 16.14,
+    "e": 16.31
+   },
+   {
+    "w": "was",
+    "s": 16.31,
+    "e": 16.54
+   },
+   {
+    "w": "a",
+    "s": 16.54,
+    "e": 16.65
+   },
+   {
+    "w": "criminal",
+    "s": 16.65,
+    "e": 17.17
+   },
+   {
+    "w": "offense",
+    "s": 17.17,
+    "e": 17.68
+   },
+   {
+    "w": "Everyone",
+    "s": 18.43,
+    "e": 18.97
+   },
+   {
+    "w": "had",
+    "s": 18.97,
+    "e": 19.21
+   },
+   {
+    "w": "to",
+    "s": 19.21,
+    "e": 19.39
+   },
+   {
+    "w": "buy",
+    "s": 19.39,
+    "e": 19.63
+   },
+   {
+    "w": "salt",
+    "s": 19.63,
+    "e": 19.93
+   },
+   {
+    "w": "from",
+    "s": 19.93,
+    "e": 20.24
+   },
+   {
+    "w": "the",
+    "s": 20.24,
+    "e": 20.48
+   },
+   {
+    "w": "government",
+    "s": 20.48,
+    "e": 21.2
+   },
+   {
+    "w": "and",
+    "s": 21.2,
+    "e": 21.44
+   },
+   {
+    "w": "it",
+    "s": 21.44,
+    "e": 21.62
+   },
+   {
+    "w": "came",
+    "s": 21.62,
+    "e": 21.92
+   },
+   {
+    "w": "with",
+    "s": 21.92,
+    "e": 22.22
+   },
+   {
+    "w": "a",
+    "s": 22.22,
+    "e": 22.34
+   },
+   {
+    "w": "tax",
+    "s": 22.34,
+    "e": 22.65
+   }
+  ]
+ },
+ {
+  "id": "s06",
+  "name": "why-salt",
+  "text": "For the poorest families, that tax really hurt, because everyone needs salt, especially in a hot country, working in the fields. The salt tax made up more than eight percent of the colony's tax income. And it touched everyone, Hindu and Muslim, rich and poor. As Gandhi put it, next to air and water, salt is perhaps the greatest necessity of life.",
+  "audio_dur": 25.298,
+  "sentences": [
+   {
+    "text": "For the poorest families, that tax really hurt, because everyone needs salt, especially in a hot country, working in the fields.",
+    "s": 0.3,
+    "e": 8.64
+   },
+   {
+    "text": "The salt tax made up more than eight percent of the colony's tax income.",
+    "s": 8.96,
+    "e": 13.95
+   },
+   {
+    "text": "And it touched everyone, Hindu and Muslim, rich and poor.",
+    "s": 14.27,
+    "e": 18.18
+   },
+   {
+    "text": "As Gandhi put it, next to air and water, salt is perhaps the greatest necessity of life.",
+    "s": 18.5,
+    "e": 24.58
+   }
+  ],
+  "words": [
+   {
+    "w": "For",
+    "s": 0.63,
+    "e": 0.87
+   },
+   {
+    "w": "the",
+    "s": 0.87,
+    "e": 1.11
+   },
+   {
+    "w": "poorest",
+    "s": 1.11,
+    "e": 1.59
+   },
+   {
+    "w": "families",
+    "s": 1.59,
+    "e": 2.18
+   },
+   {
+    "w": "that",
+    "s": 2.18,
+    "e": 2.48
+   },
+   {
+    "w": "tax",
+    "s": 2.48,
+    "e": 2.72
+   },
+   {
+    "w": "really",
+    "s": 2.72,
+    "e": 3.13
+   },
+   {
+    "w": "hurt",
+    "s": 3.13,
+    "e": 3.49
+   },
+   {
+    "w": "because",
+    "s": 3.49,
+    "e": 3.96
+   },
+   {
+    "w": "everyone",
+    "s": 3.96,
+    "e": 4.5
+   },
+   {
+    "w": "needs",
+    "s": 4.5,
+    "e": 4.86
+   },
+   {
+    "w": "salt",
+    "s": 4.86,
+    "e": 5.21
+   },
+   {
+    "w": "especially",
+    "s": 5.21,
+    "e": 5.87
+   },
+   {
+    "w": "in",
+    "s": 5.87,
+    "e": 6.05
+   },
+   {
+    "w": "a",
+    "s": 6.05,
+    "e": 6.17
+   },
+   {
+    "w": "hot",
+    "s": 6.17,
+    "e": 6.4
+   },
+   {
+    "w": "country",
+    "s": 6.4,
+    "e": 6.94
+   },
+   {
+    "w": "working",
+    "s": 6.94,
+    "e": 7.41
+   },
+   {
+    "w": "in",
+    "s": 7.41,
+    "e": 7.59
+   },
+   {
+    "w": "the",
+    "s": 7.59,
+    "e": 7.83
+   },
+   {
+    "w": "fields",
+    "s": 7.83,
+    "e": 8.31
+   },
+   {
+    "w": "The",
+    "s": 9.16,
+    "e": 9.41
+   },
+   {
+    "w": "salt",
+    "s": 9.41,
+    "e": 9.73
+   },
+   {
+    "w": "tax",
+    "s": 9.73,
+    "e": 9.98
+   },
+   {
+    "w": "made",
+    "s": 9.98,
+    "e": 10.29
+   },
+   {
+    "w": "up",
+    "s": 10.29,
+    "e": 10.48
+   },
+   {
+    "w": "more",
+    "s": 10.48,
+    "e": 10.8
+   },
+   {
+    "w": "than",
+    "s": 10.8,
+    "e": 11.11
+   },
+   {
+    "w": "eight",
+    "s": 11.11,
+    "e": 11.49
+   },
+   {
+    "w": "percent",
+    "s": 11.49,
+    "e": 11.99
+   },
+   {
+    "w": "of",
+    "s": 11.99,
+    "e": 12.18
+   },
+   {
+    "w": "the",
+    "s": 12.18,
+    "e": 12.43
+   },
+   {
+    "w": "colony's",
+    "s": 12.43,
+    "e": 13.0
+   },
+   {
+    "w": "tax",
+    "s": 13.0,
+    "e": 13.25
+   },
+   {
+    "w": "income",
+    "s": 13.25,
+    "e": 13.75
+   },
+   {
+    "w": "And",
+    "s": 14.43,
+    "e": 14.68
+   },
+   {
+    "w": "it",
+    "s": 14.68,
+    "e": 14.86
+   },
+   {
+    "w": "touched",
+    "s": 14.86,
+    "e": 15.36
+   },
+   {
+    "w": "everyone",
+    "s": 15.36,
+    "e": 15.98
+   },
+   {
+    "w": "Hindu",
+    "s": 15.98,
+    "e": 16.35
+   },
+   {
+    "w": "and",
+    "s": 16.35,
+    "e": 16.6
+   },
+   {
+    "w": "Muslim",
+    "s": 16.6,
+    "e": 17.09
+   },
+   {
+    "w": "rich",
+    "s": 17.09,
+    "e": 17.4
+   },
+   {
+    "w": "and",
+    "s": 17.4,
+    "e": 17.65
+   },
+   {
+    "w": "poor",
+    "s": 17.65,
+    "e": 18.02
+   },
+   {
+    "w": "As",
+    "s": 18.74,
+    "e": 18.93
+   },
+   {
+    "w": "Gandhi",
+    "s": 18.93,
+    "e": 19.37
+   },
+   {
+    "w": "put",
+    "s": 19.37,
+    "e": 19.62
+   },
+   {
+    "w": "it",
+    "s": 19.62,
+    "e": 19.87
+   },
+   {
+    "w": "next",
+    "s": 19.87,
+    "e": 20.19
+   },
+   {
+    "w": "to",
+    "s": 20.19,
+    "e": 20.38
+   },
+   {
+    "w": "air",
+    "s": 20.38,
+    "e": 20.63
+   },
+   {
+    "w": "and",
+    "s": 20.63,
+    "e": 20.88
+   },
+   {
+    "w": "water",
+    "s": 20.88,
+    "e": 21.32
+   },
+   {
+    "w": "salt",
+    "s": 21.32,
+    "e": 21.63
+   },
+   {
+    "w": "is",
+    "s": 21.63,
+    "e": 21.82
+   },
+   {
+    "w": "perhaps",
+    "s": 21.82,
+    "e": 22.32
+   },
+   {
+    "w": "the",
+    "s": 22.32,
+    "e": 22.58
+   },
+   {
+    "w": "greatest",
+    "s": 22.58,
+    "e": 23.14
+   },
+   {
+    "w": "necessity",
+    "s": 23.14,
+    "e": 23.77
+   },
+   {
+    "w": "of",
+    "s": 23.77,
+    "e": 23.96
+   },
+   {
+    "w": "life",
+    "s": 23.96,
+    "e": 24.33
+   }
+  ]
+ },
+ {
+  "id": "s07",
+  "name": "doubters",
+  "text": "But when Gandhi announced that his great protest would be about salt, many people thought it was a joke. Even some of his own allies in the Congress party were unsure. One major newspaper wrote that it was difficult not to laugh. The Viceroy of India, Lord Irwin, wrote to London that the prospect of a salt campaign did not keep him awake at night.",
+  "audio_dur": 24.456,
+  "sentences": [
+   {
+    "text": "But when Gandhi announced that his great protest would be about salt, many people thought it was a joke.",
+    "s": 0.3,
+    "e": 6.6
+   },
+   {
+    "text": "Even some of his own allies in the Congress party were unsure.",
+    "s": 6.92,
+    "e": 11.1
+   },
+   {
+    "text": "One major newspaper wrote that it was difficult not to laugh.",
+    "s": 11.42,
+    "e": 15.35
+   },
+   {
+    "text": "The Viceroy of India, Lord Irwin, wrote to London that the prospect of a salt campaign did not keep him awake at night.",
+    "s": 15.67,
+    "e": 23.74
+   }
+  ],
+  "words": [
+   {
+    "w": "But",
+    "s": 0.55,
+    "e": 0.77
+   },
+   {
+    "w": "when",
+    "s": 0.77,
+    "e": 1.05
+   },
+   {
+    "w": "Gandhi",
+    "s": 1.05,
+    "e": 1.44
+   },
+   {
+    "w": "announced",
+    "s": 1.44,
+    "e": 1.99
+   },
+   {
+    "w": "that",
+    "s": 1.99,
+    "e": 2.26
+   },
+   {
+    "w": "his",
+    "s": 2.26,
+    "e": 2.49
+   },
+   {
+    "w": "great",
+    "s": 2.49,
+    "e": 2.82
+   },
+   {
+    "w": "protest",
+    "s": 2.82,
+    "e": 3.26
+   },
+   {
+    "w": "would",
+    "s": 3.26,
+    "e": 3.59
+   },
+   {
+    "w": "be",
+    "s": 3.59,
+    "e": 3.76
+   },
+   {
+    "w": "about",
+    "s": 3.76,
+    "e": 4.09
+   },
+   {
+    "w": "salt",
+    "s": 4.09,
+    "e": 4.42
+   },
+   {
+    "w": "many",
+    "s": 4.42,
+    "e": 4.69
+   },
+   {
+    "w": "people",
+    "s": 4.69,
+    "e": 5.08
+   },
+   {
+    "w": "thought",
+    "s": 5.08,
+    "e": 5.52
+   },
+   {
+    "w": "it",
+    "s": 5.52,
+    "e": 5.69
+   },
+   {
+    "w": "was",
+    "s": 5.69,
+    "e": 5.91
+   },
+   {
+    "w": "a",
+    "s": 5.91,
+    "e": 6.02
+   },
+   {
+    "w": "joke",
+    "s": 6.02,
+    "e": 6.35
+   },
+   {
+    "w": "Even",
+    "s": 7.09,
+    "e": 7.4
+   },
+   {
+    "w": "some",
+    "s": 7.4,
+    "e": 7.7
+   },
+   {
+    "w": "of",
+    "s": 7.7,
+    "e": 7.88
+   },
+   {
+    "w": "his",
+    "s": 7.88,
+    "e": 8.13
+   },
+   {
+    "w": "own",
+    "s": 8.13,
+    "e": 8.37
+   },
+   {
+    "w": "allies",
+    "s": 8.37,
+    "e": 8.8
+   },
+   {
+    "w": "in",
+    "s": 8.8,
+    "e": 8.98
+   },
+   {
+    "w": "the",
+    "s": 8.98,
+    "e": 9.23
+   },
+   {
+    "w": "Congress",
+    "s": 9.23,
+    "e": 9.78
+   },
+   {
+    "w": "party",
+    "s": 9.78,
+    "e": 10.14
+   },
+   {
+    "w": "were",
+    "s": 10.14,
+    "e": 10.45
+   },
+   {
+    "w": "unsure",
+    "s": 10.45,
+    "e": 10.93
+   },
+   {
+    "w": "One",
+    "s": 11.58,
+    "e": 11.81
+   },
+   {
+    "w": "major",
+    "s": 11.81,
+    "e": 12.16
+   },
+   {
+    "w": "newspaper",
+    "s": 12.16,
+    "e": 12.74
+   },
+   {
+    "w": "wrote",
+    "s": 12.74,
+    "e": 13.09
+   },
+   {
+    "w": "that",
+    "s": 13.09,
+    "e": 13.38
+   },
+   {
+    "w": "it",
+    "s": 13.38,
+    "e": 13.56
+   },
+   {
+    "w": "was",
+    "s": 13.56,
+    "e": 13.79
+   },
+   {
+    "w": "difficult",
+    "s": 13.79,
+    "e": 14.37
+   },
+   {
+    "w": "not",
+    "s": 14.37,
+    "e": 14.61
+   },
+   {
+    "w": "to",
+    "s": 14.61,
+    "e": 14.78
+   },
+   {
+    "w": "laugh",
+    "s": 14.78,
+    "e": 15.19
+   },
+   {
+    "w": "The",
+    "s": 15.99,
+    "e": 16.24
+   },
+   {
+    "w": "Viceroy",
+    "s": 16.24,
+    "e": 16.73
+   },
+   {
+    "w": "of",
+    "s": 16.73,
+    "e": 16.92
+   },
+   {
+    "w": "India",
+    "s": 16.92,
+    "e": 17.35
+   },
+   {
+    "w": "Lord",
+    "s": 17.35,
+    "e": 17.66
+   },
+   {
+    "w": "Irwin",
+    "s": 17.66,
+    "e": 18.09
+   },
+   {
+    "w": "wrote",
+    "s": 18.09,
+    "e": 18.46
+   },
+   {
+    "w": "to",
+    "s": 18.46,
+    "e": 18.65
+   },
+   {
+    "w": "London",
+    "s": 18.65,
+    "e": 19.08
+   },
+   {
+    "w": "that",
+    "s": 19.08,
+    "e": 19.39
+   },
+   {
+    "w": "the",
+    "s": 19.39,
+    "e": 19.64
+   },
+   {
+    "w": "prospect",
+    "s": 19.64,
+    "e": 20.2
+   },
+   {
+    "w": "of",
+    "s": 20.2,
+    "e": 20.38
+   },
+   {
+    "w": "a",
+    "s": 20.38,
+    "e": 20.51
+   },
+   {
+    "w": "salt",
+    "s": 20.51,
+    "e": 20.81
+   },
+   {
+    "w": "campaign",
+    "s": 20.81,
+    "e": 21.37
+   },
+   {
+    "w": "did",
+    "s": 21.37,
+    "e": 21.62
+   },
+   {
+    "w": "not",
+    "s": 21.62,
+    "e": 21.87
+   },
+   {
+    "w": "keep",
+    "s": 21.87,
+    "e": 22.18
+   },
+   {
+    "w": "him",
+    "s": 22.18,
+    "e": 22.42
+   },
+   {
+    "w": "awake",
+    "s": 22.42,
+    "e": 22.79
+   },
+   {
+    "w": "at",
+    "s": 22.79,
+    "e": 22.98
+   },
+   {
+    "w": "night",
+    "s": 22.98,
+    "e": 23.41
+   }
+  ]
+ },
+ {
+  "id": "s08",
+  "name": "swaraj",
+  "text": "Gandhi had a plan. A few weeks earlier, on January twenty-sixth, nineteen thirty, the Indian National Congress had declared that its goal was now complete independence, called Purna Swaraj. Gandhi was asked to lead the first act of civil disobedience. He chose salt, because it was something every Indian could understand, and something every Indian could break.",
+  "audio_dur": 26.807,
+  "sentences": [
+   {
+    "text": "Gandhi had a plan.",
+    "s": 0.3,
+    "e": 1.94
+   },
+   {
+    "text": "A few weeks earlier, on January twenty-sixth, nineteen thirty, the Indian National Congress had declared that its goal was now complete independence, called Purna Swaraj.",
+    "s": 2.26,
+    "e": 14.16
+   },
+   {
+    "text": "Gandhi was asked to lead the first act of civil disobedience.",
+    "s": 14.48,
+    "e": 18.89
+   },
+   {
+    "text": "He chose salt, because it was something every Indian could understand, and something every Indian could break.",
+    "s": 19.21,
+    "e": 26.09
+   }
+  ],
+  "words": [
+   {
+    "w": "Gandhi",
+    "s": 0.37,
+    "e": 0.92
+   },
+   {
+    "w": "had",
+    "s": 0.92,
+    "e": 1.24
+   },
+   {
+    "w": "a",
+    "s": 1.24,
+    "e": 1.4
+   },
+   {
+    "w": "plan",
+    "s": 1.4,
+    "e": 1.87
+   },
+   {
+    "w": "A",
+    "s": 2.74,
+    "e": 2.86
+   },
+   {
+    "w": "few",
+    "s": 2.86,
+    "e": 3.12
+   },
+   {
+    "w": "weeks",
+    "s": 3.12,
+    "e": 3.5
+   },
+   {
+    "w": "earlier",
+    "s": 3.5,
+    "e": 4.08
+   },
+   {
+    "w": "on",
+    "s": 4.08,
+    "e": 4.27
+   },
+   {
+    "w": "January",
+    "s": 4.27,
+    "e": 4.78
+   },
+   {
+    "w": "twenty-sixth",
+    "s": 4.78,
+    "e": 5.68
+   },
+   {
+    "w": "nineteen",
+    "s": 5.68,
+    "e": 6.26
+   },
+   {
+    "w": "thirty",
+    "s": 6.26,
+    "e": 6.77
+   },
+   {
+    "w": "the",
+    "s": 6.77,
+    "e": 7.03
+   },
+   {
+    "w": "Indian",
+    "s": 7.03,
+    "e": 7.47
+   },
+   {
+    "w": "National",
+    "s": 7.47,
+    "e": 8.05
+   },
+   {
+    "w": "Congress",
+    "s": 8.05,
+    "e": 8.63
+   },
+   {
+    "w": "had",
+    "s": 8.63,
+    "e": 8.88
+   },
+   {
+    "w": "declared",
+    "s": 8.88,
+    "e": 9.46
+   },
+   {
+    "w": "that",
+    "s": 9.46,
+    "e": 9.78
+   },
+   {
+    "w": "its",
+    "s": 9.78,
+    "e": 10.03
+   },
+   {
+    "w": "goal",
+    "s": 10.03,
+    "e": 10.35
+   },
+   {
+    "w": "was",
+    "s": 10.35,
+    "e": 10.61
+   },
+   {
+    "w": "now",
+    "s": 10.61,
+    "e": 10.87
+   },
+   {
+    "w": "complete",
+    "s": 10.87,
+    "e": 11.44
+   },
+   {
+    "w": "independence",
+    "s": 11.44,
+    "e": 12.34
+   },
+   {
+    "w": "called",
+    "s": 12.34,
+    "e": 12.79
+   },
+   {
+    "w": "Purna",
+    "s": 12.79,
+    "e": 13.17
+   },
+   {
+    "w": "Swaraj",
+    "s": 13.17,
+    "e": 13.68
+   },
+   {
+    "w": "Gandhi",
+    "s": 14.66,
+    "e": 15.11
+   },
+   {
+    "w": "was",
+    "s": 15.11,
+    "e": 15.38
+   },
+   {
+    "w": "asked",
+    "s": 15.38,
+    "e": 15.77
+   },
+   {
+    "w": "to",
+    "s": 15.77,
+    "e": 15.96
+   },
+   {
+    "w": "lead",
+    "s": 15.96,
+    "e": 16.29
+   },
+   {
+    "w": "the",
+    "s": 16.29,
+    "e": 16.55
+   },
+   {
+    "w": "first",
+    "s": 16.55,
+    "e": 16.94
+   },
+   {
+    "w": "act",
+    "s": 16.94,
+    "e": 17.21
+   },
+   {
+    "w": "of",
+    "s": 17.21,
+    "e": 17.4
+   },
+   {
+    "w": "civil",
+    "s": 17.4,
+    "e": 17.8
+   },
+   {
+    "w": "disobedience",
+    "s": 17.8,
+    "e": 18.71
+   },
+   {
+    "w": "He",
+    "s": 19.48,
+    "e": 19.65
+   },
+   {
+    "w": "chose",
+    "s": 19.65,
+    "e": 20.0
+   },
+   {
+    "w": "salt",
+    "s": 20.0,
+    "e": 20.34
+   },
+   {
+    "w": "because",
+    "s": 20.34,
+    "e": 20.79
+   },
+   {
+    "w": "it",
+    "s": 20.79,
+    "e": 20.96
+   },
+   {
+    "w": "was",
+    "s": 20.96,
+    "e": 21.19
+   },
+   {
+    "w": "something",
+    "s": 21.19,
+    "e": 21.76
+   },
+   {
+    "w": "every",
+    "s": 21.76,
+    "e": 22.11
+   },
+   {
+    "w": "Indian",
+    "s": 22.11,
+    "e": 22.5
+   },
+   {
+    "w": "could",
+    "s": 22.5,
+    "e": 22.85
+   },
+   {
+    "w": "understand",
+    "s": 22.85,
+    "e": 23.53
+   },
+   {
+    "w": "and",
+    "s": 23.53,
+    "e": 23.76
+   },
+   {
+    "w": "something",
+    "s": 23.76,
+    "e": 24.33
+   },
+   {
+    "w": "every",
+    "s": 24.33,
+    "e": 24.67
+   },
+   {
+    "w": "Indian",
+    "s": 24.67,
+    "e": 25.07
+   },
+   {
+    "w": "could",
+    "s": 25.07,
+    "e": 25.41
+   },
+   {
+    "w": "break",
+    "s": 25.41,
+    "e": 25.81
+   }
+  ]
+ },
+ {
+  "id": "s09",
+  "name": "letter",
+  "text": "On March second, Gandhi wrote a letter to Lord Irwin. He listed eleven demands, including abolishing the salt tax. If they were ignored, he wrote, he would break the salt laws himself. Irwin did not meet him. Gandhi said, on bended knees, I asked for bread, and I have received stone instead.",
+  "audio_dur": 21.888,
+  "sentences": [
+   {
+    "text": "On March second, Gandhi wrote a letter to Lord Irwin.",
+    "s": 0.3,
+    "e": 3.76
+   },
+   {
+    "text": "He listed eleven demands, including abolishing the salt tax.",
+    "s": 4.08,
+    "e": 8.43
+   },
+   {
+    "text": "If they were ignored, he wrote, he would break the salt laws himself.",
+    "s": 8.75,
+    "e": 13.04
+   },
+   {
+    "text": "Irwin did not meet him.",
+    "s": 13.36,
+    "e": 15.14
+   },
+   {
+    "text": "Gandhi said, on bended knees, I asked for bread, and I have received stone instead.",
+    "s": 15.46,
+    "e": 21.17
+   }
+  ],
+  "words": [
+   {
+    "w": "On",
+    "s": 0.44,
+    "e": 0.62
+   },
+   {
+    "w": "March",
+    "s": 0.62,
+    "e": 0.97
+   },
+   {
+    "w": "second",
+    "s": 0.97,
+    "e": 1.44
+   },
+   {
+    "w": "Gandhi",
+    "s": 1.44,
+    "e": 1.85
+   },
+   {
+    "w": "wrote",
+    "s": 1.85,
+    "e": 2.21
+   },
+   {
+    "w": "a",
+    "s": 2.21,
+    "e": 2.32
+   },
+   {
+    "w": "letter",
+    "s": 2.32,
+    "e": 2.74
+   },
+   {
+    "w": "to",
+    "s": 2.74,
+    "e": 2.91
+   },
+   {
+    "w": "Lord",
+    "s": 2.91,
+    "e": 3.21
+   },
+   {
+    "w": "Irwin",
+    "s": 3.21,
+    "e": 3.62
+   },
+   {
+    "w": "He",
+    "s": 4.25,
+    "e": 4.45
+   },
+   {
+    "w": "listed",
+    "s": 4.45,
+    "e": 4.91
+   },
+   {
+    "w": "eleven",
+    "s": 4.91,
+    "e": 5.37
+   },
+   {
+    "w": "demands",
+    "s": 5.37,
+    "e": 5.96
+   },
+   {
+    "w": "including",
+    "s": 5.96,
+    "e": 6.61
+   },
+   {
+    "w": "abolishing",
+    "s": 6.61,
+    "e": 7.33
+   },
+   {
+    "w": "the",
+    "s": 7.33,
+    "e": 7.6
+   },
+   {
+    "w": "salt",
+    "s": 7.6,
+    "e": 7.92
+   },
+   {
+    "w": "tax",
+    "s": 7.92,
+    "e": 8.25
+   },
+   {
+    "w": "If",
+    "s": 8.92,
+    "e": 9.09
+   },
+   {
+    "w": "they",
+    "s": 9.09,
+    "e": 9.37
+   },
+   {
+    "w": "were",
+    "s": 9.37,
+    "e": 9.65
+   },
+   {
+    "w": "ignored",
+    "s": 9.65,
+    "e": 10.16
+   },
+   {
+    "w": "he",
+    "s": 10.16,
+    "e": 10.33
+   },
+   {
+    "w": "wrote",
+    "s": 10.33,
+    "e": 10.72
+   },
+   {
+    "w": "he",
+    "s": 10.72,
+    "e": 10.89
+   },
+   {
+    "w": "would",
+    "s": 10.89,
+    "e": 11.23
+   },
+   {
+    "w": "break",
+    "s": 11.23,
+    "e": 11.57
+   },
+   {
+    "w": "the",
+    "s": 11.57,
+    "e": 11.8
+   },
+   {
+    "w": "salt",
+    "s": 11.8,
+    "e": 12.08
+   },
+   {
+    "w": "laws",
+    "s": 12.08,
+    "e": 12.36
+   },
+   {
+    "w": "himself",
+    "s": 12.36,
+    "e": 12.87
+   },
+   {
+    "w": "Irwin",
+    "s": 13.43,
+    "e": 13.84
+   },
+   {
+    "w": "did",
+    "s": 13.84,
+    "e": 14.11
+   },
+   {
+    "w": "not",
+    "s": 14.11,
+    "e": 14.39
+   },
+   {
+    "w": "meet",
+    "s": 14.39,
+    "e": 14.73
+   },
+   {
+    "w": "him",
+    "s": 14.73,
+    "e": 15.07
+   },
+   {
+    "w": "Gandhi",
+    "s": 15.69,
+    "e": 16.13
+   },
+   {
+    "w": "said",
+    "s": 16.13,
+    "e": 16.5
+   },
+   {
+    "w": "on",
+    "s": 16.5,
+    "e": 16.69
+   },
+   {
+    "w": "bended",
+    "s": 16.69,
+    "e": 17.13
+   },
+   {
+    "w": "knees",
+    "s": 17.13,
+    "e": 17.56
+   },
+   {
+    "w": "I",
+    "s": 17.56,
+    "e": 17.69
+   },
+   {
+    "w": "asked",
+    "s": 17.69,
+    "e": 18.06
+   },
+   {
+    "w": "for",
+    "s": 18.06,
+    "e": 18.31
+   },
+   {
+    "w": "bread",
+    "s": 18.31,
+    "e": 18.75
+   },
+   {
+    "w": "and",
+    "s": 18.75,
+    "e": 19.0
+   },
+   {
+    "w": "I",
+    "s": 19.0,
+    "e": 19.13
+   },
+   {
+    "w": "have",
+    "s": 19.13,
+    "e": 19.44
+   },
+   {
+    "w": "received",
+    "s": 19.44,
+    "e": 20.0
+   },
+   {
+    "w": "stone",
+    "s": 20.0,
+    "e": 20.38
+   },
+   {
+    "w": "instead",
+    "s": 20.38,
+    "e": 20.94
+   }
+  ]
+ },
+ {
+  "id": "s10",
+  "name": "marchers",
+  "text": "Gandhi did not choose famous politicians to march with him. He chose seventy-eight men from his own community, the ashram at Sabarmati, trained in strict discipline. They came from almost every region and religion of India. And they had one rule above all others. No violence. Not even if they were attacked.",
+  "audio_dur": 23.88,
+  "sentences": [
+   {
+    "text": "Gandhi did not choose famous politicians to march with him.",
+    "s": 0.3,
+    "e": 4.41
+   },
+   {
+    "text": "He chose seventy-eight men from his own community, the ashram at Sabarmati, trained in strict discipline.",
+    "s": 4.73,
+    "e": 11.75
+   },
+   {
+    "text": "They came from almost every region and religion of India.",
+    "s": 12.07,
+    "e": 16.16
+   },
+   {
+    "text": "And they had one rule above all others.",
+    "s": 16.48,
+    "e": 19.22
+   },
+   {
+    "text": "No violence.",
+    "s": 19.54,
+    "e": 20.82
+   },
+   {
+    "text": "Not even if they were attacked.",
+    "s": 21.14,
+    "e": 23.16
+   }
+  ],
+  "words": [
+   {
+    "w": "Gandhi",
+    "s": 0.46,
+    "e": 0.91
+   },
+   {
+    "w": "did",
+    "s": 0.91,
+    "e": 1.16
+   },
+   {
+    "w": "not",
+    "s": 1.16,
+    "e": 1.41
+   },
+   {
+    "w": "choose",
+    "s": 1.41,
+    "e": 1.85
+   },
+   {
+    "w": "famous",
+    "s": 1.85,
+    "e": 2.29
+   },
+   {
+    "w": "politicians",
+    "s": 2.29,
+    "e": 3.05
+   },
+   {
+    "w": "to",
+    "s": 3.05,
+    "e": 3.24
+   },
+   {
+    "w": "march",
+    "s": 3.24,
+    "e": 3.61
+   },
+   {
+    "w": "with",
+    "s": 3.61,
+    "e": 3.93
+   },
+   {
+    "w": "him",
+    "s": 3.93,
+    "e": 4.24
+   },
+   {
+    "w": "He",
+    "s": 5.01,
+    "e": 5.19
+   },
+   {
+    "w": "chose",
+    "s": 5.19,
+    "e": 5.56
+   },
+   {
+    "w": "seventy-eight",
+    "s": 5.56,
+    "e": 6.41
+   },
+   {
+    "w": "men",
+    "s": 6.41,
+    "e": 6.65
+   },
+   {
+    "w": "from",
+    "s": 6.65,
+    "e": 6.96
+   },
+   {
+    "w": "his",
+    "s": 6.96,
+    "e": 7.2
+   },
+   {
+    "w": "own",
+    "s": 7.2,
+    "e": 7.45
+   },
+   {
+    "w": "community",
+    "s": 7.45,
+    "e": 8.12
+   },
+   {
+    "w": "the",
+    "s": 8.12,
+    "e": 8.36
+   },
+   {
+    "w": "ashram",
+    "s": 8.36,
+    "e": 8.79
+   },
+   {
+    "w": "at",
+    "s": 8.79,
+    "e": 8.97
+   },
+   {
+    "w": "Sabarmati",
+    "s": 8.97,
+    "e": 9.64
+   },
+   {
+    "w": "trained",
+    "s": 9.64,
+    "e": 10.13
+   },
+   {
+    "w": "in",
+    "s": 10.13,
+    "e": 10.31
+   },
+   {
+    "w": "strict",
+    "s": 10.31,
+    "e": 10.74
+   },
+   {
+    "w": "discipline",
+    "s": 10.74,
+    "e": 11.47
+   },
+   {
+    "w": "They",
+    "s": 12.24,
+    "e": 12.56
+   },
+   {
+    "w": "came",
+    "s": 12.56,
+    "e": 12.88
+   },
+   {
+    "w": "from",
+    "s": 12.88,
+    "e": 13.21
+   },
+   {
+    "w": "almost",
+    "s": 13.21,
+    "e": 13.66
+   },
+   {
+    "w": "every",
+    "s": 13.66,
+    "e": 14.05
+   },
+   {
+    "w": "region",
+    "s": 14.05,
+    "e": 14.51
+   },
+   {
+    "w": "and",
+    "s": 14.51,
+    "e": 14.77
+   },
+   {
+    "w": "religion",
+    "s": 14.77,
+    "e": 15.35
+   },
+   {
+    "w": "of",
+    "s": 15.35,
+    "e": 15.54
+   },
+   {
+    "w": "India",
+    "s": 15.54,
+    "e": 16.0
+   },
+   {
+    "w": "And",
+    "s": 16.59,
+    "e": 16.84
+   },
+   {
+    "w": "they",
+    "s": 16.84,
+    "e": 17.16
+   },
+   {
+    "w": "had",
+    "s": 17.16,
+    "e": 17.41
+   },
+   {
+    "w": "one",
+    "s": 17.41,
+    "e": 17.66
+   },
+   {
+    "w": "rule",
+    "s": 17.66,
+    "e": 17.97
+   },
+   {
+    "w": "above",
+    "s": 17.97,
+    "e": 18.35
+   },
+   {
+    "w": "all",
+    "s": 18.35,
+    "e": 18.6
+   },
+   {
+    "w": "others",
+    "s": 18.6,
+    "e": 19.11
+   },
+   {
+    "w": "No",
+    "s": 19.59,
+    "e": 19.86
+   },
+   {
+    "w": "violence",
+    "s": 19.86,
+    "e": 20.76
+   },
+   {
+    "w": "Not",
+    "s": 21.22,
+    "e": 21.45
+   },
+   {
+    "w": "even",
+    "s": 21.45,
+    "e": 21.74
+   },
+   {
+    "w": "if",
+    "s": 21.74,
+    "e": 21.91
+   },
+   {
+    "w": "they",
+    "s": 21.91,
+    "e": 22.21
+   },
+   {
+    "w": "were",
+    "s": 22.21,
+    "e": 22.5
+   },
+   {
+    "w": "attacked",
+    "s": 22.5,
+    "e": 23.08
+   }
+  ]
+ },
+ {
+  "id": "s11",
+  "name": "departure",
+  "text": "On the morning of March twelfth, nineteen thirty, they set out. Even a newspaper that usually played down Gandhi's crowds reported around a hundred thousand people lining the road. The goal was the small fishing village of Dandi, on the coast, about two hundred and forty miles away.",
+  "audio_dur": 20.602,
+  "sentences": [
+   {
+    "text": "On the morning of March twelfth, nineteen thirty, they set out.",
+    "s": 0.3,
+    "e": 4.31
+   },
+   {
+    "text": "Even a newspaper that usually played down Gandhi's crowds reported around a hundred thousand people lining the road.",
+    "s": 4.63,
+    "e": 12.64
+   },
+   {
+    "text": "The goal was the small fishing village of Dandi, on the coast, about two hundred and forty miles away.",
+    "s": 12.96,
+    "e": 19.88
+   }
+  ],
+  "words": [
+   {
+    "w": "On",
+    "s": 0.46,
+    "e": 0.63
+   },
+   {
+    "w": "the",
+    "s": 0.63,
+    "e": 0.86
+   },
+   {
+    "w": "morning",
+    "s": 0.86,
+    "e": 1.33
+   },
+   {
+    "w": "of",
+    "s": 1.33,
+    "e": 1.5
+   },
+   {
+    "w": "March",
+    "s": 1.5,
+    "e": 1.84
+   },
+   {
+    "w": "twelfth",
+    "s": 1.84,
+    "e": 2.36
+   },
+   {
+    "w": "nineteen",
+    "s": 2.36,
+    "e": 2.88
+   },
+   {
+    "w": "thirty",
+    "s": 2.88,
+    "e": 3.34
+   },
+   {
+    "w": "they",
+    "s": 3.34,
+    "e": 3.63
+   },
+   {
+    "w": "set",
+    "s": 3.63,
+    "e": 3.86
+   },
+   {
+    "w": "out",
+    "s": 3.86,
+    "e": 4.15
+   },
+   {
+    "w": "Even",
+    "s": 4.95,
+    "e": 5.27
+   },
+   {
+    "w": "a",
+    "s": 5.27,
+    "e": 5.39
+   },
+   {
+    "w": "newspaper",
+    "s": 5.39,
+    "e": 6.02
+   },
+   {
+    "w": "that",
+    "s": 6.02,
+    "e": 6.34
+   },
+   {
+    "w": "usually",
+    "s": 6.34,
+    "e": 6.84
+   },
+   {
+    "w": "played",
+    "s": 6.84,
+    "e": 7.28
+   },
+   {
+    "w": "down",
+    "s": 7.28,
+    "e": 7.6
+   },
+   {
+    "w": "Gandhi's",
+    "s": 7.6,
+    "e": 8.16
+   },
+   {
+    "w": "crowds",
+    "s": 8.16,
+    "e": 8.61
+   },
+   {
+    "w": "reported",
+    "s": 8.61,
+    "e": 9.17
+   },
+   {
+    "w": "around",
+    "s": 9.17,
+    "e": 9.61
+   },
+   {
+    "w": "a",
+    "s": 9.61,
+    "e": 9.74
+   },
+   {
+    "w": "hundred",
+    "s": 9.74,
+    "e": 10.24
+   },
+   {
+    "w": "thousand",
+    "s": 10.24,
+    "e": 10.81
+   },
+   {
+    "w": "people",
+    "s": 10.81,
+    "e": 11.25
+   },
+   {
+    "w": "lining",
+    "s": 11.25,
+    "e": 11.69
+   },
+   {
+    "w": "the",
+    "s": 11.69,
+    "e": 11.95
+   },
+   {
+    "w": "road",
+    "s": 11.95,
+    "e": 12.32
+   },
+   {
+    "w": "The",
+    "s": 13.24,
+    "e": 13.49
+   },
+   {
+    "w": "goal",
+    "s": 13.49,
+    "e": 13.8
+   },
+   {
+    "w": "was",
+    "s": 13.8,
+    "e": 14.04
+   },
+   {
+    "w": "the",
+    "s": 14.04,
+    "e": 14.29
+   },
+   {
+    "w": "small",
+    "s": 14.29,
+    "e": 14.66
+   },
+   {
+    "w": "fishing",
+    "s": 14.66,
+    "e": 15.16
+   },
+   {
+    "w": "village",
+    "s": 15.16,
+    "e": 15.65
+   },
+   {
+    "w": "of",
+    "s": 15.65,
+    "e": 15.84
+   },
+   {
+    "w": "Dandi",
+    "s": 15.84,
+    "e": 16.27
+   },
+   {
+    "w": "on",
+    "s": 16.27,
+    "e": 16.45
+   },
+   {
+    "w": "the",
+    "s": 16.45,
+    "e": 16.7
+   },
+   {
+    "w": "coast",
+    "s": 16.7,
+    "e": 17.13
+   },
+   {
+    "w": "about",
+    "s": 17.13,
+    "e": 17.5
+   },
+   {
+    "w": "two",
+    "s": 17.5,
+    "e": 17.75
+   },
+   {
+    "w": "hundred",
+    "s": 17.75,
+    "e": 18.25
+   },
+   {
+    "w": "and",
+    "s": 18.25,
+    "e": 18.49
+   },
+   {
+    "w": "forty",
+    "s": 18.49,
+    "e": 18.86
+   },
+   {
+    "w": "miles",
+    "s": 18.86,
+    "e": 19.23
+   },
+   {
+    "w": "away",
+    "s": 19.23,
+    "e": 19.6
+   }
+  ]
+ },
+ {
+  "id": "s12",
+  "name": "route",
+  "text": "The plan was to walk the whole way, about ten miles a day, for twenty-four days. The route ran south through dozens of villages. It crossed three great rivers, the Mahi, the Narmada and the Tapi. At night, the marchers slept in the open.",
+  "audio_dur": 18.241,
+  "sentences": [
+   {
+    "text": "The plan was to walk the whole way, about ten miles a day, for twenty-four days.",
+    "s": 0.3,
+    "e": 5.78
+   },
+   {
+    "text": "The route ran south through dozens of villages.",
+    "s": 6.1,
+    "e": 9.37
+   },
+   {
+    "text": "It crossed three great rivers, the Mahi, the Narmada and the Tapi.",
+    "s": 9.69,
+    "e": 14.42
+   },
+   {
+    "text": "At night, the marchers slept in the open.",
+    "s": 14.74,
+    "e": 17.52
+   }
+  ],
+  "words": [
+   {
+    "w": "The",
+    "s": 0.52,
+    "e": 0.77
+   },
+   {
+    "w": "plan",
+    "s": 0.77,
+    "e": 1.08
+   },
+   {
+    "w": "was",
+    "s": 1.08,
+    "e": 1.33
+   },
+   {
+    "w": "to",
+    "s": 1.33,
+    "e": 1.51
+   },
+   {
+    "w": "walk",
+    "s": 1.51,
+    "e": 1.83
+   },
+   {
+    "w": "the",
+    "s": 1.83,
+    "e": 2.07
+   },
+   {
+    "w": "whole",
+    "s": 2.07,
+    "e": 2.45
+   },
+   {
+    "w": "way",
+    "s": 2.45,
+    "e": 2.76
+   },
+   {
+    "w": "about",
+    "s": 2.76,
+    "e": 3.13
+   },
+   {
+    "w": "ten",
+    "s": 3.13,
+    "e": 3.38
+   },
+   {
+    "w": "miles",
+    "s": 3.38,
+    "e": 3.75
+   },
+   {
+    "w": "a",
+    "s": 3.75,
+    "e": 3.88
+   },
+   {
+    "w": "day",
+    "s": 3.88,
+    "e": 4.19
+   },
+   {
+    "w": "for",
+    "s": 4.19,
+    "e": 4.44
+   },
+   {
+    "w": "twenty-four",
+    "s": 4.44,
+    "e": 5.18
+   },
+   {
+    "w": "days",
+    "s": 5.18,
+    "e": 5.56
+   },
+   {
+    "w": "The",
+    "s": 6.23,
+    "e": 6.48
+   },
+   {
+    "w": "route",
+    "s": 6.48,
+    "e": 6.85
+   },
+   {
+    "w": "ran",
+    "s": 6.85,
+    "e": 7.11
+   },
+   {
+    "w": "south",
+    "s": 7.11,
+    "e": 7.48
+   },
+   {
+    "w": "through",
+    "s": 7.48,
+    "e": 7.98
+   },
+   {
+    "w": "dozens",
+    "s": 7.98,
+    "e": 8.42
+   },
+   {
+    "w": "of",
+    "s": 8.42,
+    "e": 8.61
+   },
+   {
+    "w": "villages",
+    "s": 8.61,
+    "e": 9.24
+   },
+   {
+    "w": "It",
+    "s": 9.88,
+    "e": 10.07
+   },
+   {
+    "w": "crossed",
+    "s": 10.07,
+    "e": 10.59
+   },
+   {
+    "w": "three",
+    "s": 10.59,
+    "e": 10.98
+   },
+   {
+    "w": "great",
+    "s": 10.98,
+    "e": 11.37
+   },
+   {
+    "w": "rivers",
+    "s": 11.37,
+    "e": 11.89
+   },
+   {
+    "w": "the",
+    "s": 11.89,
+    "e": 12.15
+   },
+   {
+    "w": "Mahi",
+    "s": 12.15,
+    "e": 12.54
+   },
+   {
+    "w": "the",
+    "s": 12.54,
+    "e": 12.8
+   },
+   {
+    "w": "Narmada",
+    "s": 12.8,
+    "e": 13.32
+   },
+   {
+    "w": "and",
+    "s": 13.32,
+    "e": 13.58
+   },
+   {
+    "w": "the",
+    "s": 13.58,
+    "e": 13.84
+   },
+   {
+    "w": "Tapi",
+    "s": 13.84,
+    "e": 14.23
+   },
+   {
+    "w": "At",
+    "s": 14.85,
+    "e": 15.04
+   },
+   {
+    "w": "night",
+    "s": 15.04,
+    "e": 15.46
+   },
+   {
+    "w": "the",
+    "s": 15.46,
+    "e": 15.71
+   },
+   {
+    "w": "marchers",
+    "s": 15.71,
+    "e": 16.25
+   },
+   {
+    "w": "slept",
+    "s": 16.25,
+    "e": 16.62
+   },
+   {
+    "w": "in",
+    "s": 16.62,
+    "e": 16.8
+   },
+   {
+    "w": "the",
+    "s": 16.8,
+    "e": 17.05
+   },
+   {
+    "w": "open",
+    "s": 17.05,
+    "e": 17.41
+   }
+  ]
+ },
+ {
+  "id": "s13",
+  "name": "villages",
+  "text": "In every village, crowds came out with drums and cymbals. Gandhi spoke about the salt tax and about self-rule. Some village officials resigned from their government jobs on the spot. New volunteers joined every day, until the column of marchers stretched for about two miles.",
+  "audio_dur": 20.743,
+  "sentences": [
+   {
+    "text": "In every village, crowds came out with drums and cymbals.",
+    "s": 0.3,
+    "e": 4.21
+   },
+   {
+    "text": "Gandhi spoke about the salt tax and about self-rule.",
+    "s": 4.53,
+    "e": 8.16
+   },
+   {
+    "text": "Some village officials resigned from their government jobs on the spot.",
+    "s": 8.48,
+    "e": 13.4
+   },
+   {
+    "text": "New volunteers joined every day, until the column of marchers stretched for about two miles.",
+    "s": 13.72,
+    "e": 20.02
+   }
+  ],
+  "words": [
+   {
+    "w": "In",
+    "s": 0.46,
+    "e": 0.64
+   },
+   {
+    "w": "every",
+    "s": 0.64,
+    "e": 1.01
+   },
+   {
+    "w": "village",
+    "s": 1.01,
+    "e": 1.57
+   },
+   {
+    "w": "crowds",
+    "s": 1.57,
+    "e": 2.01
+   },
+   {
+    "w": "came",
+    "s": 2.01,
+    "e": 2.32
+   },
+   {
+    "w": "out",
+    "s": 2.32,
+    "e": 2.56
+   },
+   {
+    "w": "with",
+    "s": 2.56,
+    "e": 2.87
+   },
+   {
+    "w": "drums",
+    "s": 2.87,
+    "e": 3.25
+   },
+   {
+    "w": "and",
+    "s": 3.25,
+    "e": 3.49
+   },
+   {
+    "w": "cymbals",
+    "s": 3.49,
+    "e": 4.05
+   },
+   {
+    "w": "Gandhi",
+    "s": 4.67,
+    "e": 5.11
+   },
+   {
+    "w": "spoke",
+    "s": 5.11,
+    "e": 5.49
+   },
+   {
+    "w": "about",
+    "s": 5.49,
+    "e": 5.87
+   },
+   {
+    "w": "the",
+    "s": 5.87,
+    "e": 6.12
+   },
+   {
+    "w": "salt",
+    "s": 6.12,
+    "e": 6.44
+   },
+   {
+    "w": "tax",
+    "s": 6.44,
+    "e": 6.69
+   },
+   {
+    "w": "and",
+    "s": 6.69,
+    "e": 6.94
+   },
+   {
+    "w": "about",
+    "s": 6.94,
+    "e": 7.32
+   },
+   {
+    "w": "self-rule",
+    "s": 7.32,
+    "e": 8.01
+   },
+   {
+    "w": "Some",
+    "s": 8.67,
+    "e": 8.99
+   },
+   {
+    "w": "village",
+    "s": 8.99,
+    "e": 9.49
+   },
+   {
+    "w": "officials",
+    "s": 9.49,
+    "e": 10.12
+   },
+   {
+    "w": "resigned",
+    "s": 10.12,
+    "e": 10.69
+   },
+   {
+    "w": "from",
+    "s": 10.69,
+    "e": 11.0
+   },
+   {
+    "w": "their",
+    "s": 11.0,
+    "e": 11.38
+   },
+   {
+    "w": "government",
+    "s": 11.38,
+    "e": 12.07
+   },
+   {
+    "w": "jobs",
+    "s": 12.07,
+    "e": 12.39
+   },
+   {
+    "w": "on",
+    "s": 12.39,
+    "e": 12.57
+   },
+   {
+    "w": "the",
+    "s": 12.57,
+    "e": 12.83
+   },
+   {
+    "w": "spot",
+    "s": 12.83,
+    "e": 13.2
+   },
+   {
+    "w": "New",
+    "s": 13.97,
+    "e": 14.22
+   },
+   {
+    "w": "volunteers",
+    "s": 14.22,
+    "e": 14.91
+   },
+   {
+    "w": "joined",
+    "s": 14.91,
+    "e": 15.34
+   },
+   {
+    "w": "every",
+    "s": 15.34,
+    "e": 15.72
+   },
+   {
+    "w": "day",
+    "s": 15.72,
+    "e": 16.03
+   },
+   {
+    "w": "until",
+    "s": 16.03,
+    "e": 16.4
+   },
+   {
+    "w": "the",
+    "s": 16.4,
+    "e": 16.65
+   },
+   {
+    "w": "column",
+    "s": 16.65,
+    "e": 17.09
+   },
+   {
+    "w": "of",
+    "s": 17.09,
+    "e": 17.28
+   },
+   {
+    "w": "marchers",
+    "s": 17.28,
+    "e": 17.84
+   },
+   {
+    "w": "stretched",
+    "s": 17.84,
+    "e": 18.46
+   },
+   {
+    "w": "for",
+    "s": 18.46,
+    "e": 18.71
+   },
+   {
+    "w": "about",
+    "s": 18.71,
+    "e": 19.09
+   },
+   {
+    "w": "two",
+    "s": 19.09,
+    "e": 19.33
+   },
+   {
+    "w": "miles",
+    "s": 19.33,
+    "e": 19.77
+   }
+  ]
+ },
+ {
+  "id": "s14",
+  "name": "press",
+  "text": "And the world was watching. Gandhi had made sure of that. Reporters from India, Europe and America followed the march. Film crews shot newsreels for cinemas. The New York Times wrote about it almost every day. A sixty-year-old man walking to the sea had become one of the biggest stories on the planet.",
+  "audio_dur": 23.298,
+  "sentences": [
+   {
+    "text": "And the world was watching.",
+    "s": 0.3,
+    "e": 2.17
+   },
+   {
+    "text": "Gandhi had made sure of that.",
+    "s": 2.49,
+    "e": 4.49
+   },
+   {
+    "text": "Reporters from India, Europe and America followed the march.",
+    "s": 4.81,
+    "e": 8.91
+   },
+   {
+    "text": "Film crews shot newsreels for cinemas.",
+    "s": 9.23,
+    "e": 12.21
+   },
+   {
+    "text": "The New York Times wrote about it almost every day.",
+    "s": 12.53,
+    "e": 16.28
+   },
+   {
+    "text": "A sixty-year-old man walking to the sea had become one of the biggest stories on the planet.",
+    "s": 16.6,
+    "e": 22.58
+   }
+  ],
+  "words": [
+   {
+    "w": "And",
+    "s": 0.37,
+    "e": 0.62
+   },
+   {
+    "w": "the",
+    "s": 0.62,
+    "e": 0.87
+   },
+   {
+    "w": "world",
+    "s": 0.87,
+    "e": 1.24
+   },
+   {
+    "w": "was",
+    "s": 1.24,
+    "e": 1.48
+   },
+   {
+    "w": "watching",
+    "s": 1.48,
+    "e": 2.1
+   },
+   {
+    "w": "Gandhi",
+    "s": 2.57,
+    "e": 3.0
+   },
+   {
+    "w": "had",
+    "s": 3.0,
+    "e": 3.25
+   },
+   {
+    "w": "made",
+    "s": 3.25,
+    "e": 3.56
+   },
+   {
+    "w": "sure",
+    "s": 3.56,
+    "e": 3.86
+   },
+   {
+    "w": "of",
+    "s": 3.86,
+    "e": 4.05
+   },
+   {
+    "w": "that",
+    "s": 4.05,
+    "e": 4.41
+   },
+   {
+    "w": "Reporters",
+    "s": 4.98,
+    "e": 5.6
+   },
+   {
+    "w": "from",
+    "s": 5.6,
+    "e": 5.9
+   },
+   {
+    "w": "India",
+    "s": 5.9,
+    "e": 6.34
+   },
+   {
+    "w": "Europe",
+    "s": 6.34,
+    "e": 6.77
+   },
+   {
+    "w": "and",
+    "s": 6.77,
+    "e": 7.02
+   },
+   {
+    "w": "America",
+    "s": 7.02,
+    "e": 7.51
+   },
+   {
+    "w": "followed",
+    "s": 7.51,
+    "e": 8.07
+   },
+   {
+    "w": "the",
+    "s": 8.07,
+    "e": 8.31
+   },
+   {
+    "w": "march",
+    "s": 8.31,
+    "e": 8.75
+   },
+   {
+    "w": "Film",
+    "s": 9.35,
+    "e": 9.7
+   },
+   {
+    "w": "crews",
+    "s": 9.7,
+    "e": 10.12
+   },
+   {
+    "w": "shot",
+    "s": 10.12,
+    "e": 10.47
+   },
+   {
+    "w": "newsreels",
+    "s": 10.47,
+    "e": 11.18
+   },
+   {
+    "w": "for",
+    "s": 11.18,
+    "e": 11.46
+   },
+   {
+    "w": "cinemas",
+    "s": 11.46,
+    "e": 12.09
+   },
+   {
+    "w": "The",
+    "s": 12.68,
+    "e": 12.95
+   },
+   {
+    "w": "New",
+    "s": 12.95,
+    "e": 13.21
+   },
+   {
+    "w": "York",
+    "s": 13.21,
+    "e": 13.54
+   },
+   {
+    "w": "Times",
+    "s": 13.54,
+    "e": 13.94
+   },
+   {
+    "w": "wrote",
+    "s": 13.94,
+    "e": 14.34
+   },
+   {
+    "w": "about",
+    "s": 14.34,
+    "e": 14.74
+   },
+   {
+    "w": "it",
+    "s": 14.74,
+    "e": 14.94
+   },
+   {
+    "w": "almost",
+    "s": 14.94,
+    "e": 15.4
+   },
+   {
+    "w": "every",
+    "s": 15.4,
+    "e": 15.8
+   },
+   {
+    "w": "day",
+    "s": 15.8,
+    "e": 16.13
+   },
+   {
+    "w": "A",
+    "s": 16.84,
+    "e": 16.96
+   },
+   {
+    "w": "sixty-year-old",
+    "s": 16.96,
+    "e": 17.85
+   },
+   {
+    "w": "man",
+    "s": 17.85,
+    "e": 18.08
+   },
+   {
+    "w": "walking",
+    "s": 18.08,
+    "e": 18.56
+   },
+   {
+    "w": "to",
+    "s": 18.56,
+    "e": 18.73
+   },
+   {
+    "w": "the",
+    "s": 18.73,
+    "e": 18.97
+   },
+   {
+    "w": "sea",
+    "s": 18.97,
+    "e": 19.21
+   },
+   {
+    "w": "had",
+    "s": 19.21,
+    "e": 19.44
+   },
+   {
+    "w": "become",
+    "s": 19.44,
+    "e": 19.86
+   },
+   {
+    "w": "one",
+    "s": 19.86,
+    "e": 20.09
+   },
+   {
+    "w": "of",
+    "s": 20.09,
+    "e": 20.27
+   },
+   {
+    "w": "the",
+    "s": 20.27,
+    "e": 20.51
+   },
+   {
+    "w": "biggest",
+    "s": 20.51,
+    "e": 20.98
+   },
+   {
+    "w": "stories",
+    "s": 20.98,
+    "e": 21.45
+   },
+   {
+    "w": "on",
+    "s": 21.45,
+    "e": 21.63
+   },
+   {
+    "w": "the",
+    "s": 21.63,
+    "e": 21.87
+   },
+   {
+    "w": "planet",
+    "s": 21.87,
+    "e": 22.34
+   }
+  ]
+ },
+ {
+  "id": "s15",
+  "name": "arrival",
+  "text": "On April fifth, the marchers reached Dandi. By then, around fifty thousand people had gathered. The British had not tried to stop them. Gandhi said he knew why. The government, he said, was sensitive to world opinion, and the world would not tolerate the repression of a protest that stayed completely peaceful.",
+  "audio_dur": 23.483,
+  "sentences": [
+   {
+    "text": "On April fifth, the marchers reached Dandi.",
+    "s": 0.3,
+    "e": 3.45
+   },
+   {
+    "text": "By then, around fifty thousand people had gathered.",
+    "s": 3.77,
+    "e": 7.17
+   },
+   {
+    "text": "The British had not tried to stop them.",
+    "s": 7.49,
+    "e": 10.11
+   },
+   {
+    "text": "Gandhi said he knew why.",
+    "s": 10.43,
+    "e": 12.6
+   },
+   {
+    "text": "The government, he said, was sensitive to world opinion, and the world would not tolerate the repression of a protest that stayed completely peaceful.",
+    "s": 12.92,
+    "e": 22.76
+   }
+  ],
+  "words": [
+   {
+    "w": "On",
+    "s": 0.43,
+    "e": 0.62
+   },
+   {
+    "w": "April",
+    "s": 0.62,
+    "e": 1.02
+   },
+   {
+    "w": "fifth",
+    "s": 1.02,
+    "e": 1.48
+   },
+   {
+    "w": "the",
+    "s": 1.48,
+    "e": 1.74
+   },
+   {
+    "w": "marchers",
+    "s": 1.74,
+    "e": 2.33
+   },
+   {
+    "w": "reached",
+    "s": 2.33,
+    "e": 2.86
+   },
+   {
+    "w": "Dandi",
+    "s": 2.86,
+    "e": 3.32
+   },
+   {
+    "w": "By",
+    "s": 3.9,
+    "e": 4.08
+   },
+   {
+    "w": "then",
+    "s": 4.08,
+    "e": 4.44
+   },
+   {
+    "w": "around",
+    "s": 4.44,
+    "e": 4.86
+   },
+   {
+    "w": "fifty",
+    "s": 4.86,
+    "e": 5.23
+   },
+   {
+    "w": "thousand",
+    "s": 5.23,
+    "e": 5.77
+   },
+   {
+    "w": "people",
+    "s": 5.77,
+    "e": 6.19
+   },
+   {
+    "w": "had",
+    "s": 6.19,
+    "e": 6.43
+   },
+   {
+    "w": "gathered",
+    "s": 6.43,
+    "e": 7.03
+   },
+   {
+    "w": "The",
+    "s": 7.59,
+    "e": 7.83
+   },
+   {
+    "w": "British",
+    "s": 7.83,
+    "e": 8.32
+   },
+   {
+    "w": "had",
+    "s": 8.32,
+    "e": 8.56
+   },
+   {
+    "w": "not",
+    "s": 8.56,
+    "e": 8.8
+   },
+   {
+    "w": "tried",
+    "s": 8.8,
+    "e": 9.16
+   },
+   {
+    "w": "to",
+    "s": 9.16,
+    "e": 9.34
+   },
+   {
+    "w": "stop",
+    "s": 9.34,
+    "e": 9.64
+   },
+   {
+    "w": "them",
+    "s": 9.64,
+    "e": 10.01
+   },
+   {
+    "w": "Gandhi",
+    "s": 10.52,
+    "e": 11.08
+   },
+   {
+    "w": "said",
+    "s": 11.08,
+    "e": 11.48
+   },
+   {
+    "w": "he",
+    "s": 11.48,
+    "e": 11.72
+   },
+   {
+    "w": "knew",
+    "s": 11.72,
+    "e": 12.12
+   },
+   {
+    "w": "why",
+    "s": 12.12,
+    "e": 12.52
+   },
+   {
+    "w": "The",
+    "s": 13.32,
+    "e": 13.56
+   },
+   {
+    "w": "government",
+    "s": 13.56,
+    "e": 14.28
+   },
+   {
+    "w": "he",
+    "s": 14.28,
+    "e": 14.46
+   },
+   {
+    "w": "said",
+    "s": 14.46,
+    "e": 14.82
+   },
+   {
+    "w": "was",
+    "s": 14.82,
+    "e": 15.06
+   },
+   {
+    "w": "sensitive",
+    "s": 15.06,
+    "e": 15.65
+   },
+   {
+    "w": "to",
+    "s": 15.65,
+    "e": 15.83
+   },
+   {
+    "w": "world",
+    "s": 15.83,
+    "e": 16.19
+   },
+   {
+    "w": "opinion",
+    "s": 16.19,
+    "e": 16.73
+   },
+   {
+    "w": "and",
+    "s": 16.73,
+    "e": 16.97
+   },
+   {
+    "w": "the",
+    "s": 16.97,
+    "e": 17.21
+   },
+   {
+    "w": "world",
+    "s": 17.21,
+    "e": 17.57
+   },
+   {
+    "w": "would",
+    "s": 17.57,
+    "e": 17.93
+   },
+   {
+    "w": "not",
+    "s": 17.93,
+    "e": 18.17
+   },
+   {
+    "w": "tolerate",
+    "s": 18.17,
+    "e": 18.71
+   },
+   {
+    "w": "the",
+    "s": 18.71,
+    "e": 18.95
+   },
+   {
+    "w": "repression",
+    "s": 18.95,
+    "e": 19.61
+   },
+   {
+    "w": "of",
+    "s": 19.61,
+    "e": 19.79
+   },
+   {
+    "w": "a",
+    "s": 19.79,
+    "e": 19.91
+   },
+   {
+    "w": "protest",
+    "s": 19.91,
+    "e": 20.39
+   },
+   {
+    "w": "that",
+    "s": 20.39,
+    "e": 20.69
+   },
+   {
+    "w": "stayed",
+    "s": 20.69,
+    "e": 21.11
+   },
+   {
+    "w": "completely",
+    "s": 21.11,
+    "e": 21.77
+   },
+   {
+    "w": "peaceful",
+    "s": 21.77,
+    "e": 22.37
+   }
+  ]
+ },
+ {
+  "id": "s16",
+  "name": "salt",
+  "text": "The next morning, April sixth, after a prayer, Gandhi walked to the shore and picked up that lump of salty mud. He boiled it in seawater, making a small amount of illegal salt. It was a tiny act. But it was a crime, and he had committed it in front of the whole world. The poet Sarojini Naidu, marching with him, called out, hail, law breaker.",
+  "audio_dur": 24.863,
+  "sentences": [
+   {
+    "text": "The next morning, April sixth, after a prayer, Gandhi walked to the shore and picked up that lump of salty mud.",
+    "s": 0.3,
+    "e": 7.33
+   },
+   {
+    "text": "He boiled it in seawater, making a small amount of illegal salt.",
+    "s": 7.65,
+    "e": 12.15
+   },
+   {
+    "text": "It was a tiny act.",
+    "s": 12.47,
+    "e": 14.09
+   },
+   {
+    "text": "But it was a crime, and he had committed it in front of the whole world.",
+    "s": 14.41,
+    "e": 18.54
+   },
+   {
+    "text": "The poet Sarojini Naidu, marching with him, called out, hail, law breaker.",
+    "s": 18.86,
+    "e": 24.14
+   }
+  ],
+  "words": [
+   {
+    "w": "The",
+    "s": 0.58,
+    "e": 0.81
+   },
+   {
+    "w": "next",
+    "s": 0.81,
+    "e": 1.1
+   },
+   {
+    "w": "morning",
+    "s": 1.1,
+    "e": 1.62
+   },
+   {
+    "w": "April",
+    "s": 1.62,
+    "e": 1.97
+   },
+   {
+    "w": "sixth",
+    "s": 1.97,
+    "e": 2.37
+   },
+   {
+    "w": "after",
+    "s": 2.37,
+    "e": 2.72
+   },
+   {
+    "w": "a",
+    "s": 2.72,
+    "e": 2.83
+   },
+   {
+    "w": "prayer",
+    "s": 2.83,
+    "e": 3.3
+   },
+   {
+    "w": "Gandhi",
+    "s": 3.3,
+    "e": 3.7
+   },
+   {
+    "w": "walked",
+    "s": 3.7,
+    "e": 4.11
+   },
+   {
+    "w": "to",
+    "s": 4.11,
+    "e": 4.28
+   },
+   {
+    "w": "the",
+    "s": 4.28,
+    "e": 4.51
+   },
+   {
+    "w": "shore",
+    "s": 4.51,
+    "e": 4.86
+   },
+   {
+    "w": "and",
+    "s": 4.86,
+    "e": 5.09
+   },
+   {
+    "w": "picked",
+    "s": 5.09,
+    "e": 5.49
+   },
+   {
+    "w": "up",
+    "s": 5.49,
+    "e": 5.67
+   },
+   {
+    "w": "that",
+    "s": 5.67,
+    "e": 5.95
+   },
+   {
+    "w": "lump",
+    "s": 5.95,
+    "e": 6.24
+   },
+   {
+    "w": "of",
+    "s": 6.24,
+    "e": 6.42
+   },
+   {
+    "w": "salty",
+    "s": 6.42,
+    "e": 6.76
+   },
+   {
+    "w": "mud",
+    "s": 6.76,
+    "e": 7.05
+   },
+   {
+    "w": "He",
+    "s": 7.83,
+    "e": 8.03
+   },
+   {
+    "w": "boiled",
+    "s": 8.03,
+    "e": 8.47
+   },
+   {
+    "w": "it",
+    "s": 8.47,
+    "e": 8.66
+   },
+   {
+    "w": "in",
+    "s": 8.66,
+    "e": 8.85
+   },
+   {
+    "w": "seawater",
+    "s": 8.85,
+    "e": 9.49
+   },
+   {
+    "w": "making",
+    "s": 9.49,
+    "e": 9.94
+   },
+   {
+    "w": "a",
+    "s": 9.94,
+    "e": 10.06
+   },
+   {
+    "w": "small",
+    "s": 10.06,
+    "e": 10.44
+   },
+   {
+    "w": "amount",
+    "s": 10.44,
+    "e": 10.89
+   },
+   {
+    "w": "of",
+    "s": 10.89,
+    "e": 11.08
+   },
+   {
+    "w": "illegal",
+    "s": 11.08,
+    "e": 11.59
+   },
+   {
+    "w": "salt",
+    "s": 11.59,
+    "e": 11.97
+   },
+   {
+    "w": "It",
+    "s": 12.54,
+    "e": 12.77
+   },
+   {
+    "w": "was",
+    "s": 12.77,
+    "e": 13.09
+   },
+   {
+    "w": "a",
+    "s": 13.09,
+    "e": 13.24
+   },
+   {
+    "w": "tiny",
+    "s": 13.24,
+    "e": 13.63
+   },
+   {
+    "w": "act",
+    "s": 13.63,
+    "e": 14.03
+   },
+   {
+    "w": "But",
+    "s": 14.58,
+    "e": 14.78
+   },
+   {
+    "w": "it",
+    "s": 14.78,
+    "e": 14.94
+   },
+   {
+    "w": "was",
+    "s": 14.94,
+    "e": 15.15
+   },
+   {
+    "w": "a",
+    "s": 15.15,
+    "e": 15.25
+   },
+   {
+    "w": "crime",
+    "s": 15.25,
+    "e": 15.62
+   },
+   {
+    "w": "and",
+    "s": 15.62,
+    "e": 15.82
+   },
+   {
+    "w": "he",
+    "s": 15.82,
+    "e": 15.98
+   },
+   {
+    "w": "had",
+    "s": 15.98,
+    "e": 16.19
+   },
+   {
+    "w": "committed",
+    "s": 16.19,
+    "e": 16.71
+   },
+   {
+    "w": "it",
+    "s": 16.71,
+    "e": 16.86
+   },
+   {
+    "w": "in",
+    "s": 16.86,
+    "e": 17.02
+   },
+   {
+    "w": "front",
+    "s": 17.02,
+    "e": 17.33
+   },
+   {
+    "w": "of",
+    "s": 17.33,
+    "e": 17.49
+   },
+   {
+    "w": "the",
+    "s": 17.49,
+    "e": 17.7
+   },
+   {
+    "w": "whole",
+    "s": 17.7,
+    "e": 18.01
+   },
+   {
+    "w": "world",
+    "s": 18.01,
+    "e": 18.37
+   },
+   {
+    "w": "The",
+    "s": 19.07,
+    "e": 19.33
+   },
+   {
+    "w": "poet",
+    "s": 19.33,
+    "e": 19.65
+   },
+   {
+    "w": "Sarojini",
+    "s": 19.65,
+    "e": 20.24
+   },
+   {
+    "w": "Naidu",
+    "s": 20.24,
+    "e": 20.69
+   },
+   {
+    "w": "marching",
+    "s": 20.69,
+    "e": 21.27
+   },
+   {
+    "w": "with",
+    "s": 21.27,
+    "e": 21.6
+   },
+   {
+    "w": "him",
+    "s": 21.6,
+    "e": 21.92
+   },
+   {
+    "w": "called",
+    "s": 21.92,
+    "e": 22.38
+   },
+   {
+    "w": "out",
+    "s": 22.38,
+    "e": 22.7
+   },
+   {
+    "w": "hail",
+    "s": 22.7,
+    "e": 23.09
+   },
+   {
+    "w": "law",
+    "s": 23.09,
+    "e": 23.35
+   },
+   {
+    "w": "breaker",
+    "s": 23.35,
+    "e": 23.93
+   }
+  ]
+ },
+ {
+  "id": "s17",
+  "name": "spread",
+  "text": "What happened next surprised even the British. Millions of Indians began to break the salt law. People along the coast made salt from seawater and sold it openly. In the cities, crowds bought illegal salt. A pinch of salt made by Gandhi himself was auctioned for sixteen hundred rupees.",
+  "audio_dur": 22.506,
+  "sentences": [
+   {
+    "text": "What happened next surprised even the British.",
+    "s": 0.3,
+    "e": 3.47
+   },
+   {
+    "text": "Millions of Indians began to break the salt law.",
+    "s": 3.79,
+    "e": 7.33
+   },
+   {
+    "text": "People along the coast made salt from seawater and sold it openly.",
+    "s": 7.65,
+    "e": 12.39
+   },
+   {
+    "text": "In the cities, crowds bought illegal salt.",
+    "s": 12.71,
+    "e": 15.59
+   },
+   {
+    "text": "A pinch of salt made by Gandhi himself was auctioned for sixteen hundred rupees.",
+    "s": 15.91,
+    "e": 21.79
+   }
+  ],
+  "words": [
+   {
+    "w": "What",
+    "s": 0.43,
+    "e": 0.74
+   },
+   {
+    "w": "happened",
+    "s": 0.74,
+    "e": 1.29
+   },
+   {
+    "w": "next",
+    "s": 1.29,
+    "e": 1.6
+   },
+   {
+    "w": "surprised",
+    "s": 1.6,
+    "e": 2.22
+   },
+   {
+    "w": "even",
+    "s": 2.22,
+    "e": 2.53
+   },
+   {
+    "w": "the",
+    "s": 2.53,
+    "e": 2.78
+   },
+   {
+    "w": "British",
+    "s": 2.78,
+    "e": 3.34
+   },
+   {
+    "w": "Millions",
+    "s": 3.93,
+    "e": 4.53
+   },
+   {
+    "w": "of",
+    "s": 4.53,
+    "e": 4.73
+   },
+   {
+    "w": "Indians",
+    "s": 4.73,
+    "e": 5.26
+   },
+   {
+    "w": "began",
+    "s": 5.26,
+    "e": 5.66
+   },
+   {
+    "w": "to",
+    "s": 5.66,
+    "e": 5.86
+   },
+   {
+    "w": "break",
+    "s": 5.86,
+    "e": 6.26
+   },
+   {
+    "w": "the",
+    "s": 6.26,
+    "e": 6.52
+   },
+   {
+    "w": "salt",
+    "s": 6.52,
+    "e": 6.86
+   },
+   {
+    "w": "law",
+    "s": 6.86,
+    "e": 7.19
+   },
+   {
+    "w": "People",
+    "s": 7.84,
+    "e": 8.3
+   },
+   {
+    "w": "along",
+    "s": 8.3,
+    "e": 8.69
+   },
+   {
+    "w": "the",
+    "s": 8.69,
+    "e": 8.95
+   },
+   {
+    "w": "coast",
+    "s": 8.95,
+    "e": 9.34
+   },
+   {
+    "w": "made",
+    "s": 9.34,
+    "e": 9.66
+   },
+   {
+    "w": "salt",
+    "s": 9.66,
+    "e": 9.99
+   },
+   {
+    "w": "from",
+    "s": 9.99,
+    "e": 10.31
+   },
+   {
+    "w": "seawater",
+    "s": 10.31,
+    "e": 10.9
+   },
+   {
+    "w": "and",
+    "s": 10.9,
+    "e": 11.16
+   },
+   {
+    "w": "sold",
+    "s": 11.16,
+    "e": 11.48
+   },
+   {
+    "w": "it",
+    "s": 11.48,
+    "e": 11.68
+   },
+   {
+    "w": "openly",
+    "s": 11.68,
+    "e": 12.2
+   },
+   {
+    "w": "In",
+    "s": 12.82,
+    "e": 13.01
+   },
+   {
+    "w": "the",
+    "s": 13.01,
+    "e": 13.26
+   },
+   {
+    "w": "cities",
+    "s": 13.26,
+    "e": 13.75
+   },
+   {
+    "w": "crowds",
+    "s": 13.75,
+    "e": 14.18
+   },
+   {
+    "w": "bought",
+    "s": 14.18,
+    "e": 14.61
+   },
+   {
+    "w": "illegal",
+    "s": 14.61,
+    "e": 15.11
+   },
+   {
+    "w": "salt",
+    "s": 15.11,
+    "e": 15.48
+   },
+   {
+    "w": "A",
+    "s": 16.15,
+    "e": 16.28
+   },
+   {
+    "w": "pinch",
+    "s": 16.28,
+    "e": 16.68
+   },
+   {
+    "w": "of",
+    "s": 16.68,
+    "e": 16.88
+   },
+   {
+    "w": "salt",
+    "s": 16.88,
+    "e": 17.22
+   },
+   {
+    "w": "made",
+    "s": 17.22,
+    "e": 17.55
+   },
+   {
+    "w": "by",
+    "s": 17.55,
+    "e": 17.75
+   },
+   {
+    "w": "Gandhi",
+    "s": 17.75,
+    "e": 18.22
+   },
+   {
+    "w": "himself",
+    "s": 18.22,
+    "e": 18.75
+   },
+   {
+    "w": "was",
+    "s": 18.75,
+    "e": 19.02
+   },
+   {
+    "w": "auctioned",
+    "s": 19.02,
+    "e": 19.68
+   },
+   {
+    "w": "for",
+    "s": 19.68,
+    "e": 19.95
+   },
+   {
+    "w": "sixteen",
+    "s": 19.95,
+    "e": 20.48
+   },
+   {
+    "w": "hundred",
+    "s": 20.48,
+    "e": 21.02
+   },
+   {
+    "w": "rupees",
+    "s": 21.02,
+    "e": 21.55
+   }
+  ]
+ },
+ {
+  "id": "s18",
+  "name": "women",
+  "text": "For the first time, women joined India's freedom struggle in huge numbers. Gandhi had asked only men to march, but women made salt in their own homes and sold it on the streets. One activist remembered that even grandmothers carried pots of salt water home, then shouted, we have broken the salt law.",
+  "audio_dur": 21.452,
+  "sentences": [
+   {
+    "text": "For the first time, women joined India's freedom struggle in huge numbers.",
+    "s": 0.3,
+    "e": 5.36
+   },
+   {
+    "text": "Gandhi had asked only men to march, but women made salt in their own homes and sold it on the streets.",
+    "s": 5.68,
+    "e": 12.41
+   },
+   {
+    "text": "One activist remembered that even grandmothers carried pots of salt water home, then shouted, we have broken the salt law.",
+    "s": 12.73,
+    "e": 20.73
+   }
+  ],
+  "words": [
+   {
+    "w": "For",
+    "s": 0.5,
+    "e": 0.75
+   },
+   {
+    "w": "the",
+    "s": 0.75,
+    "e": 1.0
+   },
+   {
+    "w": "first",
+    "s": 1.0,
+    "e": 1.37
+   },
+   {
+    "w": "time",
+    "s": 1.37,
+    "e": 1.74
+   },
+   {
+    "w": "women",
+    "s": 1.74,
+    "e": 2.12
+   },
+   {
+    "w": "joined",
+    "s": 2.12,
+    "e": 2.55
+   },
+   {
+    "w": "India's",
+    "s": 2.55,
+    "e": 3.05
+   },
+   {
+    "w": "freedom",
+    "s": 3.05,
+    "e": 3.54
+   },
+   {
+    "w": "struggle",
+    "s": 3.54,
+    "e": 4.1
+   },
+   {
+    "w": "in",
+    "s": 4.1,
+    "e": 4.29
+   },
+   {
+    "w": "huge",
+    "s": 4.29,
+    "e": 4.6
+   },
+   {
+    "w": "numbers",
+    "s": 4.6,
+    "e": 5.16
+   },
+   {
+    "w": "Gandhi",
+    "s": 5.95,
+    "e": 6.37
+   },
+   {
+    "w": "had",
+    "s": 6.37,
+    "e": 6.61
+   },
+   {
+    "w": "asked",
+    "s": 6.61,
+    "e": 6.97
+   },
+   {
+    "w": "only",
+    "s": 6.97,
+    "e": 7.27
+   },
+   {
+    "w": "men",
+    "s": 7.27,
+    "e": 7.51
+   },
+   {
+    "w": "to",
+    "s": 7.51,
+    "e": 7.69
+   },
+   {
+    "w": "march",
+    "s": 7.69,
+    "e": 8.11
+   },
+   {
+    "w": "but",
+    "s": 8.11,
+    "e": 8.35
+   },
+   {
+    "w": "women",
+    "s": 8.35,
+    "e": 8.71
+   },
+   {
+    "w": "made",
+    "s": 8.71,
+    "e": 9.01
+   },
+   {
+    "w": "salt",
+    "s": 9.01,
+    "e": 9.31
+   },
+   {
+    "w": "in",
+    "s": 9.31,
+    "e": 9.49
+   },
+   {
+    "w": "their",
+    "s": 9.49,
+    "e": 9.85
+   },
+   {
+    "w": "own",
+    "s": 9.85,
+    "e": 10.09
+   },
+   {
+    "w": "homes",
+    "s": 10.09,
+    "e": 10.46
+   },
+   {
+    "w": "and",
+    "s": 10.46,
+    "e": 10.7
+   },
+   {
+    "w": "sold",
+    "s": 10.7,
+    "e": 11.0
+   },
+   {
+    "w": "it",
+    "s": 11.0,
+    "e": 11.18
+   },
+   {
+    "w": "on",
+    "s": 11.18,
+    "e": 11.36
+   },
+   {
+    "w": "the",
+    "s": 11.36,
+    "e": 11.6
+   },
+   {
+    "w": "streets",
+    "s": 11.6,
+    "e": 12.14
+   },
+   {
+    "w": "One",
+    "s": 13.05,
+    "e": 13.29
+   },
+   {
+    "w": "activist",
+    "s": 13.29,
+    "e": 13.82
+   },
+   {
+    "w": "remembered",
+    "s": 13.82,
+    "e": 14.48
+   },
+   {
+    "w": "that",
+    "s": 14.48,
+    "e": 14.78
+   },
+   {
+    "w": "even",
+    "s": 14.78,
+    "e": 15.08
+   },
+   {
+    "w": "grandmothers",
+    "s": 15.08,
+    "e": 15.86
+   },
+   {
+    "w": "carried",
+    "s": 15.86,
+    "e": 16.34
+   },
+   {
+    "w": "pots",
+    "s": 16.34,
+    "e": 16.64
+   },
+   {
+    "w": "of",
+    "s": 16.64,
+    "e": 16.82
+   },
+   {
+    "w": "salt",
+    "s": 16.82,
+    "e": 17.12
+   },
+   {
+    "w": "water",
+    "s": 17.12,
+    "e": 17.48
+   },
+   {
+    "w": "home",
+    "s": 17.48,
+    "e": 17.84
+   },
+   {
+    "w": "then",
+    "s": 17.84,
+    "e": 18.14
+   },
+   {
+    "w": "shouted",
+    "s": 18.14,
+    "e": 18.68
+   },
+   {
+    "w": "we",
+    "s": 18.68,
+    "e": 18.86
+   },
+   {
+    "w": "have",
+    "s": 18.86,
+    "e": 19.15
+   },
+   {
+    "w": "broken",
+    "s": 19.15,
+    "e": 19.57
+   },
+   {
+    "w": "the",
+    "s": 19.57,
+    "e": 19.81
+   },
+   {
+    "w": "salt",
+    "s": 19.81,
+    "e": 20.11
+   },
+   {
+    "w": "law",
+    "s": 20.11,
+    "e": 20.41
+   }
+  ]
+ },
+ {
+  "id": "s19",
+  "name": "arrests",
+  "text": "The government struck back. Over sixty thousand people were sent to prison. Newspapers were censored. The Congress party was declared illegal. But the arrests only made the protest bigger.",
+  "audio_dur": 15.449,
+  "sentences": [
+   {
+    "text": "The government struck back.",
+    "s": 0.3,
+    "e": 1.97
+   },
+   {
+    "text": "Over sixty thousand people were sent to prison.",
+    "s": 2.29,
+    "e": 5.65
+   },
+   {
+    "text": "Newspapers were censored.",
+    "s": 5.97,
+    "e": 8.01
+   },
+   {
+    "text": "The Congress party was declared illegal.",
+    "s": 8.33,
+    "e": 11.42
+   },
+   {
+    "text": "But the arrests only made the protest bigger.",
+    "s": 11.74,
+    "e": 14.73
+   }
+  ],
+  "words": [
+   {
+    "w": "The",
+    "s": 0.37,
+    "e": 0.59
+   },
+   {
+    "w": "government",
+    "s": 0.59,
+    "e": 1.19
+   },
+   {
+    "w": "struck",
+    "s": 1.19,
+    "e": 1.57
+   },
+   {
+    "w": "back",
+    "s": 1.57,
+    "e": 1.9
+   },
+   {
+    "w": "Over",
+    "s": 2.42,
+    "e": 2.75
+   },
+   {
+    "w": "sixty",
+    "s": 2.75,
+    "e": 3.13
+   },
+   {
+    "w": "thousand",
+    "s": 3.13,
+    "e": 3.71
+   },
+   {
+    "w": "people",
+    "s": 3.71,
+    "e": 4.16
+   },
+   {
+    "w": "were",
+    "s": 4.16,
+    "e": 4.48
+   },
+   {
+    "w": "sent",
+    "s": 4.48,
+    "e": 4.8
+   },
+   {
+    "w": "to",
+    "s": 4.8,
+    "e": 5.0
+   },
+   {
+    "w": "prison",
+    "s": 5.0,
+    "e": 5.51
+   },
+   {
+    "w": "Newspapers",
+    "s": 6.05,
+    "e": 6.84
+   },
+   {
+    "w": "were",
+    "s": 6.84,
+    "e": 7.21
+   },
+   {
+    "w": "censored",
+    "s": 7.21,
+    "e": 7.93
+   },
+   {
+    "w": "The",
+    "s": 8.46,
+    "e": 8.73
+   },
+   {
+    "w": "Congress",
+    "s": 8.73,
+    "e": 9.36
+   },
+   {
+    "w": "party",
+    "s": 9.36,
+    "e": 9.77
+   },
+   {
+    "w": "was",
+    "s": 9.77,
+    "e": 10.05
+   },
+   {
+    "w": "declared",
+    "s": 10.05,
+    "e": 10.68
+   },
+   {
+    "w": "illegal",
+    "s": 10.68,
+    "e": 11.3
+   },
+   {
+    "w": "But",
+    "s": 11.86,
+    "e": 12.1
+   },
+   {
+    "w": "the",
+    "s": 12.1,
+    "e": 12.34
+   },
+   {
+    "w": "arrests",
+    "s": 12.34,
+    "e": 12.82
+   },
+   {
+    "w": "only",
+    "s": 12.82,
+    "e": 13.12
+   },
+   {
+    "w": "made",
+    "s": 13.12,
+    "e": 13.42
+   },
+   {
+    "w": "the",
+    "s": 13.42,
+    "e": 13.65
+   },
+   {
+    "w": "protest",
+    "s": 13.65,
+    "e": 14.13
+   },
+   {
+    "w": "bigger",
+    "s": 14.13,
+    "e": 14.61
+   }
+  ]
+ },
+ {
+  "id": "s20",
+  "name": "arrest",
+  "text": "Then, just after midnight on May fifth, police came for Gandhi himself. He was asleep on a cot under the mango trees. A magistrate arrived with about thirty armed officers. Gandhi was taken away under an old law from eighteen twenty-seven, and held in prison without a trial.",
+  "audio_dur": 21.344,
+  "sentences": [
+   {
+    "text": "Then, just after midnight on May fifth, police came for Gandhi himself.",
+    "s": 0.3,
+    "e": 5.18
+   },
+   {
+    "text": "He was asleep on a cot under the mango trees.",
+    "s": 5.5,
+    "e": 9.03
+   },
+   {
+    "text": "A magistrate arrived with about thirty armed officers.",
+    "s": 9.35,
+    "e": 13.3
+   },
+   {
+    "text": "Gandhi was taken away under an old law from eighteen twenty-seven, and held in prison without a trial.",
+    "s": 13.62,
+    "e": 20.62
+   }
+  ],
+  "words": [
+   {
+    "w": "Then",
+    "s": 0.5,
+    "e": 0.87
+   },
+   {
+    "w": "just",
+    "s": 0.87,
+    "e": 1.18
+   },
+   {
+    "w": "after",
+    "s": 1.18,
+    "e": 1.56
+   },
+   {
+    "w": "midnight",
+    "s": 1.56,
+    "e": 2.12
+   },
+   {
+    "w": "on",
+    "s": 2.12,
+    "e": 2.3
+   },
+   {
+    "w": "May",
+    "s": 2.3,
+    "e": 2.55
+   },
+   {
+    "w": "fifth",
+    "s": 2.55,
+    "e": 2.99
+   },
+   {
+    "w": "police",
+    "s": 2.99,
+    "e": 3.43
+   },
+   {
+    "w": "came",
+    "s": 3.43,
+    "e": 3.74
+   },
+   {
+    "w": "for",
+    "s": 3.74,
+    "e": 3.99
+   },
+   {
+    "w": "Gandhi",
+    "s": 3.99,
+    "e": 4.43
+   },
+   {
+    "w": "himself",
+    "s": 4.43,
+    "e": 4.99
+   },
+   {
+    "w": "He",
+    "s": 5.64,
+    "e": 5.86
+   },
+   {
+    "w": "was",
+    "s": 5.86,
+    "e": 6.14
+   },
+   {
+    "w": "asleep",
+    "s": 6.14,
+    "e": 6.63
+   },
+   {
+    "w": "on",
+    "s": 6.63,
+    "e": 6.85
+   },
+   {
+    "w": "a",
+    "s": 6.85,
+    "e": 6.99
+   },
+   {
+    "w": "cot",
+    "s": 6.99,
+    "e": 7.27
+   },
+   {
+    "w": "under",
+    "s": 7.27,
+    "e": 7.69
+   },
+   {
+    "w": "the",
+    "s": 7.69,
+    "e": 7.97
+   },
+   {
+    "w": "mango",
+    "s": 7.97,
+    "e": 8.4
+   },
+   {
+    "w": "trees",
+    "s": 8.4,
+    "e": 8.89
+   },
+   {
+    "w": "A",
+    "s": 9.51,
+    "e": 9.64
+   },
+   {
+    "w": "magistrate",
+    "s": 9.64,
+    "e": 10.37
+   },
+   {
+    "w": "arrived",
+    "s": 10.37,
+    "e": 10.9
+   },
+   {
+    "w": "with",
+    "s": 10.9,
+    "e": 11.23
+   },
+   {
+    "w": "about",
+    "s": 11.23,
+    "e": 11.62
+   },
+   {
+    "w": "thirty",
+    "s": 11.62,
+    "e": 12.09
+   },
+   {
+    "w": "armed",
+    "s": 12.09,
+    "e": 12.48
+   },
+   {
+    "w": "officers",
+    "s": 12.48,
+    "e": 13.14
+   },
+   {
+    "w": "Gandhi",
+    "s": 13.9,
+    "e": 14.34
+   },
+   {
+    "w": "was",
+    "s": 14.34,
+    "e": 14.59
+   },
+   {
+    "w": "taken",
+    "s": 14.59,
+    "e": 14.96
+   },
+   {
+    "w": "away",
+    "s": 14.96,
+    "e": 15.28
+   },
+   {
+    "w": "under",
+    "s": 15.28,
+    "e": 15.65
+   },
+   {
+    "w": "an",
+    "s": 15.65,
+    "e": 15.84
+   },
+   {
+    "w": "old",
+    "s": 15.84,
+    "e": 16.09
+   },
+   {
+    "w": "law",
+    "s": 16.09,
+    "e": 16.34
+   },
+   {
+    "w": "from",
+    "s": 16.34,
+    "e": 16.65
+   },
+   {
+    "w": "eighteen",
+    "s": 16.65,
+    "e": 17.22
+   },
+   {
+    "w": "twenty-seven",
+    "s": 17.22,
+    "e": 18.09
+   },
+   {
+    "w": "and",
+    "s": 18.09,
+    "e": 18.34
+   },
+   {
+    "w": "held",
+    "s": 18.34,
+    "e": 18.66
+   },
+   {
+    "w": "in",
+    "s": 18.66,
+    "e": 18.84
+   },
+   {
+    "w": "prison",
+    "s": 18.84,
+    "e": 19.28
+   },
+   {
+    "w": "without",
+    "s": 19.28,
+    "e": 19.78
+   },
+   {
+    "w": "a",
+    "s": 19.78,
+    "e": 19.91
+   },
+   {
+    "w": "trial",
+    "s": 19.91,
+    "e": 20.34
+   }
+  ]
+ },
+ {
+  "id": "s21",
+  "name": "dharasana-plan",
+  "text": "But Gandhi had already planned his next step. Not far south of Dandi was a large government salt works at Dharasana. Volunteers would march to its gates and try to take the salt, peacefully. The first leaders, a seventy-six-year-old judge named Abbas Tyabji and Gandhi's wife Kasturba, were arrested on the way. So Sarojini Naidu took over.",
+  "audio_dur": 27.279,
+  "sentences": [
+   {
+    "text": "But Gandhi had already planned his next step.",
+    "s": 0.3,
+    "e": 3.16
+   },
+   {
+    "text": "Not far south of Dandi was a large government salt works at Dharasana.",
+    "s": 3.48,
+    "e": 9.02
+   },
+   {
+    "text": "Volunteers would march to its gates and try to take the salt, peacefully.",
+    "s": 9.34,
+    "e": 14.35
+   },
+   {
+    "text": "The first leaders, a seventy-six-year-old judge named Abbas Tyabji and Gandhi's wife Kasturba, were arrested on the way.",
+    "s": 14.67,
+    "e": 23.42
+   },
+   {
+    "text": "So Sarojini Naidu took over.",
+    "s": 23.74,
+    "e": 26.56
+   }
+  ],
+  "words": [
+   {
+    "w": "But",
+    "s": 0.41,
+    "e": 0.64
+   },
+   {
+    "w": "Gandhi",
+    "s": 0.64,
+    "e": 1.04
+   },
+   {
+    "w": "had",
+    "s": 1.04,
+    "e": 1.27
+   },
+   {
+    "w": "already",
+    "s": 1.27,
+    "e": 1.73
+   },
+   {
+    "w": "planned",
+    "s": 1.73,
+    "e": 2.19
+   },
+   {
+    "w": "his",
+    "s": 2.19,
+    "e": 2.41
+   },
+   {
+    "w": "next",
+    "s": 2.41,
+    "e": 2.7
+   },
+   {
+    "w": "step",
+    "s": 2.7,
+    "e": 3.04
+   },
+   {
+    "w": "Not",
+    "s": 3.7,
+    "e": 3.99
+   },
+   {
+    "w": "far",
+    "s": 3.99,
+    "e": 4.27
+   },
+   {
+    "w": "south",
+    "s": 4.27,
+    "e": 4.7
+   },
+   {
+    "w": "of",
+    "s": 4.7,
+    "e": 4.92
+   },
+   {
+    "w": "Dandi",
+    "s": 4.92,
+    "e": 5.35
+   },
+   {
+    "w": "was",
+    "s": 5.35,
+    "e": 5.64
+   },
+   {
+    "w": "a",
+    "s": 5.64,
+    "e": 5.78
+   },
+   {
+    "w": "large",
+    "s": 5.78,
+    "e": 6.21
+   },
+   {
+    "w": "government",
+    "s": 6.21,
+    "e": 7.0
+   },
+   {
+    "w": "salt",
+    "s": 7.0,
+    "e": 7.36
+   },
+   {
+    "w": "works",
+    "s": 7.36,
+    "e": 7.79
+   },
+   {
+    "w": "at",
+    "s": 7.79,
+    "e": 8.01
+   },
+   {
+    "w": "Dharasana",
+    "s": 8.01,
+    "e": 8.8
+   },
+   {
+    "w": "Volunteers",
+    "s": 9.54,
+    "e": 10.22
+   },
+   {
+    "w": "would",
+    "s": 10.22,
+    "e": 10.6
+   },
+   {
+    "w": "march",
+    "s": 10.6,
+    "e": 10.97
+   },
+   {
+    "w": "to",
+    "s": 10.97,
+    "e": 11.16
+   },
+   {
+    "w": "its",
+    "s": 11.16,
+    "e": 11.41
+   },
+   {
+    "w": "gates",
+    "s": 11.41,
+    "e": 11.78
+   },
+   {
+    "w": "and",
+    "s": 11.78,
+    "e": 12.03
+   },
+   {
+    "w": "try",
+    "s": 12.03,
+    "e": 12.28
+   },
+   {
+    "w": "to",
+    "s": 12.28,
+    "e": 12.47
+   },
+   {
+    "w": "take",
+    "s": 12.47,
+    "e": 12.78
+   },
+   {
+    "w": "the",
+    "s": 12.78,
+    "e": 13.03
+   },
+   {
+    "w": "salt",
+    "s": 13.03,
+    "e": 13.4
+   },
+   {
+    "w": "peacefully",
+    "s": 13.4,
+    "e": 14.15
+   },
+   {
+    "w": "The",
+    "s": 15.02,
+    "e": 15.29
+   },
+   {
+    "w": "first",
+    "s": 15.29,
+    "e": 15.69
+   },
+   {
+    "w": "leaders",
+    "s": 15.69,
+    "e": 16.28
+   },
+   {
+    "w": "a",
+    "s": 16.28,
+    "e": 16.42
+   },
+   {
+    "w": "seventy-six-year-old",
+    "s": 16.42,
+    "e": 17.81
+   },
+   {
+    "w": "judge",
+    "s": 17.81,
+    "e": 18.21
+   },
+   {
+    "w": "named",
+    "s": 18.21,
+    "e": 18.61
+   },
+   {
+    "w": "Abbas",
+    "s": 18.61,
+    "e": 19.01
+   },
+   {
+    "w": "Tyabji",
+    "s": 19.01,
+    "e": 19.48
+   },
+   {
+    "w": "and",
+    "s": 19.48,
+    "e": 19.74
+   },
+   {
+    "w": "Gandhi's",
+    "s": 19.74,
+    "e": 20.34
+   },
+   {
+    "w": "wife",
+    "s": 20.34,
+    "e": 20.67
+   },
+   {
+    "w": "Kasturba",
+    "s": 20.67,
+    "e": 21.34
+   },
+   {
+    "w": "were",
+    "s": 21.34,
+    "e": 21.67
+   },
+   {
+    "w": "arrested",
+    "s": 21.67,
+    "e": 22.27
+   },
+   {
+    "w": "on",
+    "s": 22.27,
+    "e": 22.47
+   },
+   {
+    "w": "the",
+    "s": 22.47,
+    "e": 22.74
+   },
+   {
+    "w": "way",
+    "s": 22.74,
+    "e": 23.07
+   },
+   {
+    "w": "So",
+    "s": 23.85,
+    "e": 24.12
+   },
+   {
+    "w": "Sarojini",
+    "s": 24.12,
+    "e": 24.93
+   },
+   {
+    "w": "Naidu",
+    "s": 24.93,
+    "e": 25.46
+   },
+   {
+    "w": "took",
+    "s": 25.46,
+    "e": 25.91
+   },
+   {
+    "w": "over",
+    "s": 25.91,
+    "e": 26.45
+   }
+  ]
+ },
+ {
+  "id": "s22",
+  "name": "dharasana-warning",
+  "text": "Before they set out, she gave the volunteers a warning. You will be beaten, she said, but you must not resist. You must not even raise a hand to ward off blows.",
+  "audio_dur": 11.882,
+  "sentences": [
+   {
+    "text": "Before they set out, she gave the volunteers a warning.",
+    "s": 0.3,
+    "e": 3.88
+   },
+   {
+    "text": "You will be beaten, she said, but you must not resist.",
+    "s": 4.2,
+    "e": 7.76
+   },
+   {
+    "text": "You must not even raise a hand to ward off blows.",
+    "s": 8.08,
+    "e": 11.16
+   }
+  ],
+  "words": [
+   {
+    "w": "Before",
+    "s": 0.44,
+    "e": 0.85
+   },
+   {
+    "w": "they",
+    "s": 0.85,
+    "e": 1.15
+   },
+   {
+    "w": "set",
+    "s": 1.15,
+    "e": 1.38
+   },
+   {
+    "w": "out",
+    "s": 1.38,
+    "e": 1.68
+   },
+   {
+    "w": "she",
+    "s": 1.68,
+    "e": 1.91
+   },
+   {
+    "w": "gave",
+    "s": 1.91,
+    "e": 2.21
+   },
+   {
+    "w": "the",
+    "s": 2.21,
+    "e": 2.44
+   },
+   {
+    "w": "volunteers",
+    "s": 2.44,
+    "e": 3.09
+   },
+   {
+    "w": "a",
+    "s": 3.09,
+    "e": 3.2
+   },
+   {
+    "w": "warning",
+    "s": 3.2,
+    "e": 3.73
+   },
+   {
+    "w": "You",
+    "s": 4.34,
+    "e": 4.58
+   },
+   {
+    "w": "will",
+    "s": 4.58,
+    "e": 4.87
+   },
+   {
+    "w": "be",
+    "s": 4.87,
+    "e": 5.05
+   },
+   {
+    "w": "beaten",
+    "s": 5.05,
+    "e": 5.53
+   },
+   {
+    "w": "she",
+    "s": 5.53,
+    "e": 5.77
+   },
+   {
+    "w": "said",
+    "s": 5.77,
+    "e": 6.13
+   },
+   {
+    "w": "but",
+    "s": 6.13,
+    "e": 6.36
+   },
+   {
+    "w": "you",
+    "s": 6.36,
+    "e": 6.6
+   },
+   {
+    "w": "must",
+    "s": 6.6,
+    "e": 6.9
+   },
+   {
+    "w": "not",
+    "s": 6.9,
+    "e": 7.14
+   },
+   {
+    "w": "resist",
+    "s": 7.14,
+    "e": 7.61
+   },
+   {
+    "w": "You",
+    "s": 8.2,
+    "e": 8.43
+   },
+   {
+    "w": "must",
+    "s": 8.43,
+    "e": 8.71
+   },
+   {
+    "w": "not",
+    "s": 8.71,
+    "e": 8.94
+   },
+   {
+    "w": "even",
+    "s": 8.94,
+    "e": 9.22
+   },
+   {
+    "w": "raise",
+    "s": 9.22,
+    "e": 9.56
+   },
+   {
+    "w": "a",
+    "s": 9.56,
+    "e": 9.68
+   },
+   {
+    "w": "hand",
+    "s": 9.68,
+    "e": 9.96
+   },
+   {
+    "w": "to",
+    "s": 9.96,
+    "e": 10.13
+   },
+   {
+    "w": "ward",
+    "s": 10.13,
+    "e": 10.41
+   },
+   {
+    "w": "off",
+    "s": 10.41,
+    "e": 10.64
+   },
+   {
+    "w": "blows",
+    "s": 10.64,
+    "e": 11.04
+   }
+  ]
+ },
+ {
+  "id": "s23",
+  "name": "dharasana",
+  "text": "On May twenty-first, around two thousand five hundred volunteers walked toward the salt works in silent rows. Police officers with steel-tipped wooden clubs, called lathis, were waiting. As each row reached them, the police struck. The marchers did not fight back. When one row fell, the next one stepped forward.",
+  "audio_dur": 23.576,
+  "sentences": [
+   {
+    "text": "On May twenty-first, around two thousand five hundred volunteers walked toward the salt works in silent rows.",
+    "s": 0.3,
+    "e": 7.96
+   },
+   {
+    "text": "Police officers with steel-tipped wooden clubs, called lathis, were waiting.",
+    "s": 8.28,
+    "e": 13.43
+   },
+   {
+    "text": "As each row reached them, the police struck.",
+    "s": 13.75,
+    "e": 16.6
+   },
+   {
+    "text": "The marchers did not fight back.",
+    "s": 16.92,
+    "e": 19.35
+   },
+   {
+    "text": "When one row fell, the next one stepped forward.",
+    "s": 19.67,
+    "e": 22.86
+   }
+  ],
+  "words": [
+   {
+    "w": "On",
+    "s": 0.61,
+    "e": 0.8
+   },
+   {
+    "w": "May",
+    "s": 0.8,
+    "e": 1.06
+   },
+   {
+    "w": "twenty-first",
+    "s": 1.06,
+    "e": 1.95
+   },
+   {
+    "w": "around",
+    "s": 1.95,
+    "e": 2.4
+   },
+   {
+    "w": "two",
+    "s": 2.4,
+    "e": 2.66
+   },
+   {
+    "w": "thousand",
+    "s": 2.66,
+    "e": 3.23
+   },
+   {
+    "w": "five",
+    "s": 3.23,
+    "e": 3.55
+   },
+   {
+    "w": "hundred",
+    "s": 3.55,
+    "e": 4.07
+   },
+   {
+    "w": "volunteers",
+    "s": 4.07,
+    "e": 4.77
+   },
+   {
+    "w": "walked",
+    "s": 4.77,
+    "e": 5.22
+   },
+   {
+    "w": "toward",
+    "s": 5.22,
+    "e": 5.67
+   },
+   {
+    "w": "the",
+    "s": 5.67,
+    "e": 5.93
+   },
+   {
+    "w": "salt",
+    "s": 5.93,
+    "e": 6.25
+   },
+   {
+    "w": "works",
+    "s": 6.25,
+    "e": 6.63
+   },
+   {
+    "w": "in",
+    "s": 6.63,
+    "e": 6.82
+   },
+   {
+    "w": "silent",
+    "s": 6.82,
+    "e": 7.27
+   },
+   {
+    "w": "rows",
+    "s": 7.27,
+    "e": 7.66
+   },
+   {
+    "w": "Police",
+    "s": 8.49,
+    "e": 8.92
+   },
+   {
+    "w": "officers",
+    "s": 8.92,
+    "e": 9.47
+   },
+   {
+    "w": "with",
+    "s": 9.47,
+    "e": 9.78
+   },
+   {
+    "w": "steel-tipped",
+    "s": 9.78,
+    "e": 10.58
+   },
+   {
+    "w": "wooden",
+    "s": 10.58,
+    "e": 11.01
+   },
+   {
+    "w": "clubs",
+    "s": 11.01,
+    "e": 11.44
+   },
+   {
+    "w": "called",
+    "s": 11.44,
+    "e": 11.87
+   },
+   {
+    "w": "lathis",
+    "s": 11.87,
+    "e": 12.36
+   },
+   {
+    "w": "were",
+    "s": 12.36,
+    "e": 12.67
+   },
+   {
+    "w": "waiting",
+    "s": 12.67,
+    "e": 13.23
+   },
+   {
+    "w": "As",
+    "s": 13.87,
+    "e": 14.04
+   },
+   {
+    "w": "each",
+    "s": 14.04,
+    "e": 14.33
+   },
+   {
+    "w": "row",
+    "s": 14.33,
+    "e": 14.56
+   },
+   {
+    "w": "reached",
+    "s": 14.56,
+    "e": 15.03
+   },
+   {
+    "w": "them",
+    "s": 15.03,
+    "e": 15.38
+   },
+   {
+    "w": "the",
+    "s": 15.38,
+    "e": 15.61
+   },
+   {
+    "w": "police",
+    "s": 15.61,
+    "e": 16.02
+   },
+   {
+    "w": "struck",
+    "s": 16.02,
+    "e": 16.49
+   },
+   {
+    "w": "The",
+    "s": 17.02,
+    "e": 17.29
+   },
+   {
+    "w": "marchers",
+    "s": 17.29,
+    "e": 17.9
+   },
+   {
+    "w": "did",
+    "s": 17.9,
+    "e": 18.17
+   },
+   {
+    "w": "not",
+    "s": 18.17,
+    "e": 18.44
+   },
+   {
+    "w": "fight",
+    "s": 18.44,
+    "e": 18.85
+   },
+   {
+    "w": "back",
+    "s": 18.85,
+    "e": 19.25
+   },
+   {
+    "w": "When",
+    "s": 19.8,
+    "e": 20.1
+   },
+   {
+    "w": "one",
+    "s": 20.1,
+    "e": 20.34
+   },
+   {
+    "w": "row",
+    "s": 20.34,
+    "e": 20.58
+   },
+   {
+    "w": "fell",
+    "s": 20.58,
+    "e": 20.93
+   },
+   {
+    "w": "the",
+    "s": 20.93,
+    "e": 21.17
+   },
+   {
+    "w": "next",
+    "s": 21.17,
+    "e": 21.47
+   },
+   {
+    "w": "one",
+    "s": 21.47,
+    "e": 21.71
+   },
+   {
+    "w": "stepped",
+    "s": 21.71,
+    "e": 22.19
+   },
+   {
+    "w": "forward",
+    "s": 22.19,
+    "e": 22.73
+   }
+  ]
+ },
+ {
+  "id": "s24",
+  "name": "webb-miller",
+  "text": "An American reporter was standing there. His name was Webb Miller, and he worked for the United Press news agency. He wrote that not one of the marchers even raised an arm to fend off the blows. They went down like ten-pins. Within minutes, the ground was covered with injured men.",
+  "audio_dur": 20.993,
+  "sentences": [
+   {
+    "text": "An American reporter was standing there.",
+    "s": 0.3,
+    "e": 3.14
+   },
+   {
+    "text": "His name was Webb Miller, and he worked for the United Press news agency.",
+    "s": 3.46,
+    "e": 8.19
+   },
+   {
+    "text": "He wrote that not one of the marchers even raised an arm to fend off the blows.",
+    "s": 8.51,
+    "e": 13.69
+   },
+   {
+    "text": "They went down like ten-pins.",
+    "s": 14.01,
+    "e": 16.41
+   },
+   {
+    "text": "Within minutes, the ground was covered with injured men.",
+    "s": 16.73,
+    "e": 20.27
+   }
+  ],
+  "words": [
+   {
+    "w": "An",
+    "s": 0.41,
+    "e": 0.6
+   },
+   {
+    "w": "American",
+    "s": 0.6,
+    "e": 1.18
+   },
+   {
+    "w": "reporter",
+    "s": 1.18,
+    "e": 1.75
+   },
+   {
+    "w": "was",
+    "s": 1.75,
+    "e": 2.01
+   },
+   {
+    "w": "standing",
+    "s": 2.01,
+    "e": 2.58
+   },
+   {
+    "w": "there",
+    "s": 2.58,
+    "e": 3.03
+   },
+   {
+    "w": "His",
+    "s": 3.65,
+    "e": 3.89
+   },
+   {
+    "w": "name",
+    "s": 3.89,
+    "e": 4.18
+   },
+   {
+    "w": "was",
+    "s": 4.18,
+    "e": 4.42
+   },
+   {
+    "w": "Webb",
+    "s": 4.42,
+    "e": 4.71
+   },
+   {
+    "w": "Miller",
+    "s": 4.71,
+    "e": 5.18
+   },
+   {
+    "w": "and",
+    "s": 5.18,
+    "e": 5.42
+   },
+   {
+    "w": "he",
+    "s": 5.42,
+    "e": 5.59
+   },
+   {
+    "w": "worked",
+    "s": 5.59,
+    "e": 6.0
+   },
+   {
+    "w": "for",
+    "s": 6.0,
+    "e": 6.24
+   },
+   {
+    "w": "the",
+    "s": 6.24,
+    "e": 6.48
+   },
+   {
+    "w": "United",
+    "s": 6.48,
+    "e": 6.89
+   },
+   {
+    "w": "Press",
+    "s": 6.89,
+    "e": 7.24
+   },
+   {
+    "w": "news",
+    "s": 7.24,
+    "e": 7.53
+   },
+   {
+    "w": "agency",
+    "s": 7.53,
+    "e": 8.01
+   },
+   {
+    "w": "He",
+    "s": 8.72,
+    "e": 8.9
+   },
+   {
+    "w": "wrote",
+    "s": 8.9,
+    "e": 9.26
+   },
+   {
+    "w": "that",
+    "s": 9.26,
+    "e": 9.56
+   },
+   {
+    "w": "not",
+    "s": 9.56,
+    "e": 9.79
+   },
+   {
+    "w": "one",
+    "s": 9.79,
+    "e": 10.03
+   },
+   {
+    "w": "of",
+    "s": 10.03,
+    "e": 10.21
+   },
+   {
+    "w": "the",
+    "s": 10.21,
+    "e": 10.45
+   },
+   {
+    "w": "marchers",
+    "s": 10.45,
+    "e": 10.99
+   },
+   {
+    "w": "even",
+    "s": 10.99,
+    "e": 11.28
+   },
+   {
+    "w": "raised",
+    "s": 11.28,
+    "e": 11.7
+   },
+   {
+    "w": "an",
+    "s": 11.7,
+    "e": 11.88
+   },
+   {
+    "w": "arm",
+    "s": 11.88,
+    "e": 12.12
+   },
+   {
+    "w": "to",
+    "s": 12.12,
+    "e": 12.3
+   },
+   {
+    "w": "fend",
+    "s": 12.3,
+    "e": 12.59
+   },
+   {
+    "w": "off",
+    "s": 12.59,
+    "e": 12.83
+   },
+   {
+    "w": "the",
+    "s": 12.83,
+    "e": 13.07
+   },
+   {
+    "w": "blows",
+    "s": 13.07,
+    "e": 13.49
+   },
+   {
+    "w": "They",
+    "s": 14.11,
+    "e": 14.48
+   },
+   {
+    "w": "went",
+    "s": 14.48,
+    "e": 14.85
+   },
+   {
+    "w": "down",
+    "s": 14.85,
+    "e": 15.21
+   },
+   {
+    "w": "like",
+    "s": 15.21,
+    "e": 15.58
+   },
+   {
+    "w": "ten-pins",
+    "s": 15.58,
+    "e": 16.32
+   },
+   {
+    "w": "Within",
+    "s": 16.87,
+    "e": 17.27
+   },
+   {
+    "w": "minutes",
+    "s": 17.27,
+    "e": 17.79
+   },
+   {
+    "w": "the",
+    "s": 17.79,
+    "e": 18.02
+   },
+   {
+    "w": "ground",
+    "s": 18.02,
+    "e": 18.42
+   },
+   {
+    "w": "was",
+    "s": 18.42,
+    "e": 18.65
+   },
+   {
+    "w": "covered",
+    "s": 18.65,
+    "e": 19.1
+   },
+   {
+    "w": "with",
+    "s": 19.1,
+    "e": 19.39
+   },
+   {
+    "w": "injured",
+    "s": 19.39,
+    "e": 19.85
+   },
+   {
+    "w": "men",
+    "s": 19.85,
+    "e": 20.13
+   }
+  ]
+ },
+ {
+  "id": "s25",
+  "name": "censorship",
+  "text": "Miller tried to send his story home by telegraph, but British officials in India blocked it. Only after he threatened to expose the censorship was it allowed through. His report was printed in about one thousand three hundred and fifty newspapers around the world. In Washington, a United States senator read it into the official record of the Senate.",
+  "audio_dur": 25.358,
+  "sentences": [
+   {
+    "text": "Miller tried to send his story home by telegraph, but British officials in India blocked it.",
+    "s": 0.3,
+    "e": 6.37
+   },
+   {
+    "text": "Only after he threatened to expose the censorship was it allowed through.",
+    "s": 6.69,
+    "e": 11.46
+   },
+   {
+    "text": "His report was printed in about one thousand three hundred and fifty newspapers around the world.",
+    "s": 11.78,
+    "e": 18.4
+   },
+   {
+    "text": "In Washington, a United States senator read it into the official record of the Senate.",
+    "s": 18.72,
+    "e": 24.64
+   }
+  ],
+  "words": [
+   {
+    "w": "Miller",
+    "s": 0.54,
+    "e": 0.96
+   },
+   {
+    "w": "tried",
+    "s": 0.96,
+    "e": 1.32
+   },
+   {
+    "w": "to",
+    "s": 1.32,
+    "e": 1.5
+   },
+   {
+    "w": "send",
+    "s": 1.5,
+    "e": 1.8
+   },
+   {
+    "w": "his",
+    "s": 1.8,
+    "e": 2.04
+   },
+   {
+    "w": "story",
+    "s": 2.04,
+    "e": 2.4
+   },
+   {
+    "w": "home",
+    "s": 2.4,
+    "e": 2.7
+   },
+   {
+    "w": "by",
+    "s": 2.7,
+    "e": 2.88
+   },
+   {
+    "w": "telegraph",
+    "s": 2.88,
+    "e": 3.55
+   },
+   {
+    "w": "but",
+    "s": 3.55,
+    "e": 3.79
+   },
+   {
+    "w": "British",
+    "s": 3.79,
+    "e": 4.27
+   },
+   {
+    "w": "officials",
+    "s": 4.27,
+    "e": 4.87
+   },
+   {
+    "w": "in",
+    "s": 4.87,
+    "e": 5.05
+   },
+   {
+    "w": "India",
+    "s": 5.05,
+    "e": 5.41
+   },
+   {
+    "w": "blocked",
+    "s": 5.41,
+    "e": 5.89
+   },
+   {
+    "w": "it",
+    "s": 5.89,
+    "e": 6.13
+   },
+   {
+    "w": "Only",
+    "s": 6.88,
+    "e": 7.18
+   },
+   {
+    "w": "after",
+    "s": 7.18,
+    "e": 7.53
+   },
+   {
+    "w": "he",
+    "s": 7.53,
+    "e": 7.71
+   },
+   {
+    "w": "threatened",
+    "s": 7.71,
+    "e": 8.37
+   },
+   {
+    "w": "to",
+    "s": 8.37,
+    "e": 8.54
+   },
+   {
+    "w": "expose",
+    "s": 8.54,
+    "e": 8.96
+   },
+   {
+    "w": "the",
+    "s": 8.96,
+    "e": 9.2
+   },
+   {
+    "w": "censorship",
+    "s": 9.2,
+    "e": 9.85
+   },
+   {
+    "w": "was",
+    "s": 9.85,
+    "e": 10.09
+   },
+   {
+    "w": "it",
+    "s": 10.09,
+    "e": 10.26
+   },
+   {
+    "w": "allowed",
+    "s": 10.26,
+    "e": 10.74
+   },
+   {
+    "w": "through",
+    "s": 10.74,
+    "e": 11.27
+   },
+   {
+    "w": "His",
+    "s": 12.05,
+    "e": 12.3
+   },
+   {
+    "w": "report",
+    "s": 12.3,
+    "e": 12.73
+   },
+   {
+    "w": "was",
+    "s": 12.73,
+    "e": 12.98
+   },
+   {
+    "w": "printed",
+    "s": 12.98,
+    "e": 13.48
+   },
+   {
+    "w": "in",
+    "s": 13.48,
+    "e": 13.66
+   },
+   {
+    "w": "about",
+    "s": 13.66,
+    "e": 14.04
+   },
+   {
+    "w": "one",
+    "s": 14.04,
+    "e": 14.28
+   },
+   {
+    "w": "thousand",
+    "s": 14.28,
+    "e": 14.84
+   },
+   {
+    "w": "three",
+    "s": 14.84,
+    "e": 15.22
+   },
+   {
+    "w": "hundred",
+    "s": 15.22,
+    "e": 15.71
+   },
+   {
+    "w": "and",
+    "s": 15.71,
+    "e": 15.96
+   },
+   {
+    "w": "fifty",
+    "s": 15.96,
+    "e": 16.33
+   },
+   {
+    "w": "newspapers",
+    "s": 16.33,
+    "e": 17.02
+   },
+   {
+    "w": "around",
+    "s": 17.02,
+    "e": 17.45
+   },
+   {
+    "w": "the",
+    "s": 17.45,
+    "e": 17.7
+   },
+   {
+    "w": "world",
+    "s": 17.7,
+    "e": 18.13
+   },
+   {
+    "w": "In",
+    "s": 18.96,
+    "e": 19.14
+   },
+   {
+    "w": "Washington",
+    "s": 19.14,
+    "e": 19.89
+   },
+   {
+    "w": "a",
+    "s": 19.89,
+    "e": 20.02
+   },
+   {
+    "w": "United",
+    "s": 20.02,
+    "e": 20.46
+   },
+   {
+    "w": "States",
+    "s": 20.46,
+    "e": 20.9
+   },
+   {
+    "w": "senator",
+    "s": 20.9,
+    "e": 21.4
+   },
+   {
+    "w": "read",
+    "s": 21.4,
+    "e": 21.71
+   },
+   {
+    "w": "it",
+    "s": 21.71,
+    "e": 21.9
+   },
+   {
+    "w": "into",
+    "s": 21.9,
+    "e": 22.21
+   },
+   {
+    "w": "the",
+    "s": 22.21,
+    "e": 22.46
+   },
+   {
+    "w": "official",
+    "s": 22.46,
+    "e": 23.02
+   },
+   {
+    "w": "record",
+    "s": 23.02,
+    "e": 23.46
+   },
+   {
+    "w": "of",
+    "s": 23.46,
+    "e": 23.65
+   },
+   {
+    "w": "the",
+    "s": 23.65,
+    "e": 23.9
+   },
+   {
+    "w": "Senate",
+    "s": 23.9,
+    "e": 24.4
+   }
+  ]
+ },
+ {
+  "id": "s26",
+  "name": "time",
+  "text": "At the end of nineteen thirty, Time magazine named Gandhi its Man of the Year. And Time made a comparison that every American reader understood. It compared Gandhi's march to the sea to the New Englanders who once defied a British tax on tea. The Salt March was India's Boston Tea Party.",
+  "audio_dur": 21.978,
+  "sentences": [
+   {
+    "text": "At the end of nineteen thirty, Time magazine named Gandhi its Man of the Year.",
+    "s": 0.3,
+    "e": 5.61
+   },
+   {
+    "text": "And Time made a comparison that every American reader understood.",
+    "s": 5.93,
+    "e": 10.63
+   },
+   {
+    "text": "It compared Gandhi's march to the sea to the New Englanders who once defied a British tax on tea.",
+    "s": 10.95,
+    "e": 17.52
+   },
+   {
+    "text": "The Salt March was India's Boston Tea Party.",
+    "s": 17.84,
+    "e": 21.26
+   }
+  ],
+  "words": [
+   {
+    "w": "At",
+    "s": 0.51,
+    "e": 0.7
+   },
+   {
+    "w": "the",
+    "s": 0.7,
+    "e": 0.95
+   },
+   {
+    "w": "end",
+    "s": 0.95,
+    "e": 1.19
+   },
+   {
+    "w": "of",
+    "s": 1.19,
+    "e": 1.38
+   },
+   {
+    "w": "nineteen",
+    "s": 1.38,
+    "e": 1.94
+   },
+   {
+    "w": "thirty",
+    "s": 1.94,
+    "e": 2.43
+   },
+   {
+    "w": "Time",
+    "s": 2.43,
+    "e": 2.74
+   },
+   {
+    "w": "magazine",
+    "s": 2.74,
+    "e": 3.3
+   },
+   {
+    "w": "named",
+    "s": 3.3,
+    "e": 3.67
+   },
+   {
+    "w": "Gandhi",
+    "s": 3.67,
+    "e": 4.1
+   },
+   {
+    "w": "its",
+    "s": 4.1,
+    "e": 4.35
+   },
+   {
+    "w": "Man",
+    "s": 4.35,
+    "e": 4.6
+   },
+   {
+    "w": "of",
+    "s": 4.6,
+    "e": 4.78
+   },
+   {
+    "w": "the",
+    "s": 4.78,
+    "e": 5.03
+   },
+   {
+    "w": "Year",
+    "s": 5.03,
+    "e": 5.4
+   },
+   {
+    "w": "And",
+    "s": 6.12,
+    "e": 6.38
+   },
+   {
+    "w": "Time",
+    "s": 6.38,
+    "e": 6.71
+   },
+   {
+    "w": "made",
+    "s": 6.71,
+    "e": 7.04
+   },
+   {
+    "w": "a",
+    "s": 7.04,
+    "e": 7.17
+   },
+   {
+    "w": "comparison",
+    "s": 7.17,
+    "e": 7.89
+   },
+   {
+    "w": "that",
+    "s": 7.89,
+    "e": 8.21
+   },
+   {
+    "w": "every",
+    "s": 8.21,
+    "e": 8.61
+   },
+   {
+    "w": "American",
+    "s": 8.61,
+    "e": 9.19
+   },
+   {
+    "w": "reader",
+    "s": 9.19,
+    "e": 9.65
+   },
+   {
+    "w": "understood",
+    "s": 9.65,
+    "e": 10.44
+   },
+   {
+    "w": "It",
+    "s": 11.21,
+    "e": 11.39
+   },
+   {
+    "w": "compared",
+    "s": 11.39,
+    "e": 11.95
+   },
+   {
+    "w": "Gandhi's",
+    "s": 11.95,
+    "e": 12.5
+   },
+   {
+    "w": "march",
+    "s": 12.5,
+    "e": 12.87
+   },
+   {
+    "w": "to",
+    "s": 12.87,
+    "e": 13.06
+   },
+   {
+    "w": "the",
+    "s": 13.06,
+    "e": 13.31
+   },
+   {
+    "w": "sea",
+    "s": 13.31,
+    "e": 13.55
+   },
+   {
+    "w": "to",
+    "s": 13.55,
+    "e": 13.74
+   },
+   {
+    "w": "the",
+    "s": 13.74,
+    "e": 13.98
+   },
+   {
+    "w": "New",
+    "s": 13.98,
+    "e": 14.23
+   },
+   {
+    "w": "Englanders",
+    "s": 14.23,
+    "e": 14.91
+   },
+   {
+    "w": "who",
+    "s": 14.91,
+    "e": 15.16
+   },
+   {
+    "w": "once",
+    "s": 15.16,
+    "e": 15.46
+   },
+   {
+    "w": "defied",
+    "s": 15.46,
+    "e": 15.9
+   },
+   {
+    "w": "a",
+    "s": 15.9,
+    "e": 16.02
+   },
+   {
+    "w": "British",
+    "s": 16.02,
+    "e": 16.51
+   },
+   {
+    "w": "tax",
+    "s": 16.51,
+    "e": 16.76
+   },
+   {
+    "w": "on",
+    "s": 16.76,
+    "e": 16.94
+   },
+   {
+    "w": "tea",
+    "s": 16.94,
+    "e": 17.25
+   },
+   {
+    "w": "The",
+    "s": 17.97,
+    "e": 18.25
+   },
+   {
+    "w": "Salt",
+    "s": 18.25,
+    "e": 18.6
+   },
+   {
+    "w": "March",
+    "s": 18.6,
+    "e": 19.02
+   },
+   {
+    "w": "was",
+    "s": 19.02,
+    "e": 19.3
+   },
+   {
+    "w": "India's",
+    "s": 19.3,
+    "e": 19.86
+   },
+   {
+    "w": "Boston",
+    "s": 19.86,
+    "e": 20.35
+   },
+   {
+    "w": "Tea",
+    "s": 20.35,
+    "e": 20.63
+   },
+   {
+    "w": "Party",
+    "s": 20.63,
+    "e": 21.12
+   }
+  ]
+ },
+ {
+  "id": "s27",
+  "name": "outcome",
+  "text": "So did the salt march win? Not right away. Early in nineteen thirty-one, Gandhi was released and invited to talk with Lord Irwin, the same Viceroy who once could not be bothered to meet him. For the first time, the two sat down as equals. But the British did not give India its freedom, or even abolish the salt tax.",
+  "audio_dur": 24.126,
+  "sentences": [
+   {
+    "text": "So did the salt march win?",
+    "s": 0.3,
+    "e": 2.32
+   },
+   {
+    "text": "Not right away.",
+    "s": 2.77,
+    "e": 4.12
+   },
+   {
+    "text": "Early in nineteen thirty-one, Gandhi was released and invited to talk with Lord Irwin, the same Viceroy who once could not be bothered to meet him.",
+    "s": 4.44,
+    "e": 14.27
+   },
+   {
+    "text": "For the first time, the two sat down as equals.",
+    "s": 14.59,
+    "e": 17.84
+   },
+   {
+    "text": "But the British did not give India its freedom, or even abolish the salt tax.",
+    "s": 18.16,
+    "e": 23.41
+   }
+  ],
+  "words": [
+   {
+    "w": "So",
+    "s": 0.38,
+    "e": 0.59
+   },
+   {
+    "w": "did",
+    "s": 0.59,
+    "e": 0.86
+   },
+   {
+    "w": "the",
+    "s": 0.86,
+    "e": 1.14
+   },
+   {
+    "w": "salt",
+    "s": 1.14,
+    "e": 1.48
+   },
+   {
+    "w": "march",
+    "s": 1.48,
+    "e": 1.89
+   },
+   {
+    "w": "win",
+    "s": 1.89,
+    "e": 2.24
+   },
+   {
+    "w": "Not",
+    "s": 2.82,
+    "e": 3.13
+   },
+   {
+    "w": "right",
+    "s": 3.13,
+    "e": 3.6
+   },
+   {
+    "w": "away",
+    "s": 3.6,
+    "e": 4.06
+   },
+   {
+    "w": "Early",
+    "s": 4.83,
+    "e": 5.2
+   },
+   {
+    "w": "in",
+    "s": 5.2,
+    "e": 5.38
+   },
+   {
+    "w": "nineteen",
+    "s": 5.38,
+    "e": 5.93
+   },
+   {
+    "w": "thirty-one",
+    "s": 5.93,
+    "e": 6.66
+   },
+   {
+    "w": "Gandhi",
+    "s": 6.66,
+    "e": 7.09
+   },
+   {
+    "w": "was",
+    "s": 7.09,
+    "e": 7.34
+   },
+   {
+    "w": "released",
+    "s": 7.34,
+    "e": 7.89
+   },
+   {
+    "w": "and",
+    "s": 7.89,
+    "e": 8.13
+   },
+   {
+    "w": "invited",
+    "s": 8.13,
+    "e": 8.62
+   },
+   {
+    "w": "to",
+    "s": 8.62,
+    "e": 8.8
+   },
+   {
+    "w": "talk",
+    "s": 8.8,
+    "e": 9.11
+   },
+   {
+    "w": "with",
+    "s": 9.11,
+    "e": 9.41
+   },
+   {
+    "w": "Lord",
+    "s": 9.41,
+    "e": 9.72
+   },
+   {
+    "w": "Irwin",
+    "s": 9.72,
+    "e": 10.15
+   },
+   {
+    "w": "the",
+    "s": 10.15,
+    "e": 10.39
+   },
+   {
+    "w": "same",
+    "s": 10.39,
+    "e": 10.7
+   },
+   {
+    "w": "Viceroy",
+    "s": 10.7,
+    "e": 11.19
+   },
+   {
+    "w": "who",
+    "s": 11.19,
+    "e": 11.43
+   },
+   {
+    "w": "once",
+    "s": 11.43,
+    "e": 11.74
+   },
+   {
+    "w": "could",
+    "s": 11.74,
+    "e": 12.1
+   },
+   {
+    "w": "not",
+    "s": 12.1,
+    "e": 12.35
+   },
+   {
+    "w": "be",
+    "s": 12.35,
+    "e": 12.53
+   },
+   {
+    "w": "bothered",
+    "s": 12.53,
+    "e": 13.08
+   },
+   {
+    "w": "to",
+    "s": 13.08,
+    "e": 13.27
+   },
+   {
+    "w": "meet",
+    "s": 13.27,
+    "e": 13.57
+   },
+   {
+    "w": "him",
+    "s": 13.57,
+    "e": 13.88
+   },
+   {
+    "w": "For",
+    "s": 14.72,
+    "e": 14.97
+   },
+   {
+    "w": "the",
+    "s": 14.97,
+    "e": 15.22
+   },
+   {
+    "w": "first",
+    "s": 15.22,
+    "e": 15.59
+   },
+   {
+    "w": "time",
+    "s": 15.59,
+    "e": 15.97
+   },
+   {
+    "w": "the",
+    "s": 15.97,
+    "e": 16.22
+   },
+   {
+    "w": "two",
+    "s": 16.22,
+    "e": 16.47
+   },
+   {
+    "w": "sat",
+    "s": 16.47,
+    "e": 16.71
+   },
+   {
+    "w": "down",
+    "s": 16.71,
+    "e": 17.03
+   },
+   {
+    "w": "as",
+    "s": 17.03,
+    "e": 17.21
+   },
+   {
+    "w": "equals",
+    "s": 17.21,
+    "e": 17.71
+   },
+   {
+    "w": "But",
+    "s": 18.37,
+    "e": 18.62
+   },
+   {
+    "w": "the",
+    "s": 18.62,
+    "e": 18.87
+   },
+   {
+    "w": "British",
+    "s": 18.87,
+    "e": 19.36
+   },
+   {
+    "w": "did",
+    "s": 19.36,
+    "e": 19.61
+   },
+   {
+    "w": "not",
+    "s": 19.61,
+    "e": 19.86
+   },
+   {
+    "w": "give",
+    "s": 19.86,
+    "e": 20.17
+   },
+   {
+    "w": "India",
+    "s": 20.17,
+    "e": 20.54
+   },
+   {
+    "w": "its",
+    "s": 20.54,
+    "e": 20.78
+   },
+   {
+    "w": "freedom",
+    "s": 20.78,
+    "e": 21.34
+   },
+   {
+    "w": "or",
+    "s": 21.34,
+    "e": 21.53
+   },
+   {
+    "w": "even",
+    "s": 21.53,
+    "e": 21.84
+   },
+   {
+    "w": "abolish",
+    "s": 21.84,
+    "e": 22.33
+   },
+   {
+    "w": "the",
+    "s": 22.33,
+    "e": 22.58
+   },
+   {
+    "w": "salt",
+    "s": 22.58,
+    "e": 22.89
+   },
+   {
+    "w": "tax",
+    "s": 22.89,
+    "e": 23.2
+   }
+  ]
+ },
+ {
+  "id": "s28",
+  "name": "consent",
+  "text": "Something deeper had changed, though. The British Empire ruled India with a few thousand officials. That only worked as long as Indians went along with it. The salt march showed millions of ordinary people that they could refuse. As Jawaharlal Nehru later wrote, the real importance of these movements lay in the effect they had on our own people. Seventeen years later, on August fifteenth, nineteen forty-seven, India became independent.",
+  "audio_dur": 32.474,
+  "sentences": [
+   {
+    "text": "Something deeper had changed, though.",
+    "s": 0.3,
+    "e": 2.79
+   },
+   {
+    "text": "The British Empire ruled India with a few thousand officials.",
+    "s": 3.11,
+    "e": 7.24
+   },
+   {
+    "text": "That only worked as long as Indians went along with it.",
+    "s": 7.56,
+    "e": 11.22
+   },
+   {
+    "text": "The salt march showed millions of ordinary people that they could refuse.",
+    "s": 11.54,
+    "e": 16.57
+   },
+   {
+    "text": "As Jawaharlal Nehru later wrote, the real importance of these movements lay in the effect they had on our own people.",
+    "s": 16.89,
+    "e": 24.88
+   },
+   {
+    "text": "Seventeen years later, on August fifteenth, nineteen forty-seven, India became independent.",
+    "s": 25.2,
+    "e": 31.75
+   }
+  ],
+  "words": [
+   {
+    "w": "Something",
+    "s": 0.4,
+    "e": 1.0
+   },
+   {
+    "w": "deeper",
+    "s": 1.0,
+    "e": 1.42
+   },
+   {
+    "w": "had",
+    "s": 1.42,
+    "e": 1.66
+   },
+   {
+    "w": "changed",
+    "s": 1.66,
+    "e": 2.21
+   },
+   {
+    "w": "though",
+    "s": 2.21,
+    "e": 2.69
+   },
+   {
+    "w": "The",
+    "s": 3.27,
+    "e": 3.52
+   },
+   {
+    "w": "British",
+    "s": 3.52,
+    "e": 4.01
+   },
+   {
+    "w": "Empire",
+    "s": 4.01,
+    "e": 4.44
+   },
+   {
+    "w": "ruled",
+    "s": 4.44,
+    "e": 4.81
+   },
+   {
+    "w": "India",
+    "s": 4.81,
+    "e": 5.17
+   },
+   {
+    "w": "with",
+    "s": 5.17,
+    "e": 5.48
+   },
+   {
+    "w": "a",
+    "s": 5.48,
+    "e": 5.6
+   },
+   {
+    "w": "few",
+    "s": 5.6,
+    "e": 5.85
+   },
+   {
+    "w": "thousand",
+    "s": 5.85,
+    "e": 6.4
+   },
+   {
+    "w": "officials",
+    "s": 6.4,
+    "e": 7.07
+   },
+   {
+    "w": "That",
+    "s": 7.71,
+    "e": 8.01
+   },
+   {
+    "w": "only",
+    "s": 8.01,
+    "e": 8.31
+   },
+   {
+    "w": "worked",
+    "s": 8.31,
+    "e": 8.73
+   },
+   {
+    "w": "as",
+    "s": 8.73,
+    "e": 8.91
+   },
+   {
+    "w": "long",
+    "s": 8.91,
+    "e": 9.21
+   },
+   {
+    "w": "as",
+    "s": 9.21,
+    "e": 9.39
+   },
+   {
+    "w": "Indians",
+    "s": 9.39,
+    "e": 9.87
+   },
+   {
+    "w": "went",
+    "s": 9.87,
+    "e": 10.17
+   },
+   {
+    "w": "along",
+    "s": 10.17,
+    "e": 10.53
+   },
+   {
+    "w": "with",
+    "s": 10.53,
+    "e": 10.83
+   },
+   {
+    "w": "it",
+    "s": 10.83,
+    "e": 11.08
+   },
+   {
+    "w": "The",
+    "s": 11.74,
+    "e": 11.99
+   },
+   {
+    "w": "salt",
+    "s": 11.99,
+    "e": 12.31
+   },
+   {
+    "w": "march",
+    "s": 12.31,
+    "e": 12.68
+   },
+   {
+    "w": "showed",
+    "s": 12.68,
+    "e": 13.12
+   },
+   {
+    "w": "millions",
+    "s": 13.12,
+    "e": 13.68
+   },
+   {
+    "w": "of",
+    "s": 13.68,
+    "e": 13.87
+   },
+   {
+    "w": "ordinary",
+    "s": 13.87,
+    "e": 14.43
+   },
+   {
+    "w": "people",
+    "s": 14.43,
+    "e": 14.87
+   },
+   {
+    "w": "that",
+    "s": 14.87,
+    "e": 15.18
+   },
+   {
+    "w": "they",
+    "s": 15.18,
+    "e": 15.49
+   },
+   {
+    "w": "could",
+    "s": 15.49,
+    "e": 15.87
+   },
+   {
+    "w": "refuse",
+    "s": 15.87,
+    "e": 16.37
+   },
+   {
+    "w": "As",
+    "s": 17.21,
+    "e": 17.4
+   },
+   {
+    "w": "Jawaharlal",
+    "s": 17.4,
+    "e": 18.08
+   },
+   {
+    "w": "Nehru",
+    "s": 18.08,
+    "e": 18.46
+   },
+   {
+    "w": "later",
+    "s": 18.46,
+    "e": 18.83
+   },
+   {
+    "w": "wrote",
+    "s": 18.83,
+    "e": 19.27
+   },
+   {
+    "w": "the",
+    "s": 19.27,
+    "e": 19.52
+   },
+   {
+    "w": "real",
+    "s": 19.52,
+    "e": 19.83
+   },
+   {
+    "w": "importance",
+    "s": 19.83,
+    "e": 20.51
+   },
+   {
+    "w": "of",
+    "s": 20.51,
+    "e": 20.7
+   },
+   {
+    "w": "these",
+    "s": 20.7,
+    "e": 21.07
+   },
+   {
+    "w": "movements",
+    "s": 21.07,
+    "e": 21.7
+   },
+   {
+    "w": "lay",
+    "s": 21.7,
+    "e": 21.95
+   },
+   {
+    "w": "in",
+    "s": 21.95,
+    "e": 22.13
+   },
+   {
+    "w": "the",
+    "s": 22.13,
+    "e": 22.38
+   },
+   {
+    "w": "effect",
+    "s": 22.38,
+    "e": 22.82
+   },
+   {
+    "w": "they",
+    "s": 22.82,
+    "e": 23.13
+   },
+   {
+    "w": "had",
+    "s": 23.13,
+    "e": 23.38
+   },
+   {
+    "w": "on",
+    "s": 23.38,
+    "e": 23.57
+   },
+   {
+    "w": "our",
+    "s": 23.57,
+    "e": 23.81
+   },
+   {
+    "w": "own",
+    "s": 23.81,
+    "e": 24.06
+   },
+   {
+    "w": "people",
+    "s": 24.06,
+    "e": 24.56
+   },
+   {
+    "w": "Seventeen",
+    "s": 25.46,
+    "e": 26.12
+   },
+   {
+    "w": "years",
+    "s": 26.12,
+    "e": 26.51
+   },
+   {
+    "w": "later",
+    "s": 26.51,
+    "e": 26.97
+   },
+   {
+    "w": "on",
+    "s": 26.97,
+    "e": 27.17
+   },
+   {
+    "w": "August",
+    "s": 27.17,
+    "e": 27.63
+   },
+   {
+    "w": "fifteenth",
+    "s": 27.63,
+    "e": 28.35
+   },
+   {
+    "w": "nineteen",
+    "s": 28.35,
+    "e": 28.94
+   },
+   {
+    "w": "forty-seven",
+    "s": 28.94,
+    "e": 29.79
+   },
+   {
+    "w": "India",
+    "s": 29.79,
+    "e": 30.18
+   },
+   {
+    "w": "became",
+    "s": 30.18,
+    "e": 30.64
+   },
+   {
+    "w": "independent",
+    "s": 30.64,
+    "e": 31.49
+   }
+  ]
+ },
+ {
+  "id": "s29",
+  "name": "payoff",
+  "text": "So, how did a handful of salt shake an empire? Not with force. Gandhi chose a law that everyone could break, broke it in front of the whole world, and refused to fight back. An empire can fight an army. It is much harder to fight millions of people who simply say no, while the world is watching.",
+  "audio_dur": 22.028,
+  "sentences": [
+   {
+    "text": "So, how did a handful of salt shake an empire?",
+    "s": 0.3,
+    "e": 3.34
+   },
+   {
+    "text": "Not with force.",
+    "s": 3.79,
+    "e": 5.17
+   },
+   {
+    "text": "Gandhi chose a law that everyone could break, broke it in front of the whole world, and refused to fight back.",
+    "s": 5.49,
+    "e": 12.46
+   },
+   {
+    "text": "An empire can fight an army.",
+    "s": 12.78,
+    "e": 15.28
+   },
+   {
+    "text": "It is much harder to fight millions of people who simply say no, while the world is watching.",
+    "s": 15.6,
+    "e": 21.31
+   }
+  ],
+  "words": [
+   {
+    "w": "So",
+    "s": 0.42,
+    "e": 0.66
+   },
+   {
+    "w": "how",
+    "s": 0.66,
+    "e": 0.9
+   },
+   {
+    "w": "did",
+    "s": 0.9,
+    "e": 1.14
+   },
+   {
+    "w": "a",
+    "s": 1.14,
+    "e": 1.26
+   },
+   {
+    "w": "handful",
+    "s": 1.26,
+    "e": 1.73
+   },
+   {
+    "w": "of",
+    "s": 1.73,
+    "e": 1.91
+   },
+   {
+    "w": "salt",
+    "s": 1.91,
+    "e": 2.21
+   },
+   {
+    "w": "shake",
+    "s": 2.21,
+    "e": 2.57
+   },
+   {
+    "w": "an",
+    "s": 2.57,
+    "e": 2.75
+   },
+   {
+    "w": "empire",
+    "s": 2.75,
+    "e": 3.22
+   },
+   {
+    "w": "Not",
+    "s": 3.85,
+    "e": 4.17
+   },
+   {
+    "w": "with",
+    "s": 4.17,
+    "e": 4.56
+   },
+   {
+    "w": "force",
+    "s": 4.56,
+    "e": 5.12
+   },
+   {
+    "w": "Gandhi",
+    "s": 5.77,
+    "e": 6.17
+   },
+   {
+    "w": "chose",
+    "s": 6.17,
+    "e": 6.52
+   },
+   {
+    "w": "a",
+    "s": 6.52,
+    "e": 6.64
+   },
+   {
+    "w": "law",
+    "s": 6.64,
+    "e": 6.87
+   },
+   {
+    "w": "that",
+    "s": 6.87,
+    "e": 7.15
+   },
+   {
+    "w": "everyone",
+    "s": 7.15,
+    "e": 7.67
+   },
+   {
+    "w": "could",
+    "s": 7.67,
+    "e": 8.02
+   },
+   {
+    "w": "break",
+    "s": 8.02,
+    "e": 8.42
+   },
+   {
+    "w": "broke",
+    "s": 8.42,
+    "e": 8.77
+   },
+   {
+    "w": "it",
+    "s": 8.77,
+    "e": 8.94
+   },
+   {
+    "w": "in",
+    "s": 8.94,
+    "e": 9.12
+   },
+   {
+    "w": "front",
+    "s": 9.12,
+    "e": 9.46
+   },
+   {
+    "w": "of",
+    "s": 9.46,
+    "e": 9.64
+   },
+   {
+    "w": "the",
+    "s": 9.64,
+    "e": 9.87
+   },
+   {
+    "w": "whole",
+    "s": 9.87,
+    "e": 10.21
+   },
+   {
+    "w": "world",
+    "s": 10.21,
+    "e": 10.62
+   },
+   {
+    "w": "and",
+    "s": 10.62,
+    "e": 10.85
+   },
+   {
+    "w": "refused",
+    "s": 10.85,
+    "e": 11.31
+   },
+   {
+    "w": "to",
+    "s": 11.31,
+    "e": 11.48
+   },
+   {
+    "w": "fight",
+    "s": 11.48,
+    "e": 11.83
+   },
+   {
+    "w": "back",
+    "s": 11.83,
+    "e": 12.18
+   },
+   {
+    "w": "An",
+    "s": 12.88,
+    "e": 13.11
+   },
+   {
+    "w": "empire",
+    "s": 13.11,
+    "e": 13.67
+   },
+   {
+    "w": "can",
+    "s": 13.67,
+    "e": 13.99
+   },
+   {
+    "w": "fight",
+    "s": 13.99,
+    "e": 14.46
+   },
+   {
+    "w": "an",
+    "s": 14.46,
+    "e": 14.7
+   },
+   {
+    "w": "army",
+    "s": 14.7,
+    "e": 15.18
+   },
+   {
+    "w": "It",
+    "s": 15.83,
+    "e": 15.99
+   },
+   {
+    "w": "is",
+    "s": 15.99,
+    "e": 16.16
+   },
+   {
+    "w": "much",
+    "s": 16.16,
+    "e": 16.44
+   },
+   {
+    "w": "harder",
+    "s": 16.44,
+    "e": 16.83
+   },
+   {
+    "w": "to",
+    "s": 16.83,
+    "e": 17.0
+   },
+   {
+    "w": "fight",
+    "s": 17.0,
+    "e": 17.34
+   },
+   {
+    "w": "millions",
+    "s": 17.34,
+    "e": 17.84
+   },
+   {
+    "w": "of",
+    "s": 17.84,
+    "e": 18.01
+   },
+   {
+    "w": "people",
+    "s": 18.01,
+    "e": 18.4
+   },
+   {
+    "w": "who",
+    "s": 18.4,
+    "e": 18.62
+   },
+   {
+    "w": "simply",
+    "s": 18.62,
+    "e": 19.01
+   },
+   {
+    "w": "say",
+    "s": 19.01,
+    "e": 19.24
+   },
+   {
+    "w": "no",
+    "s": 19.24,
+    "e": 19.46
+   },
+   {
+    "w": "while",
+    "s": 19.46,
+    "e": 19.79
+   },
+   {
+    "w": "the",
+    "s": 19.79,
+    "e": 20.02
+   },
+   {
+    "w": "world",
+    "s": 20.02,
+    "e": 20.35
+   },
+   {
+    "w": "is",
+    "s": 20.35,
+    "e": 20.52
+   },
+   {
+    "w": "watching",
+    "s": 20.52,
+    "e": 21.08
+   }
+  ]
+ },
+ {
+  "id": "s30",
+  "name": "america",
+  "text": "And that brings us to America. A young pastor in Montgomery, Alabama, named Martin Luther King Junior, read about Gandhi. King wrote that he was particularly moved by the Salt March to the sea. During the Montgomery bus boycott, he said that Christ furnished the spirit, while Gandhi furnished the method. In nineteen fifty-nine, King traveled to India and said, to other countries I may go as a tourist, but to India I come as a pilgrim.",
+  "audio_dur": 31.92,
+  "sentences": [
+   {
+    "text": "And that brings us to America.",
+    "s": 0.3,
+    "e": 2.55
+   },
+   {
+    "text": "A young pastor in Montgomery, Alabama, named Martin Luther King Junior, read about Gandhi.",
+    "s": 2.87,
+    "e": 9.35
+   },
+   {
+    "text": "King wrote that he was particularly moved by the Salt March to the sea.",
+    "s": 9.67,
+    "e": 14.2
+   },
+   {
+    "text": "During the Montgomery bus boycott, he said that Christ furnished the spirit, while Gandhi furnished the method.",
+    "s": 14.52,
+    "e": 21.43
+   },
+   {
+    "text": "In nineteen fifty-nine, King traveled to India and said, to other countries I may go as a tourist, but to India I come as a pilgrim.",
+    "s": 21.75,
+    "e": 31.2
+   }
+  ],
+  "words": [
+   {
+    "w": "And",
+    "s": 0.39,
+    "e": 0.66
+   },
+   {
+    "w": "that",
+    "s": 0.66,
+    "e": 0.99
+   },
+   {
+    "w": "brings",
+    "s": 0.99,
+    "e": 1.46
+   },
+   {
+    "w": "us",
+    "s": 1.46,
+    "e": 1.66
+   },
+   {
+    "w": "to",
+    "s": 1.66,
+    "e": 1.86
+   },
+   {
+    "w": "America",
+    "s": 1.86,
+    "e": 2.46
+   },
+   {
+    "w": "A",
+    "s": 3.13,
+    "e": 3.26
+   },
+   {
+    "w": "young",
+    "s": 3.26,
+    "e": 3.65
+   },
+   {
+    "w": "pastor",
+    "s": 3.65,
+    "e": 4.11
+   },
+   {
+    "w": "in",
+    "s": 4.11,
+    "e": 4.31
+   },
+   {
+    "w": "Montgomery",
+    "s": 4.31,
+    "e": 5.1
+   },
+   {
+    "w": "Alabama",
+    "s": 5.1,
+    "e": 5.69
+   },
+   {
+    "w": "named",
+    "s": 5.69,
+    "e": 6.08
+   },
+   {
+    "w": "Martin",
+    "s": 6.08,
+    "e": 6.54
+   },
+   {
+    "w": "Luther",
+    "s": 6.54,
+    "e": 7.0
+   },
+   {
+    "w": "King",
+    "s": 7.0,
+    "e": 7.32
+   },
+   {
+    "w": "Junior",
+    "s": 7.32,
+    "e": 7.85
+   },
+   {
+    "w": "read",
+    "s": 7.85,
+    "e": 8.18
+   },
+   {
+    "w": "about",
+    "s": 8.18,
+    "e": 8.57
+   },
+   {
+    "w": "Gandhi",
+    "s": 8.57,
+    "e": 9.09
+   },
+   {
+    "w": "King",
+    "s": 9.85,
+    "e": 10.14
+   },
+   {
+    "w": "wrote",
+    "s": 10.14,
+    "e": 10.49
+   },
+   {
+    "w": "that",
+    "s": 10.49,
+    "e": 10.78
+   },
+   {
+    "w": "he",
+    "s": 10.78,
+    "e": 10.95
+   },
+   {
+    "w": "was",
+    "s": 10.95,
+    "e": 11.18
+   },
+   {
+    "w": "particularly",
+    "s": 11.18,
+    "e": 11.93
+   },
+   {
+    "w": "moved",
+    "s": 11.93,
+    "e": 12.28
+   },
+   {
+    "w": "by",
+    "s": 12.28,
+    "e": 12.45
+   },
+   {
+    "w": "the",
+    "s": 12.45,
+    "e": 12.69
+   },
+   {
+    "w": "Salt",
+    "s": 12.69,
+    "e": 12.98
+   },
+   {
+    "w": "March",
+    "s": 12.98,
+    "e": 13.32
+   },
+   {
+    "w": "to",
+    "s": 13.32,
+    "e": 13.5
+   },
+   {
+    "w": "the",
+    "s": 13.5,
+    "e": 13.73
+   },
+   {
+    "w": "sea",
+    "s": 13.73,
+    "e": 14.02
+   },
+   {
+    "w": "During",
+    "s": 14.79,
+    "e": 15.19
+   },
+   {
+    "w": "the",
+    "s": 15.19,
+    "e": 15.42
+   },
+   {
+    "w": "Montgomery",
+    "s": 15.42,
+    "e": 16.04
+   },
+   {
+    "w": "bus",
+    "s": 16.04,
+    "e": 16.27
+   },
+   {
+    "w": "boycott",
+    "s": 16.27,
+    "e": 16.78
+   },
+   {
+    "w": "he",
+    "s": 16.78,
+    "e": 16.95
+   },
+   {
+    "w": "said",
+    "s": 16.95,
+    "e": 17.24
+   },
+   {
+    "w": "that",
+    "s": 17.24,
+    "e": 17.52
+   },
+   {
+    "w": "Christ",
+    "s": 17.52,
+    "e": 17.92
+   },
+   {
+    "w": "furnished",
+    "s": 17.92,
+    "e": 18.49
+   },
+   {
+    "w": "the",
+    "s": 18.49,
+    "e": 18.71
+   },
+   {
+    "w": "spirit",
+    "s": 18.71,
+    "e": 19.17
+   },
+   {
+    "w": "while",
+    "s": 19.17,
+    "e": 19.51
+   },
+   {
+    "w": "Gandhi",
+    "s": 19.51,
+    "e": 19.91
+   },
+   {
+    "w": "furnished",
+    "s": 19.91,
+    "e": 20.48
+   },
+   {
+    "w": "the",
+    "s": 20.48,
+    "e": 20.7
+   },
+   {
+    "w": "method",
+    "s": 20.7,
+    "e": 21.16
+   },
+   {
+    "w": "In",
+    "s": 22.13,
+    "e": 22.33
+   },
+   {
+    "w": "nineteen",
+    "s": 22.33,
+    "e": 22.92
+   },
+   {
+    "w": "fifty-nine",
+    "s": 22.92,
+    "e": 23.7
+   },
+   {
+    "w": "King",
+    "s": 23.7,
+    "e": 24.03
+   },
+   {
+    "w": "traveled",
+    "s": 24.03,
+    "e": 24.61
+   },
+   {
+    "w": "to",
+    "s": 24.61,
+    "e": 24.81
+   },
+   {
+    "w": "India",
+    "s": 24.81,
+    "e": 25.2
+   },
+   {
+    "w": "and",
+    "s": 25.2,
+    "e": 25.46
+   },
+   {
+    "w": "said",
+    "s": 25.46,
+    "e": 25.86
+   },
+   {
+    "w": "to",
+    "s": 25.86,
+    "e": 26.05
+   },
+   {
+    "w": "other",
+    "s": 26.05,
+    "e": 26.44
+   },
+   {
+    "w": "countries",
+    "s": 26.44,
+    "e": 27.1
+   },
+   {
+    "w": "I",
+    "s": 27.1,
+    "e": 27.23
+   },
+   {
+    "w": "may",
+    "s": 27.23,
+    "e": 27.49
+   },
+   {
+    "w": "go",
+    "s": 27.49,
+    "e": 27.69
+   },
+   {
+    "w": "as",
+    "s": 27.69,
+    "e": 27.88
+   },
+   {
+    "w": "a",
+    "s": 27.88,
+    "e": 28.01
+   },
+   {
+    "w": "tourist",
+    "s": 28.01,
+    "e": 28.6
+   },
+   {
+    "w": "but",
+    "s": 28.6,
+    "e": 28.86
+   },
+   {
+    "w": "to",
+    "s": 28.86,
+    "e": 29.06
+   },
+   {
+    "w": "India",
+    "s": 29.06,
+    "e": 29.45
+   },
+   {
+    "w": "I",
+    "s": 29.45,
+    "e": 29.58
+   },
+   {
+    "w": "come",
+    "s": 29.58,
+    "e": 29.91
+   },
+   {
+    "w": "as",
+    "s": 29.91,
+    "e": 30.1
+   },
+   {
+    "w": "a",
+    "s": 30.1,
+    "e": 30.23
+   },
+   {
+    "w": "pilgrim",
+    "s": 30.23,
+    "e": 30.82
+   }
+  ]
+ },
+ {
+  "id": "s31",
+  "name": "legacy",
+  "text": "Six years later, in nineteen sixty-five, King and thousands of marchers walked fifty-four miles from Selma to Montgomery, facing police clubs without fighting back. A march to the sea in India had helped shape a march for the right to vote in America.",
+  "audio_dur": 18.724,
+  "sentences": [
+   {
+    "text": "Six years later, in nineteen sixty-five, King and thousands of marchers walked fifty-four miles from Selma to Montgomery, facing police clubs without fighting back.",
+    "s": 0.3,
+    "e": 11.81
+   },
+   {
+    "text": "A march to the sea in India had helped shape a march for the right to vote in America.",
+    "s": 12.13,
+    "e": 18.0
+   }
+  ],
+  "words": [
+   {
+    "w": "Six",
+    "s": 0.76,
+    "e": 1.02
+   },
+   {
+    "w": "years",
+    "s": 1.02,
+    "e": 1.4
+   },
+   {
+    "w": "later",
+    "s": 1.4,
+    "e": 1.85
+   },
+   {
+    "w": "in",
+    "s": 1.85,
+    "e": 2.04
+   },
+   {
+    "w": "nineteen",
+    "s": 2.04,
+    "e": 2.62
+   },
+   {
+    "w": "sixty-five",
+    "s": 2.62,
+    "e": 3.39
+   },
+   {
+    "w": "King",
+    "s": 3.39,
+    "e": 3.71
+   },
+   {
+    "w": "and",
+    "s": 3.71,
+    "e": 3.97
+   },
+   {
+    "w": "thousands",
+    "s": 3.97,
+    "e": 4.61
+   },
+   {
+    "w": "of",
+    "s": 4.61,
+    "e": 4.81
+   },
+   {
+    "w": "marchers",
+    "s": 4.81,
+    "e": 5.38
+   },
+   {
+    "w": "walked",
+    "s": 5.38,
+    "e": 5.83
+   },
+   {
+    "w": "fifty-four",
+    "s": 5.83,
+    "e": 6.54
+   },
+   {
+    "w": "miles",
+    "s": 6.54,
+    "e": 6.92
+   },
+   {
+    "w": "from",
+    "s": 6.92,
+    "e": 7.24
+   },
+   {
+    "w": "Selma",
+    "s": 7.24,
+    "e": 7.63
+   },
+   {
+    "w": "to",
+    "s": 7.63,
+    "e": 7.82
+   },
+   {
+    "w": "Montgomery",
+    "s": 7.82,
+    "e": 8.59
+   },
+   {
+    "w": "facing",
+    "s": 8.59,
+    "e": 9.04
+   },
+   {
+    "w": "police",
+    "s": 9.04,
+    "e": 9.49
+   },
+   {
+    "w": "clubs",
+    "s": 9.49,
+    "e": 9.88
+   },
+   {
+    "w": "without",
+    "s": 9.88,
+    "e": 10.39
+   },
+   {
+    "w": "fighting",
+    "s": 10.39,
+    "e": 10.97
+   },
+   {
+    "w": "back",
+    "s": 10.97,
+    "e": 11.35
+   },
+   {
+    "w": "A",
+    "s": 12.37,
+    "e": 12.49
+   },
+   {
+    "w": "march",
+    "s": 12.49,
+    "e": 12.87
+   },
+   {
+    "w": "to",
+    "s": 12.87,
+    "e": 13.05
+   },
+   {
+    "w": "the",
+    "s": 13.05,
+    "e": 13.3
+   },
+   {
+    "w": "sea",
+    "s": 13.3,
+    "e": 13.55
+   },
+   {
+    "w": "in",
+    "s": 13.55,
+    "e": 13.73
+   },
+   {
+    "w": "India",
+    "s": 13.73,
+    "e": 14.11
+   },
+   {
+    "w": "had",
+    "s": 14.11,
+    "e": 14.36
+   },
+   {
+    "w": "helped",
+    "s": 14.36,
+    "e": 14.79
+   },
+   {
+    "w": "shape",
+    "s": 14.79,
+    "e": 15.16
+   },
+   {
+    "w": "a",
+    "s": 15.16,
+    "e": 15.29
+   },
+   {
+    "w": "march",
+    "s": 15.29,
+    "e": 15.66
+   },
+   {
+    "w": "for",
+    "s": 15.66,
+    "e": 15.91
+   },
+   {
+    "w": "the",
+    "s": 15.91,
+    "e": 16.16
+   },
+   {
+    "w": "right",
+    "s": 16.16,
+    "e": 16.53
+   },
+   {
+    "w": "to",
+    "s": 16.53,
+    "e": 16.71
+   },
+   {
+    "w": "vote",
+    "s": 16.71,
+    "e": 17.02
+   },
+   {
+    "w": "in",
+    "s": 17.02,
+    "e": 17.21
+   },
+   {
+    "w": "America",
+    "s": 17.21,
+    "e": 17.77
+   }
+  ]
+ },
+ {
+  "id": "s32",
+  "name": "outro",
+  "text": "Today, the road from Sabarmati to Dandi is a heritage route, and a memorial stands on the beach where Gandhi picked up the salt. It was only a handful of mud. But it showed the world that the most powerful thing you can do is sometimes very simple. If you enjoyed this story, subscribe, and tell us in the comments which moment in history we should tell next.",
+  "audio_dur": 26.066,
+  "sentences": [
+   {
+    "text": "Today, the road from Sabarmati to Dandi is a heritage route, and a memorial stands on the beach where Gandhi picked up the salt.",
+    "s": 0.3,
+    "e": 8.96
+   },
+   {
+    "text": "It was only a handful of mud.",
+    "s": 9.28,
+    "e": 11.68
+   },
+   {
+    "text": "But it showed the world that the most powerful thing you can do is sometimes very simple.",
+    "s": 12.0,
+    "e": 17.75
+   },
+   {
+    "text": "If you enjoyed this story, subscribe, and tell us in the comments which moment in history we should tell next.",
+    "s": 18.07,
+    "e": 25.35
+   }
+  ],
+  "words": [
+   {
+    "w": "Today",
+    "s": 0.65,
+    "e": 1.08
+   },
+   {
+    "w": "the",
+    "s": 1.08,
+    "e": 1.33
+   },
+   {
+    "w": "road",
+    "s": 1.33,
+    "e": 1.63
+   },
+   {
+    "w": "from",
+    "s": 1.63,
+    "e": 1.94
+   },
+   {
+    "w": "Sabarmati",
+    "s": 1.94,
+    "e": 2.56
+   },
+   {
+    "w": "to",
+    "s": 2.56,
+    "e": 2.75
+   },
+   {
+    "w": "Dandi",
+    "s": 2.75,
+    "e": 3.12
+   },
+   {
+    "w": "is",
+    "s": 3.12,
+    "e": 3.3
+   },
+   {
+    "w": "a",
+    "s": 3.3,
+    "e": 3.43
+   },
+   {
+    "w": "heritage",
+    "s": 3.43,
+    "e": 3.98
+   },
+   {
+    "w": "route",
+    "s": 3.98,
+    "e": 4.41
+   },
+   {
+    "w": "and",
+    "s": 4.41,
+    "e": 4.66
+   },
+   {
+    "w": "a",
+    "s": 4.66,
+    "e": 4.78
+   },
+   {
+    "w": "memorial",
+    "s": 4.78,
+    "e": 5.34
+   },
+   {
+    "w": "stands",
+    "s": 5.34,
+    "e": 5.77
+   },
+   {
+    "w": "on",
+    "s": 5.77,
+    "e": 5.96
+   },
+   {
+    "w": "the",
+    "s": 5.96,
+    "e": 6.2
+   },
+   {
+    "w": "beach",
+    "s": 6.2,
+    "e": 6.58
+   },
+   {
+    "w": "where",
+    "s": 6.58,
+    "e": 6.95
+   },
+   {
+    "w": "Gandhi",
+    "s": 6.95,
+    "e": 7.38
+   },
+   {
+    "w": "picked",
+    "s": 7.38,
+    "e": 7.81
+   },
+   {
+    "w": "up",
+    "s": 7.81,
+    "e": 8.0
+   },
+   {
+    "w": "the",
+    "s": 8.0,
+    "e": 8.24
+   },
+   {
+    "w": "salt",
+    "s": 8.24,
+    "e": 8.61
+   },
+   {
+    "w": "It",
+    "s": 9.38,
+    "e": 9.6
+   },
+   {
+    "w": "was",
+    "s": 9.6,
+    "e": 9.89
+   },
+   {
+    "w": "only",
+    "s": 9.89,
+    "e": 10.26
+   },
+   {
+    "w": "a",
+    "s": 10.26,
+    "e": 10.41
+   },
+   {
+    "w": "handful",
+    "s": 10.41,
+    "e": 11.0
+   },
+   {
+    "w": "of",
+    "s": 11.0,
+    "e": 11.22
+   },
+   {
+    "w": "mud",
+    "s": 11.22,
+    "e": 11.59
+   },
+   {
+    "w": "But",
+    "s": 12.23,
+    "e": 12.47
+   },
+   {
+    "w": "it",
+    "s": 12.47,
+    "e": 12.65
+   },
+   {
+    "w": "showed",
+    "s": 12.65,
+    "e": 13.06
+   },
+   {
+    "w": "the",
+    "s": 13.06,
+    "e": 13.29
+   },
+   {
+    "w": "world",
+    "s": 13.29,
+    "e": 13.64
+   },
+   {
+    "w": "that",
+    "s": 13.64,
+    "e": 13.94
+   },
+   {
+    "w": "the",
+    "s": 13.94,
+    "e": 14.17
+   },
+   {
+    "w": "most",
+    "s": 14.17,
+    "e": 14.47
+   },
+   {
+    "w": "powerful",
+    "s": 14.47,
+    "e": 15.0
+   },
+   {
+    "w": "thing",
+    "s": 15.0,
+    "e": 15.35
+   },
+   {
+    "w": "you",
+    "s": 15.35,
+    "e": 15.58
+   },
+   {
+    "w": "can",
+    "s": 15.58,
+    "e": 15.82
+   },
+   {
+    "w": "do",
+    "s": 15.82,
+    "e": 15.99
+   },
+   {
+    "w": "is",
+    "s": 15.99,
+    "e": 16.17
+   },
+   {
+    "w": "sometimes",
+    "s": 16.17,
+    "e": 16.76
+   },
+   {
+    "w": "very",
+    "s": 16.76,
+    "e": 17.05
+   },
+   {
+    "w": "simple",
+    "s": 17.05,
+    "e": 17.52
+   },
+   {
+    "w": "If",
+    "s": 18.36,
+    "e": 18.54
+   },
+   {
+    "w": "you",
+    "s": 18.54,
+    "e": 18.78
+   },
+   {
+    "w": "enjoyed",
+    "s": 18.78,
+    "e": 19.27
+   },
+   {
+    "w": "this",
+    "s": 19.27,
+    "e": 19.57
+   },
+   {
+    "w": "story",
+    "s": 19.57,
+    "e": 19.99
+   },
+   {
+    "w": "subscribe",
+    "s": 19.99,
+    "e": 20.65
+   },
+   {
+    "w": "and",
+    "s": 20.65,
+    "e": 20.89
+   },
+   {
+    "w": "tell",
+    "s": 20.89,
+    "e": 21.2
+   },
+   {
+    "w": "us",
+    "s": 21.2,
+    "e": 21.38
+   },
+   {
+    "w": "in",
+    "s": 21.38,
+    "e": 21.56
+   },
+   {
+    "w": "the",
+    "s": 21.56,
+    "e": 21.8
+   },
+   {
+    "w": "comments",
+    "s": 21.8,
+    "e": 22.34
+   },
+   {
+    "w": "which",
+    "s": 22.34,
+    "e": 22.7
+   },
+   {
+    "w": "moment",
+    "s": 22.7,
+    "e": 23.13
+   },
+   {
+    "w": "in",
+    "s": 23.13,
+    "e": 23.31
+   },
+   {
+    "w": "history",
+    "s": 23.31,
+    "e": 23.79
+   },
+   {
+    "w": "we",
+    "s": 23.79,
+    "e": 23.97
+   },
+   {
+    "w": "should",
+    "s": 23.97,
+    "e": 24.39
+   },
+   {
+    "w": "tell",
+    "s": 24.39,
+    "e": 24.69
+   },
+   {
+    "w": "next",
+    "s": 24.69,
+    "e": 25.06
+   }
+  ]
+ }
+]

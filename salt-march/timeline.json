@@ -1,0 +1,264 @@
+[
+ {
+  "kind": "scene",
+  "id": "s01",
+  "start": 0,
+  "dur": 21.704
+ },
+ {
+  "kind": "scene",
+  "id": "s02",
+  "start": 21.704,
+  "dur": 19.837
+ },
+ {
+  "kind": "scene",
+  "id": "s03",
+  "start": 41.541,
+  "dur": 6.359
+ },
+ {
+  "kind": "chapter",
+  "id": "ch1",
+  "start": 47.9,
+  "dur": 2.8,
+  "chap": [
+   1,
+   "A Tax on Salt"
+  ]
+ },
+ {
+  "kind": "scene",
+  "id": "s04",
+  "start": 50.699999999999996,
+  "dur": 17.709
+ },
+ {
+  "kind": "scene",
+  "id": "s05",
+  "start": 68.40899999999999,
+  "dur": 23.549
+ },
+ {
+  "kind": "scene",
+  "id": "s06",
+  "start": 91.958,
+  "dur": 25.298
+ },
+ {
+  "kind": "scene",
+  "id": "s07",
+  "start": 117.256,
+  "dur": 24.456
+ },
+ {
+  "kind": "scene",
+  "id": "s08",
+  "start": 141.712,
+  "dur": 26.807
+ },
+ {
+  "kind": "chapter",
+  "id": "ch2",
+  "start": 168.51899999999998,
+  "dur": 2.8,
+  "chap": [
+   2,
+   "The Letter"
+  ]
+ },
+ {
+  "kind": "scene",
+  "id": "s09",
+  "start": 171.319,
+  "dur": 21.888
+ },
+ {
+  "kind": "scene",
+  "id": "s10",
+  "start": 193.207,
+  "dur": 23.88
+ },
+ {
+  "kind": "chapter",
+  "id": "ch3",
+  "start": 217.087,
+  "dur": 2.8,
+  "chap": [
+   3,
+   "240 Miles"
+  ]
+ },
+ {
+  "kind": "scene",
+  "id": "s11",
+  "start": 219.887,
+  "dur": 20.602
+ },
+ {
+  "kind": "scene",
+  "id": "s12",
+  "start": 240.489,
+  "dur": 18.241
+ },
+ {
+  "kind": "scene",
+  "id": "s13",
+  "start": 258.73,
+  "dur": 20.743
+ },
+ {
+  "kind": "scene",
+  "id": "s14",
+  "start": 279.473,
+  "dur": 23.298
+ },
+ {
+  "kind": "chapter",
+  "id": "ch4",
+  "start": 302.771,
+  "dur": 2.8,
+  "chap": [
+   4,
+   "The Beach at Dandi"
+  ]
+ },
+ {
+  "kind": "scene",
+  "id": "s15",
+  "start": 305.571,
+  "dur": 23.483
+ },
+ {
+  "kind": "scene",
+  "id": "s16",
+  "start": 329.05400000000003,
+  "dur": 24.863
+ },
+ {
+  "kind": "scene",
+  "id": "s17",
+  "start": 353.91700000000003,
+  "dur": 22.506
+ },
+ {
+  "kind": "scene",
+  "id": "s18",
+  "start": 376.423,
+  "dur": 21.452
+ },
+ {
+  "kind": "scene",
+  "id": "s19",
+  "start": 397.875,
+  "dur": 15.449
+ },
+ {
+  "kind": "scene",
+  "id": "s20",
+  "start": 413.324,
+  "dur": 21.344
+ },
+ {
+  "kind": "chapter",
+  "id": "ch5",
+  "start": 434.668,
+  "dur": 2.8,
+  "chap": [
+   5,
+   "Dharasana"
+  ]
+ },
+ {
+  "kind": "scene",
+  "id": "s21",
+  "start": 437.468,
+  "dur": 27.279
+ },
+ {
+  "kind": "scene",
+  "id": "s22",
+  "start": 464.747,
+  "dur": 11.882
+ },
+ {
+  "kind": "scene",
+  "id": "s23",
+  "start": 476.629,
+  "dur": 23.576
+ },
+ {
+  "kind": "scene",
+  "id": "s24",
+  "start": 500.20500000000004,
+  "dur": 20.993
+ },
+ {
+  "kind": "scene",
+  "id": "s25",
+  "start": 521.1980000000001,
+  "dur": 25.358
+ },
+ {
+  "kind": "chapter",
+  "id": "ch6",
+  "start": 546.556,
+  "dur": 2.8,
+  "chap": [
+   6,
+   "The World Watches"
+  ]
+ },
+ {
+  "kind": "scene",
+  "id": "s26",
+  "start": 549.356,
+  "dur": 21.978
+ },
+ {
+  "kind": "scene",
+  "id": "s27",
+  "start": 571.334,
+  "dur": 24.126
+ },
+ {
+  "kind": "scene",
+  "id": "s28",
+  "start": 595.4599999999999,
+  "dur": 32.474
+ },
+ {
+  "kind": "chapter",
+  "id": "ch7",
+  "start": 627.934,
+  "dur": 2.8,
+  "chap": [
+   7,
+   "The Answer"
+  ]
+ },
+ {
+  "kind": "scene",
+  "id": "s29",
+  "start": 630.7339999999999,
+  "dur": 22.028
+ },
+ {
+  "kind": "scene",
+  "id": "s30",
+  "start": 652.762,
+  "dur": 31.92
+ },
+ {
+  "kind": "scene",
+  "id": "s31",
+  "start": 684.6819999999999,
+  "dur": 18.724
+ },
+ {
+  "kind": "scene",
+  "id": "s32",
+  "start": 703.406,
+  "dur": 26.066
+ }
+]

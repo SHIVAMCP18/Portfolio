@@ -49,3 +49,27 @@ d = 6.0; tt = np.arange(int(d * SR)) / SR
 w = lp(rng.normal(0, 1, len(tt)), 0.05) * np.sin(np.pi * np.clip(tt / d, 0, 1)) ** 0.7
 sf.write(f"{out}/rush.wav", (w / np.max(np.abs(w)) * 0.7).astype(np.float32), SR)
 print("ok")
+# ---- optional second style: "drone" (sustained root+fifth drone with slow plucked motif) + sea ----
+if len(sys.argv) > 3 and sys.argv[3] == "drone":
+    n = int(secs * SR) + SR * 4; t = np.arange(n) / SR
+    root = hz(50)  # D
+    dr = np.zeros(n)
+    for f, a in [(root, 0.5), (root * 1.5, 0.35), (root * 2, 0.3), (root * 0.5, 0.4)]:
+        for h, ha in [(1, 1), (2, 0.5), (3, 0.33), (4, 0.2), (5, 0.12)]:
+            dr += a * ha * np.sin(2 * np.pi * f * h * t * (1 + 0.0004 * h)) * (0.8 + 0.2 * np.sin(2 * np.pi * t / (3.1 + h)))
+    scale = [62, 64, 65, 67, 69, 70, 72, 74]; pl = np.zeros(n); r2 = np.random.default_rng(11)
+    tt = 6.0
+    while tt < secs - 4:
+        for k in range(r2.integers(2, 5)):
+            st = int((tt + k * 0.55) * SR); L = int(2.2 * SR); x = np.arange(L) / SR
+            f = hz(int(r2.choice(scale)))
+            pl[st:st + L] += 0.35 * (np.sin(2 * np.pi * f * x) + 0.4 * np.sin(4 * np.pi * f * x)) * np.exp(-x * 2.2)
+        tt += r2.uniform(7, 12)
+    bed = dr / np.max(np.abs(dr)) * 0.35 + pl
+    bed = bed / np.max(np.abs(bed)) * 0.5
+    fade = int(4 * SR); bed[:fade] *= np.linspace(0, 1, fade); bed[-fade:] *= np.linspace(1, 0, fade)
+    sf.write(f"{out}/music.wav", np.stack([bed, np.roll(bed, 400)], 1).astype(np.float32), SR)
+    d = 30.0; tt2 = np.arange(int(d * SR)) / SR
+    sea = lp(rng.normal(0, 1, len(tt2)), 0.06) * (0.35 + 0.65 * np.sin(np.pi * ((tt2 / 6.5) % 1)) ** 2)
+    sf.write(f"{out}/sea.wav", (sea / np.max(np.abs(sea)) * 0.6).astype(np.float32), SR)
+    print("drone ok")
