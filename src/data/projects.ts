@@ -24,15 +24,14 @@ export interface Project {
 export const allProjects: Project[] = [
   {
     slug: "flowforge",
-    title: "FlowForge: Distributed Workflow Orchestration Platform",
+    title: "FlowForge: Fault-Tolerant Distributed Platform",
     type: "Layer A",
     category: "Distributed Systems",
     status: "Live",
     year: 2026,
-    tagline: "DAG workflow engine with crash-safe Postgres leasing, retries, and resumable checkpoints",
-    engineeringSummary:
-      "Built a DAG workflow orchestrator: a Spring Boot control plane validates and schedules multi-step jobs, and horizontally scaled Go workers lease tasks from PostgreSQL with FOR UPDATE SKIP LOCKED — no separate message broker — with retries, timeouts, and durable checkpoints.",
-    metrics: ["🔒 SKIP LOCKED Leasing", "♻️ Resume From Checkpoints", "📈 41 runs/s Local Load Test"],
+    tagline: "Java/Spring Boot service layer and concurrent Go workers coordinating parallel workloads through PostgreSQL transactional task leasing",
+    engineeringSummary: "Designed a Java/Spring Boot service layer and concurrent Go workers that use PostgreSQL transactional task leasing to coordinate parallel workloads without duplicate execution. Retries, hard timeouts, durable checkpoints, process cleanup and automatic crash recovery preserve system state and handle failures gracefully.",
+    metrics: ["🔒 No Duplicate Execution", "🧪 24 Unit/Integration Tests", "📈 41 runs/s per Worker"],
     dataFlow: "DAG Definition → Validator (Kahn) → PostgreSQL READY Queue → Go Worker Lease → Checkpoint → Promote Downstream",
     stack: ["Java 21", "Spring Boot", "Go", "PostgreSQL", "React", "Docker", "Kubernetes"],
     github: "https://github.com/SHIVAMCP18/Flowforge",
@@ -59,11 +58,10 @@ export const allProjects: Project[] = [
       "Chose pull-based leasing so worker pods scale via a Kubernetes HPA with zero coordination.",
     ],
     highlights: [
-      "Crash-safe leasing with FOR UPDATE SKIP LOCKED and a lease reaper",
-      "Retries with backoff, timeouts, cascade skip, cancel, and resume-from-checkpoint",
-      "Upstream task outputs passed to commands as environment variables",
-      "Live DAG dashboard with animated data flow, timeline, and workflow builder",
-      "Scheduler integration tests against real PostgreSQL and a Go load-test harness",
+      "Java/Spring Boot service layer with concurrent Go workers and PostgreSQL transactional task leasing",
+      "Retries, hard timeouts, durable checkpoints, process cleanup and automatic crash recovery",
+      "Validated with 24 unit/integration tests and load testing at 41 runs/sec per worker (p50/p95/p99 latency)",
+      "Live DAG dashboard with animated data flow, timeline and workflow builder",
     ],
   },
   {
@@ -178,15 +176,14 @@ export const allProjects: Project[] = [
   },
   {
     slug: "retailflow-devops",
-    title: "RetailFlow DevOps: Cloud Delivery Pipeline",
+    title: "RetailFlow: Cloud-Native Commerce Platform",
     type: "Layer A",
     category: "Cloud / DevOps",
     status: "Completed",
     year: 2026,
-    tagline: "An online store shipped end to end with Docker, Kubernetes, Terraform and a DevSecOps CI/CD pipeline",
-    engineeringSummary:
-      "Delivered a Node.js and PostgreSQL online store through a complete DevOps toolchain: Docker and Docker Compose locally, Kubernetes manifests tested on every push in a kind cluster, Terraform-provisioned cloud infrastructure on Render, and a GitHub Actions pipeline that scans for secrets and vulnerabilities before deploying the exact commit and smoke-testing the live site.",
-    metrics: ["🚀 5-Stage CI/CD Pipeline", "🛡️ Gitleaks + Trivy Gates", "☸️ K8s Tested on Every Push"],
+    tagline: "Order and inventory workflows on PostgreSQL ACID transactions, delivered through a 5-stage CI/CD pipeline to Kubernetes",
+    engineeringSummary: "Built REST-backed order and inventory workflows across service, business-logic and PostgreSQL persistence layers, using ACID transactions to preserve state across dependent operations. A 5-stage CI/CD pipeline automates tests, security checks, container builds, deployment validation and releases, and containerized services run on Kubernetes with replicas, health probes and 14 post-deployment health checks.",
+    metrics: ["🚀 5-Stage CI/CD Pipeline", "✅ 14 Post-Deploy Health Checks", "🔒 ACID Order Transactions"],
     dataFlow:
       "git push → Test → Security Scan → Build + Image Scan → kind Kubernetes Test → Render Deploy (exact SHA) → Live Smoke Test",
     stack: [
@@ -223,11 +220,11 @@ export const allProjects: Project[] = [
       "Kept secrets out of Git entirely: Render generates the database password, Terraform passes it to the app, and the API key lives in GitHub secrets.",
     ],
     highlights: [
-      "One container image across Docker Compose, Kubernetes and the cloud",
-      "Infrastructure as Code with Terraform (apply / destroy in one command)",
-      "DevSecOps gates: Gitleaks, Trivy dependency, image and config scans, Dependabot",
-      "Kubernetes verified automatically on every push in a temporary kind cluster",
-      "Live status page showing health, database latency, deployed commit and serving pod",
+      "REST-backed order and inventory workflows with ACID transactions across dependent operations",
+      "5-stage CI/CD pipeline: tests, security checks, container builds, deployment validation and release",
+      "Containerized services on Kubernetes with replicas and health probes",
+      "14 post-deployment health checks for runtime validation and failure detection",
+      "Security gates (Gitleaks, Trivy) and infrastructure as code with Terraform",
     ],
   },
   {
@@ -269,17 +266,16 @@ export const allProjects: Project[] = [
   },
   {
     slug: "voiceiq-enterprise",
-    title: "Customer Intelligence Platform (VoiceIQ Enterprise)",
+    title: "Customer Intelligence: AI-Native Full-Stack Platform (VoiceIQ)",
     type: "Layer A",
     category: "Full-Stack / AI",
     status: "Live",
     year: 2026,
-    tagline: "Enterprise feedback aggregation with RAG semantic search using Llama 3 & pgvector",
-    engineeringSummary:
-      "Full-stack Next.js and TypeScript application centralizing surveys, customer reviews, and support tickets into an AI-powered intelligence workflow featuring pgvector semantic search and Llama 3 synthesis.",
-    metrics: ["🧠 Llama 3 + pgvector", "⚡ Sub-second Search", "📈 Automated Sentiment"],
+    tagline: "Turns surveys, reviews, support tickets and CSV data into grounded, searchable insights with LLMs, embeddings and pgvector",
+    engineeringSummary: "Built an end-to-end React/TypeScript + Python application for ingesting and exploring surveys, reviews, support tickets and CSV data, backed by PostgreSQL. LLM-assisted analysis, embeddings, semantic retrieval with pgvector and clustering search and synthesize grounded insights from structured and unstructured customer data.",
+    metrics: ["🧠 LLMs + pgvector RAG", "🧩 Embedding Clustering", "✅ 47 Automated Tests + CI"],
     dataFlow: "Feedback Feeds → Chunking & Embedding → PostgreSQL + pgvector → RAG Context Assembly → Llama 3 Summary",
-    stack: ["Next.js", "TypeScript", "PostgreSQL", "Supabase", "Redis", "Llama 3", "pgvector", "Tailwind CSS"],
+    stack: ["React", "TypeScript", "Next.js", "Python", "PostgreSQL", "pgvector", "Supabase", "LLMs (Llama 3.3)", "Embeddings", "GitHub Actions", "Docker"],
     github: "https://github.com/SHIVAMCP18/Customer-Intelligence-Platform",
     liveUrl: "https://frontend-production-b159.up.railway.app",
     overview:
@@ -299,9 +295,11 @@ export const allProjects: Project[] = [
       "Implemented asynchronous queue processing for embedding generation so user imports never stall the UI.",
     ],
     highlights: [
-      "Context-aware RAG summarization engine",
-      "Interactive semantic cluster exploration",
-      "Real-time sentiment score trendlines",
+      "End-to-end React/TypeScript + Python application for ingesting surveys, reviews, support tickets and CSV data",
+      "LLM-assisted analysis, embeddings, semantic retrieval, pgvector and clustering for grounded insights",
+      "RAG chat whose answers cite the exact feedback they come from",
+      "Hardened with 47 automated tests, schema validation, type checks, linting and GitHub Actions CI",
+      "Multi-tenant security with row-level security and role-based access",
     ],
   },
   {

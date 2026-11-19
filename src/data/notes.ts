@@ -22,7 +22,7 @@ export const notes: Note[] = [
     category: "Systems Design",
     level: "Intermediate",
     readTime: "6 min read",
-    relatedProject: "FlowForge: Distributed Workflow Orchestration Platform",
+    relatedProject: "FlowForge: Fault-Tolerant Distributed Platform",
     relatedProjectSlug: "flowforge",
     description:
       "The core ideas behind building scalable, fault-tolerant systems out of independent services.",
@@ -124,7 +124,7 @@ export const notes: Note[] = [
     category: "Performance Engineering",
     level: "Beginner",
     readTime: "5 min read",
-    relatedProject: "Customer Intelligence Platform (VoiceIQ Enterprise)",
+    relatedProject: "Customer Intelligence: AI-Native Full-Stack Platform (VoiceIQ)",
     relatedProjectSlug: "voiceiq-enterprise",
     description:
       "Reducing latency and database load with an in-memory cache — and handling invalidation.",
@@ -158,7 +158,7 @@ export const notes: Note[] = [
     category: "AI / ML Engineering",
     level: "Intermediate",
     readTime: "7 min read",
-    relatedProject: "Customer Intelligence Platform (VoiceIQ Enterprise)",
+    relatedProject: "Customer Intelligence: AI-Native Full-Stack Platform (VoiceIQ)",
     relatedProjectSlug: "voiceiq-enterprise",
     description:
       "Grounding LLM answers in your own data with retrieval-augmented generation.",
@@ -237,7 +237,7 @@ export const notes: Note[] = [
     ],
     bullets: ["Measure first", "Index for access patterns", "Watch write cost"],
     whereUsed:
-      "At Disha Enterprise, tuning MySQL indexes for the heaviest API queries cut query response time by 30%. CoreInventory applies the same approach with a normalized PostgreSQL schema and indexes on stock-lookup and movement-history queries.",
+      "CoreInventory applies the same approach with a normalized PostgreSQL schema and indexes on stock-lookup and movement-history queries.",
     tradeoffs: [
       "Indexes slow inserts and updates",
       "Extra storage and maintenance",
@@ -271,7 +271,7 @@ export const notes: Note[] = [
     ],
     bullets: ["AuthN vs AuthZ", "Short-lived tokens", "Enforce in depth"],
     whereUsed:
-      "ShieldGate combines RBAC, Supabase session management, row-level security, and audit logging so only authorized users can view or download sanitized documents. At Nexus Software, full-stack apps used JWT authentication with role-based route protection.",
+      "ShieldGate combines RBAC, Supabase session management, row-level security, and audit logging so only authorized users can view or download sanitized documents. At Disha Enterprise, JWT/OAuth authentication with role-based access control protected routes across frontend and backend workflows.",
     tradeoffs: [
       "JWTs are hard to revoke before expiry",
       "Role explosion as products grow",
@@ -339,7 +339,7 @@ export const notes: Note[] = [
     ],
     bullets: ["Validate inside the pipeline", "Idempotent loads", "Reconcile source vs target"],
     whereUsed:
-      "At Adani Group, ETL workflows and SQL transformations prepared large operational datasets for business reporting, with validation steps and automated Power BI dashboards. The CDC migration project uses GCP Datastream to replicate PostgreSQL changes into AlloyDB and BigQuery with reconciliation before cutover.",
+      "The CDC migration project uses GCP Datastream to replicate PostgreSQL changes into AlloyDB and BigQuery with reconciliation before cutover.",
     tradeoffs: [
       "Quality checks add runtime and maintenance",
       "Strict checks can block loads on minor issues",
@@ -407,7 +407,7 @@ export const notes: Note[] = [
     ],
     bullets: ["Metrics, logs, traces", "Correlate by trace ID", "Alert on SLOs"],
     whereUsed:
-      "The telemetry pipeline instruments Go and Python services with OpenTelemetry, ships signals through Kafka, stores metrics in Prometheus, and visualizes SLIs with Grafana dashboards and SLO-based alerts. Debugging 30+ production issues at Nexus Software reinforced how much good logs shorten diagnosis.",
+      "The telemetry pipeline instruments Go and Python services with OpenTelemetry, ships signals through Kafka, stores metrics in Prometheus, and visualizes SLIs with Grafana dashboards and SLO-based alerts.",
     tradeoffs: [
       "Telemetry volume and storage costs",
       "Instrumentation effort across services",

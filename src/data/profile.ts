@@ -12,7 +12,7 @@ export const profile = {
     "Applied AI / ML",
   ],
   summary:
-    "Computer Science undergraduate at Nirma University with hands-on industry experience across data engineering, backend development, and full-stack delivery. I like turning ambiguous problems into well-structured, observable, production-ready systems — from REST APIs and ETL pipelines to RAG-powered applications.",
+    "Computer Science undergraduate at Nirma University with hands-on industry experience across backend development, full-stack delivery, and applied AI. I like turning ambiguous problems into well-structured, observable, production-ready systems — from high-performance REST APIs and secure, role-based applications to RAG-powered AI products.",
   availability: "Open to SDE, Backend & Data Engineering roles",
   workPreferences: ["Full-time", "Internship", "On-site", "Hybrid", "Remote"],
   location: "Ahmedabad, India",

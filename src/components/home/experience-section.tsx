@@ -15,7 +15,7 @@ export function ExperienceSection() {
       <SectionTitle
         eyebrow="Experience"
         title="Where I've shipped production work"
-        description="Internships across data engineering, backend services, and full-stack product development — each one focused on reliability, performance, and clean delivery."
+        description="Internships across backend services, full-stack product development, cloud and applied AI."
       />
 
       <ol className="relative">

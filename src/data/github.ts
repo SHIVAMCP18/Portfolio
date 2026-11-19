@@ -19,11 +19,11 @@ export const githubDescriptionOverrides: Record<string, string> = {
   "retailflow-microservices-project":
     "RetailFlow: five microservices in Python, Node.js, Java, Go and C#, each with its own database, behind Kong + Consul, with a RabbitMQ order saga, Debezium outbox CDC and CQRS.",
   "retailflow-devops":
-    "RetailFlow DevOps: an online store delivered with Docker, Kubernetes, Terraform on Render, and a GitHub Actions pipeline with Gitleaks and Trivy security gates.",
+    "RetailFlow: cloud-native commerce platform with ACID order and inventory workflows on PostgreSQL, a 5-stage CI/CD pipeline, Kubernetes replicas and probes, and 14 post-deployment health checks.",
   Flowforge:
     "DAG workflow orchestrator: Spring Boot control plane, Go workers leasing tasks from PostgreSQL with SKIP LOCKED, retries, checkpoints, and a live React dashboard.",
   "Customer-Intelligence-Platform":
-    "VoiceIQ: AI customer intelligence platform that clusters feedback into themes with pgvector, scores opportunities, and answers questions with a cited RAG chat.",
+    "Customer Intelligence (VoiceIQ): AI-native full-stack platform turning surveys, reviews and tickets into grounded insights with LLMs, embeddings, pgvector and clustering.",
   "Gaming-Website":
     "Zentry: High-performance gaming multiverse platform built with React, GSAP, FastAPI, and integrated Gemini Live real-time voice assistant.",
   CoreInventory:

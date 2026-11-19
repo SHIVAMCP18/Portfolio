@@ -11,54 +11,41 @@ export interface InternshipExperience {
 export const experience: InternshipExperience[] = [
   {
     company: "Adani Group",
-    role: "Data Engineer Intern",
+    role: "Software Engineer Intern",
     period: "Jun 2026 – Jul 2026",
-    technologies: ["Python", "SQL", "ETL", "Power BI", "Data Validation"],
+    technologies: ["Java", "Spring Boot", "Spring Cache", "ExecutorService", "AWS S3", "Firebase", "PostgreSQL", "REST APIs"],
     summary:
-      "Built ETL workflows and automated reporting for large-scale operational datasets.",
+      "Cut latency on production REST APIs by 60%+ with caching and concurrency, and built image-storage and real-time notification services.",
     highlights: [
-      "Built ETL workflows and complex SQL queries to extract, transform, and validate large-scale operational datasets for business reporting.",
-      "Automated recurring reporting with Python scripts and interactive Power BI dashboards, improving processing efficiency.",
-      "Collaborated with cross-functional teams to optimize SQL queries and improve internal reporting systems and data applications.",
+      "Optimized production REST APIs using Spring Cache and Java ExecutorService, reducing latency by 60%+ for frequently accessed requests through caching and concurrent processing.",
+      "Developed a scalable Spring Boot + AWS S3 microservice for image upload and storage, and built real-time notification services with Firebase and PostgreSQL, increasing user engagement by 30%.",
+      "Enhanced production APIs with bulk request support, resolved critical defects, and integrated Amazon SmartBiz APIs to extend end-to-end product capabilities.",
     ],
   },
   {
     company: "Maruti Enterprise",
-    role: "Full-Stack Development Intern",
-    period: "May 2025 – Jun 2025",
-    technologies: ["React", "Node.js", "Express.js", "REST APIs", "Git"],
+    role: "Software Development Intern",
+    period: "May 2025 – Sep 2025",
+    technologies: ["REST APIs", "SQL", "Relational Databases", "Postman", "Git", "Code Review"],
     summary:
-      "Built and integrated RESTful APIs end-to-end and improved database reliability and performance.",
+      "Delivered 50 REST APIs across API, service, integration and persistence layers, with thorough testing and peer-reviewed releases.",
     highlights: [
-      "Built and integrated RESTful APIs across frontend and backend; optimized database operations to improve reliability and performance.",
-      "Collaborated using Git-based workflows while debugging, testing, and enhancing application functionality.",
-      "Built scalable, maintainable software components following software engineering best practices.",
+      "Delivered 50 REST APIs connecting application features with relational databases and service integrations, implementing validation, business logic, and structured error handling.",
+      "Supported end-to-end application workflows across API, service, integration, and persistence layers, investigating behaviour through Postman, SQL, logs, and request/response payloads.",
+      "Designed positive, negative, boundary, edge, and integration tests; reproduced defects and shipped validated fixes through Git pull requests and peer code reviews.",
     ],
   },
   {
     company: "Disha Enterprise",
     role: "Software Development Engineer Intern",
-    period: "May 2024 – Jul 2024",
-    technologies: ["Node.js", "Express.js", "MySQL", "REST APIs", "Agile"],
+    period: "May 2024 – Aug 2024",
+    technologies: ["React", "REST APIs", "JWT", "OAuth", "RBAC", "LLMs", "Agentic AI", "Monitoring"],
     summary:
-      "Designed backend services and REST APIs; cut query response time by 30% through MySQL index tuning.",
+      "Built full-stack features with secure JWT/OAuth and RBAC access control, and agentic AI workflows with human-in-the-loop approvals.",
     highlights: [
-      "Designed scalable backend services and RESTful APIs in Node.js / Express.js; optimized MySQL indexing, cutting query response time by 30%.",
-      "Implemented request validation and secure coding practices; collaborated via Git-based code reviews in an agile team.",
-      "Built robust error handling across services, improving system reliability under production traffic.",
-    ],
-  },
-  {
-    company: "Nexus Software",
-    role: "Full Stack Developer Intern",
-    period: "Dec 2023 – Mar 2024",
-    technologies: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "RBAC"],
-    summary:
-      "Shipped full-stack applications with JWT auth and RBAC, and resolved 30+ production issues.",
-    highlights: [
-      "Built full-stack applications (React, Node.js, Express.js, MongoDB) with JWT authentication and Role-Based Access Control.",
-      "Diagnosed and resolved 30+ production issues, improving application stability through Git-based collaboration.",
-      "Designed scalable architecture following software engineering best practices for maintainable, production-ready code.",
+      "Built end-to-end features using React, REST APIs, and backend services, integrating responsive UI workflows with databases, input validation, error handling, and asynchronous client-server communication.",
+      "Implemented secure authentication and authorization using JWT/OAuth and role-based access control (RBAC), enforcing protected routes, permission checks, and least-privilege access across frontend and backend workflows.",
+      "Developed agentic AI workflows with human-in-the-loop approvals, integrated LLM-powered functionality into application flows, and added logging, metrics, and monitoring to evaluate reliability and troubleshoot failures.",
     ],
   },
 ];
