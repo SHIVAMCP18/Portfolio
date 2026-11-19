@@ -77,7 +77,7 @@ function getAssistantReply(raw: string) {
     text.includes(item.company.split(" ")[0].toLowerCase()),
   );
   if (company) {
-    return `${company.role} at ${company.company} (${company.period}). ${company.highlights.join(" ")} Tech: ${company.technologies.join(", ")}.`;
+    return `At ${company.company}: ${company.highlights.join(" ")} Tech: ${company.technologies.join(", ")}.`;
   }
 
   // A specific project.
@@ -137,7 +137,7 @@ function getAssistantReply(raw: string) {
 
   if (includesAny(text, ["intern", "experience", "work", "job", "company", "companies"])) {
     return `${experience.length} internships: ${experience
-      .map((item) => `${item.role} at ${item.company} (${item.period})`)
+      .map((item) => item.company)
       .join("; ")}.`;
   }
 

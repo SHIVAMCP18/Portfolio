@@ -1,7 +1,5 @@
 export interface InternshipExperience {
   company: string;
-  role: string;
-  period: string;
   technologies: string[];
   highlights: string[];
   summary: string;
@@ -11,8 +9,6 @@ export interface InternshipExperience {
 export const experience: InternshipExperience[] = [
   {
     company: "Adani Group",
-    role: "Software Engineer Intern",
-    period: "Jun 2026 – Jul 2026",
     technologies: ["Java", "Spring Boot", "Spring Cache", "ExecutorService", "AWS S3", "Firebase", "PostgreSQL", "REST APIs"],
     summary:
       "Cut latency on production REST APIs by 60%+ with caching and concurrency, and built image-storage and real-time notification services.",
@@ -24,8 +20,6 @@ export const experience: InternshipExperience[] = [
   },
   {
     company: "Maruti Enterprise",
-    role: "Software Development Intern",
-    period: "May 2025 – Sep 2025",
     technologies: ["REST APIs", "SQL", "Relational Databases", "Postman", "Git", "Code Review"],
     summary:
       "Delivered 50 REST APIs across API, service, integration and persistence layers, with thorough testing and peer-reviewed releases.",
@@ -37,8 +31,6 @@ export const experience: InternshipExperience[] = [
   },
   {
     company: "Disha Enterprise",
-    role: "Software Development Engineer Intern",
-    period: "May 2024 – Aug 2024",
     technologies: ["React", "REST APIs", "JWT", "OAuth", "RBAC", "LLMs", "Agentic AI", "Monitoring"],
     summary:
       "Built full-stack features with secure JWT/OAuth and RBAC access control, and agentic AI workflows with human-in-the-loop approvals.",
